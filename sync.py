@@ -117,66 +117,145 @@ def parse_json_playlist(data):
         if not isinstance(item, dict):
             continue
             
-        # Parse channel properties dynamically (case-insensitive keys search)
+        # Copy the original item entirely to preserve all keys and values
+        channel_obj = dict(item)
+            
+        # 1. Resolve standard Name (Case-insensitive)
         name = ""
-        name_keys = ['name', 'title', 'channel_name', 'match_name', 'label', 'displayname', 'matchname', 'videoname', 'categoryname']
+        # Priority 1: Exact matches
+        name_keys = [
+            'name', 'title', 'channel_name', 'match_name', 'label', 'displayname', 
+            'matchname', 'videoname', 'categoryname', 'event_name', 'eventname', 
+            'broadcast_channel', 'channelname'
+        ]
         for k, v in item.items():
             if k.lower() in name_keys:
                 name = str(v)
                 break
-                
+        # Priority 2: Contains substring
+        if not name:
+            for k, v in item.items():
+                k_lower = k.lower()
+                if any(sub in k_lower for sub in ['name', 'title', 'label', 'channel', 'match', 'video', 'event']):
+                    name = str(v)
+                    break
+        # Priority 3: Fallback to first string field
+        if not name:
+            for k, v in item.items():
+                if isinstance(v, str) and len(v.strip()) > 0 and not v.strip().startswith('http'):
+                    name = v.strip()
+                    break
+        # Final fallback
+        if not name:
+            name = f"Channel {len(channels_list) + 1}"
+
+        # 2. Resolve standard URL (Case-insensitive)
         url = ""
-        url_keys = ['url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'streamurl', 'playurl', 'play_url']
+        # Priority 1: Exact matches
+        url_keys = [
+            'url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 
+            'm3u8', 'streamurl', 'playurl', 'play_url', 'playurl', 'play_link', 'hls', 'hls_url'
+        ]
         for k, v in item.items():
             if k.lower() in url_keys:
                 url = str(v)
                 break
-                
+        # Priority 2: Contains substring or is a URL value
+        if not url:
+            for k, v in item.items():
+                k_lower = k.lower()
+                if any(sub in k_lower for sub in ['url', 'link', 'stream', 'm3u8', 'uri', 'play']):
+                    if isinstance(v, str) and (v.startswith('http') or '.m3u8' in v):
+                        url = str(v)
+                        break
+        if not url:
+            for k, v in item.items():
+                if isinstance(v, str) and (v.startswith('http://') or v.startswith('https://')) and not any(sub in k.lower() for sub in ['logo', 'image', 'img', 'thumb', 'icon', 'poster', 'src']):
+                    url = v
+                    break
+
+        # 3. Resolve standard Logo (Case-insensitive)
         logo = ""
-        logo_keys = ['logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 'poster', 'logourl', 'imageurl', 'thumbnailstandard', 'thumbnailtv']
+        # Priority 1: Exact matches
+        logo_keys = [
+            'logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 
+            'poster', 'logourl', 'imageurl', 'thumbnailstandard', 'thumbnailtv', 'src'
+        ]
         for k, v in item.items():
             if k.lower() in logo_keys:
                 logo = str(v)
                 break
-                
+        # Priority 2: Contains substring
+        if not logo:
+            for k, v in item.items():
+                k_lower = k.lower()
+                if any(sub in k_lower for sub in ['logo', 'image', 'img', 'thumb', 'icon', 'poster', 'src']):
+                    logo = str(v)
+                    break
+
+        # 4. Resolve standard Group / Category (Case-insensitive)
         group = "General"
-        group_keys = ['group', 'category', 'genre', 'group-title', 'type', 'sportname']
+        # Priority 1: Exact matches
+        group_keys = [
+            'group', 'category', 'genre', 'group-title', 'type', 'sportname', 
+            'sport', 'event_category', 'eventcategory'
+        ]
         for k, v in item.items():
             if k.lower() in group_keys:
                 group = str(v)
                 break
-                
+        # Priority 2: Contains substring
+        if group == "General":
+            for k, v in item.items():
+                k_lower = k.lower()
+                if any(sub in k_lower for sub in ['group', 'category', 'genre', 'sport', 'type']):
+                    group = str(v)
+                    break
+
+        # 5. Resolve standard Status (Case-insensitive)
         status = ""
+        # Priority 1: Exact matches
+        status_keys = ['status', 'live', 'islive']
         for k, v in item.items():
-            if k.lower() == 'status':
+            if k.lower() in status_keys:
                 status = str(v)
                 break
-                
+        # Priority 2: Check value of isLive boolean
+        if not status:
+            for k, v in item.items():
+                if k.lower() in ['islive', 'live'] and isinstance(v, bool):
+                    status = "Live" if v else "Upcoming"
+                    break
+
+        # 6. Resolve headers (Case-insensitive)
         headers = None
         for k, v in item.items():
             if k.lower() in ['headers', 'header', 'http_headers'] and isinstance(v, dict):
                 headers = v
                 break
+
+        # Standardize and populate properties in channel_obj (ensure no loss and strict compatibility)
+        channel_obj["name"] = name
+        channel_obj["logo"] = logo
+        channel_obj["url"] = url
+        channel_obj["group"] = group
+        
+        if status:
+            channel_obj["status"] = status
+        elif "status" not in channel_obj:
+            # Check if any event_name or event matches contain 'upcoming' or 'live'
+            name_lower = name.lower()
+            if 'upcoming' in name_lower:
+                channel_obj["status"] = "Upcoming"
+            elif 'live' in name_lower:
+                channel_obj["status"] = "Live"
+            else:
+                channel_obj["status"] = "Live" # Default
                 
-        if name or url:
-            # Copy all fields from the original item to ensure no details/metadata are lost
-            channel_obj = dict(item)
-            
-            # Ensure the standardized keys are always populated for compatibility
-            if "name" not in channel_obj or not channel_obj["name"]:
-                channel_obj["name"] = name if name else f"Channel {len(channels_list) + 1}"
-            if "logo" not in channel_obj or not channel_obj["logo"]:
-                channel_obj["logo"] = logo
-            if "url" not in channel_obj:
-                channel_obj["url"] = url
-            if "group" not in channel_obj or not channel_obj["group"]:
-                channel_obj["group"] = group
-            if status and ("status" not in channel_obj or not channel_obj["status"]):
-                channel_obj["status"] = status
-            if headers and "headers" not in channel_obj:
-                channel_obj["headers"] = headers
-                
-            channels_list.append(channel_obj)
+        if headers:
+            channel_obj["headers"] = headers
+
+        channels_list.append(channel_obj)
             
     return channels_list
 
