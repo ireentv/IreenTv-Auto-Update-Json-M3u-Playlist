@@ -159,16 +159,23 @@ def parse_json_playlist(data):
                 break
                 
         if name or url:
-            channel_obj = {
-                "name": name if name else f"Channel {len(channels_list) + 1}",
-                "logo": logo,
-                "url": url,
-                "group": group
-            }
-            if status:
+            # Copy all fields from the original item to ensure no details/metadata are lost
+            channel_obj = dict(item)
+            
+            # Ensure the standardized keys are always populated for compatibility
+            if "name" not in channel_obj or not channel_obj["name"]:
+                channel_obj["name"] = name if name else f"Channel {len(channels_list) + 1}"
+            if "logo" not in channel_obj or not channel_obj["logo"]:
+                channel_obj["logo"] = logo
+            if "url" not in channel_obj:
+                channel_obj["url"] = url
+            if "group" not in channel_obj or not channel_obj["group"]:
+                channel_obj["group"] = group
+            if status and ("status" not in channel_obj or not channel_obj["status"]):
                 channel_obj["status"] = status
-            if headers:
+            if headers and "headers" not in channel_obj:
                 channel_obj["headers"] = headers
+                
             channels_list.append(channel_obj)
             
     return channels_list
