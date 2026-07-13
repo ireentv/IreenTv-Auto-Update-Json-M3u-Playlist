@@ -146,19 +146,27 @@ def parse_json_playlist(data):
                 group = str(v)
                 break
                 
+        status = ""
+        for k, v in item.items():
+            if k.lower() == 'status':
+                status = str(v)
+                break
+                
         headers = None
         for k, v in item.items():
             if k.lower() in ['headers', 'header', 'http_headers'] and isinstance(v, dict):
                 headers = v
                 break
                 
-        if url:
+        if name or url:
             channel_obj = {
                 "name": name if name else f"Channel {len(channels_list) + 1}",
                 "logo": logo,
                 "url": url,
                 "group": group
             }
+            if status:
+                channel_obj["status"] = status
             if headers:
                 channel_obj["headers"] = headers
             channels_list.append(channel_obj)
@@ -190,7 +198,8 @@ def generate_m3u_file(brand, channels, name):
                 elif k.lower() == 'referer':
                     m3u += f"#EXTVLCOPT:http-referrer={v}\n"
                     
-        m3u += f"{ch['url']}\n\n"
+        url_to_write = ch['url'] if ch.get('url') else "https://upcoming-match-no-stream.m3u8"
+        m3u += f"{url_to_write}\n\n"
         
     return m3u
 
