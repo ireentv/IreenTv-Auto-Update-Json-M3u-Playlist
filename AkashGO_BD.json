@@ -7,15 +7,21 @@
   "version": "1.0",
   "name": "AkashGO_BD",
   "channels_amount": 45,
-  "Last_update": "2026-07-16 10:34:12 PM",
+  "Last_update": "2026-07-16 10:45:15 PM",
   "channels": [
     {
+      "attrs": {
+        "tvg-id": "228",
+        "tvg-name": "BTV Shangshad",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773247382366.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773247382366.png",
       "group": "News",
       "name": "BTV Shangshad",
-      "attrs": {
-        "tvg-id": "228"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -23,12 +29,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "299",
+        "tvg-name": "Channel 1",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png",
       "group": "News",
       "name": "Channel 1",
-      "attrs": {
-        "tvg-id": "299"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -36,12 +48,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "217",
+        "tvg-name": "Sports Range",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png",
+        "group-title": "Sports"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png",
       "group": "Sports",
       "name": "Sports Range",
-      "attrs": {
-        "tvg-id": "217"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -49,12 +67,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "96",
+        "tvg-name": "Independent TV",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739964387847.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739964387847.png",
       "group": "News",
       "name": "Independent TV",
-      "attrs": {
-        "tvg-id": "96"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -62,12 +86,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "97",
+        "tvg-name": "Jamuna TV",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
       "group": "News",
       "name": "Jamuna TV",
-      "attrs": {
-        "tvg-id": "97"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -75,12 +105,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "102",
+        "tvg-name": "Ekattor HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
       "group": "News",
       "name": "Ekattor HD",
-      "attrs": {
-        "tvg-id": "102"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -88,12 +124,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "94",
+        "tvg-name": "Channel 24 HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
       "group": "News",
       "name": "Channel 24 HD",
-      "attrs": {
-        "tvg-id": "94"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -101,12 +143,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "229",
+        "tvg-name": "Maasranga TV",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png",
+        "group-title": "Entertainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png",
       "group": "Entertainment",
       "name": "Maasranga TV",
-      "attrs": {
-        "tvg-id": "229"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -114,12 +162,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "202",
+        "tvg-name": "Crazy Ex",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348753896.png",
+        "group-title": "Sports"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348753896.png",
       "group": "Sports",
       "name": "Crazy Ex",
-      "attrs": {
-        "tvg-id": "202"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -127,12 +181,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "185",
+        "tvg-name": "DBC News HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png",
       "group": "News",
       "name": "DBC News HD",
-      "attrs": {
-        "tvg-id": "185"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -140,12 +200,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "205",
+        "tvg-name": "Sports Legends",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png",
+        "group-title": "Sports"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png",
       "group": "Sports",
       "name": "Sports Legends",
-      "attrs": {
-        "tvg-id": "205"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -153,12 +219,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "206",
+        "tvg-name": "Flash Guys HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png",
+        "group-title": "Sports"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png",
       "group": "Sports",
       "name": "Flash Guys HD",
-      "attrs": {
-        "tvg-id": "206"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -166,12 +238,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "188",
+        "tvg-name": "Channel 9 HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
+        "group-title": "Entertainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
       "group": "Entertainment",
       "name": "Channel 9 HD",
-      "attrs": {
-        "tvg-id": "188"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -179,12 +257,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "93",
+        "tvg-name": "ATN News",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png",
       "group": "News",
       "name": "ATN News",
-      "attrs": {
-        "tvg-id": "93"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -192,12 +276,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "99",
+        "tvg-name": "NTV",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
+        "group-title": "Entertainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
       "group": "Entertainment",
       "name": "NTV",
-      "attrs": {
-        "tvg-id": "99"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -205,12 +295,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "218",
+        "tvg-name": "Thunder Er",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
+        "group-title": "Sports"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
       "group": "Sports",
       "name": "Thunder Er",
-      "attrs": {
-        "tvg-id": "218"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -218,12 +314,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "132",
+        "tvg-name": "Channel I HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png",
+        "group-title": "Entertainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png",
       "group": "Entertainment",
       "name": "Channel I HD",
-      "attrs": {
-        "tvg-id": "132"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -231,12 +333,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "134",
+        "tvg-name": "Deepto TV HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png",
+        "group-title": "Entertainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png",
       "group": "Entertainment",
       "name": "Deepto TV HD",
-      "attrs": {
-        "tvg-id": "134"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -244,12 +352,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "141",
+        "tvg-name": "SRK TV",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1746005940155.png",
+        "group-title": "Entertainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1746005940155.png",
       "group": "Entertainment",
       "name": "SRK TV",
-      "attrs": {
-        "tvg-id": "141"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -257,12 +371,18 @@
       "url_raw": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "186",
+        "tvg-name": "News 24 HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png",
       "group": "News",
       "name": "News 24 HD",
-      "attrs": {
-        "tvg-id": "186"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -270,12 +390,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "191",
+        "tvg-name": "Star News",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
       "group": "News",
       "name": "Star News",
-      "attrs": {
-        "tvg-id": "191"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -283,12 +409,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "85",
+        "tvg-name": "Al Jazeera",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735547218986.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735547218986.png",
       "group": "News",
       "name": "Al Jazeera",
-      "attrs": {
-        "tvg-id": "85"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -296,12 +428,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "100",
+        "tvg-name": "Bangla Vision",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
+        "group-title": "Entertainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
       "group": "Entertainment",
       "name": "Bangla Vision",
-      "attrs": {
-        "tvg-id": "100"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -309,12 +447,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "219",
+        "tvg-name": "Fighters",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png",
+        "group-title": "Sports"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png",
       "group": "Sports",
       "name": "Fighters",
-      "attrs": {
-        "tvg-id": "219"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -322,12 +466,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "238",
+        "tvg-name": "Al Quran",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777739297698.png",
+        "group-title": "Infotainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777739297698.png",
       "group": "Infotainment",
       "name": "Al Quran",
-      "attrs": {
-        "tvg-id": "238"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -335,12 +485,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "207",
+        "tvg-name": "Party Universe",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378215384.png",
+        "group-title": "Music"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378215384.png",
       "group": "Music",
       "name": "Party Universe",
-      "attrs": {
-        "tvg-id": "207"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -348,12 +504,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "208",
+        "tvg-name": "Delicious",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378370876.png",
+        "group-title": "Infotainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378370876.png",
       "group": "Infotainment",
       "name": "Delicious",
-      "attrs": {
-        "tvg-id": "208"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -361,12 +523,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "210",
+        "tvg-name": "Nikki",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378704923.png",
+        "group-title": "Kids"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378704923.png",
       "group": "Kids",
       "name": "Nikki",
-      "attrs": {
-        "tvg-id": "210"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -374,12 +542,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "303",
+        "tvg-name": "Desh TV",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1782012550123.png",
+        "group-title": "News"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1782012550123.png",
       "group": "News",
       "name": "Desh TV",
-      "attrs": {
-        "tvg-id": "303"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -387,12 +561,18 @@
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "193",
+        "tvg-name": "Originals",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770313122372.png",
+        "group-title": "Movies"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770313122372.png",
       "group": "Movies",
       "name": "Originals",
-      "attrs": {
-        "tvg-id": "193"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -400,12 +580,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "197",
+        "tvg-name": "Cineedge HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png",
+        "group-title": "Movies"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png",
       "group": "Movies",
       "name": "Cineedge HD",
-      "attrs": {
-        "tvg-id": "197"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -413,12 +599,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "198",
+        "tvg-name": "Superrix HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png",
+        "group-title": "Movies"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png",
       "group": "Movies",
       "name": "Superrix HD",
-      "attrs": {
-        "tvg-id": "198"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -426,12 +618,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "196",
+        "tvg-name": "Uniques HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png",
+        "group-title": "Movies"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png",
       "group": "Movies",
       "name": "Uniques HD",
-      "attrs": {
-        "tvg-id": "196"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -439,12 +637,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "192",
+        "tvg-name": "Screem",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png",
+        "group-title": "Movies"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png",
       "group": "Movies",
       "name": "Screem",
-      "attrs": {
-        "tvg-id": "192"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -452,12 +656,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "212",
+        "tvg-name": "BuddyStar HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png",
+        "group-title": "Kids"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png",
       "group": "Kids",
       "name": "BuddyStar HD",
-      "attrs": {
-        "tvg-id": "212"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -465,12 +675,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "211",
+        "tvg-name": "Joy",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png",
+        "group-title": "Kids"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png",
       "group": "Kids",
       "name": "Joy",
-      "attrs": {
-        "tvg-id": "211"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -478,12 +694,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "213",
+        "tvg-name": "Funny Junior HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png",
+        "group-title": "Kids"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png",
       "group": "Kids",
       "name": "Funny Junior HD",
-      "attrs": {
-        "tvg-id": "213"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -491,12 +713,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "214",
+        "tvg-name": "Crimes",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png",
+        "group-title": "Movies"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png",
       "group": "Movies",
       "name": "Crimes",
-      "attrs": {
-        "tvg-id": "214"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -504,12 +732,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "209",
+        "tvg-name": "Luxell HD",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png",
+        "group-title": "Infotainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png",
       "group": "Infotainment",
       "name": "Luxell HD",
-      "attrs": {
-        "tvg-id": "209"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -517,12 +751,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "222",
+        "tvg-name": "Kids Stars",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png",
+        "group-title": "Kids"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png",
       "group": "Kids",
       "name": "Kids Stars",
-      "attrs": {
-        "tvg-id": "222"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -530,12 +770,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "215",
+        "tvg-name": "True Stories",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png",
+        "group-title": "Movies"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png",
       "group": "Movies",
       "name": "True Stories",
-      "attrs": {
-        "tvg-id": "215"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -543,12 +789,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "216",
+        "tvg-name": "Intelligence",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png",
+        "group-title": "Movies"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png",
       "group": "Movies",
       "name": "Intelligence",
-      "attrs": {
-        "tvg-id": "216"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -556,12 +808,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "220",
+        "tvg-name": "Smarty",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png",
+        "group-title": "Kids"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png",
       "group": "Kids",
       "name": "Smarty",
-      "attrs": {
-        "tvg-id": "220"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -569,12 +827,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "221",
+        "tvg-name": "Lucky Family",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png",
+        "group-title": "Kids"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png",
       "group": "Kids",
       "name": "Lucky Family",
-      "attrs": {
-        "tvg-id": "221"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
@@ -582,12 +846,18 @@
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8"
     },
     {
+      "attrs": {
+        "tvg-id": "248",
+        "tvg-name": "Program Promo",
+        "tvg-logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1783925099346.png",
+        "group-title": "Infotainment"
+      },
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1783925099346.png",
       "group": "Infotainment",
       "name": "Program Promo",
-      "attrs": {
-        "tvg-id": "248"
-      },
+      "vlc_opts": [
+        "http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+      ],
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
       },
