@@ -108,6 +108,30 @@ def parse_m3u(content):
                 current_channel['kodiprops'] = []
             current_channel['kodiprops'].append(prop_content)
             
+        elif line.startswith('#EXTHTTP:'):
+            http_content = line[len('#EXTHTTP:'):].strip()
+            if 'exthttps' not in current_channel:
+                current_channel['exthttps'] = []
+            current_channel['exthttps'].append(http_content)
+            # Also extract headers from EXTHTTP if it is valid JSON
+            try:
+                import json
+                parsed_http = json.loads(http_content)
+                if parsed_http and isinstance(parsed_http, dict):
+                    if 'headers' not in current_channel:
+                        current_channel['headers'] = {}
+                    for k, v in parsed_http.items():
+                        if k.lower() == 'user-agent':
+                            current_channel['headers']['User-Agent'] = str(v)
+                        elif k.lower() == 'referer':
+                            current_channel['headers']['Referer'] = str(v)
+                        elif k.lower() == 'origin':
+                            current_channel['headers']['Origin'] = str(v)
+                        else:
+                            current_channel['headers'][k] = str(v)
+            except Exception:
+                pass
+            
         elif not line.startswith('#'):
             if 'name' not in current_channel:
                 current_channel['name'] = f"Channel {len(channels) + 1}"
@@ -218,6 +242,27 @@ def parse_json_playlist(data):
                     kodiprops = [f"{pk}={pv}" for pk, pv in v.items()]
                 break
                 
+        exthttps = None
+        for k, v in item.items():
+            if k.lower() in ['exthttps', 'exthttp', 'ext_https', 'ext_http']:
+                if isinstance(v, list):
+                    exthttps = [str(x) for x in v]
+                elif isinstance(v, str):
+                    exthttps = [v]
+                break
+                
+        attrs = None
+        for k, v in item.items():
+            if k.lower() == 'attrs' and isinstance(v, dict):
+                attrs = v
+                break
+                
+        vlc_opts = None
+        for k, v in item.items():
+            if k.lower() == 'vlc_opts' and isinstance(v, list):
+                vlc_opts = [str(x) for x in v]
+                break
+                
         if name or url:
             url_raw = url
             if url and '|' in url:
@@ -247,6 +292,12 @@ def parse_json_playlist(data):
                 channel_obj["headers"] = headers
             if kodiprops:
                 channel_obj["kodiprops"] = kodiprops
+            if exthttps:
+                channel_obj["exthttps"] = exthttps
+            if attrs:
+                channel_obj["attrs"] = attrs
+            if vlc_opts:
+                channel_obj["vlc_opts"] = vlc_opts
             channels_list.append(channel_obj)
             
     return channels_list
@@ -265,15 +316,32 @@ def generate_m3u_file(brand, channels, name):
     
     for ch in channels:
         # Reconstruct #EXTINF using parsed attrs dictionary to preserve all original attributes
+        attrs_to_write = {}
         if ch.get("attrs") and isinstance(ch["attrs"], dict):
+            attrs_to_write.update(ch["attrs"])
+            
+        # Ensure standard keys are present if we have them in the main fields
+        if ch.get("logo"):
+            attrs_to_write["tvg-logo"] = ch["logo"]
+        if ch.get("group") and ch.get("group") != "General":
+            attrs_to_write["group-title"] = ch["group"]
+        if ch.get("name"):
+            attrs_to_write["tvg-name"] = ch["name"]
+        if ch.get("status"):
+            attrs_to_write["status"] = ch["status"]
+            
+        # Clean up duplicate key variations
+        for key_to_del in ['logo', 'category', 'group', 'name']:
+            if key_to_del in attrs_to_write:
+                del attrs_to_write[key_to_del]
+                
+        if attrs_to_write:
             attrs_str = ""
-            for k, v in ch["attrs"].items():
+            for k, v in attrs_to_write.items():
                 attrs_str += f' {k}="{v}"'
             m3u += f"#EXTINF:-1{attrs_str},{ch['name']}\n"
         else:
-            logo_attr = f' tvg-logo="{ch["logo"]}"' if ch.get("logo") else ""
-            group_attr = f' group-title="{ch["group"]}"' if ch.get("group") else ""
-            m3u += f"#EXTINF:-1{logo_attr}{group_attr},{ch['name']}\n"
+            m3u += f"#EXTINF:-1,{ch['name']}\n"
         
         # Write custom VLCOPT lines if they were parsed
         if ch.get("vlc_opts") and isinstance(ch["vlc_opts"], list):
@@ -294,6 +362,11 @@ def generate_m3u_file(brand, channels, name):
         if ch.get("kodiprops") and isinstance(ch["kodiprops"], list):
             for prop in ch["kodiprops"]:
                 m3u += f"#KODIPROP:{prop}\n"
+                
+        # Write custom EXTHTTP lines if they were parsed
+        if ch.get("exthttps") and isinstance(ch["exthttps"], list):
+            for http in ch["exthttps"]:
+                m3u += f"#EXTHTTP:{http}\n"
                 
         url_to_write = ch.get('url_raw') or ch.get('url') or "https://upcoming-match-no-stream.m3u8"
         if not ch.get('url_raw') and ch.get('url') and ch.get('headers') and isinstance(ch['headers'], dict):

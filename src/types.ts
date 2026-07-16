@@ -11,6 +11,7 @@ export interface Channel {
   kodiprops?: string[];
   vlc_opts?: string[];
   url_raw?: string;
+  exthttps?: string[];
 }
 
 export interface PlaylistBranding {

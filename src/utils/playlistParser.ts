@@ -87,6 +87,31 @@ export function parseM3U(m3uContent: string): Channel[] {
       const propContent = line.substring('#KODIPROP:'.length).trim();
       currentChannel.kodiprops = currentChannel.kodiprops || [];
       currentChannel.kodiprops.push(propContent);
+    } else if (line.startsWith('#EXTHTTP:')) {
+      const httpContent = line.substring('#EXTHTTP:'.length).trim();
+      currentChannel.exthttps = currentChannel.exthttps || [];
+      currentChannel.exthttps.push(httpContent);
+      
+      // Also extract headers from EXTHTTP if it is valid JSON
+      try {
+        const parsedHttp = JSON.parse(httpContent);
+        if (parsedHttp && typeof parsedHttp === 'object') {
+          currentChannel.headers = currentChannel.headers || {};
+          for (const [k, v] of Object.entries(parsedHttp)) {
+            if (k.toLowerCase() === 'user-agent') {
+              currentChannel.headers['User-Agent'] = String(v);
+            } else if (k.toLowerCase() === 'referer') {
+              currentChannel.headers['Referer'] = String(v);
+            } else if (k.toLowerCase() === 'origin') {
+              currentChannel.headers['Origin'] = String(v);
+            } else {
+              currentChannel.headers[k] = String(v);
+            }
+          }
+        }
+      } catch (e) {
+        // Fallback or ignore parse errors
+      }
     } else if (line && !line.startsWith('#')) {
       // This is the stream URL
       currentChannel.url = line;
@@ -229,6 +254,19 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
       }
     }
     
+    // Find extra properties
+    let exthttps: string[] | undefined = undefined;
+    for (const k of ['exthttps', 'exthttp', 'ext_https', 'ext_http']) {
+      if (item[k]) {
+        if (Array.isArray(item[k])) {
+          exthttps = item[k].map(String);
+        } else if (typeof item[k] === 'string') {
+          exthttps = [item[k]];
+        }
+        break;
+      }
+    }
+    
     // If we have a URL, add it
     if (url) {
       channels.push({
@@ -236,7 +274,13 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
         logo: logo || '',
         url,
         group: group || 'General',
-        headers
+        headers,
+        status: item.status ? String(item.status) : undefined,
+        attrs: item.attrs && typeof item.attrs === 'object' ? item.attrs : undefined,
+        vlc_opts: Array.isArray(item.vlc_opts) ? item.vlc_opts.map(String) : undefined,
+        kodiprops: Array.isArray(item.kodiprops) ? item.kodiprops.map(String) : undefined,
+        url_raw: item.url_raw ? String(item.url_raw) : undefined,
+        exthttps
       });
     }
   }
@@ -360,6 +404,13 @@ export function generateM3U(playlist: StandardPlaylist): string {
     if (ch.kodiprops && Array.isArray(ch.kodiprops)) {
       for (const prop of ch.kodiprops) {
         m3u += `#KODIPROP:${prop}\n`;
+      }
+    }
+    
+    // Write custom EXTHTTP lines if present
+    if (ch.exthttps && Array.isArray(ch.exthttps)) {
+      for (const http of ch.exthttps) {
+        m3u += `#EXTHTTP:${http}\n`;
       }
     }
     
