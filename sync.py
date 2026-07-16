@@ -40,31 +40,59 @@ def parse_m3u(content):
             
         if line.startswith('#EXTINF:'):
             current_channel = {}
+            
+            # Extract all attributes in key="value" format
+            attrs = {}
+            for k, v in re.findall(r'([a-zA-Z0-9_-]+)="([^"]*)"', line):
+                attrs[k] = v
+            current_channel['attrs'] = attrs
+            
             # Extract tvg-logo
-            logo_match = re.search(r'tvg-logo="([^"]+)"', line) or re.search(r'logo="([^"]+)"', line)
-            current_channel['logo'] = logo_match.group(1) if logo_match else ""
+            current_channel['logo'] = attrs.get('tvg-logo') or attrs.get('logo') or ""
             
             # Extract group-title (category)
-            group_match = re.search(r'group-title="([^"]+)"', line) or re.search(r'category="([^"]+)"', line)
-            current_channel['group'] = group_match.group(1) if group_match else "General"
+            current_channel['group'] = attrs.get('group-title') or attrs.get('category') or "General"
             
             # Extract channel name (everything after the last comma)
             comma_idx = line.rfind(',')
             if comma_idx != -1:
                 current_channel['name'] = line[comma_idx+1:].strip()
             else:
-                tvg_name_match = re.search(r'tvg-name="([^"]+)"', line)
-                current_channel['name'] = tvg_name_match.group(1) if tvg_name_match else "Channel"
+                current_channel['name'] = attrs.get('tvg-name') or "Channel"
                 
         elif line.startswith('#EXTVLCOPT:'):
-            # Parse user-agents / referers if present
-            ua_match = re.search(r'http-user-agent="([^"]+)"', line) or re.search(r'http-user-agent=([^\\s]+)', line)
-            if ua_match:
+            opt_content = line[len('#EXTVLCOPT:'):].strip()
+            if 'vlc_opts' not in current_channel:
+                current_channel['vlc_opts'] = []
+            current_channel['vlc_opts'].append(opt_content)
+            
+            # Also parse as header for dynamic/JSON capability
+            if '=' in opt_content:
+                k, v = opt_content.split('=', 1)
+                k = k.strip()
+                v = v.strip()
+                if (v.startswith('"') and v.endswith('"')) or (v.startswith("'") and v.endswith("'")):
+                    v = v[1:-1]
+                
                 if 'headers' not in current_channel:
                     current_channel['headers'] = {}
-                current_channel['headers']['User-Agent'] = ua_match.group(1)
+                
+                if k.lower() == 'http-user-agent':
+                    current_channel['headers']['User-Agent'] = v
+                elif k.lower() == 'http-referrer':
+                    current_channel['headers']['Referer'] = v
+                elif k.lower() == 'http-origin':
+                    current_channel['headers']['Origin'] = v
+                else:
+                    current_channel['headers'][k] = v
+                    
+        elif line.startswith('#KODIPROP:'):
+            prop_content = line[len('#KODIPROP:'):].strip()
+            if 'kodiprops' not in current_channel:
+                current_channel['kodiprops'] = []
+            current_channel['kodiprops'].append(prop_content)
+            
         elif not line.startswith('#'):
-            current_channel['url'] = line
             if 'name' not in current_channel:
                 current_channel['name'] = f"Channel {len(channels) + 1}"
             if 'logo' not in current_channel:
@@ -72,15 +100,22 @@ def parse_m3u(content):
             if 'group' not in current_channel:
                 current_channel['group'] = "General"
                 
-            # Handle inline User-Agent options like url|User-Agent=...
+            current_channel['url'] = line
+            current_channel['url_raw'] = line
+            
+            # Handle inline User-Agent or custom header options like url|User-Agent=... or url|x-forwarded-for:value
             if '|' in line:
                 parts = line.split('|')
                 current_channel['url'] = parts[0]
                 if 'headers' not in current_channel:
                     current_channel['headers'] = {}
                 for part in parts[1:]:
-                    if part.lower().startswith('user-agent='):
-                        current_channel['headers']['User-Agent'] = part[11:]
+                    if '=' in part:
+                        k, v = part.split('=', 1)
+                        current_channel['headers'][k.strip()] = v.strip()
+                    elif ':' in part:
+                        k, v = part.split(':', 1)
+                        current_channel['headers'][k.strip()] = v.strip()
             
             channels.append(current_channel)
             current_channel = {}
@@ -158,17 +193,44 @@ def parse_json_playlist(data):
                 headers = v
                 break
                 
+        kodiprops = None
+        for k, v in item.items():
+            if k.lower() in ['kodiprops', 'kodiprop', 'kodi_props', 'kodi']:
+                if isinstance(v, list):
+                    kodiprops = [str(x) for x in v]
+                elif isinstance(v, dict):
+                    kodiprops = [f"{pk}={pv}" for pk, pv in v.items()]
+                break
+                
         if name or url:
+            url_raw = url
+            if url and '|' in url:
+                parts = url.split('|')
+                url = parts[0]
+                if not headers:
+                    headers = {}
+                for part in parts[1:]:
+                    if '=' in part:
+                        k, v = part.split('=', 1)
+                        headers[k.strip()] = v.strip()
+                    elif ':' in part:
+                        k, v = part.split(':', 1)
+                        headers[k.strip()] = v.strip()
+                        
             channel_obj = {
                 "name": name if name else f"Channel {len(channels_list) + 1}",
                 "logo": logo,
                 "url": url,
                 "group": group
             }
+            if url_raw:
+                channel_obj["url_raw"] = url_raw
             if status:
                 channel_obj["status"] = status
             if headers:
                 channel_obj["headers"] = headers
+            if kodiprops:
+                channel_obj["kodiprops"] = kodiprops
             channels_list.append(channel_obj)
             
     return channels_list
@@ -186,19 +248,47 @@ def generate_m3u_file(brand, channels, name):
     m3u += f"# Last Update: {brand['Last_update']}\n\n"
     
     for ch in channels:
-        logo_attr = f' tvg-logo="{ch["logo"]}"' if ch.get("logo") else ""
-        group_attr = f' group-title="{ch["group"]}"' if ch.get("group") else ""
-        m3u += f"#EXTINF:-1{logo_attr}{group_attr},{ch['name']}\n"
+        # Reconstruct #EXTINF using parsed attrs dictionary to preserve all original attributes
+        if ch.get("attrs") and isinstance(ch["attrs"], dict):
+            attrs_str = ""
+            for k, v in ch["attrs"].items():
+                attrs_str += f' {k}="{v}"'
+            m3u += f"#EXTINF:-1{attrs_str},{ch['name']}\n"
+        else:
+            logo_attr = f' tvg-logo="{ch["logo"]}"' if ch.get("logo") else ""
+            group_attr = f' group-title="{ch["group"]}"' if ch.get("group") else ""
+            m3u += f"#EXTINF:-1{logo_attr}{group_attr},{ch['name']}\n"
         
-        # User agents / custom HTTP headers
-        if "headers" in ch and isinstance(ch["headers"], dict):
-            for k, v in ch["headers"].items():
-                if k.lower() == 'user-agent':
-                    m3u += f"#EXTVLCOPT:http-user-agent={v}\n"
-                elif k.lower() == 'referer':
-                    m3u += f"#EXTVLCOPT:http-referrer={v}\n"
-                    
-        url_to_write = ch['url'] if ch.get('url') else "https://upcoming-match-no-stream.m3u8"
+        # Write custom VLCOPT lines if they were parsed
+        if ch.get("vlc_opts") and isinstance(ch["vlc_opts"], list):
+            for opt in ch["vlc_opts"]:
+                m3u += f"#EXTVLCOPT:{opt}\n"
+        else:
+            # Fallback to reconstructing headers as EXTVLCOPT
+            if "headers" in ch and isinstance(ch["headers"], dict):
+                for k, v in ch["headers"].items():
+                    if k.lower() == 'user-agent':
+                        m3u += f"#EXTVLCOPT:http-user-agent={v}\n"
+                    elif k.lower() == 'referer':
+                        m3u += f"#EXTVLCOPT:http-referrer={v}\n"
+                    elif k.lower() == 'origin':
+                        m3u += f"#EXTVLCOPT:http-origin={v}\n"
+                        
+        # Write custom KODIPROP lines if they were parsed
+        if ch.get("kodiprops") and isinstance(ch["kodiprops"], list):
+            for prop in ch["kodiprops"]:
+                m3u += f"#KODIPROP:{prop}\n"
+                
+        url_to_write = ch.get('url_raw') or ch.get('url') or "https://upcoming-match-no-stream.m3u8"
+        if not ch.get('url_raw') and ch.get('url') and ch.get('headers') and isinstance(ch['headers'], dict):
+            # Reconstruct inline headers if url_raw is not present and custom headers exist
+            inline_headers = []
+            for hk, hv in ch['headers'].items():
+                if hk.lower() not in ['user-agent', 'referer', 'origin']:
+                    inline_headers.append(f"{hk}:{hv}")
+            if inline_headers:
+                url_to_write = f"{ch['url']}|" + "|".join(inline_headers)
+                
         m3u += f"{url_to_write}\n\n"
         
     return m3u
