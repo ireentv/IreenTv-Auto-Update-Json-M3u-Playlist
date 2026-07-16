@@ -11,74 +11,110 @@ export function parseM3U(m3uContent: string): Channel[] {
   
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
+    if (!line) continue;
     
     if (line.startsWith('#EXTINF:')) {
-      // Parse EXTINF attributes
-      // Format: #EXTINF:-1 tvg-id="..." tvg-name="..." tvg-logo="..." group-title="..." , Channel Name
       currentChannel = {};
       
-      // Extract tvg-logo
-      const logoMatch = line.match(/tvg-logo="([^"]+)"/) || line.match(/logo="([^"]+)"/);
-      if (logoMatch) {
-        currentChannel.logo = logoMatch[1];
+      // Parse EXTINF attributes
+      const attrs: Record<string, string> = {};
+      const attrRegex = /([a-zA-Z0-9_-]+)="([^"]*)"/g;
+      let match;
+      while ((match = attrRegex.exec(line)) !== null) {
+        attrs[match[1]] = match[2];
       }
       
+      // Extract tvg-logo
+      currentChannel.logo = attrs['tvg-logo'] || attrs['logo'] || '';
+      
       // Extract group-title
-      const groupMatch = line.match(/group-title="([^"]+)"/) || line.match(/category="([^"]+)"/);
-      if (groupMatch) {
-        currentChannel.group = groupMatch[1];
-      }
+      currentChannel.group = attrs['group-title'] || attrs['category'] || 'General';
       
       // Extract name (everything after the last comma)
       const commaIndex = line.lastIndexOf(',');
       if (commaIndex !== -1) {
         currentChannel.name = line.substring(commaIndex + 1).trim();
       } else {
-        // Fallback: extract tvg-name
-        const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
-        if (tvgNameMatch) {
-          currentChannel.name = tvgNameMatch[1];
-        }
-      }
-    } else if (line.startsWith('#EXTVLCOPT:')) {
-      // Parse VLC options like User-Agent
-      // Format: #EXTVLCOPT:http-user-agent=Mozilla/5.0...
-      const uaMatch = line.match(/http-user-agent=([^\s]+)/) || line.match(/http-user-agent="([^"]+)"/);
-      if (uaMatch) {
-        currentChannel.headers = currentChannel.headers || {};
-        currentChannel.headers['User-Agent'] = uaMatch[1];
+        currentChannel.name = attrs['tvg-name'] || 'Channel';
       }
       
-      const referrerMatch = line.match(/http-referrer=([^\s]+)/) || line.match(/http-referrer="([^"]+)"/);
-      if (referrerMatch) {
-        currentChannel.headers = currentChannel.headers || {};
-        currentChannel.headers['Referer'] = referrerMatch[1];
+      if (attrs['status']) {
+        currentChannel.status = attrs['status'];
       }
+      
+      // Remove standard keys from attrs to prevent duplication in JSON
+      const keysToRemove = ['tvg-logo', 'logo', 'group-title', 'category', 'tvg-name', 'name', 'status'];
+      for (const key of keysToRemove) {
+        delete attrs[key];
+      }
+      
+      if (Object.keys(attrs).length > 0) {
+        currentChannel.attrs = attrs;
+      }
+    } else if (line.startsWith('#EXTVLCOPT:')) {
+      const optContent = line.substring('#EXTVLCOPT:'.length).trim();
+      
+      if (optContent.includes('=')) {
+        let [k, v] = optContent.split('=');
+        k = k.trim();
+        v = v.trim();
+        if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
+          v = v.substring(1, v.length - 1);
+        }
+        
+        const isHttpHeader = ['http-user-agent', 'http-referrer', 'http-origin'].includes(k.toLowerCase());
+        
+        currentChannel.headers = currentChannel.headers || {};
+        if (k.toLowerCase() === 'http-user-agent') {
+          currentChannel.headers['User-Agent'] = v;
+        } else if (k.toLowerCase() === 'http-referrer') {
+          currentChannel.headers['Referer'] = v;
+        } else if (k.toLowerCase() === 'http-origin') {
+          currentChannel.headers['Origin'] = v;
+        } else {
+          currentChannel.headers[k] = v;
+        }
+        
+        if (!isHttpHeader) {
+          currentChannel.vlc_opts = currentChannel.vlc_opts || [];
+          currentChannel.vlc_opts.push(optContent);
+        }
+      } else {
+        currentChannel.vlc_opts = currentChannel.vlc_opts || [];
+        currentChannel.vlc_opts.push(optContent);
+      }
+    } else if (line.startsWith('#KODIPROP:')) {
+      const propContent = line.substring('#KODIPROP:'.length).trim();
+      currentChannel.kodiprops = currentChannel.kodiprops || [];
+      currentChannel.kodiprops.push(propContent);
     } else if (line && !line.startsWith('#')) {
       // This is the stream URL
       currentChannel.url = line;
+      currentChannel.url_raw = line;
+      
       if (!currentChannel.name) {
         currentChannel.name = `Channel ${channels.length + 1}`;
       }
       if (!currentChannel.logo) {
         currentChannel.logo = '';
       }
+      if (!currentChannel.group) {
+        currentChannel.group = 'General';
+      }
       
-      // Also look for headers in subsequent comment lines or inline parameters (like user-agent)
-      // Sometimes URL itself has headers like http://stream...|User-Agent=...
+      // Handle inline User-Agent or custom header options
       if (line.includes('|')) {
         const parts = line.split('|');
         currentChannel.url = parts[0];
         currentChannel.headers = currentChannel.headers || {};
         for (let p = 1; p < parts.length; p++) {
-          const opt = parts[p];
-          if (opt.toLowerCase().startsWith('user-agent=')) {
-            currentChannel.headers['User-Agent'] = opt.substring(11);
-          } else if (opt.toLowerCase().startsWith('referer=')) {
-            currentChannel.headers['Referer'] = opt.substring(8);
-          } else if (opt.includes('=')) {
-            const [key, val] = opt.split('=');
-            currentChannel.headers[key] = val;
+          const part = parts[p];
+          if (part.includes('=')) {
+            const [k, v] = part.split('=');
+            currentChannel.headers[k.trim()] = v.trim();
+          } else if (part.includes(':')) {
+            const [k, v] = part.split(':');
+            currentChannel.headers[k.trim()] = v.trim();
           }
         }
       }
@@ -268,23 +304,79 @@ export function generateM3U(playlist: StandardPlaylist): string {
 `;
 
   for (const ch of playlist.channels) {
-    const logoAttr = ch.logo ? ` tvg-logo="${ch.logo}"` : '';
-    const groupAttr = ch.group ? ` group-title="${ch.group}"` : '';
+    const attrsToWrite: Record<string, string> = {};
+    if (ch.attrs) {
+      Object.assign(attrsToWrite, ch.attrs);
+    }
     
-    m3u += `#EXTINF:-1${logoAttr}${groupAttr},${ch.name}\n`;
+    // Ensure name, logo, group are written with correct standard keys
+    if (ch.logo) {
+      attrsToWrite['tvg-logo'] = ch.logo;
+    }
+    if (ch.group && ch.group !== 'General') {
+      attrsToWrite['group-title'] = ch.group;
+    }
+    if (ch.name) {
+      attrsToWrite['tvg-name'] = ch.name;
+    }
+    if (ch.status) {
+      attrsToWrite['status'] = ch.status;
+    }
     
-    // Add headers as EXTINF attributes or EXTVLCOPT if present
+    // Clean up key duplicates/variations
+    delete attrsToWrite['logo'];
+    delete attrsToWrite['category'];
+    delete attrsToWrite['group'];
+    delete attrsToWrite['name'];
+    
+    let attrsStr = '';
+    for (const [k, v] of Object.entries(attrsToWrite)) {
+      attrsStr += ` ${k}="${v}"`;
+    }
+    
+    m3u += `#EXTINF:-1${attrsStr},${ch.name}\n`;
+    
+    // Write custom VLC options if present
+    if (ch.vlc_opts && Array.isArray(ch.vlc_opts)) {
+      for (const opt of ch.vlc_opts) {
+        m3u += `#EXTVLCOPT:${opt}\n`;
+      }
+    }
+    
+    // Write standard HTTP headers from ch.headers as EXTVLCOPT
     if (ch.headers) {
       for (const [key, val] of Object.entries(ch.headers)) {
         if (key.toLowerCase() === 'user-agent') {
           m3u += `#EXTVLCOPT:http-user-agent=${val}\n`;
         } else if (key.toLowerCase() === 'referer') {
           m3u += `#EXTVLCOPT:http-referrer=${val}\n`;
+        } else if (key.toLowerCase() === 'origin') {
+          m3u += `#EXTVLCOPT:http-origin=${val}\n`;
         }
       }
     }
     
-    m3u += `${ch.url}\n\n`;
+    // Write custom KODIPROP lines if present
+    if (ch.kodiprops && Array.isArray(ch.kodiprops)) {
+      for (const prop of ch.kodiprops) {
+        m3u += `#KODIPROP:${prop}\n`;
+      }
+    }
+    
+    let urlToWrite = ch.url_raw || ch.url || "https://upcoming-match-no-stream.m3u8";
+    if (!ch.url_raw && ch.url && ch.headers) {
+      const inlineHeaders: string[] = [];
+      for (const [hk, hv] of Object.entries(ch.headers)) {
+        if (!['user-agent', 'referer', 'origin'].includes(hk.toLowerCase())) {
+          inlineHeaders.push(`${hk}:${hv}`);
+        }
+      }
+      if (inlineHeaders.length > 0) {
+        urlToWrite = `${ch.url}|${inlineHeaders.join('|')}`;
+      }
+    }
+    
+    m3u += `${urlToWrite}\n\n`;
   }
   
   return m3u;

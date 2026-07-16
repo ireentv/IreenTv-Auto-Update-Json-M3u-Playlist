@@ -45,7 +45,6 @@ def parse_m3u(content):
             attrs = {}
             for k, v in re.findall(r'([a-zA-Z0-9_-]+)="([^"]*)"', line):
                 attrs[k] = v
-            current_channel['attrs'] = attrs
             
             # Extract tvg-logo
             current_channel['logo'] = attrs.get('tvg-logo') or attrs.get('logo') or ""
@@ -60,11 +59,16 @@ def parse_m3u(content):
             else:
                 current_channel['name'] = attrs.get('tvg-name') or "Channel"
                 
+            # Remove keys from attrs that are mapped to root fields to avoid duplication in JSON
+            for key in list(attrs.keys()):
+                if key.lower() in ['tvg-logo', 'logo', 'group-title', 'category', 'tvg-name', 'name']:
+                    del attrs[key]
+            
+            if attrs:
+                current_channel['attrs'] = attrs
+                
         elif line.startswith('#EXTVLCOPT:'):
             opt_content = line[len('#EXTVLCOPT:'):].strip()
-            if 'vlc_opts' not in current_channel:
-                current_channel['vlc_opts'] = []
-            current_channel['vlc_opts'].append(opt_content)
             
             # Also parse as header for dynamic/JSON capability
             if '=' in opt_content:
@@ -73,6 +77,8 @@ def parse_m3u(content):
                 v = v.strip()
                 if (v.startswith('"') and v.endswith('"')) or (v.startswith("'") and v.endswith("'")):
                     v = v[1:-1]
+                
+                is_http_header = k.lower() in ['http-user-agent', 'http-referrer', 'http-origin']
                 
                 if 'headers' not in current_channel:
                     current_channel['headers'] = {}
@@ -85,6 +91,16 @@ def parse_m3u(content):
                     current_channel['headers']['Origin'] = v
                 else:
                     current_channel['headers'][k] = v
+                    
+                # If it's not a standard HTTP header option, keep in vlc_opts
+                if not is_http_header:
+                    if 'vlc_opts' not in current_channel:
+                        current_channel['vlc_opts'] = []
+                    current_channel['vlc_opts'].append(opt_content)
+            else:
+                if 'vlc_opts' not in current_channel:
+                    current_channel['vlc_opts'] = []
+                current_channel['vlc_opts'].append(opt_content)
                     
         elif line.startswith('#KODIPROP:'):
             prop_content = line[len('#KODIPROP:'):].strip()

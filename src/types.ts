@@ -6,6 +6,11 @@ export interface Channel {
   group?: string;
   headers?: Record<string, string>;
   category?: string;
+  status?: string;
+  attrs?: Record<string, string>;
+  kodiprops?: string[];
+  vlc_opts?: string[];
+  url_raw?: string;
 }
 
 export interface PlaylistBranding {
