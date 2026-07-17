@@ -7,817 +7,682 @@
   "version": "1.0",
   "name": "AkashGO_BD",
   "channels_amount": 45,
-  "Last_update": "2026-07-17 12:43:01 PM",
+  "Last_update": "2026-07-17 01:31:48 PM",
   "channels": [
     {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773247382366.png",
-      "group": "News",
       "name": "BTV Shangshad",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773247382366.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
+        "Origin": "https://akashgo.com",
+        "Referer": "https://akashgo.com/"
+      },
       "attrs": {
         "tvg-id": "228"
-      },
+      }
+    },
+    {
+      "name": "Channel 1",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png",
-      "group": "News",
-      "name": "Channel 1",
       "attrs": {
         "tvg-id": "299"
-      },
+      }
+    },
+    {
+      "name": "Sports Range",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
+      "group": "Sports",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png",
-      "group": "Sports",
-      "name": "Sports Range",
       "attrs": {
         "tvg-id": "217"
-      },
+      }
+    },
+    {
+      "name": "Independent TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739964387847.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739964387847.png",
-      "group": "News",
-      "name": "Independent TV",
       "attrs": {
         "tvg-id": "96"
-      },
+      }
+    },
+    {
+      "name": "Jamuna TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
-      "group": "News",
-      "name": "Jamuna TV",
       "attrs": {
         "tvg-id": "97"
-      },
+      }
+    },
+    {
+      "name": "Ekattor HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
-      "group": "News",
-      "name": "Ekattor HD",
       "attrs": {
         "tvg-id": "102"
-      },
+      }
+    },
+    {
+      "name": "Channel 24 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
-      "group": "News",
-      "name": "Channel 24 HD",
       "attrs": {
         "tvg-id": "94"
-      },
+      }
+    },
+    {
+      "name": "Maasranga TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+      "group": "Entertainment",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png",
-      "group": "Entertainment",
-      "name": "Maasranga TV",
       "attrs": {
         "tvg-id": "229"
-      },
+      }
+    },
+    {
+      "name": "Crazy Ex",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348753896.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
+      "group": "Sports",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348753896.png",
-      "group": "Sports",
-      "name": "Crazy Ex",
       "attrs": {
         "tvg-id": "202"
-      },
+      }
+    },
+    {
+      "name": "DBC News HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png",
-      "group": "News",
-      "name": "DBC News HD",
       "attrs": {
         "tvg-id": "185"
-      },
+      }
+    },
+    {
+      "name": "Sports Legends",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
+      "group": "Sports",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png",
-      "group": "Sports",
-      "name": "Sports Legends",
       "attrs": {
         "tvg-id": "205"
-      },
+      }
+    },
+    {
+      "name": "Flash Guys HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
+      "group": "Sports",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png",
-      "group": "Sports",
-      "name": "Flash Guys HD",
       "attrs": {
         "tvg-id": "206"
-      },
+      }
+    },
+    {
+      "name": "Channel 9 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
+      "group": "Entertainment",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
-      "group": "Entertainment",
-      "name": "Channel 9 HD",
       "attrs": {
         "tvg-id": "188"
-      },
+      }
+    },
+    {
+      "name": "ATN News",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png",
-      "group": "News",
-      "name": "ATN News",
       "attrs": {
         "tvg-id": "93"
-      },
+      }
+    },
+    {
+      "name": "NTV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+      "group": "Entertainment",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
-      "group": "Entertainment",
-      "name": "NTV",
       "attrs": {
         "tvg-id": "99"
-      },
+      }
+    },
+    {
+      "name": "Thunder Er",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
+      "group": "Sports",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
-      "group": "Sports",
-      "name": "Thunder Er",
       "attrs": {
         "tvg-id": "218"
-      },
+      }
+    },
+    {
+      "name": "Channel I HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+      "group": "Entertainment",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png",
-      "group": "Entertainment",
-      "name": "Channel I HD",
       "attrs": {
         "tvg-id": "132"
-      },
+      }
+    },
+    {
+      "name": "Deepto TV HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
+      "group": "Entertainment",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png",
-      "group": "Entertainment",
-      "name": "Deepto TV HD",
       "attrs": {
         "tvg-id": "134"
-      },
+      }
+    },
+    {
+      "name": "SRK TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1746005940155.png",
+      "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
+      "group": "Entertainment",
+      "url_raw": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1746005940155.png",
-      "group": "Entertainment",
-      "name": "SRK TV",
       "attrs": {
         "tvg-id": "141"
-      },
+      }
+    },
+    {
+      "name": "News 24 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
-      "url_raw": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png",
-      "group": "News",
-      "name": "News 24 HD",
       "attrs": {
         "tvg-id": "186"
-      },
+      }
+    },
+    {
+      "name": "Star News",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
-      "group": "News",
-      "name": "Star News",
       "attrs": {
         "tvg-id": "191"
-      },
+      }
+    },
+    {
+      "name": "Al Jazeera",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735547218986.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735547218986.png",
-      "group": "News",
-      "name": "Al Jazeera",
       "attrs": {
         "tvg-id": "85"
-      },
+      }
+    },
+    {
+      "name": "Bangla Vision",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
+      "group": "Entertainment",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
-      "group": "Entertainment",
-      "name": "Bangla Vision",
       "attrs": {
         "tvg-id": "100"
-      },
+      }
+    },
+    {
+      "name": "Fighters",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
+      "group": "Sports",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png",
-      "group": "Sports",
-      "name": "Fighters",
       "attrs": {
         "tvg-id": "219"
-      },
+      }
+    },
+    {
+      "name": "Al Quran",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777739297698.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8",
+      "group": "Infotainment",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777739297698.png",
-      "group": "Infotainment",
-      "name": "Al Quran",
       "attrs": {
         "tvg-id": "238"
-      },
+      }
+    },
+    {
+      "name": "Party Universe",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378215384.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
+      "group": "Music",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378215384.png",
-      "group": "Music",
-      "name": "Party Universe",
       "attrs": {
         "tvg-id": "207"
-      },
+      }
+    },
+    {
+      "name": "Delicious",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378370876.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8",
+      "group": "Infotainment",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378370876.png",
-      "group": "Infotainment",
-      "name": "Delicious",
       "attrs": {
         "tvg-id": "208"
-      },
+      }
+    },
+    {
+      "name": "Nikki",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378704923.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
+      "group": "Kids",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378704923.png",
-      "group": "Kids",
-      "name": "Nikki",
       "attrs": {
         "tvg-id": "210"
-      },
+      }
+    },
+    {
+      "name": "Desh TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1782012550123.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
+      "group": "News",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1782012550123.png",
-      "group": "News",
-      "name": "Desh TV",
       "attrs": {
         "tvg-id": "303"
-      },
+      }
+    },
+    {
+      "name": "Originals",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770313122372.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8",
+      "group": "Movies",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770313122372.png",
-      "group": "Movies",
-      "name": "Originals",
       "attrs": {
         "tvg-id": "193"
-      },
+      }
+    },
+    {
+      "name": "Cineedge HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
+      "group": "Movies",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png",
-      "group": "Movies",
-      "name": "Cineedge HD",
       "attrs": {
         "tvg-id": "197"
-      },
+      }
+    },
+    {
+      "name": "Superrix HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
+      "group": "Movies",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png",
-      "group": "Movies",
-      "name": "Superrix HD",
       "attrs": {
         "tvg-id": "198"
-      },
+      }
+    },
+    {
+      "name": "Uniques HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8",
+      "group": "Movies",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png",
-      "group": "Movies",
-      "name": "Uniques HD",
       "attrs": {
         "tvg-id": "196"
-      },
+      }
+    },
+    {
+      "name": "Screem",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
+      "group": "Movies",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png",
-      "group": "Movies",
-      "name": "Screem",
       "attrs": {
         "tvg-id": "192"
-      },
+      }
+    },
+    {
+      "name": "BuddyStar HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
+      "group": "Kids",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png",
-      "group": "Kids",
-      "name": "BuddyStar HD",
       "attrs": {
         "tvg-id": "212"
-      },
+      }
+    },
+    {
+      "name": "Joy",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
+      "group": "Kids",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png",
-      "group": "Kids",
-      "name": "Joy",
       "attrs": {
         "tvg-id": "211"
-      },
+      }
+    },
+    {
+      "name": "Funny Junior HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
+      "group": "Kids",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png",
-      "group": "Kids",
-      "name": "Funny Junior HD",
       "attrs": {
         "tvg-id": "213"
-      },
+      }
+    },
+    {
+      "name": "Crimes",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8",
+      "group": "Movies",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png",
-      "group": "Movies",
-      "name": "Crimes",
       "attrs": {
         "tvg-id": "214"
-      },
+      }
+    },
+    {
+      "name": "Luxell HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8",
+      "group": "Infotainment",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png",
-      "group": "Infotainment",
-      "name": "Luxell HD",
       "attrs": {
         "tvg-id": "209"
-      },
+      }
+    },
+    {
+      "name": "Kids Stars",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
+      "group": "Kids",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png",
-      "group": "Kids",
-      "name": "Kids Stars",
       "attrs": {
         "tvg-id": "222"
-      },
+      }
+    },
+    {
+      "name": "True Stories",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8",
+      "group": "Movies",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png",
-      "group": "Movies",
-      "name": "True Stories",
       "attrs": {
         "tvg-id": "215"
-      },
+      }
+    },
+    {
+      "name": "Intelligence",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8",
+      "group": "Movies",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png",
-      "group": "Movies",
-      "name": "Intelligence",
       "attrs": {
         "tvg-id": "216"
-      },
+      }
+    },
+    {
+      "name": "Smarty",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
+      "group": "Kids",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png",
-      "group": "Kids",
-      "name": "Smarty",
       "attrs": {
         "tvg-id": "220"
-      },
+      }
+    },
+    {
+      "name": "Lucky Family",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png",
+      "url": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
+      "group": "Kids",
+      "url_raw": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8"
-    },
-    {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png",
-      "group": "Kids",
-      "name": "Lucky Family",
       "attrs": {
         "tvg-id": "221"
-      },
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
-        "Origin": "https://akashgo.com",
-        "Referer": "https://akashgo.com/"
-      },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
-      "url_raw": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8"
+      }
     },
     {
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1783925099346.png",
-      "group": "Infotainment",
       "name": "Program Promo",
-      "attrs": {
-        "tvg-id": "248"
-      },
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1783925099346.png",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8",
+      "group": "Infotainment",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36",
         "Origin": "https://akashgo.com",
         "Referer": "https://akashgo.com/"
       },
-      "exthttps": [
-        "{\"origin\":\"https://akashgo.com\",\"referer\":\"https://akashgo.com/\"}"
-      ],
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8"
+      "attrs": {
+        "tvg-id": "248"
+      }
     }
   ]
 }
