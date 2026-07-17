@@ -6,15 +6,16 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 17,
-  "Last_update": "2026-07-17 05:43:29 PM",
+  "channels_amount": 18,
+  "Last_update": "2026-07-17 05:54:00 PM",
   "channels": [
     {
       "name": "The Blaze Women vs Durham Women Live",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784309439540x302.jpg",
-      "url": "",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/UFC-20-3827e1/master.m3u8",
       "group": "General",
-      "status": "Upcoming"
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/UFC-20-3827e1/master.m3u8",
+      "status": "Live"
     },
     {
       "name": "Session 3 - Group Races - Live",
@@ -124,6 +125,13 @@
     {
       "name": "GT4 European Race  Live",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784294762540x302.jpg",
+      "url": "",
+      "group": "General",
+      "status": "Upcoming"
+    },
+    {
+      "name": "England vs India",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784020662540x302.jpg",
       "url": "",
       "group": "General",
       "status": "Upcoming"
