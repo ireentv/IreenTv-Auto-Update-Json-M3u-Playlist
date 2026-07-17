@@ -201,7 +201,7 @@ def parse_json_playlist(data):
                 break
                 
         url = ""
-        url_keys = ['url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'embed_url', 'm3u8', 'streamurl', 'playurl', 'play_url']
+        url_keys = ['url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'streamurl', 'playurl', 'play_url']
         for k, v in item.items():
             if k.lower() in url_keys:
                 url = str(v)
