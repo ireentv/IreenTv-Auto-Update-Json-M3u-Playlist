@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Channel, StandardPlaylist } from '../types';
 import { Search, Info, List, Code, Copy, Check, Tv, ExternalLink } from 'lucide-react';
+import { generateJSON } from '../utils/playlistParser';
 
 interface PlaylistViewerProps {
   playlist: StandardPlaylist | null;
@@ -40,18 +41,7 @@ export const PlaylistViewer: React.FC<PlaylistViewerProps> = ({ playlist, isLoad
   );
 
   const formattedJSON = JSON.stringify(
-    {
-      status: playlist.branding.status,
-      owner: playlist.branding.owner,
-      telegram: playlist.branding.telegram,
-      website: playlist.branding.website,
-      developer: playlist.branding.developer,
-      version: playlist.branding.version,
-      name: playlist.branding.name,
-      channels_amount: playlist.branding.channels_amount,
-      Last_update: playlist.branding.Last_update,
-      channels: playlist.channels
-    },
+    generateJSON(playlist),
     null,
     2
   );

@@ -438,6 +438,39 @@ export function generateM3U(playlist: StandardPlaylist): string {
  */
 export function generateJSON(playlist: StandardPlaylist): any {
   const b = playlist.branding;
+  
+  const cleanChannels = playlist.channels.map(ch => {
+    const cleanCh: any = {
+      name: ch.name,
+      logo: ch.logo || '',
+      url: ch.url,
+      group: ch.group || 'General'
+    };
+    
+    // Add other fields in exact ordered sequence, keeping it clean
+    if (ch.url_raw) {
+      cleanCh.url_raw = ch.url_raw;
+    }
+    if (ch.headers && Object.keys(ch.headers).length > 0) {
+      cleanCh.headers = ch.headers;
+    }
+    if (ch.attrs && Object.keys(ch.attrs).length > 0) {
+      cleanCh.attrs = ch.attrs;
+    }
+    if (ch.vlc_opts && ch.vlc_opts.length > 0) {
+      cleanCh.vlc_opts = ch.vlc_opts;
+    }
+    if (ch.kodiprops && ch.kodiprops.length > 0) {
+      cleanCh.kodiprops = ch.kodiprops;
+    }
+    if (ch.status) {
+      cleanCh.status = ch.status;
+    }
+    
+    // Exclude exthttps to keep JSON output clean, as requested by the user
+    return cleanCh;
+  });
+
   return {
     status: b.status,
     owner: b.owner,
@@ -446,8 +479,8 @@ export function generateJSON(playlist: StandardPlaylist): any {
     developer: b.developer,
     version: b.version,
     name: b.name,
-    channels_amount: playlist.channels.length,
+    channels_amount: cleanChannels.length,
     Last_update: b.Last_update,
-    channels: playlist.channels
+    channels: cleanChannels
   };
 }

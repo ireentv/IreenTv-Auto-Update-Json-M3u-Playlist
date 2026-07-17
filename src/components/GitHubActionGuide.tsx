@@ -505,6 +505,30 @@ def main():
         print(f"Extracted {len(channels)} channels.")
         
         # 1. Output Branded .json file
+        clean_channels_for_json = []
+        for ch in channels:
+            # Construct a clean dict in exact desired key order
+            clean_ch = {
+                "name": ch.get("name", ""),
+                "logo": ch.get("logo", ""),
+                "url": ch.get("url", ""),
+                "group": ch.get("group", "General")
+            }
+            if ch.get("url_raw"):
+                clean_ch["url_raw"] = ch["url_raw"]
+            if ch.get("headers") and isinstance(ch["headers"], dict) and len(ch["headers"]) > 0:
+                clean_ch["headers"] = ch["headers"]
+            if ch.get("attrs") and isinstance(ch["attrs"], dict) and len(ch["attrs"]) > 0:
+                clean_ch["attrs"] = ch["attrs"]
+            if ch.get("vlc_opts") and isinstance(ch["vlc_opts"], list) and len(ch["vlc_opts"]) > 0:
+                clean_ch["vlc_opts"] = ch["vlc_opts"]
+            if ch.get("kodiprops") and isinstance(ch["kodiprops"], list) and len(ch["kodiprops"]) > 0:
+                clean_ch["kodiprops"] = ch["kodiprops"]
+            if ch.get("status"):
+                clean_ch["status"] = ch["status"]
+            # Explicitly exclude exthttps
+            clean_channels_for_json.append(clean_ch)
+            
         json_output = {
             "status": BRANDING["status"],
             "owner": BRANDING["owner"],
@@ -513,9 +537,9 @@ def main():
             "developer": BRANDING["developer"],
             "version": BRANDING["version"],
             "name": name,
-            "channels_amount": len(channels),
+            "channels_amount": len(clean_channels_for_json),
             "Last_update": BRANDING["Last_update"],
-            "channels": channels
+            "channels": clean_channels_for_json
         }
         
         with open(f"{name}.json", "w", encoding="utf-8") as out_f:
