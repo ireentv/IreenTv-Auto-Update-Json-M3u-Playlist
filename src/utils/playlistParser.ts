@@ -205,7 +205,7 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
     if (!item || typeof item !== 'object') continue;
     
     // Find name/title
-    const nameKeys = ['name', 'title', 'channel_name', 'match_name', 'Label', 'displayName', 'matchName'];
+    const nameKeys = ['match_name', 'matchName', 'event_name', 'eventName', 'broadcast_channel', 'broadcastChannel', 'name', 'title', 'channel_name', 'Label', 'displayName'];
     let name = '';
     for (const k of nameKeys) {
       if (item[k]) {
@@ -215,7 +215,7 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
     }
     
     // Find stream URL
-    const urlKeys = ['url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'm3u8_url', 'streamUrl', 'streamLink'];
+    const urlKeys = ['video_url', 'videoUrl', 'pub_url', 'pubUrl', 'dai_url', 'daiUrl', 'url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'm3u8_url', 'streamUrl', 'streamLink'];
     let url = '';
     for (const k of urlKeys) {
       if (item[k]) {
@@ -224,8 +224,13 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
       }
     }
     
+    // Fallback if URL is empty (e.g. upcoming event)
+    if (!url) {
+      url = 'https://upcoming-match-no-stream.m3u8';
+    }
+    
     // Find logo
-    const logoKeys = ['logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 'poster', 'logoUrl', 'imageUrl'];
+    const logoKeys = ['logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 'poster', 'logoUrl', 'imageUrl', 'src'];
     let logo = '';
     for (const k of logoKeys) {
       if (item[k]) {
@@ -235,7 +240,7 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
     }
     
     // Find group/category
-    const groupKeys = ['group', 'category', 'genre', 'group-title', 'type', 'stream_category', 'sportName'];
+    const groupKeys = ['group', 'category', 'genre', 'group-title', 'type', 'stream_category', 'sportName', 'event_category', 'eventCategory'];
     let group = '';
     for (const k of groupKeys) {
       if (item[k]) {

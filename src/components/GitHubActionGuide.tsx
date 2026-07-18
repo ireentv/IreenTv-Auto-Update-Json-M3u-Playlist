@@ -308,25 +308,29 @@ def parse_json_playlist(data):
             
         # Parse channel properties dynamically
         name = ""
-        for k in ['name', 'title', 'channel_name', 'match_name', 'Label', 'displayName', 'matchName']:
+        for k in ['match_name', 'matchName', 'event_name', 'eventName', 'broadcast_channel', 'broadcastChannel', 'name', 'title', 'channel_name', 'Label', 'displayName']:
             if k in item:
                 name = str(item[k])
                 break
                 
         url = ""
-        for k in ['url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'streamUrl']:
+        for k in ['video_url', 'videoUrl', 'pub_url', 'pubUrl', 'dai_url', 'daiUrl', 'url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'streamUrl']:
             if k in item:
                 url = str(item[k])
                 break
                 
+        # Fallback if URL is empty (e.g. upcoming event)
+        if not url:
+            url = "https://upcoming-match-no-stream.m3u8"
+            
         logo = ""
-        for k in ['logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 'poster', 'logoUrl', 'imageUrl']:
+        for k in ['logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 'poster', 'logoUrl', 'imageUrl', 'src']:
             if k in item:
                 logo = str(item[k])
                 break
                 
         group = "General"
-        for k in ['group', 'category', 'genre', 'group-title', 'type', 'sportName']:
+        for k in ['group', 'category', 'genre', 'group-title', 'type', 'sportName', 'event_category', 'eventCategory']:
             if k in item:
                 group = str(item[k])
                 break

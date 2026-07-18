@@ -194,28 +194,32 @@ def parse_json_playlist(data):
             
         # Parse channel properties dynamically (case-insensitive keys search)
         name = ""
-        name_keys = ['name', 'title', 'channel_name', 'match_name', 'label', 'displayname', 'matchname', 'videoname', 'categoryname']
+        name_keys = ['match_name', 'matchname', 'event_name', 'eventname', 'broadcast_channel', 'broadcastchannel', 'name', 'title', 'channel_name', 'label', 'displayname', 'videoname', 'categoryname']
         for k, v in item.items():
             if k.lower() in name_keys:
                 name = str(v)
                 break
                 
         url = ""
-        url_keys = ['url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'streamurl', 'playurl', 'play_url']
+        url_keys = ['video_url', 'videourl', 'pub_url', 'puburl', 'dai_url', 'daiurl', 'url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'streamurl', 'playurl', 'play_url']
         for k, v in item.items():
             if k.lower() in url_keys:
                 url = str(v)
                 break
                 
+        # Fallback if URL is empty (e.g. upcoming event)
+        if not url:
+            url = "https://upcoming-match-no-stream.m3u8"
+            
         logo = ""
-        logo_keys = ['logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 'poster', 'logourl', 'imageurl', 'thumbnailstandard', 'thumbnailtv']
+        logo_keys = ['logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 'poster', 'logourl', 'imageurl', 'thumbnailstandard', 'thumbnailtv', 'src']
         for k, v in item.items():
             if k.lower() in logo_keys:
                 logo = str(v)
                 break
                 
         group = "General"
-        group_keys = ['group', 'category', 'genre', 'group-title', 'type', 'sportname']
+        group_keys = ['group', 'category', 'genre', 'group-title', 'type', 'sportname', 'event_category', 'eventcategory']
         for k, v in item.items():
             if k.lower() in group_keys:
                 group = str(v)
