@@ -412,11 +412,13 @@ export function generateM3U(playlist: StandardPlaylist): string {
       }
     }
     
-    // Write custom EXTHTTP lines if present
+    // Write custom EXTHTTP lines if present, or generate from ch.headers if present
     if (ch.exthttps && Array.isArray(ch.exthttps)) {
       for (const http of ch.exthttps) {
         m3u += `#EXTHTTP:${http}\n`;
       }
+    } else if (ch.headers && Object.keys(ch.headers).length > 0) {
+      m3u += `#EXTHTTP:${JSON.stringify(ch.headers)}\n`;
     }
     
     let urlToWrite = ch.url_raw || ch.url || "https://upcoming-match-no-stream.m3u8";

@@ -367,10 +367,13 @@ def generate_m3u_file(brand, channels, name):
             for prop in ch["kodiprops"]:
                 m3u += f"#KODIPROP:{prop}\n"
                 
-        # Write custom EXTHTTP lines if they were parsed
+        # Write custom EXTHTTP lines if they were parsed, or generate from ch["headers"]
         if ch.get("exthttps") and isinstance(ch["exthttps"], list):
             for http in ch["exthttps"]:
                 m3u += f"#EXTHTTP:{http}\n"
+        elif "headers" in ch and isinstance(ch["headers"], dict) and len(ch["headers"]) > 0:
+            import json
+            m3u += f"#EXTHTTP:{json.dumps(ch['headers'])}\n"
                 
         url_to_write = ch.get('url_raw') or ch.get('url') or "https://upcoming-match-no-stream.m3u8"
         if not ch.get('url_raw') and ch.get('url') and ch.get('headers') and isinstance(ch['headers'], dict):
