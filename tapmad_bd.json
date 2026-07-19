@@ -6,16 +6,40 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 5,
-  "Last_update": "2026-07-19 09:27:39 AM",
+  "channels_amount": 8,
+  "Last_update": "2026-07-19 10:54:51 AM",
   "channels": [
+    {
+      "name": "GT4 European Race  Live",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784294762540x302.jpg",
+      "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-258tjui/master.m3u8",
+      "group": "General",
+      "url_raw": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-258tjui/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "England vs India",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784020662540x302.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8",
+      "status": "Live"
+    },
     {
       "name": "Zimbabwe vs Bangladesh",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784105710540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/UFC-20-3827e1/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/UFC-20-3827e1/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "Dota 2 - Day 12",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784108312540x302.jpg",
+      "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
+      "group": "General",
+      "url_raw": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
+      "status": "Live"
     },
     {
       "name": "GT World Challenge Race  Live",
