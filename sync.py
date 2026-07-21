@@ -162,6 +162,38 @@ def parse_m3u(content):
             
     return channels
 
+def extract_urls_from_item(item):
+    urls = []
+    
+    def add_url(val):
+        if isinstance(val, str) and val.strip():
+            u = val.strip()
+            if u not in urls:
+                urls.append(u)
+        elif isinstance(val, list):
+            for elem in val:
+                add_url(elem)
+        elif isinstance(val, dict):
+            sub_keys = ['streams', 'stream', 'urls', 'url', 'video_url', 'videourl', 'pub_url', 'puburl', 'dai_url', 'daiurl', 'link', 'src', 'uri', 'm3u8', 'file', 'hls', 'dash']
+            for sk in sub_keys:
+                if sk in val:
+                    add_url(val[sk])
+            for k, v in val.items():
+                if k.lower() in sub_keys:
+                    add_url(v)
+
+    primary_keys = [
+        'video_url', 'videourl', 'pub_url', 'puburl', 'dai_url', 'daiurl',
+        'url', 'link', 'stream', 'stream_url', 'stream_link', 'source',
+        'uri', 'm3u8', 'streamurl', 'playurl', 'play_url', 'sources',
+        'streams', 'urls', 'links', 'src'
+    ]
+    for k, v in item.items():
+        if k.lower() in primary_keys:
+            add_url(v)
+            
+    return urls
+
 def parse_json_playlist(data):
     """Recursively searches for channel or match array within complex JSON structures"""
     channels_list = []
@@ -200,16 +232,9 @@ def parse_json_playlist(data):
                 name = str(v)
                 break
                 
-        url = ""
-        url_keys = ['video_url', 'videourl', 'pub_url', 'puburl', 'dai_url', 'daiurl', 'url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'streamurl', 'playurl', 'play_url']
-        for k, v in item.items():
-            if k.lower() in url_keys:
-                url = str(v)
-                break
-                
-        # Fallback if URL is empty (e.g. upcoming event)
-        if not url:
-            url = "https://upcoming-match-no-stream.m3u8"
+        urls = extract_urls_from_item(item)
+        if not urls:
+            urls = ["https://upcoming-match-no-stream.m3u8"]
             
         logo = ""
         logo_keys = ['logo', 'image', 'logo_url', 'thumbnail', 'img', 'icon', 'channel_logo', 'poster', 'logourl', 'imageurl', 'thumbnailstandard', 'thumbnailtv', 'src']
@@ -219,7 +244,7 @@ def parse_json_playlist(data):
                 break
                 
         group = "General"
-        group_keys = ['group', 'category', 'genre', 'group-title', 'type', 'sportname', 'event_category', 'eventcategory']
+        group_keys = ['group', 'category', 'genre', 'group-title', 'type', 'sportname', 'event_category', 'eventcategory', 'country']
         for k, v in item.items():
             if k.lower() in group_keys:
                 group = str(v)
@@ -267,23 +292,26 @@ def parse_json_playlist(data):
                 vlc_opts = [str(x) for x in v]
                 break
                 
-        if name or url:
+        for idx, url in enumerate(urls):
+            ch_name = name if idx == 0 else f"{name} ({idx + 1})"
             url_raw = url
+            ch_headers = dict(headers) if headers else None
+            
             if url and '|' in url:
                 parts = url.split('|')
                 url = parts[0]
-                if not headers:
-                    headers = {}
+                if not ch_headers:
+                    ch_headers = {}
                 for part in parts[1:]:
                     if '=' in part:
-                        k, v = part.split('=', 1)
-                        headers[k.strip()] = v.strip()
+                        hk, hv = part.split('=', 1)
+                        ch_headers[hk.strip()] = hv.strip()
                     elif ':' in part:
-                        k, v = part.split(':', 1)
-                        headers[k.strip()] = v.strip()
+                        hk, hv = part.split(':', 1)
+                        ch_headers[hk.strip()] = hv.strip()
                         
             channel_obj = {
-                "name": name if name else f"Channel {len(channels_list) + 1}",
+                "name": ch_name if ch_name else f"Channel {len(channels_list) + 1}",
                 "logo": logo,
                 "url": url,
                 "group": group
@@ -292,8 +320,8 @@ def parse_json_playlist(data):
                 channel_obj["url_raw"] = url_raw
             if status:
                 channel_obj["status"] = status
-            if headers:
-                channel_obj["headers"] = headers
+            if ch_headers:
+                channel_obj["headers"] = ch_headers
             if kodiprops:
                 channel_obj["kodiprops"] = kodiprops
             if exthttps:

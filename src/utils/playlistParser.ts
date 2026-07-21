@@ -152,6 +152,47 @@ export function parseM3U(m3uContent: string): Channel[] {
   return channels;
 }
 
+function extractUrlsFromItem(item: any): string[] {
+  const urls: string[] = [];
+  
+  const addUrl = (val: any) => {
+    if (typeof val === 'string' && val.trim().length > 0) {
+      const u = val.trim();
+      if (!urls.includes(u)) {
+        urls.push(u);
+      }
+    } else if (typeof val === 'object' && val !== null) {
+      if (Array.isArray(val)) {
+        for (const elem of val) {
+          addUrl(elem);
+        }
+      } else {
+        const subKeys = ['streams', 'stream', 'urls', 'url', 'video_url', 'pub_url', 'dai_url', 'link', 'src', 'uri', 'm3u8', 'file', 'hls', 'dash'];
+        for (const sk of subKeys) {
+          if (val[sk]) {
+            addUrl(val[sk]);
+          }
+        }
+      }
+    }
+  };
+
+  const primaryKeys = [
+    'video_url', 'videoUrl', 'pub_url', 'pubUrl', 'dai_url', 'daiUrl',
+    'url', 'link', 'stream', 'stream_url', 'stream_link', 'source',
+    'uri', 'm3u8', 'm3u8_url', 'streamUrl', 'streamLink', 'sources',
+    'streams', 'urls', 'links', 'src'
+  ];
+
+  for (const k of primaryKeys) {
+    if (item[k]) {
+      addUrl(item[k]);
+    }
+  }
+
+  return urls;
+}
+
 /**
  * Intelligent JSON playlist parser that traverses any JSON structure
  * to find arrays containing channel or match metadata.
@@ -214,19 +255,10 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
       }
     }
     
-    // Find stream URL
-    const urlKeys = ['video_url', 'videoUrl', 'pub_url', 'pubUrl', 'dai_url', 'daiUrl', 'url', 'link', 'stream', 'stream_url', 'stream_link', 'source', 'uri', 'm3u8', 'm3u8_url', 'streamUrl', 'streamLink'];
-    let url = '';
-    for (const k of urlKeys) {
-      if (item[k]) {
-        url = String(item[k]);
-        break;
-      }
-    }
-    
-    // Fallback if URL is empty (e.g. upcoming event)
-    if (!url) {
-      url = 'https://upcoming-match-no-stream.m3u8';
+    // Extract stream URLs (handles arrays like sources.streams or direct strings)
+    const urls = extractUrlsFromItem(item);
+    if (urls.length === 0) {
+      urls.push('https://upcoming-match-no-stream.m3u8');
     }
     
     // Find logo
@@ -240,7 +272,7 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
     }
     
     // Find group/category
-    const groupKeys = ['group', 'category', 'genre', 'group-title', 'type', 'stream_category', 'sportName', 'event_category', 'eventCategory'];
+    const groupKeys = ['group', 'category', 'genre', 'group-title', 'type', 'stream_category', 'sportName', 'event_category', 'eventCategory', 'country'];
     let group = '';
     for (const k of groupKeys) {
       if (item[k]) {
@@ -272,19 +304,21 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
       }
     }
     
-    // If we have a URL, add it
-    if (url) {
+    for (let i = 0; i < urls.length; i++) {
+      const streamUrl = urls[i];
+      const channelName = (urls.length > 1 && i > 0) ? `${name} (${i + 1})` : name;
+
       channels.push({
-        name: name || `Channel ${channels.length + 1}`,
+        name: channelName || `Channel ${channels.length + 1}`,
         logo: logo || '',
-        url,
+        url: streamUrl,
         group: group || 'General',
         headers,
         status: item.status ? String(item.status) : undefined,
         attrs: item.attrs && typeof item.attrs === 'object' ? item.attrs : undefined,
         vlc_opts: Array.isArray(item.vlc_opts) ? item.vlc_opts.map(String) : undefined,
         kodiprops: Array.isArray(item.kodiprops) ? item.kodiprops.map(String) : undefined,
-        url_raw: item.url_raw ? String(item.url_raw) : undefined,
+        url_raw: streamUrl,
         exthttps
       });
     }
