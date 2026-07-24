@@ -30,17 +30,33 @@ interface PlaylistItem {
 
 export const GitHubActionGuide: React.FC<GitHubActionGuideProps> = ({ sourceUrl, branding }) => {
   const [playlists, setPlaylists] = useState<PlaylistItem[]>([
-    {
-      name: 'tapmad_bd',
-      url: 'https://raw.githubusercontent.com/srhady/tapmad-bd/main/tapmad_bd.m3u'
+     {
+      "name": "AkashGO_BD",
+      "url": "https://raw.githubusercontent.com/srhady/Hady/main/akash_live.m3u"
     },
     {
-      name: 'sonyliv',
-      url: 'https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/main/sonyliv.m3u'
+      "name": "World_Movies",
+      "url": "https://raw.githubusercontent.com/famelack/famelack-data/main/tv/raw/categories/movies.json"
     },
     {
-      name: 'toffee_channel_data',
-      url: 'https://raw.githubusercontent.com/BINOD-XD/Toffee-Auto-Update-Playlist/main/toffee_channel_data.json'
+      "name": "Live_Sports",
+      "url": "https://raw.githubusercontent.com/bamartv/BMTV/main/live_tv_channels.m3u"
+    },
+    {
+      "name": "Music_World",
+      "url": "https://raw.githubusercontent.com/famelack/famelack-data/main/tv/raw/categories/music.json"
+    },
+    {
+      "name": "tapmad_bd",
+      "url": "https://raw.githubusercontent.com/srhady/tapmad-bd/main/tapmad_bd.json"
+    },
+    {
+      "name": "sonyliv",
+      "url": "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json"
+    },
+    {
+      "name": "Toffee_Playlist",
+      "url": "https://raw.githubusercontent.com/srhady/toffee-bd/main/toffee_playlist.json"
     }
   ]);
 
