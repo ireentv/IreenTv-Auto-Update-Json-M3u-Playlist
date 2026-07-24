@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, ChangeEvent } from 'react';
 import { Channel, PlaylistBranding, PredefinedSource, StandardPlaylist } from './types';
 import { BrandingForm } from './components/BrandingForm';
 import { PlaylistViewer } from './components/PlaylistViewer';
 import { ProxyUrlGenerator } from './components/ProxyUrlGenerator';
 import { GitHubActionGuide } from './components/GitHubActionGuide';
 import { MultiSourceAggregator } from './components/MultiSourceAggregator';
+import { parsePlaylist } from './utils/playlistParser';
 import { 
   Tv, 
   Settings, 
@@ -18,7 +19,9 @@ import {
   Flame, 
   TrendingUp, 
   ArrowRight,
-  RefreshCw
+  RefreshCw,
+  FileText,
+  Upload
 } from 'lucide-react';
 
 const PREDEFINED_SOURCES: PredefinedSource[] = [
@@ -171,6 +174,53 @@ export default function App() {
     setTimeout(() => setSuccessMessage(null), 3000);
   };
 
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const handleDirectTextParse = (rawText: string, name: string) => {
+    if (!rawText.trim()) return;
+    setIsLoading(true);
+    setErrorMessage(null);
+    try {
+      const parsed = parsePlaylist(rawText, name || 'custom_playlist');
+      const updatedPlaylist: StandardPlaylist = {
+        ...parsed,
+        branding: {
+          ...branding,
+          name: name || branding.name || 'custom_playlist',
+          channels_amount: parsed.channels.length,
+          Last_update: new Date().toISOString().split('T')[0]
+        }
+      };
+      setPlaylistData(updatedPlaylist);
+      setBranding(prev => ({
+        ...prev,
+        channels_amount: parsed.channels.length,
+        Last_update: new Date().toISOString().split('T')[0]
+      }));
+      setSuccessMessage(`${parsed.channels.length}টি চ্যানেল সহ প্লেলিস্ট সফলভাবে কনভার্ট করা হয়েছে!`);
+      setTimeout(() => setSuccessMessage(null), 3000);
+    } catch (err: any) {
+      console.error(err);
+      setErrorMessage('প্লেলিস্ট পার্স করতে সমস্যা হয়েছে। দয়া করে সঠিক JSON অথবা M3U ফরম্যাট নিশ্চিত করুন।');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleFileUpload = (e: ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (evt) => {
+      const text = evt.target?.result as string;
+      if (text) {
+        const cleanName = file.name.replace(/\.[^/.]+$/, "");
+        handleDirectTextParse(text, cleanName);
+      }
+    };
+    reader.readAsText(file);
+  };
+
   return (
     <div id="app-root-container" className="min-h-screen bg-slate-950 text-slate-100 font-sans antialiased selection:bg-emerald-500/30 selection:text-emerald-300">
       
@@ -294,9 +344,11 @@ export default function App() {
             {/* Custom Input Source Card */}
             <div className="lg:col-span-1 bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-4 flex flex-col justify-between">
               <div className="space-y-3">
-                <span className="text-xs font-semibold text-slate-400 flex items-center gap-1">
-                  <Plus className="w-3.5 h-3.5 text-emerald-400" />
-                  নতুন কাস্টম সোর্স যোগ করুন:
+                <span className="text-xs font-semibold text-slate-400 flex items-center justify-between">
+                  <span className="flex items-center gap-1">
+                    <Plus className="w-3.5 h-3.5 text-emerald-400" />
+                    নতুন কাস্টম সোর্স বা ফাইল:
+                  </span>
                 </span>
                 <div className="space-y-2">
                   <input
@@ -317,14 +369,34 @@ export default function App() {
                   />
                 </div>
               </div>
-              <button
-                id="btn-load-custom"
-                onClick={handleCustomUrlLoad}
-                className="w-full mt-3 py-2 bg-slate-800 hover:bg-emerald-600 hover:text-slate-950 text-slate-300 font-semibold rounded-xl text-xs flex items-center justify-center gap-1.5 transition"
-              >
-                লোড কাস্টম সোর্স
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
+
+              <div className="space-y-2 mt-2">
+                <button
+                  id="btn-load-custom"
+                  onClick={handleCustomUrlLoad}
+                  className="w-full py-2 bg-slate-800 hover:bg-emerald-600 hover:text-slate-950 text-slate-300 font-semibold rounded-xl text-xs flex items-center justify-center gap-1.5 transition"
+                >
+                  URL লিংক থেকে লোড
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </button>
+
+                <input 
+                  type="file" 
+                  ref={fileInputRef} 
+                  onChange={handleFileUpload} 
+                  accept=".json,.m3u,.m3u8,.txt" 
+                  className="hidden" 
+                />
+
+                <button
+                  id="btn-upload-file"
+                  onClick={() => fileInputRef.current?.click()}
+                  className="w-full py-2 bg-slate-950 hover:bg-slate-800 text-emerald-400 font-medium rounded-xl text-xs flex items-center justify-center gap-1.5 transition border border-slate-800"
+                >
+                  <Upload className="w-3.5 h-3.5" />
+                  ফাইল আপলোড (.json / .m3u)
+                </button>
+              </div>
             </div>
 
           </div>

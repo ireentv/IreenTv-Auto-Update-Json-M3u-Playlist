@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Channel, StandardPlaylist } from '../types';
-import { Search, Info, List, Code, Copy, Check, Tv, ExternalLink } from 'lucide-react';
-import { generateJSON } from '../utils/playlistParser';
+import { Search, Info, List, Code, Copy, Check, Tv, ExternalLink, Download } from 'lucide-react';
+import { generateJSON, generateM3U, generateRawChannelsArray } from '../utils/playlistParser';
 
 interface PlaylistViewerProps {
   playlist: StandardPlaylist | null;
@@ -40,43 +40,30 @@ export const PlaylistViewer: React.FC<PlaylistViewerProps> = ({ playlist, isLoad
     (ch.group && ch.group.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
-  const formattedJSON = JSON.stringify(
-    generateJSON(playlist),
-    null,
-    2
-  );
-
-  const formattedM3U = `#EXTM3U
-# Playlist Name: ${playlist.branding.name}
-# Owner: ${playlist.branding.owner}
-# Telegram: ${playlist.branding.telegram}
-# Website: ${playlist.branding.website}
-# Developer: ${playlist.branding.developer}
-# Version: ${playlist.branding.version}
-# Channels Amount: ${playlist.branding.channels_amount}
-# Last Update: ${playlist.branding.Last_update}
-
-${playlist.channels.map(ch => {
-  const logoAttr = ch.logo ? ` tvg-logo="${ch.logo}"` : '';
-  const groupAttr = ch.group ? ` group-title="${ch.group}"` : '';
-  let headerOpts = '';
-  if (ch.headers) {
-    for (const [key, val] of Object.entries(ch.headers)) {
-      if (key.toLowerCase() === 'user-agent') {
-        headerOpts += `#EXTVLCOPT:http-user-agent=${val}\n`;
-      } else if (key.toLowerCase() === 'referer') {
-        headerOpts += `#EXTVLCOPT:http-referrer=${val}\n`;
-      }
-    }
-  }
-  return `#EXTINF:-1${logoAttr}${groupAttr},${ch.name}\n${headerOpts}${ch.url}`;
-}).join('\n\n')}`;
+  const rawChannelsJSON = JSON.stringify(generateRawChannelsArray(playlist), null, 2);
+  const formattedM3U = generateM3U(playlist);
 
   const handleCopy = () => {
-    const textToCopy = activeTab === 'json' ? formattedJSON : formattedM3U;
+    const textToCopy = activeTab === 'json' ? rawChannelsJSON : formattedM3U;
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleDownloadFile = (type: 'json' | 'm3u') => {
+    const textToSave = type === 'json' ? rawChannelsJSON : formattedM3U;
+    const filename = `${playlist.branding.name || 'playlist'}.${type}`;
+    const mime = type === 'json' ? 'application/json' : 'audio/x-mpegurl';
+
+    const blob = new Blob([textToSave], { type: `${mime};charset=utf-8` });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
   return (
@@ -210,31 +197,43 @@ ${playlist.channels.map(ch => {
       ) : (
         /* JSON or M3U view */
         <div className="space-y-3">
-          <div className="flex justify-between items-center text-xs text-slate-400">
+          <div className="flex flex-wrap justify-between items-center gap-2 text-xs text-slate-400">
             <span className="flex items-center gap-1.5">
               <Info className="w-3.5 h-3.5 text-emerald-400" />
-              আপনার ব্র্যান্ডিং সহ রিয়েল-টাইম কনভার্ট হওয়া প্লেলিস্ট কোড
+              ফরম্যাট করা প্লেলিস্ট প্রিভিউ ({activeTab === 'json' ? '.json schema' : '.m3u format'})
             </span>
-            <button
-              id="btn-copy-code"
-              onClick={handleCopy}
-              className="px-3 py-1.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-lg font-semibold flex items-center gap-1.5 transition"
-            >
-              {copied ? (
-                <>
-                  <Check className="w-3.5 h-3.5" />
-                  কপি করা হয়েছে!
-                </>
-              ) : (
-                <>
-                  <Copy className="w-3.5 h-3.5" />
-                  কোড কপি করুন
-                </>
-              )}
-            </button>
+
+            <div className="flex items-center gap-2">
+              <button
+                id="btn-download-active"
+                onClick={() => handleDownloadFile(activeTab === 'json' ? 'json' : 'm3u')}
+                className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-lg font-semibold flex items-center gap-1.5 transition text-xs border border-slate-700"
+              >
+                <Download className="w-3.5 h-3.5 text-emerald-400" />
+                ডাউনলোড (.{activeTab === 'json' ? 'json' : 'm3u'})
+              </button>
+
+              <button
+                id="btn-copy-code"
+                onClick={handleCopy}
+                className="px-3 py-1.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-lg font-semibold flex items-center gap-1.5 transition text-xs"
+              >
+                {copied ? (
+                  <>
+                    <Check className="w-3.5 h-3.5" />
+                    কপি করা হয়েছে!
+                  </>
+                ) : (
+                  <>
+                    <Copy className="w-3.5 h-3.5" />
+                    কোড কপি করুন
+                  </>
+                )}
+              </button>
+            </div>
           </div>
           <pre className="bg-slate-950 text-emerald-400 font-mono text-xs p-4 rounded-xl border border-slate-800 max-h-[400px] overflow-auto select-all whitespace-pre-wrap">
-            {activeTab === 'json' ? formattedJSON : formattedM3U}
+            {activeTab === 'json' ? rawChannelsJSON : formattedM3U}
           </pre>
         </div>
       )}

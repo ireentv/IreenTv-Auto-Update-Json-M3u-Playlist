@@ -282,13 +282,44 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
     }
     
     // Find custom HTTP headers (frequently present in modern auto-updating lists)
-    let headers: Record<string, string> | undefined = undefined;
+    let headers: Record<string, string> = {};
     const headerKeys = ['headers', 'header', 'http_headers', 'header_info'];
     for (const k of headerKeys) {
       if (item[k] && typeof item[k] === 'object') {
         headers = { ...item[k] };
         break;
       }
+    }
+
+    // Extract root-level header/cookie properties if available
+    if (item.cookie && !headers.cookie) headers.cookie = String(item.cookie);
+    if (item.drm_token && !headers.drm_token) headers.drm_token = String(item.drm_token);
+    if (item.user_agent && !headers['User-Agent']) headers['User-Agent'] = String(item.user_agent);
+    if (item['User-Agent'] && !headers['User-Agent']) headers['User-Agent'] = String(item['User-Agent']);
+    if (item.origin && !headers['Origin']) headers['Origin'] = String(item.origin);
+    if (item['Origin'] && !headers['Origin']) headers['Origin'] = String(item['Origin']);
+    if (item.referer && !headers['Referer']) headers['Referer'] = String(item.referer);
+    if (item['Referer'] && !headers['Referer']) headers['Referer'] = String(item['Referer']);
+    if (item.host && !headers['Host']) headers['Host'] = String(item.host);
+    if (item['Host'] && !headers['Host']) headers['Host'] = String(item['Host']);
+    if (item['x-forwarded-for'] && !headers['x-forwarded-for']) headers['x-forwarded-for'] = String(item['x-forwarded-for']);
+
+    // Extract attrs
+    let attrs: Record<string, string> = {};
+    if (item.attrs && typeof item.attrs === 'object') {
+      attrs = { ...item.attrs };
+    }
+    const tvgId = item['tvg-id'] || item.tvg_id || item.tvgId || item.id || attrs['tvg-id'];
+    if (tvgId) {
+      attrs['tvg-id'] = String(tvgId);
+    }
+
+    // Extract kodiprops
+    let kodiprops: string[] | undefined = undefined;
+    if (Array.isArray(item.kodiprops)) {
+      kodiprops = item.kodiprops.map(String);
+    } else if (Array.isArray(item.kodi_props)) {
+      kodiprops = item.kodi_props.map(String);
     }
     
     // Find extra properties
@@ -313,12 +344,12 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
         logo: logo || '',
         url: streamUrl,
         group: group || 'General',
-        headers,
+        headers: Object.keys(headers).length > 0 ? headers : undefined,
         status: item.status ? String(item.status) : undefined,
-        attrs: item.attrs && typeof item.attrs === 'object' ? item.attrs : undefined,
+        attrs: Object.keys(attrs).length > 0 ? attrs : undefined,
         vlc_opts: Array.isArray(item.vlc_opts) ? item.vlc_opts.map(String) : undefined,
-        kodiprops: Array.isArray(item.kodiprops) ? item.kodiprops.map(String) : undefined,
-        url_raw: streamUrl,
+        kodiprops,
+        url_raw: item.url_raw || streamUrl,
         exthttps
       });
     }
@@ -370,107 +401,103 @@ export function parsePlaylist(content: string, customName: string = 'playlist'):
 }
 
 /**
- * Formats a list of channels into an M3U playlist file with custom branded header
+ * Formats a list of channels into raw channel objects strictly following requested schema
  */
-export function generateM3U(playlist: StandardPlaylist): string {
-  const b = playlist.branding;
-  let m3u = `#EXTM3U
-# Playlist Name: ${b.name}
-# Owner: ${b.owner}
-# Telegram: ${b.telegram}
-# Website: ${b.website}
-# Developer: ${b.developer}
-# Version: ${b.version}
-# Channels Amount: ${b.channels_amount}
-# Last Update: ${b.Last_update}
+export function generateRawChannelsArray(playlist: StandardPlaylist): any[] {
+  return playlist.channels.map(ch => {
+    const headers: Record<string, string> = {
+      drm_token: ch.headers?.['drm_token'] || ch.headers?.['drmToken'] || '',
+      'User-Agent': ch.headers?.['User-Agent'] || ch.headers?.['user-agent'] || '',
+      'Origin': ch.headers?.['Origin'] || ch.headers?.['origin'] || '',
+      'Referer': ch.headers?.['Referer'] || ch.headers?.['referer'] || '',
+      cookie: ch.headers?.['cookie'] || ch.headers?.['Cookie'] || '',
+      Host: ch.headers?.['Host'] || ch.headers?.['host'] || '',
+      'x-forwarded-for': ch.headers?.['x-forwarded-for'] || ch.headers?.['X-Forwarded-For'] || ''
+    };
 
-`;
-
-  for (const ch of playlist.channels) {
-    const attrsToWrite: Record<string, string> = {};
-    if (ch.attrs) {
-      Object.assign(attrsToWrite, ch.attrs);
-    }
-    
-    // Ensure name, logo, group are written with correct standard keys
-    if (ch.logo) {
-      attrsToWrite['tvg-logo'] = ch.logo;
-    }
-    if (ch.group && ch.group !== 'General') {
-      attrsToWrite['group-title'] = ch.group;
-    }
-    if (ch.name) {
-      attrsToWrite['tvg-name'] = ch.name;
-    }
-    if (ch.status) {
-      attrsToWrite['status'] = ch.status;
-    }
-    
-    // Clean up key duplicates/variations
-    delete attrsToWrite['logo'];
-    delete attrsToWrite['category'];
-    delete attrsToWrite['group'];
-    delete attrsToWrite['name'];
-    
-    let attrsStr = '';
-    for (const [k, v] of Object.entries(attrsToWrite)) {
-      attrsStr += ` ${k}="${v}"`;
-    }
-    
-    m3u += `#EXTINF:-1${attrsStr},${ch.name}\n`;
-    
-    // Write custom VLC options if present
-    if (ch.vlc_opts && Array.isArray(ch.vlc_opts)) {
-      for (const opt of ch.vlc_opts) {
-        m3u += `#EXTVLCOPT:${opt}\n`;
-      }
-    }
-    
-    // Write standard HTTP headers from ch.headers as EXTVLCOPT
     if (ch.headers) {
-      for (const [key, val] of Object.entries(ch.headers)) {
-        if (key.toLowerCase() === 'user-agent') {
-          m3u += `#EXTVLCOPT:http-user-agent=${val}\n`;
-        } else if (key.toLowerCase() === 'referer') {
-          m3u += `#EXTVLCOPT:http-referrer=${val}\n`;
-        } else if (key.toLowerCase() === 'origin') {
-          m3u += `#EXTVLCOPT:http-origin=${val}\n`;
+      for (const [k, v] of Object.entries(ch.headers)) {
+        if (headers[k] === undefined) {
+          headers[k] = v || '';
         }
       }
     }
-    
-    // Write custom KODIPROP lines if present
-    if (ch.kodiprops && Array.isArray(ch.kodiprops)) {
+
+    const attrs: Record<string, string> = {
+      'tvg-id': ch.attrs?.['tvg-id'] || ch.attrs?.['tvg_id'] || ch.attrs?.['id'] || '117'
+    };
+    if (ch.attrs) {
+      for (const [k, v] of Object.entries(ch.attrs)) {
+        if (attrs[k] === undefined) {
+          attrs[k] = v || '';
+        }
+      }
+    }
+
+    const kodiprops = (ch.kodiprops && ch.kodiprops.length > 0) ? ch.kodiprops : [
+      "inputstream=inputstream.adaptive",
+      "inputstream.adaptive.manifest_type=mpd",
+      "inputstream.adaptive.license_type=com.widevine.alpha",
+      "inputstream.adaptive.license_key=https://|"
+    ];
+
+    return {
+      name: ch.name || '',
+      logo: ch.logo || '',
+      url: ch.url || '',
+      group: ch.group || 'Sports',
+      url_raw: ch.url_raw || ch.url || '',
+      headers,
+      attrs,
+      kodiprops
+    };
+  });
+}
+
+/**
+ * Formats a list of channels into an M3U playlist file with strict requested structure
+ */
+export function generateM3U(playlist: StandardPlaylist): string {
+  let m3u = `#EXTM3U\n`;
+
+  for (const ch of playlist.channels) {
+    const tvgId = ch.attrs?.['tvg-id'] || ch.attrs?.['tvg_id'] || ch.attrs?.['id'] || '117';
+    const logo = ch.logo || '';
+    const group = ch.group || 'Sports';
+    const tvgName = ch.name || 'Channel';
+    const name = ch.name || 'Channel';
+
+    const userAgent = ch.headers?.['User-Agent'] || ch.headers?.['user-agent'] || '';
+    const origin = ch.headers?.['Origin'] || ch.headers?.['origin'] || '';
+    const referrer = ch.headers?.['Referer'] || ch.headers?.['referer'] || '';
+
+    let extHttp = '';
+    if (ch.headers && ch.headers.cookie) {
+      extHttp = JSON.stringify({ cookie: ch.headers.cookie });
+    } else if (ch.exthttps && ch.exthttps.length > 0) {
+      extHttp = ch.exthttps[0];
+    } else if (ch.headers && Object.keys(ch.headers).length > 0) {
+      extHttp = JSON.stringify(ch.headers);
+    } else {
+      extHttp = '{"cookie":""}';
+    }
+
+    m3u += `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${logo}" group-title="${group}" tvg-name="${tvgName}",${name}\n`;
+    m3u += `#EXTVLCOPT:http-user-agent=${userAgent}\n`;
+    m3u += `#EXTVLCOPT:http-origin=${origin}\n`;
+    m3u += `#EXTVLCOPT:http-referrer=${referrer}\n`;
+    m3u += `#EXTHTTP:${extHttp}\n`;
+
+    if (ch.kodiprops && ch.kodiprops.length > 0) {
       for (const prop of ch.kodiprops) {
         m3u += `#KODIPROP:${prop}\n`;
       }
     }
-    
-    // Write custom EXTHTTP lines if present, or generate from ch.headers if present
-    if (ch.exthttps && Array.isArray(ch.exthttps)) {
-      for (const http of ch.exthttps) {
-        m3u += `#EXTHTTP:${http}\n`;
-      }
-    } else if (ch.headers && Object.keys(ch.headers).length > 0) {
-      m3u += `#EXTHTTP:${JSON.stringify(ch.headers)}\n`;
-    }
-    
-    let urlToWrite = ch.url_raw || ch.url || "https://upcoming-match-no-stream.m3u8";
-    if (!ch.url_raw && ch.url && ch.headers) {
-      const inlineHeaders: string[] = [];
-      for (const [hk, hv] of Object.entries(ch.headers)) {
-        if (!['user-agent', 'referer', 'origin'].includes(hk.toLowerCase())) {
-          inlineHeaders.push(`${hk}:${hv}`);
-        }
-      }
-      if (inlineHeaders.length > 0) {
-        urlToWrite = `${ch.url}|${inlineHeaders.join('|')}`;
-      }
-    }
-    
-    m3u += `${urlToWrite}\n\n`;
+
+    const streamUrl = ch.url_raw || ch.url || 'https://xxxxxxxx';
+    m3u += `${streamUrl}\n\n`;
   }
-  
+
   return m3u;
 }
 
@@ -479,38 +506,7 @@ export function generateM3U(playlist: StandardPlaylist): string {
  */
 export function generateJSON(playlist: StandardPlaylist): any {
   const b = playlist.branding;
-  
-  const cleanChannels = playlist.channels.map(ch => {
-    const cleanCh: any = {
-      name: ch.name,
-      logo: ch.logo || '',
-      url: ch.url,
-      group: ch.group || 'General'
-    };
-    
-    // Add other fields in exact ordered sequence, keeping it clean
-    if (ch.url_raw) {
-      cleanCh.url_raw = ch.url_raw;
-    }
-    if (ch.headers && Object.keys(ch.headers).length > 0) {
-      cleanCh.headers = ch.headers;
-    }
-    if (ch.attrs && Object.keys(ch.attrs).length > 0) {
-      cleanCh.attrs = ch.attrs;
-    }
-    if (ch.vlc_opts && ch.vlc_opts.length > 0) {
-      cleanCh.vlc_opts = ch.vlc_opts;
-    }
-    if (ch.kodiprops && ch.kodiprops.length > 0) {
-      cleanCh.kodiprops = ch.kodiprops;
-    }
-    if (ch.status) {
-      cleanCh.status = ch.status;
-    }
-    
-    // Exclude exthttps to keep JSON output clean, as requested by the user
-    return cleanCh;
-  });
+  const cleanChannels = generateRawChannelsArray(playlist);
 
   return {
     status: b.status,
