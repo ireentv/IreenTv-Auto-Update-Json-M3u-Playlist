@@ -414,41 +414,53 @@ export function parsePlaylist(content: string, customName: string = 'playlist'):
  */
 export function generateRawChannelsArray(playlist: StandardPlaylist): any[] {
   return playlist.channels.map(ch => {
-    const headers: Record<string, string> = {
-      drm_token: ch.headers?.['drm_token'] || ch.headers?.['drmToken'] || '',
-      'User-Agent': ch.headers?.['User-Agent'] || ch.headers?.['user-agent'] || '',
-      'Origin': ch.headers?.['Origin'] || ch.headers?.['origin'] || '',
-      'Referer': ch.headers?.['Referer'] || ch.headers?.['referer'] || '',
-      cookie: ch.headers?.['cookie'] || ch.headers?.['Cookie'] || '',
-      Host: ch.headers?.['Host'] || ch.headers?.['host'] || '',
-      'x-forwarded-for': ch.headers?.['x-forwarded-for'] || ch.headers?.['X-Forwarded-For'] || ''
+    // Guaranteed standard headers object
+    const defaultHeaders: Record<string, string> = {
+      "drm_token": "",
+      "User-Agent": "",
+      "Origin": "",
+      "Referer": "",
+      "cookie": "",
+      "Host": "",
+      "x-forwarded-for": ""
     };
 
     if (ch.headers) {
       for (const [k, v] of Object.entries(ch.headers)) {
-        if (headers[k] === undefined) {
-          headers[k] = v || '';
+        if (v !== undefined && v !== null) {
+          const lowerK = k.toLowerCase();
+          if (lowerK === 'drm_token' || lowerK === 'drmtoken') defaultHeaders['drm_token'] = String(v);
+          else if (lowerK === 'user-agent') defaultHeaders['User-Agent'] = String(v);
+          else if (lowerK === 'origin') defaultHeaders['Origin'] = String(v);
+          else if (lowerK === 'referer' || lowerK === 'referrer') defaultHeaders['Referer'] = String(v);
+          else if (lowerK === 'cookie') defaultHeaders['cookie'] = String(v);
+          else if (lowerK === 'host') defaultHeaders['Host'] = String(v);
+          else if (lowerK === 'x-forwarded-for') defaultHeaders['x-forwarded-for'] = String(v);
+          else defaultHeaders[k] = String(v);
         }
       }
     }
 
+    // Guaranteed standard attrs object with tvg-id
     const attrs: Record<string, string> = {
-      'tvg-id': ch.attrs?.['tvg-id'] || ch.attrs?.['tvg_id'] || ch.attrs?.['id'] || '117'
+      "tvg-id": ch.attrs?.['tvg-id'] || ch.attrs?.['tvg_id'] || ch.attrs?.['id'] || "117"
     };
     if (ch.attrs) {
       for (const [k, v] of Object.entries(ch.attrs)) {
-        if (attrs[k] === undefined) {
-          attrs[k] = v || '';
+        if (k !== 'status' && attrs[k] === undefined) {
+          attrs[k] = String(v);
         }
       }
     }
 
-    const kodiprops = (ch.kodiprops && ch.kodiprops.length > 0) ? ch.kodiprops : [
+    // Guaranteed standard kodiprops array
+    const defaultKodiprops = [
       "inputstream=inputstream.adaptive",
       "inputstream.adaptive.manifest_type=mpd",
       "inputstream.adaptive.license_type=com.widevine.alpha",
       "inputstream.adaptive.license_key=https://|"
     ];
+    const kodiprops = (ch.kodiprops && ch.kodiprops.length > 0) ? ch.kodiprops : defaultKodiprops;
 
     return {
       name: ch.name || '',
@@ -456,7 +468,7 @@ export function generateRawChannelsArray(playlist: StandardPlaylist): any[] {
       url: ch.url || '',
       group: ch.group || 'Sports',
       url_raw: ch.url_raw || ch.url || '',
-      headers,
+      headers: defaultHeaders,
       attrs,
       kodiprops
     };
@@ -469,27 +481,21 @@ export function generateRawChannelsArray(playlist: StandardPlaylist): any[] {
 export function generateM3U(playlist: StandardPlaylist): string {
   let m3u = `#EXTM3U\n`;
 
-  for (const ch of playlist.channels) {
-    const tvgId = ch.attrs?.['tvg-id'] || ch.attrs?.['tvg_id'] || ch.attrs?.['id'] || '117';
+  const rawChannels = generateRawChannelsArray(playlist);
+
+  for (const ch of rawChannels) {
+    const tvgId = ch.attrs?.['tvg-id'] || '117';
     const logo = ch.logo || '';
     const group = ch.group || 'Sports';
     const tvgName = ch.name || 'Channel';
     const name = ch.name || 'Channel';
 
-    const userAgent = ch.headers?.['User-Agent'] || ch.headers?.['user-agent'] || '';
-    const origin = ch.headers?.['Origin'] || ch.headers?.['origin'] || '';
-    const referrer = ch.headers?.['Referer'] || ch.headers?.['referer'] || '';
+    const userAgent = ch.headers?.['User-Agent'] || '';
+    const origin = ch.headers?.['Origin'] || '';
+    const referrer = ch.headers?.['Referer'] || '';
+    const cookie = ch.headers?.['cookie'] || '';
 
-    let extHttp = '';
-    if (ch.headers && ch.headers.cookie) {
-      extHttp = JSON.stringify({ cookie: ch.headers.cookie });
-    } else if (ch.exthttps && ch.exthttps.length > 0) {
-      extHttp = ch.exthttps[0];
-    } else if (ch.headers && Object.keys(ch.headers).length > 0) {
-      extHttp = JSON.stringify(ch.headers);
-    } else {
-      extHttp = '{"cookie":""}';
-    }
+    const extHttp = JSON.stringify({ cookie });
 
     m3u += `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${logo}" group-title="${group}" tvg-name="${tvgName}",${name}\n`;
     m3u += `#EXTVLCOPT:http-user-agent=${userAgent}\n`;
@@ -497,7 +503,7 @@ export function generateM3U(playlist: StandardPlaylist): string {
     m3u += `#EXTVLCOPT:http-referrer=${referrer}\n`;
     m3u += `#EXTHTTP:${extHttp}\n`;
 
-    if (ch.kodiprops && ch.kodiprops.length > 0) {
+    if (ch.kodiprops && Array.isArray(ch.kodiprops)) {
       for (const prop of ch.kodiprops) {
         m3u += `#KODIPROP:${prop}\n`;
       }
