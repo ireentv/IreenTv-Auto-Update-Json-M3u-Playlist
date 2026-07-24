@@ -5,8 +5,8 @@
 # Website: https://anamul.pages.dev
 # Developer: IreenTechnology
 # Version: 1.0
-# Channels Amount: 262
-# Last Update: 2026-07-24 11:16:55 AM
+# Channels Amount: 265
+# Last Update: 2026-07-24 12:57:34 PM
 
 #EXTINF:-1 group-title="us" tvg-name="24 Hour Free Movies",24 Hour Free Movies
 https://d1b5mlajbmvkjv.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/145.m3u8?ads.vf=7FhdsxqVxOi
@@ -59,6 +59,12 @@ https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
 #EXTINF:-1 group-title="br" tvg-name="AXN",AXN
 https://45.190.28.50/AXN_HD/index.m3u8
 
+#EXTINF:-1 group-title="ro" tvg-name="AXN Black Romania",AXN Black Romania
+https://aes.m3u8simplu.workers.dev/axnblack/index.m3u8
+
+#EXTINF:-1 group-title="ro" tvg-name="AXN CEE Romania",AXN CEE Romania
+https://aes.m3u8simplu.workers.dev/axn/index.m3u8
+
 #EXTINF:-1 group-title="in" tvg-name="Bhojpuri Cinema",Bhojpuri Cinema
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 
@@ -93,13 +99,13 @@ https://cafefhls.wns.live/hls/stream.m3u8
 https://canal.mediaserver.com.co/live/cinedios.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Charge!",Charge!
-https://206.212.244.63/34/index.m3u8
+https://gpuserver3.tier1streams.com/CHARGE/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Charge! (2)",Charge! (2)
 https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Charge! (3)",Charge! (3)
-https://gpuserver3.tier1streams.com/CHARGE/index.m3u8
+https://206.212.244.63/34/index.m3u8
 
 #EXTINF:-1 group-title="br" tvg-name="CINDIE TV",CINDIE TV
 https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
@@ -143,6 +149,9 @@ https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="ro" tvg-name="CineMaraton",CineMaraton
 https://aes.m3u8simplu.workers.dev/cinemaraton/index.m3u8
 
+#EXTINF:-1 group-title="md" tvg-name="Cinemaraton Moldova",Cinemaraton Moldova
+https://aes.m3u8simplu.workers.dev/cinemaratonmoldova/index.m3u8
+
 #EXTINF:-1 group-title="ru" tvg-name="City Eden KinoAction",City Eden KinoAction
 https://cityeden.catcast.tv/content/41333/index.m3u8
 
@@ -151,6 +160,9 @@ https://cityeden.catcast.tv/content/38398/index.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="City Eden KinoAsia",City Eden KinoAsia
 https://cityeden.catcast.tv/content/34393/index.m3u8
+
+#EXTINF:-1 group-title="ru" tvg-name="City Eden KinoDetektiv",City Eden KinoDetektiv
+https://cityeden.catcast.tv/content/41327/index.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="City Eden KinoDrama",City Eden KinoDrama
 https://cityeden.catcast.tv/content/45269/index.m3u8
@@ -163,6 +175,9 @@ https://cityeden.catcast.tv/content/34185/index.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="City Eden KinoKomediya",City Eden KinoKomediya
 https://cityeden.catcast.tv/content/41331/index.m3u8
+
+#EXTINF:-1 group-title="ru" tvg-name="City Eden KinoMistika",City Eden KinoMistika
+https://cityeden.catcast.tv/content/40783/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Classic Cinema",Classic Cinema
 https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8
@@ -458,9 +473,6 @@ https://gpuserver3.tier1streams.com/EPIX_DRIVE-IN/index.m3u8
 #EXTINF:-1 group-title="us" tvg-name="MGM+ East",MGM+ East
 https://gpuserver3.tier1streams.com/EPIX/index.m3u8
 
-#EXTINF:-1 group-title="eg" tvg-name="Mix Hollywood",Mix Hollywood
-https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
-
 #EXTINF:-1 group-title="bg" tvg-name="Movie Star",Movie Star
 https://shift03.isp.bg/MovieStar/index.m3u8
 
@@ -584,9 +596,6 @@ https://oly-ftvpc.otteravision.com/oly/ftvpc/ftvpc.m3u8
 #EXTINF:-1 group-title="ru" tvg-name="Premialnoe",Premialnoe
 https://stream.mcquack.net/421/index.m3u8
 
-#EXTINF:-1 group-title="ro" tvg-name="Pro Cinema",Pro Cinema
-https://aes.m3u8simplu.workers.dev/procinema/index.m3u8
-
 #EXTINF:-1 group-title="in" tvg-name="Public Movies",Public Movies
 https://mumt04.tangotv.in/m18aqlK4PUBLICMOVIES/index.m3u8
 
@@ -596,17 +605,17 @@ https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/6
 #EXTINF:-1 group-title="in" tvg-name="Raj Digital Plus",Raj Digital Plus
 https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8
 
-#EXTINF:-1 group-title="fi" tvg-name="Rakuten TV Comedy Movies Finland",Rakuten TV Comedy Movies Finland
-https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8
+#EXTINF:-1 group-title="es" tvg-name="Rakuten TV Action Movies Spain",Rakuten TV Action Movies Spain
+https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
 
-#EXTINF:-1 group-title="es" tvg-name="Rakuten TV Drama Movies Spain",Rakuten TV Drama Movies Spain
-https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8
+#EXTINF:-1 group-title="uk" tvg-name="Rakuten TV Action Movies UK",Rakuten TV Action Movies UK
+https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
+
+#EXTINF:-1 group-title="de" tvg-name="Rakuten TV Comedy Movies Germany",Rakuten TV Comedy Movies Germany
+https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8
 
 #EXTINF:-1 group-title="it" tvg-name="Rakuten TV Family Movies Italy",Rakuten TV Family Movies Italy
 https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8
-
-#EXTINF:-1 group-title="uk" tvg-name="Rakuten TV Family Movies UK",Rakuten TV Family Movies UK
-https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
 
 #EXTINF:-1 group-title="it" tvg-name="Rakuten TV Top Movies Italy",Rakuten TV Top Movies Italy
 https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8
@@ -660,10 +669,10 @@ https://sltwohls.wns.live/hls/stream.m3u8
 https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
 
 #EXTINF:-1 group-title="br" tvg-name="Sony Movies",Sony Movies
-https://45.162.64.114/SONY_MOVIES/index.m3u8
+https://45.190.28.50/SONY_MOVIES/index.m3u8
 
 #EXTINF:-1 group-title="br" tvg-name="Sony Movies (2)",Sony Movies (2)
-https://45.190.28.50/SONY_MOVIES/index.m3u8
+https://45.162.64.114/SONY_MOVIES/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Sony Movies Latin America",Sony Movies Latin America
 https://40.160.24.55/SONY_MOVIES/index.m3u8
@@ -731,9 +740,6 @@ https://gpuserver5.tier1streams.com/SYFY/index.m3u8
 #EXTINF:-1 group-title="in" tvg-name="The Movie Club +2",The Movie Club +2
 https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.cdn=cf
 
-#EXTINF:-1 group-title="ro" tvg-name="TV1000",TV1000
-https://aes.m3u8simplu.workers.dev/viasatkino/index.m3u8
-
 #EXTINF:-1 group-title="sx" tvg-name="TVCARiB Cinema",TVCARiB Cinema
 https://cdn.mycloudstream.io/hls/live/broadcast/l3vslw4i/index.m3u8
 
@@ -781,6 +787,9 @@ https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
 
 #EXTINF:-1 group-title="ar" tvg-name="Xtrema Terror",Xtrema Terror
 https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
+
+#EXTINF:-1 group-title="in" tvg-name="ZB Cinema",ZB Cinema
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="Детское кино International",Детское кино International
 https://autopilot.catcast.tv/content/38720/index.m3u8
