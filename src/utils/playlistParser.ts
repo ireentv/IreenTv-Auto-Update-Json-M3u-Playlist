@@ -352,7 +352,7 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
         name: channelName || item.name || `Channel ${channels.length + 1}`,
         logo: logo || '',
         url: streamUrl,
-        group: group || '',
+        group: group || 'Sports',
         headers: Object.keys(headers).length > 0 ? headers : undefined,
         status: item.status ? String(item.status) : undefined,
         attrs: Object.keys(attrs).length > 0 ? attrs : undefined,

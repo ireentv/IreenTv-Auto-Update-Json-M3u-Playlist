@@ -411,87 +411,105 @@ def parse_json_playlist(data):
             
     return channels_list
 
-def generate_m3u_file(brand, channels, name):
-    """Outputs branded M3U text format"""
-    m3u = f"#EXTM3U\\n"
-    m3u += f"# Playlist Name: {name}\\n"
-    m3u += f"# Owner: {brand['owner']}\\n"
-    m3u += f"# Telegram: {brand['telegram']}\\n"
-    m3u += f"# Website: {brand['website']}\\n"
-    m3u += f"# Developer: {brand['developer']}\\n"
-    m3u += f"# Version: {brand['version']}\\n"
-    m3u += f"# Channels Amount: {len(channels)}\\n"
-    m3u += f"# Last Update: {brand['Last_update']}\\n\\n"
-    
+def generate_raw_channels(channels):
+    raw_list = []
     for ch in channels:
-        # Reconstruct #EXTINF using parsed attrs dictionary to preserve all original attributes
-        attrs_to_write = {}
+        default_headers = {
+            "drm_token": "",
+            "User-Agent": "",
+            "Origin": "",
+            "Referer": "",
+            "cookie": "",
+            "Host": "",
+            "x-forwarded-for": ""
+        }
+        if ch.get("headers") and isinstance(ch["headers"], dict):
+            for k, v in ch["headers"].items():
+                if v is not None:
+                    lk = str(k).lower()
+                    if lk in ['drm_token', 'drmtoken']:
+                        default_headers['drm_token'] = str(v)
+                    elif lk == 'user-agent':
+                        default_headers['User-Agent'] = str(v)
+                    elif lk == 'origin':
+                        default_headers['Origin'] = str(v)
+                    elif lk in ['referer', 'referrer']:
+                        default_headers['Referer'] = str(v)
+                    elif lk == 'cookie':
+                        default_headers['cookie'] = str(v)
+                    elif lk == 'host':
+                        default_headers['Host'] = str(v)
+                    elif lk == 'x-forwarded-for':
+                        default_headers['x-forwarded-for'] = str(v)
+                    else:
+                        default_headers[str(k)] = str(v)
+
+        tvg_id = "117"
+        attrs = {}
         if ch.get("attrs") and isinstance(ch["attrs"], dict):
-            attrs_to_write.update(ch["attrs"])
-            
-        # Ensure standard keys are present if we have them in the main fields
-        if ch.get("logo"):
-            attrs_to_write["tvg-logo"] = ch["logo"]
-        if ch.get("group") and ch.get("group") != "General":
-            attrs_to_write["group-title"] = ch["group"]
-        if ch.get("name"):
-            attrs_to_write["tvg-name"] = ch["name"]
-        if ch.get("status"):
-            attrs_to_write["status"] = ch["status"]
-            
-        # Clean up duplicate key variations
-        for key_to_del in ['logo', 'category', 'group', 'name']:
-            if key_to_del in attrs_to_write:
-                del attrs_to_write[key_to_del]
-                
-        if attrs_to_write:
-            attrs_str = ""
-            for k, v in attrs_to_write.items():
-                attrs_str += f' {k}="{v}"'
-            m3u += f"#EXTINF:-1{attrs_str},{ch['name']}\\n"
-        else:
-            m3u += f"#EXTINF:-1,{ch['name']}\\n"
-            
-        # Write custom VLCOPT lines if they were parsed
-        if ch.get("vlc_opts") and isinstance(ch["vlc_opts"], list):
-            for opt in ch["vlc_opts"]:
-                m3u += f"#EXTVLCOPT:{opt}\\n"
-        else:
-            # Fallback to reconstructing headers as EXTVLCOPT
-            if "headers" in ch and isinstance(ch["headers"], dict):
-                for k, v in ch["headers"].items():
-                    if k.lower() == 'user-agent':
-                        m3u += f"#EXTVLCOPT:http-user-agent={v}\\n"
-                    elif k.lower() == 'referer':
-                        m3u += f"#EXTVLCOPT:http-referrer={v}\\n"
-                    elif k.lower() == 'origin':
-                        m3u += f"#EXTVLCOPT:http-origin={v}\\n"
-                        
-        # Write custom KODIPROP lines if they were parsed
-        if ch.get("kodiprops") and isinstance(ch["kodiprops"], list):
-            for prop in ch["kodiprops"]:
-                m3u += f"#KODIPROP:{prop}\\n"
-                
-        # Write custom EXTHTTP lines if they were parsed, or generate from ch["headers"]
-        if ch.get("exthttps") and isinstance(ch["exthttps"], list):
-            for http in ch["exthttps"]:
-                m3u += f"#EXTHTTP:{http}\\n"
-        elif "headers" in ch and isinstance(ch["headers"], dict) and len(ch["headers"]) > 0:
-            import json
-            m3u += f"#EXTHTTP:{json.dumps(ch['headers'])}\\n"
-                
-        url_to_write = ch.get('url_raw') or ch.get('url') or "https://upcoming-match-no-stream.m3u8"
-        if not ch.get('url_raw') and ch.get('url') and ch.get('headers') and isinstance(ch['headers'], dict):
-            # Reconstruct inline headers if url_raw is not present and custom headers exist
-            inline_headers = []
-            for hk, hv in ch['headers'].items():
-                if hk.lower() not in ['user-agent', 'referer', 'origin']:
-                    inline_headers.append(f"{hk}:{hv}")
-            if inline_headers:
-                url_to_write = f"{ch['url']}|" + "|".join(inline_headers)
-                
-        m3u += f"{url_to_write}\\n\\n"
-        
+            for k, v in ch["attrs"].items():
+                if k != 'status':
+                    attrs[str(k)] = str(v)
+            if "tvg-id" in attrs:
+                tvg_id = attrs["tvg-id"]
+            elif "tvg_id" in attrs:
+                tvg_id = attrs["tvg_id"]
+            elif "id" in attrs:
+                tvg_id = attrs["id"]
+
+        attrs["tvg-id"] = tvg_id
+
+        default_kodiprops = [
+            "inputstream=inputstream.adaptive",
+            "inputstream.adaptive.manifest_type=mpd",
+            "inputstream.adaptive.license_type=com.widevine.alpha",
+            "inputstream.adaptive.license_key=https://|"
+        ]
+        kodiprops = ch.get("kodiprops") if (ch.get("kodiprops") and isinstance(ch["kodiprops"], list) and len(ch["kodiprops"]) > 0) else default_kodiprops
+
+        raw_ch = {
+            "name": ch.get("name", ""),
+            "logo": ch.get("logo", ""),
+            "url": ch.get("url", ""),
+            "group": ch.get("group") or "Sports",
+            "url_raw": ch.get("url_raw") or ch.get("url", ""),
+            "headers": default_headers,
+            "attrs": attrs,
+            "kodiprops": kodiprops
+        }
+        raw_list.append(raw_ch)
+    return raw_list
+
+def generate_m3u_file(raw_channels):
+    """Outputs standard M3U text format matching strict requested schema"""
+    m3u = f"#EXTM3U\\n"
+    
+    for ch in raw_channels:
+        tvg_id = ch["attrs"].get("tvg-id", "117")
+        logo = ch.get("logo", "")
+        group = ch.get("group", "Sports")
+        tvg_name = ch.get("name", "Channel")
+        ch_name = ch.get("name", "Channel")
+
+        user_agent = ch["headers"].get("User-Agent", "")
+        origin = ch["headers"].get("Origin", "")
+        referrer = ch["headers"].get("Referer", "")
+        cookie = ch["headers"].get("cookie", "")
+
+        ext_http = json.dumps({"cookie": cookie})
+
+        m3u += f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{group}" tvg-name="{tvg_name}",{ch_name}\\n'
+        m3u += f'#EXTVLCOPT:http-user-agent={user_agent}\\n'
+        m3u += f'#EXTVLCOPT:http-origin={origin}\\n'
+        m3u += f'#EXTVLCOPT:http-referrer={referrer}\\n'
+        m3u += f'#EXTHTTP:{ext_http}\\n'
+
+        for prop in ch.get("kodiprops", []):
+            m3u += f'#KODIPROP:{prop}\\n'
+
+        stream_url = ch.get("url_raw") or ch.get("url", "https://xxxxxxxx")
+        m3u += f'{stream_url}\\n\\n'
+
     return m3u
 
 def main():
@@ -537,49 +555,15 @@ def main():
             
         print(f"Extracted {len(channels)} channels.")
         
-        # 1. Output Branded .json file
-        clean_channels_for_json = []
-        for ch in channels:
-            # Construct a clean dict in exact desired key order
-            clean_ch = {
-                "name": ch.get("name", ""),
-                "logo": ch.get("logo", ""),
-                "url": ch.get("url", ""),
-                "group": ch.get("group", "General")
-            }
-            if ch.get("url_raw"):
-                clean_ch["url_raw"] = ch["url_raw"]
-            if ch.get("headers") and isinstance(ch["headers"], dict) and len(ch["headers"]) > 0:
-                clean_ch["headers"] = ch["headers"]
-            if ch.get("attrs") and isinstance(ch["attrs"], dict) and len(ch["attrs"]) > 0:
-                clean_ch["attrs"] = ch["attrs"]
-            if ch.get("vlc_opts") and isinstance(ch["vlc_opts"], list) and len(ch["vlc_opts"]) > 0:
-                clean_ch["vlc_opts"] = ch["vlc_opts"]
-            if ch.get("kodiprops") and isinstance(ch["kodiprops"], list) and len(ch["kodiprops"]) > 0:
-                clean_ch["kodiprops"] = ch["kodiprops"]
-            if ch.get("status"):
-                clean_ch["status"] = ch["status"]
-            # Explicitly exclude exthttps
-            clean_channels_for_json.append(clean_ch)
-            
-        json_output = {
-            "status": BRANDING["status"],
-            "owner": BRANDING["owner"],
-            "telegram": BRANDING["telegram"],
-            "website": BRANDING["website"],
-            "developer": BRANDING["developer"],
-            "version": BRANDING["version"],
-            "name": name,
-            "channels_amount": len(clean_channels_for_json),
-            "Last_update": BRANDING["Last_update"],
-            "channels": clean_channels_for_json
-        }
+        # Standardize all channels to requested schema
+        raw_channels = generate_raw_channels(channels)
         
+        # 1. Output .json file (array of standardized channel objects)
         with open(f"{name}.json", "w", encoding="utf-8") as out_f:
-            json.dump(json_output, out_f, indent=2, ensure_ascii=False)
+            json.dump(raw_channels, out_f, indent=2, ensure_ascii=False)
             
-        # 2. Output Branded .m3u file
-        m3u_content = generate_m3u_file(BRANDING, channels, name)
+        # 2. Output .m3u file
+        m3u_content = generate_m3u_file(raw_channels)
         with open(f"{name}.m3u", "w", encoding="utf-8") as out_f:
             out_f.write(m3u_content)
             
