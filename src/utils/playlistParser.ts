@@ -308,6 +308,10 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
     let attrs: Record<string, string> = {};
     if (item.attrs && typeof item.attrs === 'object') {
       attrs = { ...item.attrs };
+    } else if (typeof item.attrs === 'string') {
+      try {
+        attrs = JSON.parse(item.attrs);
+      } catch (e) {}
     }
     const tvgId = item['tvg-id'] || item.tvg_id || item.tvgId || item.id || attrs['tvg-id'];
     if (tvgId) {
@@ -320,6 +324,11 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
       kodiprops = item.kodiprops.map(String);
     } else if (Array.isArray(item.kodi_props)) {
       kodiprops = item.kodi_props.map(String);
+    } else if (typeof item.kodiprops === 'string') {
+      try {
+        const parsed = JSON.parse(item.kodiprops);
+        if (Array.isArray(parsed)) kodiprops = parsed.map(String);
+      } catch (e) {}
     }
     
     // Find extra properties
@@ -340,10 +349,10 @@ export function parseJSONPlaylist(jsonObj: any): Channel[] {
       const channelName = (urls.length > 1 && i > 0) ? `${name} (${i + 1})` : name;
 
       channels.push({
-        name: channelName || `Channel ${channels.length + 1}`,
+        name: channelName || item.name || `Channel ${channels.length + 1}`,
         logo: logo || '',
         url: streamUrl,
-        group: group || 'General',
+        group: group || '',
         headers: Object.keys(headers).length > 0 ? headers : undefined,
         status: item.status ? String(item.status) : undefined,
         attrs: Object.keys(attrs).length > 0 ? attrs : undefined,
@@ -505,19 +514,5 @@ export function generateM3U(playlist: StandardPlaylist): string {
  * Formats a playlist into our specific branded JSON structure
  */
 export function generateJSON(playlist: StandardPlaylist): any {
-  const b = playlist.branding;
-  const cleanChannels = generateRawChannelsArray(playlist);
-
-  return {
-    status: b.status,
-    owner: b.owner,
-    telegram: b.telegram,
-    website: b.website,
-    developer: b.developer,
-    version: b.version,
-    name: b.name,
-    channels_amount: cleanChannels.length,
-    Last_update: b.Last_update,
-    channels: cleanChannels
-  };
+  return generateRawChannelsArray(playlist);
 }
