@@ -7,16 +7,8 @@
   "version": "1.0",
   "name": "tapmad_bd",
   "channels_amount": 11,
-  "Last_update": "2026-07-25 09:26:49 PM",
+  "Last_update": "2026-07-25 10:28:05 PM",
   "channels": [
-    {
-      "name": "West indies vs Pakistan",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784550745540x302.jpg",
-      "url": "https://saseries.akamaized.net/hls/live/2110097/PAKvsWI-TesT-tapmad/master.m3u8",
-      "group": "General",
-      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/PAKvsWI-TesT-tapmad/master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "Territory Tourers Race 2 Live",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784988824540x302.jpg",
@@ -84,6 +76,14 @@
     {
       "name": "Manchester Super Giants vs Birmingham Pheonix",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784890142540x302men.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "West indies vs Pakistan",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784550745540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
