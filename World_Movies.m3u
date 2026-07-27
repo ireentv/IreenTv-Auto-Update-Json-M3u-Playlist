@@ -5,8 +5,8 @@
 # Website: https://anamul.pages.dev
 # Developer: IreenTechnology
 # Version: 1.0
-# Channels Amount: 280
-# Last Update: 2026-07-27 11:20:21 AM
+# Channels Amount: 279
+# Last Update: 2026-07-27 01:53:28 PM
 
 #EXTINF:-1 group-title="us" tvg-name="24 Hour Free Movies",24 Hour Free Movies
 https://d1b5mlajbmvkjv.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/145.m3u8?ads.vf=7FhdsxqVxOi
@@ -55,12 +55,6 @@ https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
 
 #EXTINF:-1 group-title="br" tvg-name="AXN",AXN
 https://45.190.28.50/AXN_HD/index.m3u8
-
-#EXTINF:-1 group-title="ro" tvg-name="AXN Black Romania",AXN Black Romania
-https://aes.m3u8simplu.workers.dev/axnblack/index.m3u8
-
-#EXTINF:-1 group-title="ro" tvg-name="AXN CEE Romania",AXN CEE Romania
-https://aes.m3u8simplu.workers.dev/axn/index.m3u8
 
 #EXTINF:-1 group-title="in" tvg-name="Bhojpuri Cinema",Bhojpuri Cinema
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
@@ -146,14 +140,20 @@ https://45.162.193.35/CINECANAL/index.m3u8
 #EXTINF:-1 group-title="ru" tvg-name="Cinema",Cinema
 https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="md" tvg-name="Cinemaraton Moldova",Cinemaraton Moldova
-https://aes.m3u8simplu.workers.dev/cinemaratonmoldova/index.m3u8
+#EXTINF:-1 group-title="ru" tvg-name="City Eden KinoAction",City Eden KinoAction
+https://cityeden.catcast.tv/content/41333/index.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="City Eden KinoArt",City Eden KinoArt
 https://cityeden.catcast.tv/content/38398/index.m3u8
 
+#EXTINF:-1 group-title="ru" tvg-name="City Eden KinoAsia",City Eden KinoAsia
+https://cityeden.catcast.tv/content/34393/index.m3u8
+
 #EXTINF:-1 group-title="ru" tvg-name="City Eden KinoDetektiv",City Eden KinoDetektiv
 https://cityeden.catcast.tv/content/41327/index.m3u8
+
+#EXTINF:-1 group-title="ru" tvg-name="City Eden KinoDrama",City Eden KinoDrama
+https://cityeden.catcast.tv/content/45269/index.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="City Eden KinoFantastika",City Eden KinoFantastika
 https://cityeden.catcast.tv/content/45268/index.m3u8
@@ -161,11 +161,20 @@ https://cityeden.catcast.tv/content/45268/index.m3u8
 #EXTINF:-1 group-title="ru" tvg-name="City Eden KinoKlassika",City Eden KinoKlassika
 https://cityeden.catcast.tv/content/34185/index.m3u8
 
+#EXTINF:-1 group-title="ru" tvg-name="City Eden KinoKomediya",City Eden KinoKomediya
+https://cityeden.catcast.tv/content/41331/index.m3u8
+
+#EXTINF:-1 group-title="ru" tvg-name="City Eden KinoMistika",City Eden KinoMistika
+https://cityeden.catcast.tv/content/40783/index.m3u8
+
 #EXTINF:-1 group-title="us" tvg-name="Classic Cinema",Classic Cinema
 https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8
 
 #EXTINF:-1 group-title="br" tvg-name="Classique TV",Classique TV
 https://stmv1.srvif.com/classique/classique/playlist.m3u8
+
+#EXTINF:-1 group-title="ar" tvg-name="Cosmos Tv",Cosmos Tv
+https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="Dom kino",Dom kino
 https://streaming.thestream.cyou/live/44.m3u8
@@ -236,17 +245,8 @@ https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
 #EXTINF:-1 group-title="pl" tvg-name="FILMBOX+ Hits Adria",FILMBOX+ Hits Adria
 https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8
 
-#EXTINF:-1 group-title="ro" tvg-name="FILMBOX+ Hits Romania",FILMBOX+ Hits Romania
-https://aes.m3u8simplu.workers.dev/filmboxpremium/index.m3u8
-
 #EXTINF:-1 group-title="pl" tvg-name="FILMBOX+ Love & Crime Adria",FILMBOX+ Love & Crime Adria
 https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8
-
-#EXTINF:-1 group-title="ro" tvg-name="FILMBOX+ Love & Crime Romania",FILMBOX+ Love & Crime Romania
-https://aes.m3u8simplu.workers.dev/filmboxstars/index.m3u8
-
-#EXTINF:-1 group-title="ro" tvg-name="FILMBOX+ One Romania",FILMBOX+ One Romania
-https://aes.m3u8simplu.workers.dev/filmbox/index.m3u8
 
 #EXTINF:-1 group-title="ua" tvg-name="FILMBOX+ One Ukraine & Baltics",FILMBOX+ One Ukraine & Baltics
 https://s70378.cdn.ngenix.net/filmbox/index.m3u8
@@ -309,13 +309,13 @@ https://206.212.244.63/82/index.m3u8
 https://gpuserver3.tier1streams.com/GAC_LIVING/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Great American Family",Great American Family
-https://206.212.244.63/81/index.m3u8
+https://gpuserver3.tier1streams.com/GREAT_AMERICAN_COUNTRY/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Great American Family (2)",Great American Family (2)
 https://40.160.24.58/GAC_FAMILY/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Great American Family (3)",Great American Family (3)
-https://gpuserver3.tier1streams.com/GREAT_AMERICAN_COUNTRY/index.m3u8
+https://206.212.244.63/81/index.m3u8
 
 #EXTINF:-1 group-title="uk" tvg-name="GREAT! movies UK",GREAT! movies UK
 https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
@@ -470,9 +470,6 @@ https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8
 #EXTINF:-1 group-title="in" tvg-name="Maha Movie",Maha Movie
 https://cdn-6.pishow.tv/live/10007/master.m3u8
 
-#EXTINF:-1 group-title="in" tvg-name="Manoranjan Grand",Manoranjan Grand
-https://cdn-1.pishow.tv/live/1011/master.m3u8
-
 #EXTINF:-1 group-title="co" tvg-name="MCI Television",MCI Television
 https://video.ejeserver.com/live/mcitelevision.m3u8
 
@@ -570,9 +567,6 @@ https://a-cdn.klowdtv.com/live2/nost_720p/playlist.m3u8
 https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8
 
 #EXTINF:-1 group-title="in" tvg-name="Oscar Movies Bhojpuri",Oscar Movies Bhojpuri
-https://mumt05.tangotv.in/87NeALx2OSCARMOVIESBHOJPURI/index.m3u8
-
-#EXTINF:-1 group-title="in" tvg-name="Oscar Movies Bhojpuri (2)",Oscar Movies Bhojpuri (2)
 https://cdn-4.pishow.tv/live/233/master.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="Ostrosyuzhetnoye",Ostrosyuzhetnoye
@@ -582,6 +576,9 @@ https://stream.mcquack.net/214/index.m3u8
 https://aegis-cloudfront-1.tubi.video/27de4f2e-7f9c-418a-9b0d-e4b35b0843a0/playlist.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="OuterSphere (2)",OuterSphere (2)
+https://amg00353-amg00353c17-xumo-us-2554.playouts.now.amagi.tv/lionsgate-otspr-xumo/playlist.m3u8
+
+#EXTINF:-1 group-title="us" tvg-name="OuterSphere (3)",OuterSphere (3)
 https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Paramount Network East",Paramount Network East
@@ -635,8 +632,11 @@ https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/6
 #EXTINF:-1 group-title="in" tvg-name="Raj Digital Plus",Raj Digital Plus
 https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8
 
-#EXTINF:-1 group-title="es" tvg-name="Rakuten TV Comedy Movies Spain",Rakuten TV Comedy Movies Spain
-https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
+#EXTINF:-1 group-title="uk" tvg-name="Rakuten TV Action Movies UK",Rakuten TV Action Movies UK
+https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
+
+#EXTINF:-1 group-title="de" tvg-name="Rakuten TV Comedy Movies Germany",Rakuten TV Comedy Movies Germany
+https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8
 
 #EXTINF:-1 group-title="it" tvg-name="Rakuten TV Drama Movies Italy",Rakuten TV Drama Movies Italy
 https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8
@@ -740,14 +740,11 @@ https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
 #EXTINF:-1 group-title="ru" tvg-name="START Air",START Air
 https://stream.mcquack.net/128/index.m3u8
 
-#EXTINF:-1 group-title="in" tvg-name="Studio One +",Studio One +
-https://cdn-1.pishow.tv/live/276/master.m3u8
-
 #EXTINF:-1 group-title="us" tvg-name="Sundance TV East",Sundance TV East
-https://206.212.244.63/151/index.m3u8
+https://40.160.24.55/SUNDANCE/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Sundance TV East (2)",Sundance TV East (2)
-https://40.160.24.55/SUNDANCE/index.m3u8
+https://206.212.244.63/151/index.m3u8
 
 #EXTINF:-1 group-title="ca" tvg-name="Super Channel Vault",Super Channel Vault
 https://206.212.244.63/6142/index.m3u8
@@ -767,7 +764,7 @@ https://206.212.244.63/152/index.m3u8
 #EXTINF:-1 group-title="in" tvg-name="The Movie Club +2",The Movie Club +2
 https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.cdn=cf
 
-#EXTINF:-1 group-title="ru" tvg-name="TV 21",TV 21
+#EXTINF:-1 group-title="ru" tvg-name="TV 21 International",TV 21 International
 https://stream.mcquack.net/152/index.m3u8
 
 #EXTINF:-1 group-title="ro" tvg-name="TV1000",TV1000

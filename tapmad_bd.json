@@ -6,32 +6,32 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 5,
-  "Last_update": "2026-07-27 11:20:21 AM",
+  "channels_amount": 7,
+  "Last_update": "2026-07-27 01:53:28 PM",
   "channels": [
-    {
-      "name": "Pakistan vs Kazakhstan",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784900738540x302.jpg",
-      "url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8",
-      "group": "General",
-      "url_raw": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "West indies vs Pakistan",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784550745540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "Men's Final Session - World Championships Kaunas, Lithuania Live",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785138363540x302.jpg",
+      "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
+      "group": "General",
+      "url_raw": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
+      "status": "Live"
     },
     {
       "name": "Southern Brave vs MI London - Women",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785136536540x302women.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "status": "Live"
     },
     {
       "name": "Southern Brave vs MI London",
@@ -44,6 +44,22 @@
     {
       "name": "Sri Lanka Women vs Pakistan Women",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785143739540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Sunrisers Leeds vs Manchester Super Giants - Women",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785153620540x302women.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Sunrisers Leeds vs Manchester Super Giants",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785155337540x302men.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",

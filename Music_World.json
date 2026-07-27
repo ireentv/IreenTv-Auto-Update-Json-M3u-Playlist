@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "Music_World",
-  "channels_amount": 645,
-  "Last_update": "2026-07-27 11:20:21 AM",
+  "channels_amount": 637,
+  "Last_update": "2026-07-27 01:53:28 PM",
   "channels": [
     {
       "name": "3ABN Praise Him Music Network",
@@ -549,6 +549,13 @@
       "url_raw": "https://cloudvideo.servers10.com:8081/8120/index.m3u8"
     },
     {
+      "name": "Canal 3 KMK TV (2)",
+      "logo": "",
+      "url": "https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8",
+      "group": "cr",
+      "url_raw": "https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8"
+    },
+    {
       "name": "Cedros TV",
       "logo": "",
       "url": "https://eu1.servers10.com:8081/cedrostv/index.m3u8",
@@ -575,6 +582,20 @@
       "url": "https://cityeden.catcast.tv/content/34364/index.m3u8",
       "group": "ru",
       "url_raw": "https://cityeden.catcast.tv/content/34364/index.m3u8"
+    },
+    {
+      "name": "City Eden Classic Music",
+      "logo": "",
+      "url": "https://cityeden.catcast.tv/content/47400/index.m3u8",
+      "group": "ru",
+      "url_raw": "https://cityeden.catcast.tv/content/47400/index.m3u8"
+    },
+    {
+      "name": "City Eden Play",
+      "logo": "",
+      "url": "https://cityeden.catcast.tv/content/34100/index.m3u8",
+      "group": "ru",
+      "url_raw": "https://cityeden.catcast.tv/content/34100/index.m3u8"
     },
     {
       "name": "City Eden Sirtaki TV",
@@ -628,16 +649,16 @@
     {
       "name": "CMT East",
       "logo": "",
-      "url": "https://206.212.244.63/39/index.m3u8",
+      "url": "https://gpuserver3.tier1streams.com/CMT/index.m3u8",
       "group": "us",
-      "url_raw": "https://206.212.244.63/39/index.m3u8"
+      "url_raw": "https://gpuserver3.tier1streams.com/CMT/index.m3u8"
     },
     {
       "name": "CMT East (2)",
       "logo": "",
-      "url": "https://gpuserver3.tier1streams.com/CMT/index.m3u8",
+      "url": "https://206.212.244.63/39/index.m3u8",
       "group": "us",
-      "url_raw": "https://gpuserver3.tier1streams.com/CMT/index.m3u8"
+      "url_raw": "https://206.212.244.63/39/index.m3u8"
     },
     {
       "name": "Company TV",
@@ -682,18 +703,18 @@
       "url_raw": "https://visualradio-rts-couleur3-d.akamaized.net/out/v1/6a1472634ad745f59a9e63ee8adbbc00/index.m3u8"
     },
     {
-      "name": "Cumbia Mix",
-      "logo": "",
-      "url": "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8",
-      "group": "ar",
-      "url_raw": "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8"
-    },
-    {
       "name": "D3 TV",
       "logo": "",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/d3tvnet/playlist.m3u8",
       "group": "ml",
       "url_raw": "https://lbgo.bozztv.com/ssh101/ssh101/d3tvnet/playlist.m3u8"
+    },
+    {
+      "name": "D3 TV (2)",
+      "logo": "",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/d3tvnet/playlist.m3u8",
+      "group": "ml",
+      "url_raw": "https://live20.bozztv.com/akamaissh101/ssh101/d3tvnet/playlist.m3u8"
     },
     {
       "name": "Dance FM",
@@ -836,13 +857,6 @@
       "url_raw": "https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8"
     },
     {
-      "name": "Ellinikos FM",
-      "logo": "",
-      "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
-      "group": "gr",
-      "url_raw": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8"
-    },
-    {
       "name": "EMI TV",
       "logo": "",
       "url": "https://astra.emitv.ro/hls/emi/index.m3u8",
@@ -892,20 +906,6 @@
       "url_raw": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8"
     },
     {
-      "name": "Farra Play",
-      "logo": "",
-      "url": "https://159.203.148.226/live/farra.m3u8",
-      "group": "py",
-      "url_raw": "https://159.203.148.226/live/farra.m3u8"
-    },
-    {
-      "name": "Farra Play (2)",
-      "logo": "",
-      "url": "https://stream.farra.com.py/live/farra_low.m3u8",
-      "group": "py",
-      "url_raw": "https://stream.farra.com.py/live/farra_low.m3u8"
-    },
-    {
       "name": "Fiesta TV",
       "logo": "",
       "url": "https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8",
@@ -941,13 +941,6 @@
       "url_raw": "https://v2.tustreaming.cl/fmplus/index.m3u8"
     },
     {
-      "name": "FMTV",
-      "logo": "",
-      "url": "https://s2.tvdatta.com:3307/hybrid/play.m3u8",
-      "group": "uk",
-      "url_raw": "https://s2.tvdatta.com:3307/hybrid/play.m3u8"
-    },
-    {
       "name": "FMVale975",
       "logo": "",
       "url": "https://upcoming-match-no-stream.m3u8",
@@ -967,20 +960,6 @@
       "url": "https://stream.fomixmedia.nl/FomixTV/video.m3u8",
       "group": "nl",
       "url_raw": "https://stream.fomixmedia.nl/FomixTV/video.m3u8"
-    },
-    {
-      "name": "Fon Music",
-      "logo": "",
-      "url": "https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8",
-      "group": "ru",
-      "url_raw": "https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8"
-    },
-    {
-      "name": "Fon Music (2)",
-      "logo": "",
-      "url": "https://stream.mcquack.net/317/index.m3u8",
-      "group": "ru",
-      "url_raw": "https://stream.mcquack.net/317/index.m3u8"
     },
     {
       "name": "frequenzy: Acoustic/Folk",
@@ -1564,13 +1543,6 @@
       "url_raw": "https://live-maidantv.cdnvideo.ru/maidantv/maidantv.smil/playlist.m3u8"
     },
     {
-      "name": "Maimon TV Canal 3",
-      "logo": "",
-      "url": "https://tele-stream.telecasa.net/live/st3/maimontv-hd/index.m3u8",
-      "group": "do",
-      "url_raw": "https://tele-stream.telecasa.net/live/st3/maimontv-hd/index.m3u8"
-    },
-    {
       "name": "Makao TV",
       "logo": "",
       "url": "https://live.obslivestream.com/makaomux/index.m3u8",
@@ -1611,6 +1583,20 @@
       "url": "https://movil.ejeserver.com/live/mas23tv.m3u8",
       "group": "pa",
       "url_raw": "https://movil.ejeserver.com/live/mas23tv.m3u8"
+    },
+    {
+      "name": "MasMusica FM",
+      "logo": "",
+      "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
+      "group": "co",
+      "url_raw": "https://movil.ejeserver.com/live/masmusica.m3u8"
+    },
+    {
+      "name": "MasMusica FM (2)",
+      "logo": "",
+      "url": "https://video.ejeserver.com/live/masmusica.m3u8",
+      "group": "co",
+      "url_raw": "https://video.ejeserver.com/live/masmusica.m3u8"
     },
     {
       "name": "MBC America",
@@ -1655,6 +1641,13 @@
       "url_raw": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8"
     },
     {
+      "name": "Messatida TV",
+      "logo": "",
+      "url": "https://rtmp.streams.ovh:8081/mtv/index.m3u8",
+      "group": "gr",
+      "url_raw": "https://rtmp.streams.ovh:8081/mtv/index.m3u8"
+    },
+    {
       "name": "Metaleitor TV",
       "logo": "",
       "url": "https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8",
@@ -1674,13 +1667,6 @@
       "url": "https://live-3.otcnet.ru/Mezzo/index.m3u8",
       "group": "fr",
       "url_raw": "https://live-3.otcnet.ru/Mezzo/index.m3u8"
-    },
-    {
-      "name": "Mezzo (2)",
-      "logo": "",
-      "url": "https://aes.m3u8simplu.workers.dev/mezzo/index.m3u8",
-      "group": "fr",
-      "url_raw": "https://aes.m3u8simplu.workers.dev/mezzo/index.m3u8"
     },
     {
       "name": "Mezzo Live",
@@ -1828,6 +1814,13 @@
       "url": "https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8",
       "group": "ru",
       "url_raw": "https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8"
+    },
+    {
+      "name": "Muz TV Uzbekistan",
+      "logo": "",
+      "url": "https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8",
+      "group": "uz",
+      "url_raw": "https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8"
     },
     {
       "name": "Muz-TV",
@@ -2243,6 +2236,13 @@
       "url_raw": "https://pmcrohls.wns.live/hls/stream.m3u8"
     },
     {
+      "name": "Pop Radio 101.5",
+      "logo": "",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "ar",
+      "url_raw": "https://upcoming-match-no-stream.m3u8"
+    },
+    {
       "name": "POP World TV",
       "logo": "",
       "url": "https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8",
@@ -2311,13 +2311,6 @@
       "url": "https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8",
       "group": "pe",
       "url_raw": "https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8"
-    },
-    {
-      "name": "PTC Chakde",
-      "logo": "",
-      "url": "https://cdn-1.pishow.tv/live/449/master.m3u8",
-      "group": "in",
-      "url_raw": "https://cdn-1.pishow.tv/live/449/master.m3u8"
     },
     {
       "name": "PTC Music",
@@ -2402,13 +2395,6 @@
       "url": "https://cloudvideo.servers10.com:8081/8154/index.m3u8",
       "group": "ec",
       "url_raw": "https://cloudvideo.servers10.com:8081/8154/index.m3u8"
-    },
-    {
-      "name": "Radio Capital TiVu",
-      "logo": "",
-      "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8",
-      "group": "it",
-      "url_raw": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8"
     },
     {
       "name": "Radio Carnaval TV",
@@ -2600,25 +2586,11 @@
       "url_raw": "https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8"
     },
     {
-      "name": "Radio Rumba TV",
-      "logo": "",
-      "url": "https://tv.sistemasandinos.org/rumbatv/video.m3u8",
-      "group": "pe",
-      "url_raw": "https://tv.sistemasandinos.org/rumbatv/video.m3u8"
-    },
-    {
       "name": "Radio San Borja TV",
       "logo": "",
       "url": "https://stream.mediacorp.pe/srt/3/playlist.m3u8",
       "group": "pe",
       "url_raw": "https://stream.mediacorp.pe/srt/3/playlist.m3u8"
-    },
-    {
-      "name": "Radio San Cristobal 88.7 FM",
-      "logo": "",
-      "url": "https://video.wilohosting.com:19360/sancristobalfm/sancristobalfm.m3u8",
-      "group": "py",
-      "url_raw": "https://video.wilohosting.com:19360/sancristobalfm/sancristobalfm.m3u8"
     },
     {
       "name": "Radio Suyai TV",
@@ -2710,13 +2682,6 @@
       "url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8",
       "group": "in",
       "url_raw": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8"
-    },
-    {
-      "name": "Raj Musix Telugu",
-      "logo": "",
-      "url": "https://cdn-1.pishow.tv/live/1213/master.m3u8",
-      "group": "in",
-      "url_raw": "https://cdn-1.pishow.tv/live/1213/master.m3u8"
     },
     {
       "name": "Rararadio",
@@ -2943,13 +2908,6 @@
       "url_raw": "https://stmv1.voxtvhd.com.br/salsagorda/salsagorda/playlist.m3u8"
     },
     {
-      "name": "Salsa Latina FM",
-      "logo": "",
-      "url": "https://panel.streamingmedia.com.co:3557/stream/play.m3u8",
-      "group": "co",
-      "url_raw": "https://panel.streamingmedia.com.co:3557/stream/play.m3u8"
-    },
-    {
       "name": "Sana Plus",
       "logo": "",
       "url": "https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8",
@@ -3067,6 +3025,13 @@
       "url": "https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8",
       "group": "cl",
       "url_raw": "https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8"
+    },
+    {
+      "name": "Solo Bailalo (2)",
+      "logo": "",
+      "url": "https://5ff3d9babae13.streamlock.net/8016/8016/playlist.m3u8",
+      "group": "cl",
+      "url_raw": "https://5ff3d9babae13.streamlock.net/8016/8016/playlist.m3u8"
     },
     {
       "name": "Songdew TV",
@@ -3396,13 +3361,6 @@
       "url": "https://cloudvideo.servers10.com:8081/stztelebista/index.m3u8",
       "group": "es",
       "url_raw": "https://cloudvideo.servers10.com:8081/stztelebista/index.m3u8"
-    },
-    {
-      "name": "Super Q Panama",
-      "logo": "",
-      "url": "https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8",
-      "group": "pa",
-      "url_raw": "https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8"
     },
     {
       "name": "Super TV",
@@ -3958,6 +3916,13 @@
       "url_raw": "https://upcoming-match-no-stream.m3u8"
     },
     {
+      "name": "Urbano TV",
+      "logo": "",
+      "url": "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8",
+      "group": "cr",
+      "url_raw": "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8"
+    },
+    {
       "name": "V2BEAT TV",
       "logo": "",
       "url": "https://abr.de1se01.v2beat.live/playlist.m3u8",
@@ -3970,13 +3935,6 @@
       "url": "https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8",
       "group": "in",
       "url_raw": "https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8"
-    },
-    {
-      "name": "VAM TV",
-      "logo": "",
-      "url": "https://sincerecloud.stream/loadbalancer/public/J9EmQQGf.m3u8",
-      "group": "cw",
-      "url_raw": "https://sincerecloud.stream/loadbalancer/public/J9EmQQGf.m3u8"
     },
     {
       "name": "Vantage Classic",
@@ -4026,6 +3984,13 @@
       "url": "https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8",
       "group": "ee",
       "url_raw": "https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8"
+    },
+    {
+      "name": "Vantage Rock",
+      "logo": "",
+      "url": "https://hls.vantagetv.ee/vrock_stream/index.m3u8",
+      "group": "ee",
+      "url_raw": "https://hls.vantagetv.ee/vrock_stream/index.m3u8"
     },
     {
       "name": "Venus Media",
@@ -4266,13 +4231,6 @@
       "url_raw": "https://cloudvideo.servers10.com:8081/8016/index.m3u8"
     },
     {
-      "name": "VIVA Russia",
-      "logo": "",
-      "url": "https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8",
-      "group": "ru",
-      "url_raw": "https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8"
-    },
-    {
       "name": "VM Latino",
       "logo": "",
       "url": "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8",
@@ -4313,6 +4271,13 @@
       "url": "https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8",
       "group": "us",
       "url_raw": "https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8"
+    },
+    {
+      "name": "X 102.7 FM",
+      "logo": "",
+      "url": "https://live2.tensila.com/onair-v-1.xfm1027/hls/master.m3u8",
+      "group": "aw",
+      "url_raw": "https://live2.tensila.com/onair-v-1.xfm1027/hls/master.m3u8"
     },
     {
       "name": "X Level Media",
@@ -4483,20 +4448,6 @@
       "url_raw": "https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8"
     },
     {
-      "name": "ZU TV",
-      "logo": "",
-      "url": "https://aes.m3u8simplu.workers.dev/zutv/index.m3u8",
-      "group": "ro",
-      "url_raw": "https://aes.m3u8simplu.workers.dev/zutv/index.m3u8"
-    },
-    {
-      "name": "ZU TV (2)",
-      "logo": "",
-      "url": "https://aes.m3u8simplu.workers.dev/chefi/index.m3u8",
-      "group": "ro",
-      "url_raw": "https://aes.m3u8simplu.workers.dev/chefi/index.m3u8"
-    },
-    {
       "name": "Музыка 1 International",
       "logo": "",
       "url": "https://kino-1.catcast.tv/content/37742/index.m3u8",
@@ -4516,13 +4467,6 @@
       "url": "https://kino-1.catcast.tv/content/37739/index.m3u8",
       "group": "ru",
       "url_raw": "https://kino-1.catcast.tv/content/37739/index.m3u8"
-    },
-    {
-      "name": "アイドルマスターチャンネル",
-      "logo": "",
-      "url": "https://upcoming-match-no-stream.m3u8",
-      "group": "jp",
-      "url_raw": "https://upcoming-match-no-stream.m3u8"
     }
   ]
 }
