@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "World_Movies",
-  "channels_amount": 266,
-  "Last_update": "2026-07-29 12:00:46 PM",
+  "channels_amount": 259,
+  "Last_update": "2026-07-29 02:41:03 PM",
   "channels": [
     {
       "name": "24 Hour Free Movies",
@@ -194,16 +194,16 @@
     {
       "name": "Charge!",
       "logo": "",
-      "url": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8",
+      "url": "https://206.212.244.63/34/index.m3u8",
       "group": "us",
-      "url_raw": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8"
+      "url_raw": "https://206.212.244.63/34/index.m3u8"
     },
     {
       "name": "Charge! (2)",
       "logo": "",
-      "url": "https://206.212.244.63/34/index.m3u8",
+      "url": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8",
       "group": "us",
-      "url_raw": "https://206.212.244.63/34/index.m3u8"
+      "url_raw": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8"
     },
     {
       "name": "Charge! (3)",
@@ -311,11 +311,25 @@
       "url_raw": "https://cityeden.catcast.tv/content/38398/index.m3u8"
     },
     {
-      "name": "City Eden KinoDetektiv",
+      "name": "City Eden KinoAsia",
       "logo": "",
-      "url": "https://cityeden.catcast.tv/content/41327/index.m3u8",
+      "url": "https://cityeden.catcast.tv/content/34393/index.m3u8",
       "group": "ru",
-      "url_raw": "https://cityeden.catcast.tv/content/41327/index.m3u8"
+      "url_raw": "https://cityeden.catcast.tv/content/34393/index.m3u8"
+    },
+    {
+      "name": "City Eden KinoDrama",
+      "logo": "",
+      "url": "https://cityeden.catcast.tv/content/45269/index.m3u8",
+      "group": "ru",
+      "url_raw": "https://cityeden.catcast.tv/content/45269/index.m3u8"
+    },
+    {
+      "name": "City Eden KinoFantastika",
+      "logo": "",
+      "url": "https://cityeden.catcast.tv/content/45268/index.m3u8",
+      "group": "ru",
+      "url_raw": "https://cityeden.catcast.tv/content/45268/index.m3u8"
     },
     {
       "name": "City Eden KinoKomediya",
@@ -403,13 +417,6 @@
     },
     {
       "name": "Ebony TV by Lionsgate (2)",
-      "logo": "",
-      "url": "https://amg00353-lionsgatestudios-amg00353c11-xumo-us-2108.playouts.now.amagi.tv/EbonyTV-pl/playlist.m3u8",
-      "group": "us",
-      "url_raw": "https://amg00353-lionsgatestudios-amg00353c11-xumo-us-2108.playouts.now.amagi.tv/EbonyTV-pl/playlist.m3u8"
-    },
-    {
-      "name": "Ebony TV by Lionsgate (3)",
       "logo": "",
       "url": "https://pb-6csswagmy4nat.akamaized.net/Ebony_TV_by_Lionsgate.m3u8",
       "group": "us",
@@ -633,6 +640,13 @@
       "url_raw": "https://206.212.244.63/82/index.m3u8"
     },
     {
+      "name": "Great American Faith & Living (2)",
+      "logo": "",
+      "url": "https://gpuserver3.tier1streams.com/GAC_LIVING/index.m3u8",
+      "group": "us",
+      "url_raw": "https://gpuserver3.tier1streams.com/GAC_LIVING/index.m3u8"
+    },
+    {
       "name": "Great American Family",
       "logo": "",
       "url": "https://gpuserver3.tier1streams.com/GREAT_AMERICAN_COUNTRY/index.m3u8",
@@ -642,16 +656,16 @@
     {
       "name": "Great American Family (2)",
       "logo": "",
-      "url": "https://40.160.24.58/GAC_FAMILY/index.m3u8",
+      "url": "https://206.212.244.63/81/index.m3u8",
       "group": "us",
-      "url_raw": "https://40.160.24.58/GAC_FAMILY/index.m3u8"
+      "url_raw": "https://206.212.244.63/81/index.m3u8"
     },
     {
       "name": "Great American Family (3)",
       "logo": "",
-      "url": "https://206.212.244.63/81/index.m3u8",
+      "url": "https://40.160.24.58/GAC_FAMILY/index.m3u8",
       "group": "us",
-      "url_raw": "https://206.212.244.63/81/index.m3u8"
+      "url_raw": "https://40.160.24.58/GAC_FAMILY/index.m3u8"
     },
     {
       "name": "GREAT! movies UK",
@@ -773,34 +787,6 @@
       "url_raw": "https://40.160.24.53/IFC/index.m3u8"
     },
     {
-      "name": "iFilm 2",
-      "logo": "",
-      "url": "https://live.presstv.ir/hls/ifilm2.m3u8",
-      "group": "ir",
-      "url_raw": "https://live.presstv.ir/hls/ifilm2.m3u8"
-    },
-    {
-      "name": "iFilm Arabic",
-      "logo": "",
-      "url": "https://live.presstv.ir/hls/ifilmar.m3u8",
-      "group": "ir",
-      "url_raw": "https://live.presstv.ir/hls/ifilmar.m3u8"
-    },
-    {
-      "name": "iFilm English",
-      "logo": "",
-      "url": "https://live.presstv.ir/hls/ifilmen.m3u8",
-      "group": "ir",
-      "url_raw": "https://live.presstv.ir/hls/ifilmen.m3u8"
-    },
-    {
-      "name": "iFilm Persian",
-      "logo": "",
-      "url": "https://live.presstv.ir/hls/ifilmfa.m3u8",
-      "group": "ir",
-      "url_raw": "https://live.presstv.ir/hls/ifilmfa.m3u8"
-    },
-    {
       "name": "Indiyskoye Kino",
       "logo": "",
       "url": "https://stream.mcquack.net/104/index.m3u8",
@@ -827,13 +813,6 @@
       "url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
       "group": "in",
       "url_raw": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8"
-    },
-    {
-      "name": "Itage TV",
-      "logo": "",
-      "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_011/Stream/playlist.m3u8",
-      "group": "ng",
-      "url_raw": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_011/Stream/playlist.m3u8"
     },
     {
       "name": "Kairali We",
@@ -1060,13 +1039,6 @@
       "url_raw": "https://stream.mcquack.net/369/index.m3u8"
     },
     {
-      "name": "Movie Star",
-      "logo": "",
-      "url": "https://shift03.isp.bg/MovieStar/index.m3u8",
-      "group": "bg",
-      "url_raw": "https://shift03.isp.bg/MovieStar/index.m3u8"
-    },
-    {
       "name": "MoviePlex",
       "logo": "",
       "url": "https://mumt04.tangotv.in/m18aqlK4MOVIEPLEX/index.m3u8",
@@ -1265,13 +1237,6 @@
     {
       "name": "OuterSphere (2)",
       "logo": "",
-      "url": "https://amg00353-amg00353c17-xumo-us-2554.playouts.now.amagi.tv/lionsgate-otspr-xumo/playlist.m3u8",
-      "group": "us",
-      "url_raw": "https://amg00353-amg00353c17-xumo-us-2554.playouts.now.amagi.tv/lionsgate-otspr-xumo/playlist.m3u8"
-    },
-    {
-      "name": "OuterSphere (3)",
-      "logo": "",
       "url": "https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8",
       "group": "us",
       "url_raw": "https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8"
@@ -1389,32 +1354,11 @@
       "url_raw": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8"
     },
     {
-      "name": "Rakuten TV Comedy Movies Germany",
+      "name": "Rakuten TV Comedy Movies Finland",
       "logo": "",
-      "url": "https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8",
-      "group": "de",
-      "url_raw": "https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8"
-    },
-    {
-      "name": "Rakuten TV Comedy Movies UK",
-      "logo": "",
-      "url": "https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8",
-      "group": "uk",
-      "url_raw": "https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8"
-    },
-    {
-      "name": "Rakuten TV Drama Movies UK",
-      "logo": "",
-      "url": "https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8",
-      "group": "uk",
-      "url_raw": "https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8"
-    },
-    {
-      "name": "Rakuten TV Family Movies Italy",
-      "logo": "",
-      "url": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8",
-      "group": "it",
-      "url_raw": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8"
+      "url": "https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8",
+      "group": "fi",
+      "url_raw": "https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8"
     },
     {
       "name": "Rakuten TV Family Movies Spain",
@@ -1501,11 +1445,25 @@
       "url_raw": "https://stream.mcquack.net/75/index.m3u8"
     },
     {
+      "name": "Shubh Cinema TV",
+      "logo": "",
+      "url": "https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8",
+      "group": "in",
+      "url_raw": "https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8"
+    },
+    {
       "name": "Silk Way Cinema",
       "logo": "",
       "url": "https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8",
       "group": "kz",
       "url_raw": "https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8"
+    },
+    {
+      "name": "Sine Plus",
+      "logo": "",
+      "url": "https://sineplusph.itunerworldwide.workers.dev/master.live.m3u8",
+      "group": "ph",
+      "url_raw": "https://sineplusph.itunerworldwide.workers.dev/master.live.m3u8"
     },
     {
       "name": "SL 1",
@@ -1842,13 +1800,6 @@
       "url": "https://stream.mcquack.net/380/index.m3u8",
       "group": "il",
       "url_raw": "https://stream.mcquack.net/380/index.m3u8"
-    },
-    {
-      "name": "ZB Cinema",
-      "logo": "",
-      "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
-      "group": "in",
-      "url_raw": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8"
     },
     {
       "name": "Кино 1 International",
