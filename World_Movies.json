@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "World_Movies",
-  "channels_amount": 259,
-  "Last_update": "2026-07-30 01:09:59 PM",
+  "channels_amount": 261,
+  "Last_update": "2026-07-30 03:30:45 PM",
   "channels": [
     {
       "name": "24 Hour Free Movies",
@@ -157,13 +157,6 @@
       "url_raw": "https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8"
     },
     {
-      "name": "Bolt",
-      "logo": "",
-      "url": "https://stream.mcquack.net/73/index.m3u8",
-      "group": "ua",
-      "url_raw": "https://stream.mcquack.net/73/index.m3u8"
-    },
-    {
       "name": "Boreal",
       "logo": "",
       "url": "https://edge.essastream.com/borealtelevision/tracks-v1a1/mono.m3u8",
@@ -304,11 +297,11 @@
       "url_raw": "https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8"
     },
     {
-      "name": "City Eden KinoArt",
+      "name": "City Eden KinoAction",
       "logo": "",
-      "url": "https://cityeden.catcast.tv/content/38398/index.m3u8",
+      "url": "https://cityeden.catcast.tv/content/41333/index.m3u8",
       "group": "ru",
-      "url_raw": "https://cityeden.catcast.tv/content/38398/index.m3u8"
+      "url_raw": "https://cityeden.catcast.tv/content/41333/index.m3u8"
     },
     {
       "name": "City Eden KinoAsia",
@@ -318,25 +311,18 @@
       "url_raw": "https://cityeden.catcast.tv/content/34393/index.m3u8"
     },
     {
-      "name": "City Eden KinoDrama",
+      "name": "City Eden KinoDetektiv",
       "logo": "",
-      "url": "https://cityeden.catcast.tv/content/45269/index.m3u8",
+      "url": "https://cityeden.catcast.tv/content/41327/index.m3u8",
       "group": "ru",
-      "url_raw": "https://cityeden.catcast.tv/content/45269/index.m3u8"
+      "url_raw": "https://cityeden.catcast.tv/content/41327/index.m3u8"
     },
     {
-      "name": "City Eden KinoFantastika",
+      "name": "City Eden KinoMistika",
       "logo": "",
-      "url": "https://cityeden.catcast.tv/content/45268/index.m3u8",
+      "url": "https://cityeden.catcast.tv/content/40783/index.m3u8",
       "group": "ru",
-      "url_raw": "https://cityeden.catcast.tv/content/45268/index.m3u8"
-    },
-    {
-      "name": "City Eden KinoKomediya",
-      "logo": "",
-      "url": "https://cityeden.catcast.tv/content/41331/index.m3u8",
-      "group": "ru",
-      "url_raw": "https://cityeden.catcast.tv/content/41331/index.m3u8"
+      "url_raw": "https://cityeden.catcast.tv/content/40783/index.m3u8"
     },
     {
       "name": "Classic Cinema",
@@ -418,6 +404,13 @@
     {
       "name": "Ebony TV by Lionsgate (2)",
       "logo": "",
+      "url": "https://amg00353-lionsgatestudios-amg00353c11-xumo-us-2108.playouts.now.amagi.tv/EbonyTV-pl/playlist.m3u8",
+      "group": "us",
+      "url_raw": "https://amg00353-lionsgatestudios-amg00353c11-xumo-us-2108.playouts.now.amagi.tv/EbonyTV-pl/playlist.m3u8"
+    },
+    {
+      "name": "Ebony TV by Lionsgate (3)",
+      "logo": "",
       "url": "https://pb-6csswagmy4nat.akamaized.net/Ebony_TV_by_Lionsgate.m3u8",
       "group": "us",
       "url_raw": "https://pb-6csswagmy4nat.akamaized.net/Ebony_TV_by_Lionsgate.m3u8"
@@ -435,13 +428,6 @@
       "url": "https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8",
       "group": "fr",
       "url_raw": "https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8"
-    },
-    {
-      "name": "Enter-Film",
-      "logo": "",
-      "url": "https://stream.mcquack.net/322/index.m3u8",
-      "group": "ua",
-      "url_raw": "https://stream.mcquack.net/322/index.m3u8"
     },
     {
       "name": "Epic Bhojpuri",
@@ -785,6 +771,34 @@
       "url": "https://40.160.24.53/IFC/index.m3u8",
       "group": "us",
       "url_raw": "https://40.160.24.53/IFC/index.m3u8"
+    },
+    {
+      "name": "iFilm 2",
+      "logo": "",
+      "url": "https://live.presstv.ir/hls/ifilm2.m3u8",
+      "group": "ir",
+      "url_raw": "https://live.presstv.ir/hls/ifilm2.m3u8"
+    },
+    {
+      "name": "iFilm Arabic",
+      "logo": "",
+      "url": "https://live.presstv.ir/hls/ifilmar.m3u8",
+      "group": "ir",
+      "url_raw": "https://live.presstv.ir/hls/ifilmar.m3u8"
+    },
+    {
+      "name": "iFilm English",
+      "logo": "",
+      "url": "https://live.presstv.ir/hls/ifilmen.m3u8",
+      "group": "ir",
+      "url_raw": "https://live.presstv.ir/hls/ifilmen.m3u8"
+    },
+    {
+      "name": "iFilm Persian",
+      "logo": "",
+      "url": "https://live.presstv.ir/hls/ifilmfa.m3u8",
+      "group": "ir",
+      "url_raw": "https://live.presstv.ir/hls/ifilmfa.m3u8"
     },
     {
       "name": "Indiyskoye Kino",
@@ -1237,6 +1251,13 @@
     {
       "name": "OuterSphere (2)",
       "logo": "",
+      "url": "https://amg00353-amg00353c17-xumo-us-2554.playouts.now.amagi.tv/lionsgate-otspr-xumo/playlist.m3u8",
+      "group": "us",
+      "url_raw": "https://amg00353-amg00353c17-xumo-us-2554.playouts.now.amagi.tv/lionsgate-otspr-xumo/playlist.m3u8"
+    },
+    {
+      "name": "OuterSphere (3)",
+      "logo": "",
       "url": "https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8",
       "group": "us",
       "url_raw": "https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8"
@@ -1354,18 +1375,18 @@
       "url_raw": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8"
     },
     {
-      "name": "Rakuten TV Comedy Movies Finland",
+      "name": "Rakuten TV Action Movies Spain",
       "logo": "",
-      "url": "https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8",
-      "group": "fi",
-      "url_raw": "https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8"
+      "url": "https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8",
+      "group": "es",
+      "url_raw": "https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8"
     },
     {
-      "name": "Rakuten TV Family Movies Spain",
+      "name": "Rakuten TV Drama Movies Italy",
       "logo": "",
-      "url": "https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8",
-      "group": "es",
-      "url_raw": "https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8"
+      "url": "https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8",
+      "group": "it",
+      "url_raw": "https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8"
     },
     {
       "name": "Rodnoe Kino",
@@ -1415,20 +1436,6 @@
       "url": "https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8",
       "group": "fr",
       "url_raw": "https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8"
-    },
-    {
-      "name": "ServusTV",
-      "logo": "",
-      "url": "https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8",
-      "group": "at",
-      "url_raw": "https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8"
-    },
-    {
-      "name": "Shemaroo Filmi Gaane",
-      "logo": "",
-      "url": "https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8",
-      "group": "in",
-      "url_raw": "https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8"
     },
     {
       "name": "Shemaroo Josh",
@@ -1800,6 +1807,13 @@
       "url": "https://stream.mcquack.net/380/index.m3u8",
       "group": "il",
       "url_raw": "https://stream.mcquack.net/380/index.m3u8"
+    },
+    {
+      "name": "ZB Cinema",
+      "logo": "",
+      "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
+      "group": "in",
+      "url_raw": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8"
     },
     {
       "name": "Кино 1 International",
