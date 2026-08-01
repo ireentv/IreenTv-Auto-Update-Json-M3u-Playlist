@@ -7,32 +7,8 @@
   "version": "1.0",
   "name": "tapmad_bd",
   "channels_amount": 11,
-  "Last_update": "2026-08-01 03:37:11 PM",
+  "Last_update": "2026-08-01 04:58:57 PM",
   "channels": [
-    {
-      "name": "Sri Lankan lions vs Bangladesh Tigers",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785490053540x302.jpg",
-      "url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
-      "group": "General",
-      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
-      "status": "Live"
-    },
-    {
-      "name": "Birmingham Pheonix vs Welsh Fire",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785483319540x302men.jpg",
-      "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
-      "group": "General",
-      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
-      "status": "Live"
-    },
-    {
-      "name": "London Spirits vs Southern Brave - Women",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785483500540x302women.jpg",
-      "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
-      "group": "General",
-      "url_raw": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "France - Champion, MitJet and Tourism Live",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785500659540x302.jpg",
@@ -44,18 +20,18 @@
     {
       "name": "London Spirits vs Southern Brave",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785483733540x302men.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "status": "Live"
     },
     {
       "name": "Medic vs Rodriguez",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785401668540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
+      "status": "Live"
     },
     {
       "name": "Sri Lanka Women vs Pakistan Women",
@@ -90,8 +66,32 @@
       "status": "Upcoming"
     },
     {
+      "name": "Trent Rockets vs Sunrisers Leeds",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785601749540x302men.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "MI London vs Manchester Super Giants - Women",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785601936540x302women.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
       "name": "West indies vs Pakistan",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785399727540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "MI London vs Manchester Super Giants",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785602192540x302men.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
