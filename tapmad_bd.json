@@ -6,32 +6,40 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 13,
-  "Last_update": "2026-08-01 09:31:18 AM",
+  "channels_amount": 14,
+  "Last_update": "2026-08-01 11:16:08 AM",
   "channels": [
     {
-      "name": "Sprint Race 1 - Kyrgyzstan Live",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785481934540x302.jpg",
+      "name": "France - Champion and Tourism Live",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785498663540x302.jpg",
+      "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+      "group": "General",
+      "url_raw": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "Birmingham Pheonix vs Welsh Fire - Women",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785483038540x302women.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "Sprint Race 2 - Kyrgyzstan Live",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785482546540x302.jpg",
       "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BKd2-TesT/master.m3u8",
       "group": "General",
       "url_raw": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BKd2-TesT/master.m3u8",
       "status": "Live"
     },
     {
-      "name": "Sprint Race 2 - Kyrgyzstan Live",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785482546540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
-      "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
-    },
-    {
       "name": "Sri Lankan lions vs Bangladesh Tigers",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785490053540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
+      "status": "Live"
     },
     {
       "name": "GT World Challenge - Qualifying 1 Live",
