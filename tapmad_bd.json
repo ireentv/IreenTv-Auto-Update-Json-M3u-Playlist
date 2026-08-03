@@ -7,16 +7,8 @@
   "version": "1.0",
   "name": "tapmad_bd",
   "channels_amount": 4,
-  "Last_update": "2026-08-03 09:41:11 PM",
+  "Last_update": "2026-08-03 10:59:35 PM",
   "channels": [
-    {
-      "name": "West indies vs Pakistan",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785399727540x302.jpg",
-      "url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
-      "group": "General",
-      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "Sri Lanka Women vs Pakistan Women",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785740145540x302.jpg",
@@ -28,6 +20,14 @@
     {
       "name": "Sunrisers leeds vs London Spirit - Women",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785740534540x302women.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "West indies vs Pakistan",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785399727540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
