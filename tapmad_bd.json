@@ -7,23 +7,23 @@
   "version": "1.0",
   "name": "tapmad_bd",
   "channels_amount": 3,
-  "Last_update": "2026-08-04 11:39:25 AM",
+  "Last_update": "2026-08-04 02:10:02 PM",
   "channels": [
-    {
-      "name": "Sunrisers leeds vs London Spirit - Women",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785740534540x302women.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
-      "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
-    },
     {
       "name": "West indies vs Pakistan",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785399727540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "Sunrisers leeds vs London Spirit - Women",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1785740534540x302women.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "status": "Live"
     },
     {
       "name": "Sunrisers leeds vs London Spirit",
