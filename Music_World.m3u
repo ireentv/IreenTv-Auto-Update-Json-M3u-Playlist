@@ -5,8 +5,8 @@
 # Website: https://anamul.pages.dev
 # Developer: IreenTechnology
 # Version: 1.0
-# Channels Amount: 631
-# Last Update: 2026-08-05 10:07:03 AM
+# Channels Amount: 640
+# Last Update: 2026-08-05 12:23:16 PM
 
 #EXTINF:-1 group-title="us" tvg-name="3ABN Praise Him Music Network",3ABN Praise Him Music Network
 https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8
@@ -36,6 +36,9 @@ https://mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8
 https://mumt03.tangotv.in/Dsly5z3H9XJALWA/index.m3u8
 
 #EXTINF:-1 group-title="in" tvg-name="9X Jhakaas",9X Jhakaas
+https://mumt03.tangotv.in/Dsly5z3H9XJHAKAAS/index.m3u8
+
+#EXTINF:-1 group-title="in" tvg-name="9X Jhakaas (2)",9X Jhakaas (2)
 https://cdn-3.pishow.tv/live/6/master.m3u8
 
 #EXTINF:-1 group-title="in" tvg-name="9X Tashan",9X Tashan
@@ -43,9 +46,6 @@ https://mumt01.tangotv.in/O5aw8Zn39XTASHAN/index.m3u8
 
 #EXTINF:-1 group-title="in" tvg-name="9X Tashan (2)",9X Tashan (2)
 https://cdn-2.pishow.tv/live/1613/master.m3u8
-
-#EXTINF:-1 group-title="cl" tvg-name="13 Festival",13 Festival
-https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="15+ Music",15+ Music
 https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
@@ -79,6 +79,9 @@ https://upcoming-match-no-stream.m3u8
 
 #EXTINF:-1 group-title="sn" tvg-name="A2i Music",A2i Music
 https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
+
+#EXTINF:-1 group-title="in" tvg-name="Aaryaa TV",Aaryaa TV
+https://stream.ottlive.co.in/aryatvtamil/index.m3u8
 
 #EXTINF:-1 group-title="sa" tvg-name="Abdulmajeed Abdullah",Abdulmajeed Abdullah
 https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8
@@ -131,9 +134,6 @@ https://upcoming-match-no-stream.m3u8
 #EXTINF:-1 group-title="kr" tvg-name="Arirang Radio K-Pop",Arirang Radio K-Pop
 https://upcoming-match-no-stream.m3u8
 
-#EXTINF:-1 group-title="bd" tvg-name="ATN Music",ATN Music
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
-
 #EXTINF:-1 group-title="ro" tvg-name="Atomic Academy TV",Atomic Academy TV
 https://atomic.streamnet.ro/academia.m3u8
 
@@ -148,9 +148,6 @@ https://hls.avang.live/hls/stream.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="AXS TV",AXS TV
 https://gpuserver3.tier1streams.com/AXS_TV/index.m3u8
-
-#EXTINF:-1 group-title="us" tvg-name="AXS TV (2)",AXS TV (2)
-https://206.212.244.63/12/index.m3u8
 
 #EXTINF:-1 group-title="ar" tvg-name="Azahares Radiovisual Multimedia",Azahares Radiovisual Multimedia
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
@@ -227,6 +224,9 @@ https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 group-title="ar" tvg-name="CADENA HEAT 91.9 FM",CADENA HEAT 91.9 FM
 https://upcoming-match-no-stream.m3u8
 
+#EXTINF:-1 group-title="us" tvg-name="California Music Channel",California Music Channel
+https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/playlist.m3u8
+
 #EXTINF:-1 group-title="cr" tvg-name="Canal 3 KMK TV",Canal 3 KMK TV
 https://cloudvideo.servers10.com:8081/8120/index.m3u8
 
@@ -242,14 +242,14 @@ https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
 #EXTINF:-1 group-title="cl" tvg-name="Chocolate FM",Chocolate FM
 https://5eaccbab48461.streamlock.net:1936/8180/8180/playlist.m3u8
 
+#EXTINF:-1 group-title="ru" tvg-name="City Eden Birma Play",City Eden Birma Play
+https://cityeden.catcast.tv/content/34364/index.m3u8
+
 #EXTINF:-1 group-title="ru" tvg-name="City Eden Classic Music",City Eden Classic Music
 https://cityeden.catcast.tv/content/47400/index.m3u8
 
 #EXTINF:-1 group-title="ru" tvg-name="City Eden Play",City Eden Play
 https://cityeden.catcast.tv/content/34100/index.m3u8
-
-#EXTINF:-1 group-title="ru" tvg-name="City Eden Sirtaki TV",City Eden Sirtaki TV
-https://cityeden.catcast.tv/content/46421/index.m3u8
 
 #EXTINF:-1 group-title="bg" tvg-name="City TV",City TV
 https://tv.city.bg/play/tshls/citytv/index.m3u8
@@ -271,9 +271,6 @@ https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="CMT East",CMT East
 https://gpuserver3.tier1streams.com/CMT/index.m3u8
-
-#EXTINF:-1 group-title="us" tvg-name="CMT East (2)",CMT East (2)
-https://206.212.244.63/39/index.m3u8
 
 #EXTINF:-1 group-title="it" tvg-name="Company TV",Company TV
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
@@ -341,6 +338,9 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.
 #EXTINF:-1 group-title="de" tvg-name="Deluxe Music",Deluxe Music
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 
+#EXTINF:-1 group-title="de" tvg-name="Deluxe Rap",Deluxe Rap
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
+
 #EXTINF:-1 group-title="in" tvg-name="Dhoom Music",Dhoom Music
 https://cdn-1.pishow.tv/live/1456/master.m3u8
 
@@ -384,6 +384,9 @@ https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8
 https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8
 
 #EXTINF:-1 group-title="py" tvg-name="Farra Play",Farra Play
+https://159.203.148.226/live/farra.m3u8
+
+#EXTINF:-1 group-title="py" tvg-name="Farra Play (2)",Farra Play (2)
 https://stream.farra.com.py/live/farra_low.m3u8
 
 #EXTINF:-1 group-title="co" tvg-name="Fiesta TV",Fiesta TV
@@ -440,6 +443,12 @@ https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
 #EXTINF:-1 group-title="ug" tvg-name="Galaxy TV",Galaxy TV
 https://livestream.galaxytv.ug/jikonkone/playlist.m3u8
 
+#EXTINF:-1 group-title="cl" tvg-name="Genial TV",Genial TV
+https://v1.tustreaming.cl/genialtv/index.m3u8
+
+#EXTINF:-1 group-title="cr" tvg-name="Gex TV",Gex TV
+https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
+
 #EXTINF:-1 group-title="nl" tvg-name="Gigant FM",Gigant FM
 https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
 
@@ -451,6 +460,9 @@ https://tv.mediacp.eu:8081/happyradio/index.m3u8
 
 #EXTINF:-1 group-title="aw" tvg-name="Heart Radio Aruba",Heart Radio Aruba
 https://live2.tensila.com/heart-v-1.heartar/hls/live/mystream.m3u8
+
+#EXTINF:-1 group-title="py" tvg-name="HEi Now",HEi Now
+https://copacogen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion
 
 #EXTINF:-1 group-title="us" tvg-name="High Vision TV",High Vision TV
 https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8
@@ -593,14 +605,17 @@ https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
 #EXTINF:-1 group-title="hn" tvg-name="La Top 107.7",La Top 107.7
 https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
 
-#EXTINF:-1 group-title="pr" tvg-name="La-X",La-X
-https://stream.eleden.com/livelax/ngrp:livelax_all/playlist.m3u8
+#EXTINF:-1 group-title="do" tvg-name="La Voz del Tropico",La Voz del Tropico
+https://ss2.tvrdomi.com:1936/lavozdeltropico/lavozdeltropico/playlist.m3u8
 
 #EXTINF:-1 group-title="ve" tvg-name="LaPuraCrema Television",LaPuraCrema Television
 https://streamlov.alsolnet.com/lapuracrema/live/playlist.m3u8
 
 #EXTINF:-1 group-title="de" tvg-name="Lausitzwelle",Lausitzwelle
 https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
+
+#EXTINF:-1 group-title="id" tvg-name="Lingkar TV",Lingkar TV
+https://lingkartv.my.id/hls/lingkartv.m3u8
 
 #EXTINF:-1 group-title="vn" tvg-name="Lính Trận Miền Xa - Nhạc Lính Hải Ngoại",Lính Trận Miền Xa - Nhạc Lính Hải Ngoại
 https://upcoming-match-no-stream.m3u8
@@ -635,6 +650,9 @@ https://stream-live.lrt.lt/opus/master.m3u8
 #EXTINF:-1 group-title="jp" tvg-name="Luiger: Japanese City Pop Radio",Luiger: Japanese City Pop Radio
 https://upcoming-match-no-stream.m3u8
 
+#EXTINF:-1 group-title="lt" tvg-name="M-1",M-1
+https://m-1.data.lt/m-1/smil:m-1.smil/playlist.m3u8
+
 #EXTINF:-1 group-title="ua" tvg-name="M1",M1
 https://stream.mcquack.net/218/index.m3u8
 
@@ -657,9 +675,6 @@ https://bss1.neterra.tv/magictv/magictv.m3u8
 https://live-maidantv.cdnvideo.ru/maidantv/maidantv.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="do" tvg-name="Makao TV",Makao TV
-https://live.obslivestream.com/makaomux/index.m3u8
-
-#EXTINF:-1 group-title="do" tvg-name="Makao TV (2)",Makao TV (2)
 https://live.obslivestream.com/makaomux/tracks-v2a1/playlist.m3u8
 
 #EXTINF:-1 group-title="cl" tvg-name="Maqui TV",Maqui TV
@@ -722,11 +737,11 @@ https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8
 #EXTINF:-1 group-title="pe" tvg-name="Miel TV",Miel TV
 https://7.innovatestream.pe:19360/mieltv/mieltv.m3u8
 
+#EXTINF:-1 group-title="pe" tvg-name="Millenium 109 FM",Millenium 109 FM
+https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8
+
 #EXTINF:-1 group-title="sa" tvg-name="Mohammed Abdo",Mohammed Abdo
 https://d2ow8h651gs7dx.cloudfront.net/out/v1/371fb663da604e659a2fb99bf89d92d4/index.m3u8
-
-#EXTINF:-1 group-title="es" tvg-name="Molahits TV",Molahits TV
-https://ventdelnord.tv:8080/mola/directe.m3u8
 
 #EXTINF:-1 group-title="my" tvg-name="Molek TV",Molek TV
 https://upcoming-match-no-stream.m3u8
@@ -741,15 +756,9 @@ https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR
 https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="MTV Classic East",MTV Classic East
-https://206.212.244.63/117/index.m3u8
-
-#EXTINF:-1 group-title="us" tvg-name="MTV Classic East (2)",MTV Classic East (2)
 https://40.160.24.53/MTV_CLASSIC/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="MTV Live",MTV Live
-https://206.212.244.63/118/index.m3u8
-
-#EXTINF:-1 group-title="us" tvg-name="MTV Live (2)",MTV Live (2)
 https://40.160.24.53/MTV_LIVE/index.m3u8
 
 #EXTINF:-1 group-title="ca" tvg-name="Much",Much
@@ -809,6 +818,9 @@ https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 group-title="fi" tvg-name="Navahang TV (2)",Navahang TV (2)
 https://simahls.wns.live/hls/stream.m3u8
 
+#EXTINF:-1 group-title="np" tvg-name="NH BollyRaga",NH BollyRaga
+https://cc-up9j649x4thrj.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/f935ee75-bf1b-4bf6-a30c-1f096a0083c5/0.m3u8
+
 #EXTINF:-1 group-title="sa" tvg-name="Nidae AlIslam Radio",Nidae AlIslam Radio
 https://live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8
 
@@ -854,6 +866,18 @@ https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8
 #EXTINF:-1 group-title="pr" tvg-name="Nueva Vida FM",Nueva Vida FM
 https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8
 
+#EXTINF:-1 group-title="tr" tvg-name="Number 1 Ask",Number 1 Ask
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
+
+#EXTINF:-1 group-title="tr" tvg-name="Number 1 Damar",Number 1 Damar
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+
+#EXTINF:-1 group-title="tr" tvg-name="Number 1 Dance",Number 1 Dance
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+
+#EXTINF:-1 group-title="tr" tvg-name="Number 1 TV",Number 1 TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+
 #EXTINF:-1 group-title="cz" tvg-name="Ocko",Ocko
 https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist.m3u8
 
@@ -871,6 +895,9 @@ https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8
 
 #EXTINF:-1 group-title="cz" tvg-name="Ocko Star",Ocko Star
 https://dash4.antik.sk/live/test_ocko_star/playlist.m3u8
+
+#EXTINF:-1 group-title="cr" tvg-name="Oldies Hits",Oldies Hits
+https://video07.logicahost.com.br/oldieshits/oldieshits/playlist.m3u8
 
 #EXTINF:-1 group-title="pt" tvg-name="ON FM",ON FM
 https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
@@ -1007,6 +1034,9 @@ https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjaz
 #EXTINF:-1 group-title="ec" tvg-name="Radio Bonita 106.7",Radio Bonita 106.7
 https://cloudvideo.servers10.com:8081/8154/index.m3u8
 
+#EXTINF:-1 group-title="it" tvg-name="Radio Capital TiVu",Radio Capital TiVu
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8
+
 #EXTINF:-1 group-title="es" tvg-name="Radio Carnaval TV",Radio Carnaval TV
 https://eu1.servers10.com:8081/8116/index.m3u8
 
@@ -1127,6 +1157,9 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 #EXTINF:-1 group-title="it" tvg-name="Radio Zeta (2)",Radio Zeta (2)
 https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
 
+#EXTINF:-1 group-title="cl" tvg-name="Radio Zona 90.3",Radio Zona 90.3
+https://live.tvcontrolcp.com:8081/radiozona/index.m3u8
+
 #EXTINF:-1 group-title="it" tvg-name="Radiofreccia",Radiofreccia
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
 
@@ -1217,6 +1250,9 @@ https://stream.mcquack.net/109/index.m3u8
 #EXTINF:-1 group-title="ru" tvg-name="RU.TV (2)",RU.TV (2)
 https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 group-title="cl" tvg-name="Ruidos FM",Ruidos FM
+https://tv1.ruidosfm.cl/ruidostv/stream.m3u8
+
 #EXTINF:-1 group-title="co" tvg-name="Rumba TV",Rumba TV
 https://45.162.193.35/RUMBATV/index.m3u8
 
@@ -1243,9 +1279,6 @@ https://cdn-4.pishow.tv/live/1143/master.m3u8
 
 #EXTINF:-1 group-title="in" tvg-name="Sangeet Bhojpuri",Sangeet Bhojpuri
 https://cdn-4.pishow.tv/live/1293/master.m3u8
-
-#EXTINF:-1 group-title="in" tvg-name="Sangeet Marathi",Sangeet Marathi
-https://cdn-3.pishow.tv/live/1229/master.m3u8
 
 #EXTINF:-1 group-title="tt" tvg-name="Scorch TV",Scorch TV
 https://w6oy7x7jlxrg-hls-live.5centscdn.com/MandETV/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
@@ -1280,17 +1313,8 @@ https://skyfolk.mk/live.m3u8
 #EXTINF:-1 group-title="es" tvg-name="Sol Musica",Sol Musica
 https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
 
-#EXTINF:-1 group-title="cl" tvg-name="Solo Bailalo",Solo Bailalo
-https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
-
-#EXTINF:-1 group-title="cl" tvg-name="Solo Bailalo (2)",Solo Bailalo (2)
-https://5ff3d9babae13.streamlock.net/8016/8016/playlist.m3u8
-
 #EXTINF:-1 group-title="in" tvg-name="Songdew TV",Songdew TV
 https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-
-#EXTINF:-1 group-title="ru" tvg-name="SONGTV Russia",SONGTV Russia
-https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
 
 #EXTINF:-1 group-title="cr" tvg-name="SOY Plancha TV",SOY Plancha TV
 https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8
@@ -1312,9 +1336,6 @@ https://aka-live1050.delivery.roku.com/7572d640-7373-4137-8b14-a3afff395349/t2-o
 
 #EXTINF:-1 group-title="ca" tvg-name="Stingray Classic Rock",Stingray Classic Rock
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
-
-#EXTINF:-1 group-title="ca" tvg-name="Stingray Classica",Stingray Classica
-https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
 
 #EXTINF:-1 group-title="ca" tvg-name="Stingray Cozy Cafe",Stingray Cozy Cafe
 https://aka-live1050.delivery.roku.com/372c813e-1fb9-41d4-a4d0-5fbd803659c5/t2-origin/out/v1/live.m3u8
@@ -1423,6 +1444,9 @@ https://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="Stryk TV",Stryk TV
 https://fffffff110156200.tvustream.com:8298/ryfy.m3u8
+
+#EXTINF:-1 group-title="pa" tvg-name="Super Q Panama",Super Q Panama
+https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8
 
 #EXTINF:-1 group-title="ro" tvg-name="Super TV",Super TV
 https://live.supertv.ro/live/supertv/playlist.m3u8
@@ -1673,8 +1697,8 @@ https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8
 #EXTINF:-1 group-title="uk" tvg-name="V2BEAT TV",V2BEAT TV
 https://abr.de1se01.v2beat.live/playlist.m3u8
 
-#EXTINF:-1 group-title="cw" tvg-name="VAM TV",VAM TV
-https://sincerecloud.stream/loadbalancer/public/J9EmQQGf.m3u8
+#EXTINF:-1 group-title="in" tvg-name="Vaanavil TV",Vaanavil TV
+https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8
 
 #EXTINF:-1 group-title="ee" tvg-name="Vantage Classic",Vantage Classic
 https://cdn-backup.lulzy.eu/vclassic_stream/index.m3u8
@@ -1692,7 +1716,13 @@ https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8
 https://cdn-backup.lulzy.eu/vmusic_stream/index.m3u8
 
 #EXTINF:-1 group-title="ee" tvg-name="Vantage Music (2)",Vantage Music (2)
+https://cdn-backup.lulzy.eu/vrock_stream/index.m3u8
+
+#EXTINF:-1 group-title="ee" tvg-name="Vantage Music (3)",Vantage Music (3)
 https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8
+
+#EXTINF:-1 group-title="ee" tvg-name="Vantage Rock",Vantage Rock
+https://hls.vantagetv.ee/vrock_stream/index.m3u8
 
 #EXTINF:-1 group-title="py" tvg-name="Venus Media",Venus Media
 https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
@@ -1773,9 +1803,6 @@ https://d2hdqrshyzxswl.cloudfront.net/Vevo_Retro_Rock.m3u8
 https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="VH1 East",VH1 East
-https://206.212.244.63/169/index.m3u8
-
-#EXTINF:-1 group-title="us" tvg-name="VH1 East (2)",VH1 East (2)
 https://40.160.24.55/VH1/index.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="VH1 West",VH1 West
@@ -1816,9 +1843,6 @@ https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
 
 #EXTINF:-1 group-title="us" tvg-name="WVCU-LP",WVCU-LP
 https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8
-
-#EXTINF:-1 group-title="aw" tvg-name="X 102.7 FM",X 102.7 FM
-https://live2.tensila.com/onair-v-1.xfm1027/hls/master.m3u8
 
 #EXTINF:-1 group-title="pr" tvg-name="X Level Media",X Level Media
 https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
@@ -1873,6 +1897,9 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/pl
 
 #EXTINF:-1 group-title="uz" tvg-name="Yulduz Usmanova",Yulduz Usmanova
 https://upcoming-match-no-stream.m3u8
+
+#EXTINF:-1 group-title="in" tvg-name="ZB Music",ZB Music
+https://server.zillarbarta.com/zbmusic/index.m3u8
 
 #EXTINF:-1 group-title="nl" tvg-name="ZFM Zoetermeer TV",ZFM Zoetermeer TV
 https://zfmzoetermeer.nl/live/master.m3u8

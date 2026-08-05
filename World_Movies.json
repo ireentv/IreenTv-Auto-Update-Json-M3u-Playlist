@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "World_Movies",
-  "channels_amount": 275,
-  "Last_update": "2026-08-05 10:07:03 AM",
+  "channels_amount": 264,
+  "Last_update": "2026-08-05 12:23:16 PM",
   "channels": [
     {
       "name": "24 Hour Free Movies",
@@ -36,6 +36,20 @@
       "url": "https://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8",
       "group": "gr",
       "url_raw": "https://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8"
+    },
+    {
+      "name": "ActionMax East HD",
+      "logo": "",
+      "url": "https://40.160.24.52/ACTIONMAX/index.m3u8",
+      "group": "us",
+      "url_raw": "https://40.160.24.52/ACTIONMAX/index.m3u8"
+    },
+    {
+      "name": "ActionMax East HD (2)",
+      "logo": "",
+      "url": "https://gpuserver3.tier1streams.com/ACTIONMAX/index.m3u8",
+      "group": "us",
+      "url_raw": "https://gpuserver3.tier1streams.com/ACTIONMAX/index.m3u8"
     },
     {
       "name": "Afra Film",
@@ -122,6 +136,13 @@
       "url_raw": "https://cdn-4.pishow.tv/live/1033/master.m3u8"
     },
     {
+      "name": "Bioskop TelkomVision",
+      "logo": "",
+      "url": "https://gist.githubusercontent.com/iptvonlinetv/8bf6f2e766091c54a07743ac6827f0f4/raw/afa1fdc6afa1fed44a29458da114bf98c2f9a0d6/udp810.710.800:2000.m3u8",
+      "group": "id",
+      "url_raw": "https://gist.githubusercontent.com/iptvonlinetv/8bf6f2e766091c54a07743ac6827f0f4/raw/afa1fdc6afa1fed44a29458da114bf98c2f9a0d6/udp810.710.800:2000.m3u8"
+    },
+    {
       "name": "BIZ Cinema",
       "logo": "",
       "url": "https://fl.biztv.media/cinema_720_EMfSyXgoRdiIHgldXTZICucKTIeCKO/index.m3u8",
@@ -187,19 +208,12 @@
     {
       "name": "Charge!",
       "logo": "",
-      "url": "https://206.212.244.63/34/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/34/index.m3u8"
-    },
-    {
-      "name": "Charge! (2)",
-      "logo": "",
       "url": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8",
       "group": "us",
       "url_raw": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8"
     },
     {
-      "name": "Charge! (3)",
+      "name": "Charge! (2)",
       "logo": "",
       "url": "https://gpuserver3.tier1streams.com/CHARGE/index.m3u8",
       "group": "us",
@@ -332,32 +346,11 @@
       "url_raw": "https://cityeden.catcast.tv/content/45269/index.m3u8"
     },
     {
-      "name": "City Eden KinoFantastika",
-      "logo": "",
-      "url": "https://cityeden.catcast.tv/content/45268/index.m3u8",
-      "group": "ru",
-      "url_raw": "https://cityeden.catcast.tv/content/45268/index.m3u8"
-    },
-    {
-      "name": "City Eden KinoKlassika",
-      "logo": "",
-      "url": "https://cityeden.catcast.tv/content/34185/index.m3u8",
-      "group": "ru",
-      "url_raw": "https://cityeden.catcast.tv/content/34185/index.m3u8"
-    },
-    {
       "name": "City Eden KinoKomediya",
       "logo": "",
       "url": "https://cityeden.catcast.tv/content/41331/index.m3u8",
       "group": "ru",
       "url_raw": "https://cityeden.catcast.tv/content/41331/index.m3u8"
-    },
-    {
-      "name": "City Eden KinoMistika",
-      "logo": "",
-      "url": "https://cityeden.catcast.tv/content/40783/index.m3u8",
-      "group": "ru",
-      "url_raw": "https://cityeden.catcast.tv/content/40783/index.m3u8"
     },
     {
       "name": "Classic Cinema",
@@ -486,6 +479,20 @@
       "url_raw": "https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8"
     },
     {
+      "name": "Eros Universe Bollywood Cinema",
+      "logo": "",
+      "url": "https://prod-runn.cdn.runn.tv/eros/stream/blywcm/playlist.m3u8",
+      "group": "np",
+      "url_raw": "https://prod-runn.cdn.runn.tv/eros/stream/blywcm/playlist.m3u8"
+    },
+    {
+      "name": "Eros Universe Entertainment",
+      "logo": "",
+      "url": "https://prod-runn.cdn.runn.tv/eros/stream/ersent/playlist.m3u8",
+      "group": "np",
+      "url_raw": "https://prod-runn.cdn.runn.tv/eros/stream/ersent/playlist.m3u8"
+    },
+    {
       "name": "Evrokino",
       "logo": "",
       "url": "https://stream.mcquack.net/385/index.m3u8",
@@ -598,13 +605,6 @@
       "url_raw": "https://40.160.24.52/FXM/index.m3u8"
     },
     {
-      "name": "FX Movie Channel (2)",
-      "logo": "",
-      "url": "https://messi.damitv.st/papi/ts/fxm-usa/playlist.m3u8",
-      "group": "us",
-      "url_raw": "https://messi.damitv.st/papi/ts/fxm-usa/playlist.m3u8"
-    },
-    {
       "name": "FXM East",
       "logo": "",
       "url": "https://gpuserver3.tier1streams.com/FXM/index.m3u8",
@@ -617,6 +617,13 @@
       "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
       "group": "ir",
       "url_raw": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8"
+    },
+    {
+      "name": "Gold Star",
+      "logo": "",
+      "url": "https://moviethls.wns.live/hls/stream.m3u8",
+      "group": "ir",
+      "url_raw": "https://moviethls.wns.live/hls/stream.m3u8"
     },
     {
       "name": "Goldmines",
@@ -670,13 +677,6 @@
     {
       "name": "Great American Faith & Living",
       "logo": "",
-      "url": "https://206.212.244.63/82/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/82/index.m3u8"
-    },
-    {
-      "name": "Great American Faith & Living (2)",
-      "logo": "",
       "url": "https://gpuserver3.tier1streams.com/GAC_LIVING/index.m3u8",
       "group": "us",
       "url_raw": "https://gpuserver3.tier1streams.com/GAC_LIVING/index.m3u8"
@@ -684,19 +684,12 @@
     {
       "name": "Great American Family",
       "logo": "",
-      "url": "https://206.212.244.63/81/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/81/index.m3u8"
-    },
-    {
-      "name": "Great American Family (2)",
-      "logo": "",
       "url": "https://40.160.24.58/GAC_FAMILY/index.m3u8",
       "group": "us",
       "url_raw": "https://40.160.24.58/GAC_FAMILY/index.m3u8"
     },
     {
-      "name": "Great American Family (3)",
+      "name": "Great American Family (2)",
       "logo": "",
       "url": "https://gpuserver3.tier1streams.com/GREAT_AMERICAN_COUNTRY/index.m3u8",
       "group": "us",
@@ -733,13 +726,6 @@
     {
       "name": "Hallmark Family",
       "logo": "",
-      "url": "https://206.212.244.63/85/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/85/index.m3u8"
-    },
-    {
-      "name": "Hallmark Family (2)",
-      "logo": "",
       "url": "https://40.160.24.53/HALLMARK_DRAMA/index.m3u8",
       "group": "us",
       "url_raw": "https://40.160.24.53/HALLMARK_DRAMA/index.m3u8"
@@ -760,13 +746,6 @@
     },
     {
       "name": "Hallmark Mystery East",
-      "logo": "",
-      "url": "https://206.212.244.63/86/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/86/index.m3u8"
-    },
-    {
-      "name": "Hallmark Mystery East (2)",
       "logo": "",
       "url": "https://40.160.24.53/HALLMARK_MOVIES_AND_MYSTERIES/index.m3u8",
       "group": "us",
@@ -809,13 +788,6 @@
     },
     {
       "name": "IFC East",
-      "logo": "",
-      "url": "https://206.212.244.63/4238/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/4238/index.m3u8"
-    },
-    {
-      "name": "IFC East (2)",
       "logo": "",
       "url": "https://40.160.24.53/IFC/index.m3u8",
       "group": "us",
@@ -1116,13 +1088,6 @@
       "url_raw": "https://stream.mcquack.net/369/index.m3u8"
     },
     {
-      "name": "MoviePlex",
-      "logo": "",
-      "url": "https://mumt04.tangotv.in/m18aqlK4MOVIEPLEX/index.m3u8",
-      "group": "in",
-      "url_raw": "https://mumt04.tangotv.in/m18aqlK4MOVIEPLEX/index.m3u8"
-    },
-    {
       "name": "MovieSphere AU",
       "logo": "",
       "url": "https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8",
@@ -1249,6 +1214,13 @@
       "url_raw": "https://newfhls.wns.live/hls/stream.m3u8"
     },
     {
+      "name": "NH BollyFlix",
+      "logo": "",
+      "url": "https://cc-r5hupcym5oehh.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/d47d1910-8862-4b83-a8a6-00ac11307859/0.m3u8",
+      "group": "np",
+      "url_raw": "https://cc-r5hupcym5oehh.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/d47d1910-8862-4b83-a8a6-00ac11307859/0.m3u8"
+    },
+    {
       "name": "Nolly Africa",
       "logo": "",
       "url": "https://amg02784-amg02784c1-distrotv-latam-5650.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-distrotvlatam/playlist.m3u8",
@@ -1277,11 +1249,11 @@
       "url_raw": "https://a-cdn.klowdtv.com/live2/nost_720p/playlist.m3u8"
     },
     {
-      "name": "Novyi Russkii",
+      "name": "ON Movies",
       "logo": "",
-      "url": "https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8",
-      "group": "ru",
-      "url_raw": "https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8"
+      "url": "https://freem3u.xyz/api/live/play.m3u8?vid=181",
+      "group": "vn",
+      "url_raw": "https://freem3u.xyz/api/live/play.m3u8?vid=181"
     },
     {
       "name": "Oscar Movies Bhojpuri",
@@ -1327,13 +1299,6 @@
     },
     {
       "name": "Paramount Network East",
-      "logo": "",
-      "url": "https://206.212.244.63/137/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/137/index.m3u8"
-    },
-    {
-      "name": "Paramount Network East (2)",
       "logo": "",
       "url": "https://40.160.24.55/PARAMOUNT_CHANNEL/index.m3u8",
       "group": "us",
@@ -1438,39 +1403,18 @@
       "url_raw": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8"
     },
     {
-      "name": "Rakuten Top Movies UK",
+      "name": "Rakuten TV Family Movies Germany",
       "logo": "",
-      "url": "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8",
-      "group": "uk",
-      "url_raw": "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8"
-    },
-    {
-      "name": "Rakuten TV Action Movies Spain",
-      "logo": "",
-      "url": "https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8",
-      "group": "es",
-      "url_raw": "https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8"
-    },
-    {
-      "name": "Rakuten TV Drama Movies Germany",
-      "logo": "",
-      "url": "https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6096/master.m3u8",
+      "url": "https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8",
       "group": "de",
-      "url_raw": "https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6096/master.m3u8"
+      "url_raw": "https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8"
     },
     {
-      "name": "Rakuten TV Drama Movies Spain",
+      "name": "Rakuten TV Family Movies Italy",
       "logo": "",
-      "url": "https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8",
-      "group": "es",
-      "url_raw": "https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/master.m3u8"
-    },
-    {
-      "name": "Rakuten TV Top Movies Italy",
-      "logo": "",
-      "url": "https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8",
+      "url": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8",
       "group": "it",
-      "url_raw": "https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8"
+      "url_raw": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8"
     },
     {
       "name": "Rodnoe Kino",
@@ -1594,16 +1538,16 @@
     {
       "name": "Sony Movies",
       "logo": "",
-      "url": "https://45.190.28.50/SONY_MOVIES/index.m3u8",
+      "url": "https://45.162.64.114/SONY_MOVIES/index.m3u8",
       "group": "br",
-      "url_raw": "https://45.190.28.50/SONY_MOVIES/index.m3u8"
+      "url_raw": "https://45.162.64.114/SONY_MOVIES/index.m3u8"
     },
     {
       "name": "Sony Movies (2)",
       "logo": "",
-      "url": "https://45.162.64.114/SONY_MOVIES/index.m3u8",
+      "url": "https://45.190.28.50/SONY_MOVIES/index.m3u8",
       "group": "br",
-      "url_raw": "https://45.162.64.114/SONY_MOVIES/index.m3u8"
+      "url_raw": "https://45.190.28.50/SONY_MOVIES/index.m3u8"
     },
     {
       "name": "Sony Movies Latin America",
@@ -1706,23 +1650,9 @@
     {
       "name": "Sundance TV East",
       "logo": "",
-      "url": "https://206.212.244.63/151/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/151/index.m3u8"
-    },
-    {
-      "name": "Sundance TV East (2)",
-      "logo": "",
       "url": "https://40.160.24.55/SUNDANCE/index.m3u8",
       "group": "us",
       "url_raw": "https://40.160.24.55/SUNDANCE/index.m3u8"
-    },
-    {
-      "name": "Super Channel Vault",
-      "logo": "",
-      "url": "https://206.212.244.63/6142/index.m3u8",
-      "group": "ca",
-      "url_raw": "https://206.212.244.63/6142/index.m3u8"
     },
     {
       "name": "Suriyan TV",
@@ -1734,23 +1664,16 @@
     {
       "name": "SYFY East",
       "logo": "",
-      "url": "https://gpuserver5.tier1streams.com/SYFY/index.m3u8",
-      "group": "us",
-      "url_raw": "https://gpuserver5.tier1streams.com/SYFY/index.m3u8"
-    },
-    {
-      "name": "SYFY East (2)",
-      "logo": "",
       "url": "https://40.160.24.55/SYFY/index.m3u8",
       "group": "us",
       "url_raw": "https://40.160.24.55/SYFY/index.m3u8"
     },
     {
-      "name": "SYFY East (3)",
+      "name": "SYFY East (2)",
       "logo": "",
-      "url": "https://206.212.244.63/152/index.m3u8",
+      "url": "https://gpuserver5.tier1streams.com/SYFY/index.m3u8",
       "group": "us",
-      "url_raw": "https://206.212.244.63/152/index.m3u8"
+      "url_raw": "https://gpuserver5.tier1streams.com/SYFY/index.m3u8"
     },
     {
       "name": "The Movie Club +2",
@@ -1793,13 +1716,6 @@
       "url": "https://gpuserver5.tier1streams.com/USA_NETWORK/index.m3u8",
       "group": "us",
       "url_raw": "https://gpuserver5.tier1streams.com/USA_NETWORK/index.m3u8"
-    },
-    {
-      "name": "USA Network East (3)",
-      "logo": "",
-      "url": "https://206.212.244.63/168/index.m3u8",
-      "group": "us",
-      "url_raw": "https://206.212.244.63/168/index.m3u8"
     },
     {
       "name": "USA Network West",
@@ -1912,6 +1828,13 @@
       "url": "https://stream.mcquack.net/380/index.m3u8",
       "group": "il",
       "url_raw": "https://stream.mcquack.net/380/index.m3u8"
+    },
+    {
+      "name": "ZB Cinema",
+      "logo": "",
+      "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
+      "group": "in",
+      "url_raw": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8"
     },
     {
       "name": "Кино 1 International",
