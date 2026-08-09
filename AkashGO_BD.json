@@ -7,17 +7,17 @@
   "version": "1.0",
   "name": "AkashGO_BD",
   "channels_amount": 58,
-  "Last_update": "2026-08-09 04:40:12 PM",
+  "Last_update": "2026-08-09 05:30:58 PM",
   "channels": [
     {
       "name": "Sony Sports TEN 2",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1762850019257.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1726/output/index.mpd?_t=1786291239149",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1726/output/index.mpd?_t=1786294839683",
       "group": "Sports",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1726/output/index.mpd?_t=1786291239149",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1726/output/index.mpd?_t=1786294839683",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwMzh9fX1dfQ",
-        "edge-signature": "R5tvfxHWcZ~F5MvDtIELIJeDiBRaHQdFSCAuw0-jfi0"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2Mzl9fX1dfQ",
+        "edge-signature": "7cnCUVVgnRjkHXayWzOP7tgG8IoX7qcSp-x~8bjFx88"
       },
       "attrs": {
         "tvg-id": "117"
@@ -26,18 +26,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=f352d057-1907&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQzOCwiaWF0IjoxNzg2MjkxMjM4LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI2N2YyYWM5MC1kY2U1LTRmMWYtODQ4Yy03MGE2YmNiOTllYjciLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZjM1MmQwNTctMTkwNyJ9.GUhVMRLMrgp408VnQwGprWqaTFdD0qX9f_ZBfwdfKxL53tT6lIj7UiN5fFcD26KpTXVldYdOj_4iTBW1dnyOoE3aV2aUV-EME1p6BVs5NwaJxIkMu9js3Gch15MPErHT0tWeKDRdV4xIsO2DYdPsONYhRUVDPlHRY9TkkfAmAHF3vsw5loXM-JbyflIDad3Ijcj0B5DTSld7S1rhfGfI7bzyQIYbhrIswgA8Dh3Cb2BzlzAD9Ktq9lOBXc1E3VuPSCR1BiaNcfp76C540dS-ibbtcs0--bACOXefIV28wjgKtHkJqdMz_s5jBlWsNs2Jrelr8J2gTGO73BzwDklR8w"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=f352d057-1907&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjAzOSwiaWF0IjoxNzg2Mjk0ODM5LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI5YzAyODkwMi1mMWQ2LTRmNTQtYmViOS1lMTg5NGFmNDBiNGQiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZjM1MmQwNTctMTkwNyJ9.hzo7Gk8E-bNRWSNB87puF62fT4k6rR9mLVwyt6uJ7NiTyRt23M55uC1fjAKA-sX938idNXoxNPU2gouglxq2YcG9DJsa0rQMi_B8umjcfj6xMUvNKrmPX-Diez1sTNgiItPqqb1OIX8MwKZH0tLvK29K3e_IeW_MKuAtCqqx0_ZfMFDBrtdSKFDwPZVQRESGBOU71wk_nwBksGy1HrZdSiRPHpZrDMStyg6JqMG3B4xxg3RoV4MxbA4BImtyLEuNQ_jDEbVkXWS58jrJYG0FMVl9VwpsYq4At9FbsBA2oV7K55jxpPUoEnhgmcZE7IzMS4tBqt7uURhrXlJWzLsyBg"
       ]
     },
     {
       "name": "Sony Sports TEN 1",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1762853147045.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1719/output/index.mpd?_t=1786291239199",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1719/output/index.mpd?_t=1786294839680",
       "group": "Sports",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1719/output/index.mpd?_t=1786291239199",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1719/output/index.mpd?_t=1786294839680",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxOS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwMzl9fX1dfQ",
-        "edge-signature": "P5VQX6O3m1zZtq0ivGvP01lL1bX8M8sGhInBVrcMKY0"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxOS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2Mzl9fX1dfQ",
+        "edge-signature": "JaG2BG3VPG1GmrhyLFsq5bbN5UrzMoK9AkrGfbQ-HxM"
       },
       "attrs": {
         "tvg-id": "118"
@@ -46,18 +46,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=35fee7f3-d55d&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQzOCwiaWF0IjoxNzg2MjkxMjM5LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI4ZGRmMGIwZS01ODIwLTQxNmUtYTY0Yy02YzM5ZjAyYjk0YWQiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiMzVmZWU3ZjMtZDU1ZCJ9.CTjhPuLbYTc5um31qPnrXA6WO3C_IYVQWTAAKRIyWgB02y9tQSlL1Sm4Sq-_u-7q_EplvLO8VmjTOCNsUyE1vUfCB5g69eVDL20mULHidIZ2uQNcb84DxTor5zzJseuf4FSomKegB5g4xBa3AhI8BYhbve9ZStmA_NjgM-V1TQw3qQ4cqzoVb0LwTNhhgtQzoFr8JnWQzzKlUhMDmbFC_qaRQM-4rd90E19Dc2Txz3Y3U3vVYSx8Cn6i53k2JDIvRU_wiTJL92SqeIrC4PraclJLweDOlp5zLI9NA_B1Njk8l3WMIx4Wm98PWbg7B-LsKBljNVYyl289rFMtpYrWng"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=35fee7f3-d55d&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjAzOSwiaWF0IjoxNzg2Mjk0ODM5LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiJkYWE4NDIwYy04ZmY2LTQyM2ItODIxNy01MjlhNmNiZTc1MDMiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiMzVmZWU3ZjMtZDU1ZCJ9.ljq_S9HsUlfkkHgJIWAm7hBMLZA492-CbsmaKw9BCKnST8WDcrMbHXIdbGxC1PrUbehryNRFVglOOLGHRGUeqSXI_dP2u3yjT0b6PXCq1W-rI-kNhKsqUzQ5tKGcR4y-QrvHxiCBHiG35J4ZqhSIDWLZPzxFD5YAvkQlfeNwOKF9mwG4Hb-U_8jLOq36v3ZUmpTudAHb2niFay_n7icHm5q050-4kEwEPkAYw6aDWsnik2vkj06oomGJiZGw-wuZ_x09hDjw4b3ARmSsh6OWif5I4K3aBR3rcuLJQX__VNNRWzns094MRxk2oJGPxdI5M6kLSyEjppsgFmXnbT0I8Q"
       ]
     },
     {
       "name": "Sony Sports TEN 5",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739906861365.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1717/output/index.mpd?_t=1786291239063",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1717/output/index.mpd?_t=1786294839747",
       "group": "Sports",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1717/output/index.mpd?_t=1786291239063",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1717/output/index.mpd?_t=1786294839747",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxNy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwMzh9fX1dfQ",
-        "edge-signature": "vDUTcWIu~plmmMr3-w6CTMni-R4Q7z96FFM8-MM5gro"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxNy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2Mzl9fX1dfQ",
+        "edge-signature": "NTLtcCPEeLnkz7d~pLfOLegJFnVCUg5QbNIp2Zk~T8I"
       },
       "attrs": {
         "tvg-id": "116"
@@ -66,18 +66,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=2659ffb3-2b08&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQzOCwiaWF0IjoxNzg2MjkxMjM4LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI2YmEyOTI2Ny02ODdhLTQyMjgtOWY2Ny1hZGM2OWNjOWYwM2QiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiMjY1OWZmYjMtMmIwOCJ9.Iu_A4EsfsEjo1LFGtteIdyIsIRYFCbR2Ac5ZzfqBBubrCkwaulYt6Oetx7_4n4df1TGY9k8OS34Fo_3KUgSfpOWMJPB1DPuNRQd4jITTAoav4Mj426TuqvqI5j78R_RgWy2WJe2NQFYGRlDOGdRpY7LX67IQfHsEFXBWlhlIGtH3UqjJ9KHOEoQFo3E9jco7uC9s8cywEK4f7dkqFHfIWeGQKdz7Pg61NGOkd05h99SNcgssCGb76QEAochGp_Uzs4QIyAMCIaZz0Jmx_iHv2ReNORS6s-KKdyV_KlxV07p8Sw-047eM8QcKNEyInJU_XXVr5RiU9E88TiwfMH64FQ"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=2659ffb3-2b08&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjAzOSwiaWF0IjoxNzg2Mjk0ODM5LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiIzMTk0MzA1MS03OTI5LTQ5ZWEtYjM4ZC1mYWM0MWZmNzFhODQiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiMjY1OWZmYjMtMmIwOCJ9.iL60I6mCg2WrwZ9nsgfq4keW2OK2KvuMh1miNYMApZMqrL9XRxWolRcBXHOAkPGhsia745iSMEbSkz-ORn6uX2o_E1-4QSQ0Z3t71hOrTGZo7CFyFg916bahj9ZhgnP4U5rthpO6krUkodY18raCRXb2aNcTfRchEVgQStzUu1ZNXJiB2dr3oXfN1CiDp6sZ4wj8Y5Ac3waJFrjl22VdjWPhBpGsifB1uRawgvl83AGwlNSSF_d5cQHszxL9D5lLMzVBmNJhnHUZPSHYL1FwBSfG7l-KAKQc_Jw_A906frRWkmyVWepUScJrGxLh7EvDdkjRr2YLval2N8lYIWuUQA"
       ]
     },
     {
       "name": "httpstpmssupportfreshservicecomatickets1552208currenttabdetails",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1762850019257.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1726/output/index.mpd?_t=1786291239825",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1726/output/index.mpd?_t=1786294840334",
       "group": "Sports",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1726/output/index.mpd?_t=1786291239825",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1726/output/index.mpd?_t=1786294840334",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwMzl9fX1dfQ",
-        "edge-signature": "oHp1ll7XYn8MqWuAfTo1XyqGSe4ZwNkseVGq0-S3Ns8"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDB9fX1dfQ",
+        "edge-signature": "UxSJYAl3XmWyZzluQtFf2CusiUnt5MDYuw3zQQxDxu4"
       },
       "attrs": {
         "tvg-id": "117"
@@ -86,18 +86,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=f352d057-1907&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQzOSwiaWF0IjoxNzg2MjkxMjM5LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiIyZDNhNzUzZC0yN2JmLTRlYmItYmNkMy1lZWE0MjllYjNmOTIiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZjM1MmQwNTctMTkwNyJ9.lVVch9we10AP18exaA5caMJueAaiXmEHxKGgPGKF-irBqjW8w4DpeT_b6e77INlMi0WTzaS4IZJvBtV44QR4hROqVdDCdZd-mazdyjvbWW6gJqe0ks9zFvX1jKy3D1044RrO1QboAh1FJfcyWaG3PsCoW6zogPbz1wvlrfbQTJ-FzdSgJfJ2gvnX3BE0kVsZvZH3FEEaqoinwON80WPly7hfNBhTIogxfCgw83IczmWPoqHLpEHA7Jy3MnK6bAOhY17u-Q7tOswPhqrg6xX5fuhQn6Dr1rTFvA6cbyA1_u9IQI7W5TmGD5gQsicOjTOxoerj9wccZmqvkj_vgWlCaw"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=f352d057-1907&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0MCwiaWF0IjoxNzg2Mjk0ODQwLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI1OWVmNTUyZC02NTk3LTQ2ODktYTA0MC1lZDhmNmU4YWVkYmUiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZjM1MmQwNTctMTkwNyJ9.hHk59Lulf1AaO22gv0kZOvie5espY4zefabd14he7xzUKigZIEPkdKK3oOLNPAn0eXnwGtr7AljXQ2r_uskmh8nxOyLhkeoFPuArjYX9zvPqB8DiuyI8hQhFNqKB49rkgiLfQI3_zgiZZ4amlbiZxAZlnHzdwD17P4zw9feTz3Fpxh4p3GXWWGcE2wu8T_aRUcQWIae0EOwhlcEGttn-LJOGjSNTYG0TB2mVerd2Gk3nsCnzzD6VgVp9Lf4vBswl4ovhTx9GL5IS5cMMWOGqOAkgieffH2vzcjjgWXves7zTXjkP9R679WpJQekpAwwL-1hr__-PfkEd3KcIMNSlyg"
       ]
     },
     {
       "name": "Ten Cricket",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1745304841482.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1727/output/index.mpd?_t=1786291240720",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1727/output/index.mpd?_t=1786294840736",
       "group": "Sports",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1727/output/index.mpd?_t=1786291240720",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1727/output/index.mpd?_t=1786294840736",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDB9fX1dfQ",
-        "edge-signature": "nmnrCUH1DGFM--iKnmXLmz5e8izvnOiDxUsmvzB7NOk"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDB9fX1dfQ",
+        "edge-signature": "PmstPrd881tgS5MzVhz-Cqldmc~uLHgoRbn36fmcAbg"
       },
       "attrs": {
         "tvg-id": "153"
@@ -106,18 +106,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=801c26dd-8035&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQ0MCwiaWF0IjoxNzg2MjkxMjQwLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiIzZDg5ZDE0ZS1hMjQwLTRmNDItOWIxYi0zMWM0OTgxNmZhZWYiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiODAxYzI2ZGQtODAzNSJ9.mcTT5C1LdDwwSu7tIF4AWiqDG1RG_3S1VQSTe0Gq9aN2p7fn821HGGCoks0XCUaGy34h10F0PVb9kCpAh6jjKVTOV_2ATOg11SAKs9bC3gMKJU3hPzVcrp5dKCWmSFpnFl_bnd0IwTi0ObhaILGM2HJhTxeYkV9C1wLsm3RoRxMMLqgliGiGx8LyaFp_E90nf5c5gMoQyM7TLC18w2nJup_SnS5ErDGE_MX1htJGKEk64durfJUt8vU6DN7HSskNAv0tyjG3vvOcjkg5b4QqfMy99GDXQ2m9RwExlsAuHjOi46mMqmOTo0vQ3dc9WhpVLhmOlURmGfRinqUbIyNRYQ"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=801c26dd-8035&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0MCwiaWF0IjoxNzg2Mjk0ODQwLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiJiNWIxYzc5Mi0wMzlhLTQzZTMtYjkxOC1iNmZhMjYyMmZmMDMiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiODAxYzI2ZGQtODAzNSJ9.IOiA5qKE2dE8ix6RH_Abo3y1IvsOafGCobuXnT52UCFhb8xUrPh4h68ZOXAZa_RfOh18i-h2pZnxzkuI1JjaL1SxL4FwUCxOlmK2M2d0H4tHNCd9sUGc27-pJa1cO8XeSqmL-8pJNfbsSVKpx06qgTtb3tSyRcrnnyqJFgSGw37QEqx6YzeYUK3XibEVQ6P7j-F2e00uzjJXksgTMum6T61Oo-mFeT3GxJ-QzCQr9wrNoWdxB2dqO8gEgI-xcnabT_jUm9Z9qQ7hZBSl2exsQpPy_dpH4-2_Q5eja0-dmT1OdFMuQYido8RRvo7DF46a2EwbpdZECmbyNf7lwTe39w"
       ]
     },
     {
       "name": "Sony Max",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1780310920616.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1730/output/index.mpd?_t=1786291240060",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1730/output/index.mpd?_t=1786294841132",
       "group": "Movies",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1730/output/index.mpd?_t=1786291240060",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1730/output/index.mpd?_t=1786294841132",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTczMC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwMzl9fX1dfQ",
-        "edge-signature": "n3JNkYSIZx9dH41cGIr4njaiNPNa7UP5z9BZ99iJTV4"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTczMC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDF9fX1dfQ",
+        "edge-signature": "oN8Lkoy47nQNRZaHp4ZDQXaYy554pAyhQdhIDMno~PM"
       },
       "attrs": {
         "tvg-id": "289"
@@ -126,18 +126,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=e7eb2b46-bc76&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQzOSwiaWF0IjoxNzg2MjkxMjM5LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI0YTJlMTlhNi04OTc5LTQ0OTgtYmJjMi0yZWQ3NzljMzc3ZmEiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZTdlYjJiNDYtYmM3NiJ9.UToZftO1skGq7mdy9_OukTV07qUmIV6D1_LVI8i-7nJDe3tQsvoIn2_-_DBixgbQ4zQ-XFPBgRhx6ITK18cMVrHGU2d5j_w19Uc2ayS5Dg-CfollY7BS4-nrpPn9Ig9O87rPm2-VLdU1FObdDXIZtwval3WpzwXv5XPwlHjDJO1TNycmRx0FFzJRaXvqarsXNxzrohspXxtC0jtb--lVGXmjmjBLsc5UTiAMWHIEzgJpT8Zrw8nh4OqZorWz_KnPctdHuN-O-HcC36xBAmGdqCZvsMolKoZo7EDqZ44uAedGM2y2_PfJCDaoA8UUOqGYlxDC0p_EHrQBSJ8HRDSyOA"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=e7eb2b46-bc76&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0MSwiaWF0IjoxNzg2Mjk0ODQxLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiJmMWQ3ZjZiOC1kNjVkLTRkYzMtYmE0Mi0xNzZhMDg0ZjEyZWIiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZTdlYjJiNDYtYmM3NiJ9.Z6xwo68qXaeFgIRdfk6mQgFgB11yoINEgR4QN3fuzfLXyLKb2dCckUzIynrvSS056GA6BQL-33r26W-wQfgrrhFsp8qeyswwryhts1zhalbch3MqJ4LZLKYLautE-UyHjxsSmgvmRBXcWCLJGU-3-7ScJtZKND8tNjnE5lUjpEauDOMGFlssIW8S_mY_08B6-8WDi1BlUsAOFDk9Vc8FRn73TtJHHr9nPYBe3rLC3w2RB_u3S92xU45gQ_Wlzs0je5o65Oeyp9cbEgZNgWCzMzASnc-smekxY9Wo724S8Id2-uFDThwoCxp2_Q0igg6Dv2_kmphJIuQck5jCCHGOAw"
       ]
     },
     {
       "name": "Sony Pix",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1780311807965.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1731/output/index.mpd?_t=1786291240531",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1731/output/index.mpd?_t=1786294841519",
       "group": "Movies",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1731/output/index.mpd?_t=1786291240531",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1731/output/index.mpd?_t=1786294841519",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTczMS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDB9fX1dfQ",
-        "edge-signature": "ImdgLwfNn6eWdrsPwH-VOVMdx866r833cmHQuvwOpyw"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTczMS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDF9fX1dfQ",
+        "edge-signature": "-UTXTQA5mRnelR8crvptxmVklFAo-jewrYsyaimpJtI"
       },
       "attrs": {
         "tvg-id": "290"
@@ -146,18 +146,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=e864851a-be2b&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQ0MCwiaWF0IjoxNzg2MjkxMjQwLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI0MGY2Y2RjZS1hYjJkLTQ3MmItOTY5My1iZWQyY2Q5NGY2MWQiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZTg2NDg1MWEtYmUyYiJ9.SK2sd0L10tUrBnZzEsqSakg2JmNxWrC4MZnBiZ6dAyuOHxyFKu2Hr4DbdVUc70DZiKA7C_KOU-8eMgo3Hvv5UMNCoywWuvpGPO9H2yCAVcUkXgZF9bI7MHS3Ra-y_ZSxg-jMlqkaXACLHq6GAxH15QeNOCkNHH1GU3IyLSkKUyogoHT7TEM-s5m4gelAlC62eWiKRGK600h4TnjpiQB0GUfcRFviQa3KjFGY5nDXBzOWhOm51H32ct9Czns9gsrdcHIBVmJMBfUXYiHv5SGokoK9wRFaYTUtrI1VIhLvS8vbroXnVmVHYR55iiZ4JBOrA2782mAzFue-BYnfRHNyjQ"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=e864851a-be2b&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0MSwiaWF0IjoxNzg2Mjk0ODQxLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI5MTBkY2RkYi0wZjFiLTRkZWEtODg1Ny03YWZiNmQ1YmMwMmQiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZTg2NDg1MWEtYmUyYiJ9.fUoqSsZbb7rmtMCXdgBi-V_9RR_RpOE5jYub7ooQZb1K5teo2Jnz7XeMWj_NdHPz1TiuSGjl9IfsXhL5CXEYR7t2gM5ZZaOSTemPqq7qK9TaWkTrTJxkF7Q81kxdIiJlfzQ4yLKrnvJ23zwuuYJnXQsiJaDVpsg2Mpt5WwgFlUCkKO18uRFUlKfR15J8YaQcNvNWnvbOkX8fGMwLVnhOazTOms5D_CItcqFRJaBCCsjAADbXcPJ7OXXMZ5m6EMKsalbIS_FI7LjnJV8l0igdfqbMa18OlZbbNYKO4zkigSqe9_02aMpHYeKG4vFuvSbfEUnASSy12qYLG7OpSD7VbA"
       ]
     },
     {
       "name": "ZEE BANGLA",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1756017182009.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1714/output/index.mpd?_t=1786291241354",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1714/output/index.mpd?_t=1786294842333",
       "group": "Entertainment",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1714/output/index.mpd?_t=1786291241354",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1714/output/index.mpd?_t=1786294842333",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxNC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDF9fX1dfQ",
-        "edge-signature": "hFCZO-UcqLbLt2QwEtu85t-DQBNWlz0xdFh24fg9xwM"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxNC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDJ9fX1dfQ",
+        "edge-signature": "JC6ra4otSMrCz5afAtjLBuiQUZSj6J64lgS6pilHRN8"
       },
       "attrs": {
         "tvg-id": "143"
@@ -166,18 +166,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=8f95c9cd-6940&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQ0MSwiaWF0IjoxNzg2MjkxMjQxLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI0ZjZiZjIyMS1mNmRkLTQ0MDUtODY4Mi1hNTU5YTI5ODVlMzMiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiOGY5NWM5Y2QtNjk0MCJ9.M7gNzdhYpzX_X668i3YFk0A25NSTYIwpr99LUnpaNzP75DiPAfWes8qeFgdJjvI6NAmSmoM3WqPZvYFmKvV8wzUsoBmTOFQX25249cxhzRqT6od9zWNIgtCUT2q5u0DGfCCdRvGh6agmejFlippytBsTMgElN-sOt89JNzoCgbw1llYGY5C8OSAp5TZU1bDc8dywiVXl2uyxmSEXXD4yhjFHEigrA7lnXNrDbgsrgd04kt1nOgoDoZlsKK6OLg9vRN13C5QVGjTnn0GG6ue62cWZS5klvWK2lZ0l4wpSewZIn3TPBPrw02G9VHOIXOrI-Tj-qbZfcMSREHRcKA_sXg"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=8f95c9cd-6940&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0MiwiaWF0IjoxNzg2Mjk0ODQyLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI0MzYxZjc5OS0xNjE0LTQzZGUtODEzZC0xOGJlMTU5NzRlYzIiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiOGY5NWM5Y2QtNjk0MCJ9.OKJiA1ySSf55IVqZyi7YfWKotZGEzSGP3iYIphcmV5FnK8RsoW4lBCyPCfh0LmVhOum8yekmiJUeS6H1_T5Z0NUzJajdW38Ha2qEfL8rgtAiH4xuWx48YAsI97CTue1UmOUH_6b39LIePq94gItIbicj--9aXDX5fPF3NTpOkzYT42wTRfzQkARLyryemweSuvVbL61zbsA66Nr9Qk_fS8FyaeFKP6IeDUi1YbiXoNNx5prFYq1VnfIaYFPdEMf71KNWmItouqJQf8Tb6pqTrWkkWpRu3Tts19q-_83K0474n9T3eTNjpy2F8gOeA6CMU5eedyWKjE8plLbe24FrCg"
       ]
     },
     {
       "name": "Sony AATH",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739906659479.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1732/output/index.mpd?_t=1786291242061",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1732/output/index.mpd?_t=1786294842803",
       "group": "Entertainment",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1732/output/index.mpd?_t=1786291242061",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1732/output/index.mpd?_t=1786294842803",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTczMi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDF9fX1dfQ",
-        "edge-signature": "dNX2Cj8yznueTzebPct5wpGp~CZ5RNIt2VIUA~HW~MI"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTczMi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDJ9fX1dfQ",
+        "edge-signature": "KX6qCH17Acj8d1EmZnE~AsROglIT-vSOJTxqPMLxpmk"
       },
       "attrs": {
         "tvg-id": "142"
@@ -186,18 +186,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=70f9fa1f-38af&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQ0MSwiaWF0IjoxNzg2MjkxMjQxLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI2MTViOWU1OC03ODlhLTQxN2QtODE3OS0xZTZkZGIyZTU4MTQiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiNzBmOWZhMWYtMzhhZiJ9.GzounmovYCoJBAorvYWEb73rUyTi4cFmc7wD_giJOmSUVBb-Y6SCGLyOVNSq42gp5xwXGNvYDkSQFvlHM9B-kjmMkUQN_0MoD8Yo3kDJXOYoj4Xg_nRHoQdrx2rNsTJAukfh7obBeQ6HvC2H3XAE6q1x310oIgpczIg9u9ni6UjpjR7E158iZpJTZm6WgPy0fNIudHsT0mFDYAdeDcZ7M_DBTDtP_BZ8MlzbZrYRdndQv1SnKJEfSYvgJ8x2nNKttlMmzK6pSEJP8B69g6EtCrxoXg1WwdgtrPK6NhhMBY_51JYgU7BELI318r-OVBYB9RELzSMh-M-10kJ-MMtEmw"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=70f9fa1f-38af&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0MiwiaWF0IjoxNzg2Mjk0ODQyLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiIwYjZhNzE0Yy04ZDY4LTRkMGMtYWJjMC0yMWY3NTk5ODQxMmMiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiNzBmOWZhMWYtMzhhZiJ9.ahr7962TT5AgZ1aJ7p0NYozkaDoiVMsb1PchYpkVdUXIFvVAziBQ19kdX0vXlklk4KAayBZ8LX6tZFev64IAuPePW-NJy0y0WZZ4FNYqffTXt-r-fVi49G_TtM9UnCvfmvucVU6m1uJal-jteu4Z46uDoCLXBhM4xu3xi8V5-Hf8w8LUd7GmcH8xQmIavevADdVF943nyPH3djblFX3G5yL-45wr71fqQFnklNIFWc5CAGt7vQsAqqqGfOarbRQkolE7PqOR5Xgwp-P3BA4pVuE_ljT7oy_wItxsqPjzi8Ff9gJzb-OJqVIp1h6YzxyLulfImUSs4vgecfwzAT5zFQ"
       ]
     },
     {
       "name": "Euro Sports HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1765256371720.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1712/output/index.mpd?_t=1786291243309",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1712/output/index.mpd?_t=1786294844189",
       "group": "Sports",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1712/output/index.mpd?_t=1786291243309",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1712/output/index.mpd?_t=1786294844189",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxMi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDN9fX1dfQ",
-        "edge-signature": "XM52UCbR7duTvdMTqfr6ddBsgcLxLDwsaAb8GlZjqYM"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxMi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDR9fX1dfQ",
+        "edge-signature": "AMuUsqL~9kJ96ccF0595Wac46rGFZhLgKRbwxXImv-Y"
       },
       "attrs": {
         "tvg-id": "90"
@@ -206,18 +206,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=df67fc1a-01d1&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQ0MywiaWF0IjoxNzg2MjkxMjQzLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI5ZDg4ZjM5OS05NzQ1LTQ0YWQtOTY5Ni1kNWJmM2ZjMjkwYTUiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZGY2N2ZjMWEtMDFkMSJ9.DGNhzcvPuMK5z5ZLLpdXFInNuRlc5gXIrqyxA1uQxhAv6mgOYZOf-0nBYNHpIistFqD0did1hpPei2wk9WYxQyfcnE8fO-o1ftqgOx1UVuWpiIlZQCU03fdwQkJbHkpr9h-1esRcdOCVjXwq7b7J2OlkzXV-UlGv2ltT0f1dj-Rlp7tmxjgazcF73fQFvc5BqVkhv3irlnYtj9UGDU2zw2Y2n3NqBv1cwnW-rWx3YHSlza3U7cWYeoxPo9g78o-PI8VrebTNU0ihCEtlgMUrDFCK1CuVDN8X717Zg40SfjthzfKmaqHqKGRtTVa-p6jl0Vqmd8iT3Vs5LA9ZVK2UGQ"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=df67fc1a-01d1&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0NCwiaWF0IjoxNzg2Mjk0ODQ0LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI0NWI4YTUyMy0xYjM0LTQwNDgtOTc1NC1lOThhN2Y2NzE4OGEiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiZGY2N2ZjMWEtMDFkMSJ9.PtqV6CuEYMaDWj08Nde7LY_kQbpKDozJPUqIyCdkZCPtYKrxmXuBGMlUnWFOi89Cb-1NsR9Os9DweMtQ8asKVZA51UQG5VdX7ED7xIomyz26q2tPR_DS3qG_H9inWcqkSVHDjxi9VKffL5SZiiIRY7cER65x84eDc4k5ljfeSyjP8I8c75voobXjlV7VS0V3GXpRr2330iMcVptZBoHSrAXhQ81Pk9LIflNLHywv7rG-ZlXENFgFbg0inpmzMPhiaFs0Kl24CUDzqxp8FHHbg5lsWLZZUTDWC-wRumZm7w7N7c8p_bNjD9aCg1MYysZHNyCktBpZ9SqClQHPDHinPw"
       ]
     },
     {
       "name": "Sony Entertainment",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740380280065.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1718/output/index.mpd?_t=1786291244043",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1718/output/index.mpd?_t=1786294844809",
       "group": "Entertainment",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1718/output/index.mpd?_t=1786291244043",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1718/output/index.mpd?_t=1786294844809",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxOC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDN9fX1dfQ",
-        "edge-signature": "hOPK-ZENABl1ZWA11U02eDDpLWSaYpAGyt0-mDndjKc"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxOC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDR9fX1dfQ",
+        "edge-signature": "lrUfGffysOn238X3Raiqxq6TyCdfMXQF6ixzszGNQNA"
       },
       "attrs": {
         "tvg-id": "124"
@@ -226,18 +226,18 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=368f3847-ed5e&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQ0MywiaWF0IjoxNzg2MjkxMjQzLCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiJiMWY2NGIwYS0xYWNlLTQ1ZWUtOWZjNi01MzZkMWYwNWMzYzMiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiMzY4ZjM4NDctZWQ1ZSJ9.ELCIzB_OdktsAfokoG9sHBCjtKkEiXiEltaySGjOlSJAFZ5qZF35yLOJ9_0u4nGdbesL-i6hSe2UUnroN9xpnZFiADerCdIjzWnp4Xnr0UQmdSmyLBszBnxqyYWvIwUGCyJkpaT8kodA2qg4cBQDSK53521BxIl1i5Q2Hnj_F8WaDR55W8ql8TdHIh3RhrpHFu4INfhOPp4ogdjkq_h9yfGa4pTDCAhivszpVIWsvQe9qb8pBRJw7-6DAWlt3sbX6m2aC87jEPab8gRw_06l6z1Ure4vFVforkm99wnP8x7uWaUNa8nkvy9SB4sg68JJ2ablOiOekN2c5gxRDh1V-Q"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=368f3847-ed5e&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0NCwiaWF0IjoxNzg2Mjk0ODQ0LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiJlYWQ0ODMwYS1mYmU2LTQ5NjgtOWY1Zi1iMGY5ZjBmYThhNjAiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiMzY4ZjM4NDctZWQ1ZSJ9.OAmK3dP-xpaFMNn9DqWlQIx1_nkeXbKgZuNflfTxgS8HlEpKs2CY4cpyZGtR1wUNSy0xMmLbBwDuBkF0AGsfnB8dJIASJOw5_3rQwS3tr5qdmMvrXJukCP5VOi47LEV1fvifN3CG2gnqRzliQ3XHo-rw8dWln1MixJTQlySOf29-FAIGabqk0xD8jFJkOKnLS-0fiqxOgxVH4VA8CZhp5yRE4915SEK-8x_XCIqNbM6r1feHWzoqBQzmv1o9lq9id3zEam66cY45rDp8LTjB_UR_I-wUEs-iyfB-O3nd0pM-DdRFC_S787L7cR0m4_bhf5fZbTTD7I5oiaAdKth1Nw"
       ]
     },
     {
       "name": "CNN",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770610404979.png",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.mpd?_t=1786291245176",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.mpd?_t=1786294845588",
       "group": "News",
-      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.mpd?_t=1786291245176",
+      "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1707/output/index.mpd?_t=1786294845588",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDV9fX1dfQ",
-        "edge-signature": "r~dDQcItalpyIqVeH6Qq-Pq8sdr7IH5AwY8Ta5Qp3js"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDV9fX1dfQ",
+        "edge-signature": "3tZM5-iQqjIODmEWhV0-lkE7uby-zgRbbpsTC8QRGgE"
       },
       "attrs": {
         "tvg-id": "165"
@@ -246,7 +246,7 @@
         "inputstream=inputstream.adaptive",
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=com.widevine.alpha",
-        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=br08dp34kn19k&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjI5ODQ0NSwiaWF0IjoxNzg2MjkxMjQ1LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiI2MTA0YjYzYS0zMGRlLTQ3NDEtOTZmZC1iODJjMTRlNzVkNmEiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiYnIwOGRwMzRrbjE5ayJ9.BBlyFGN-DGnqa5XAV_Vx2mdFV5BVibu8QsR24sLNpKLj14teY8BnjIQBwHgaGDOR44e9M5c4C1VVjpo6OdS3ACdCqy2MIRAkl0rPjZyfMKHbr8wmEnGl-0X1eS83IoGdwnIZ_8V6StLki2tCx1COqqXfEhikY3mvNboojOEcLsmm27A8TqsVraEE2_ip331IsiaFyBJ5_aOLh9K8sx4ujOqOJOYbnyABm0hw_wy6EVNo7UmGyErguIWtjjPsqIXgHH_ay7m5gKHzLbJeDgTLhqNVXjT7pBrJq2YDSjjB2DG1CV--BzZlqhLpyqWlGubPZkWpCy6qE1dV6UYslqYXyg"
+        "inputstream.adaptive.license_key=https://bingeakashgo.live.ott.irdeto.com/licenseServer/widevine/v1/bingeakashgo/license?contentId=br08dp34kn19k&ls_session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InJzYTIwNDhrZXkifQ.eyJzdWIiOiI0MDM4Mzg5OCIsImlzcyI6Im9wZXJhdG9yLXBvcnRhbCIsImV4cCI6MTc4NjMwMjA0NSwiaWF0IjoxNzg2Mjk0ODQ1LCJhaWQiOiJiaW5nZWFrYXNoZ28iLCJqdGkiOiIyMzQ0ZThjMy04ZjZiLTRkNjQtOWFkNy0xMDY1ZThiNGVmZTQiLCJlbnQiOlt7ImVwaWQiOiJzdWJzY3JpcHRpb24tZW50aXRsZW1lbnQtcG9saWN5IiwiYmlkIjoic3Vic2NyaXB0aW9uLWJ1bmRsZSJ9XSwiY2lkIjoiYnIwOGRwMzRrbjE5ayJ9.HE19PnusFY1_39ZsgYC_lW9iR4PvkXJ4bnxOfE1qdhNQ6qRIycUgSfUNVpbbd6G6UCm6hiCo_PRTOaq_HzpWlUImlB9f9-QOvGnM8_tB1fMuTycY9oc0FDihaQ-3Bcx7L7LE73NCuTZL34iHWjGaACGvonh3gDgIZbZn-tH18aZclhndmssppQqs_p-8NEQRMf0ZE_9GzCNgmNvtiBa0tO-r_9vxJcCYZx0sobPelxzR9AN40Wqg5yJdflcgDIu9Dov3GvTvki4ZgjeJIR7yqrSsh3Z2EjemnMJu9SfL5Yl1Tvo7UDhnid6rXLjRijy2enH28FnA3y0fqY5JH7fEBw"
       ]
     },
     {
@@ -256,8 +256,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxMy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwMzl9fX1dfQ",
-        "edge-signature": "HP-SZ9Okhcu1Td5wpmcxq0n-4kELAEbyOpruvSNvRj4"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxMy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2Mzl9fX1dfQ",
+        "edge-signature": "RSUtbsVo1ohaXzLFaz61bzG6WnwC0eRLAFDfU6AiSjg"
       },
       "attrs": {
         "tvg-id": "318"
@@ -270,8 +270,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwMS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwMzl9fX1dfQ",
-        "edge-signature": "A2lBYFIpYywmIPeluE7xXh6PCl5-z7vfTwjIioPcMNE"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwMS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2Mzl9fX1dfQ",
+        "edge-signature": "DSzJRp5TzCQbLqaFN-ysxNy6gGEG53wCsSmHYNZaSE4"
       },
       "attrs": {
         "tvg-id": "97"
@@ -284,8 +284,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDB9fX1dfQ",
-        "edge-signature": "ai2yVbQiDhlXf-74QgyaRdo4DkBSCBnIGnH8J5Vdsjg"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDB9fX1dfQ",
+        "edge-signature": "QgQDPwlaLX1z7BMf9ohtvU88wiHK8-QxnwH2jWNsvtA"
       },
       "attrs": {
         "tvg-id": "96"
@@ -298,8 +298,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyOC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwMzl9fX1dfQ",
-        "edge-signature": "NkYqL5mMvw6xisDtCMKt4GS3nF4F26XkWl3zjnz1DP8"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyOC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDB9fX1dfQ",
+        "edge-signature": "okgc-cv9q0intd~Je8SlX6e2De9~0twvK3SB98BBJfE"
       },
       "attrs": {
         "tvg-id": "185"
@@ -312,8 +312,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwOS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDB9fX1dfQ",
-        "edge-signature": "jNrJ8SvDnguiXZTebOH77kC~xpUTr97u-sgVG92ABYA"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwOS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDF9fX1dfQ",
+        "edge-signature": "izMXo717sZC51P6P1OaubNSSH1lX7XK2oD5OuzTdZ~I"
       },
       "attrs": {
         "tvg-id": "228"
@@ -326,8 +326,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDB9fX1dfQ",
-        "edge-signature": "ilXyOQdS~J6UsAuHZWPm8VhVfN-IzKFQa3xRuv94GAc"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDF9fX1dfQ",
+        "edge-signature": "UYqzS9dfWLAl~zhJcBz5Cu0~GhQs6DBQan5z1Y7dG4I"
       },
       "attrs": {
         "tvg-id": "102"
@@ -340,8 +340,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwMy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDF9fX1dfQ",
-        "edge-signature": "4HFRnTJvsW6NmGy9O8okvyLalwuTzFKfgQfms77IyJo"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwMy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDJ9fX1dfQ",
+        "edge-signature": "i0iNYTzT4e-Dj5milPBCWdePB45Az4uscbuTXxV5L~o"
       },
       "attrs": {
         "tvg-id": "94"
@@ -354,8 +354,8 @@
       "group": "Entertainment",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1725/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDF9fX1dfQ",
-        "edge-signature": "4WjbMthNFlYGRyNB0EfE4WtrlIfppf-e2AZOJI2VFbU"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDF9fX1dfQ",
+        "edge-signature": "w04ETmS3mUcOYCNw~exKB1pgssjBec5UVlpBegT15cY"
       },
       "attrs": {
         "tvg-id": "122"
@@ -368,8 +368,8 @@
       "group": "Entertainment",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyMi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDF9fX1dfQ",
-        "edge-signature": "RWgnGbWzpXIlQcA2NvHZNsVzjRvwxSgAy2dlYfx~l0w"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyMi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDF9fX1dfQ",
+        "edge-signature": "tpiODL4w7VsMGrSpommgOwVOHI85-PQr-GsZR-Kboec"
       },
       "attrs": {
         "tvg-id": "229"
@@ -382,8 +382,8 @@
       "group": "Sports",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9jcmF6eV9leC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwMjA0MX19fV19",
-        "edge-signature": "-R2yec9eUYEwDrgyBUcLB4vpkUyC6j099tbL1j4ngD4"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9jcmF6eV9leC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwNTY0Mn19fV19",
+        "edge-signature": "iK2xI4YCZymiD14WlO65Ja40p~SbjaPRCzO83fEDT7o"
       },
       "attrs": {
         "tvg-id": "202"
@@ -396,8 +396,8 @@
       "group": "Sports",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zcG9ydHJhbmdlLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzAyMDQyfX19XX0",
-        "edge-signature": "ElrHV-NQxPITFa2fyz3XNmISQ8hltFlRaHDDXFpn5x0"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zcG9ydHJhbmdlLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzA1NjQyfX19XX0",
+        "edge-signature": "AneK-OHVPUZBexct4P3XWnr3GQWvQpAR8cbsG~voea4"
       },
       "attrs": {
         "tvg-id": "217"
@@ -410,8 +410,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDF9fX1dfQ",
-        "edge-signature": "rD9BdhN-xXqecmeE9qqo2l~mph8LzA7sN5rIXef4dyE"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwNi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDJ9fX1dfQ",
+        "edge-signature": "96055ZG5~fiVEO59cEBnY2Y4LCGrM-jZ1LkBCvl1mX0"
       },
       "attrs": {
         "tvg-id": "93"
@@ -424,8 +424,8 @@
       "group": "Entertainment",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyOS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDJ9fX1dfQ",
-        "edge-signature": "6Wbex2D8qFZZ8YRbJpkVu46NlEUG1Ij16o9thuARxls"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyOS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDN9fX1dfQ",
+        "edge-signature": "DtTlLZxWl1Y-~B4CxhkOloC9ogqHm2Cb98dpzDU3Xl4"
       },
       "attrs": {
         "tvg-id": "188"
@@ -438,8 +438,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwOC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDJ9fX1dfQ",
-        "edge-signature": "g5UnC7yT4I-91E-0YvJ4kjmVN0uwCQ~MXZcnM5z0Yyo"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwOC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDN9fX1dfQ",
+        "edge-signature": "NC41fWatWPeCt1Dv1wH7HdoDiSip8PveTbw8nODPjmA"
       },
       "attrs": {
         "tvg-id": "186"
@@ -452,8 +452,8 @@
       "group": "Entertainment",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxMS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDJ9fX1dfQ",
-        "edge-signature": "dtsCiSAJKf2bfEUBJWG54wWTOoTlmLgN4sCgYkkWxZI"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxMS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDN9fX1dfQ",
+        "edge-signature": "~52rJh8IM7hEJQlM5BfUAUUUBfDcUeKoyIOkKXHgGts"
       },
       "attrs": {
         "tvg-id": "134"
@@ -466,8 +466,8 @@
       "group": "Entertainment",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxNi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDJ9fX1dfQ",
-        "edge-signature": "3LLKbAHQVhZYPR47y-OZQEBZSMidA9NjagNXiDa6pVw"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxNi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDN9fX1dfQ",
+        "edge-signature": "RAc23tdIEniPvw3ffTlTNUlCPDXlYSz5vVjzm7jJcAA"
       },
       "attrs": {
         "tvg-id": "99"
@@ -480,8 +480,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyMS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDJ9fX1dfQ",
-        "edge-signature": "yF-Cpj56z-ZA-ePY-Z2zExjSJYt9STdxWZJJ3v9hcWk"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyMS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDN9fX1dfQ",
+        "edge-signature": "ZeyZu1XsZubfOCU7zzlmcLzFM4njvmjUq7S99uCxy4g"
       },
       "attrs": {
         "tvg-id": "85"
@@ -494,8 +494,8 @@
       "group": "Entertainment",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyMy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDN9fX1dfQ",
-        "edge-signature": "vRiJFAjPi06o~5NeSbUeFvJzaerHPmtSCmSr3gefwos"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyMy9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDR9fX1dfQ",
+        "edge-signature": "nSDPpsIe7ghGX6pf-YtCpTZFa2ISHMqPzxgH-b-TWkI"
       },
       "attrs": {
         "tvg-id": "132"
@@ -508,8 +508,8 @@
       "group": "Entertainment",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxNS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDN9fX1dfQ",
-        "edge-signature": "MiS~g8AXAORbBtq4q-A6EM61yBs0lzsAlIHpou1PtqI"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxNS9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDR9fX1dfQ",
+        "edge-signature": "7MFmmegYqV-aVY01uU6x5H43hkjsLBDzALauQ06ajzU"
       },
       "attrs": {
         "tvg-id": "100"
@@ -522,8 +522,8 @@
       "group": "Sports",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zcG9ydHNsZWdlbmRzLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzAyMDQzfX19XX0",
-        "edge-signature": "TtSWHqiztGApFlmJr1Cjz25vLoaLTYjGoZ40Tvb3~XA"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zcG9ydHNsZWdlbmRzLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzA1NjQ0fX19XX0",
+        "edge-signature": "e8P4tBoDGiKKslwrFHvPs-Pyw6NXNgw8iffKIuM2LwM"
       },
       "attrs": {
         "tvg-id": "205"
@@ -536,8 +536,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxMC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDN9fX1dfQ",
-        "edge-signature": "jY0qoTKhhReuGLXDjIisW8BHSRODU3ErfO-RaJqYows"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcxMC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDR9fX1dfQ",
+        "edge-signature": "LGf-enZnKUHpqffovBIVxuC6bjX6hPxq-D2XH5ne~jg"
       },
       "attrs": {
         "tvg-id": "191"
@@ -550,8 +550,8 @@
       "group": "Music",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9wYXJ0eXVuaXZlcnNlLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzAyMDQzfX19XX0",
-        "edge-signature": "zLIWgoCVqouH9gkUuDReD-718bzmkQPzDGl-hi2Ls2E"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9wYXJ0eXVuaXZlcnNlLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzA1NjQ0fX19XX0",
+        "edge-signature": "qpHYVntWjU0847539SgxsotQCS21Rm8DQxkujnYX7ZA"
       },
       "attrs": {
         "tvg-id": "207"
@@ -564,8 +564,8 @@
       "group": "Sports",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC90aHVuZGVyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzAyMDQ0fX19XX0",
-        "edge-signature": "IXvhyDPlmrRmLCf4yosnY-SBX6vXs9BWC9lwbsF8KYQ"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC90aHVuZGVyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzA1NjQ0fX19XX0",
+        "edge-signature": "z--ImEYolKPG0f9YZbun6NdCoK3aLf12SPZwI9AmtCI"
       },
       "attrs": {
         "tvg-id": "218"
@@ -578,8 +578,8 @@
       "group": "Sports",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9maWdodGVyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzAyMDQ0fX19XX0",
-        "edge-signature": "kLSf3OxuBQCMAiiMh-Et9sQcwJqJC9DnlIeUXutMM-A"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9maWdodGVyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzA1NjQ0fX19XX0",
+        "edge-signature": "SlhqVW80BVlRIqXsApp5iCqfoXoKZ3dfi88NaZDQIX0"
       },
       "attrs": {
         "tvg-id": "219"
@@ -592,8 +592,8 @@
       "group": "Sports",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9mbGFzaGd1eXMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDR9fX1dfQ",
-        "edge-signature": "8VqGppS7cK2z3Xi2pVQash3zWGzIzJzNoreHq6qtLJw"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9mbGFzaGd1eXMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDR9fX1dfQ",
+        "edge-signature": "jupgaRVCPRXQp4zu~FoP87Ybm3CIBPEPn4p1SQj5Zec"
       },
       "attrs": {
         "tvg-id": "206"
@@ -616,8 +616,8 @@
       "group": "Kids",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9uaWtreS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwMjA0NH19fV19",
-        "edge-signature": "5HiRY1vuVFImT0g9eJpk7rJ0D7FkSvOARviizMAvx3g"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9uaWtreS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwNTY0NX19fV19",
+        "edge-signature": "Efe3k5QHs1XhlaRsd0xyoKFZOWWaUWAG4FG6tn10Dzs"
       },
       "attrs": {
         "tvg-id": "210"
@@ -630,8 +630,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwMi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDR9fX1dfQ",
-        "edge-signature": "jlzFNTRwhwCaAk3uUehIL~oCsaBJgtj1uQQBva1oTCc"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcwMi9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDV9fX1dfQ",
+        "edge-signature": "U3dWVcbeutuKXAzD7g4FDjMH3KgD0EFThkf6knEBfKw"
       },
       "attrs": {
         "tvg-id": "299"
@@ -644,8 +644,8 @@
       "group": "Movies",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9vcmlnaW5hbHMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDR9fX1dfQ",
-        "edge-signature": "ixyzxpKI7VUoua-5i1S1cq8Jni4sOVHs5Rx3TjOwkXA"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9vcmlnaW5hbHMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDV9fX1dfQ",
+        "edge-signature": "P9SPriuyrKMAXblzHtbWoF9EVOze7q3hg7Vgozb01MI"
       },
       "attrs": {
         "tvg-id": "193"
@@ -658,8 +658,8 @@
       "group": "Kids",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9qb3kvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDV9fX1dfQ",
-        "edge-signature": "VrL5nc9liQNBrRbMmV66etTjLSNVB3ks9wVeJUq8v5E"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9qb3kvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDV9fX1dfQ",
+        "edge-signature": "Pi1I46b8GBB4GeUbYigwbUfTH2Ty8LhYHSMD~GccSe8"
       },
       "attrs": {
         "tvg-id": "211"
@@ -672,8 +672,8 @@
       "group": "Infotainment",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9kZWxpY2lvdXMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDV9fX1dfQ",
-        "edge-signature": "-1-czNRvtdI0eaZ9vHO~vVbXJmvsFZN-uaAV7Jt5CRM"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9kZWxpY2lvdXMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDZ9fX1dfQ",
+        "edge-signature": "dAybrmq5A8trlN9jXd2utRbz5z9IO0mWwNfUuDwGJdA"
       },
       "attrs": {
         "tvg-id": "208"
@@ -686,8 +686,8 @@
       "group": "Kids",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9mdW5ueWp1bmlvci8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwMjA0NX19fV19",
-        "edge-signature": "aAliYAfdHZCAW1W1yliOqck2OmA6QUXSIR8HjuSEla0"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9mdW5ueWp1bmlvci8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwNTY0Nn19fV19",
+        "edge-signature": "9pfMjHb0wOPL90f8yAC9qViM7WpQnfce54KCvcJJpCU"
       },
       "attrs": {
         "tvg-id": "213"
@@ -700,8 +700,8 @@
       "group": "Kids",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9raWRzc3RhcnMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDV9fX1dfQ",
-        "edge-signature": "CZv42-NhdrUzUVT4knQvxh3F7k9iSrBdx~2CTNDwyE4"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9raWRzc3RhcnMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDZ9fX1dfQ",
+        "edge-signature": "V4m0zb6l5rUadBb7UDBS1TXUZ0uSFwzWXoPnTSNrI2w"
       },
       "attrs": {
         "tvg-id": "222"
@@ -714,8 +714,8 @@
       "group": "Movies",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9jaW5lZWRnZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwMjA0NX19fV19",
-        "edge-signature": "SmkgZSnZsTt3Fo7ZBTUgbbhkgqqPTZEyiqJZxhUkacM"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9jaW5lZWRnZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwNTY0Nn19fV19",
+        "edge-signature": "YNycJvUXEwCaxcgGzNYpKtsy~anDdlALNFJyileGBmc"
       },
       "attrs": {
         "tvg-id": "197"
@@ -728,8 +728,8 @@
       "group": "Movies",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9jcmltZXMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDV9fX1dfQ",
-        "edge-signature": "HJKU13ETGn2sJ-LeufIyWTveMS0dTLEuiDc4uaOTYzY"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9jcmltZXMvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDZ9fX1dfQ",
+        "edge-signature": "YEAYULVhfWCywlFwoTDPKA9txGspd0uJOCRe1Rv-Ly8"
       },
       "attrs": {
         "tvg-id": "214"
@@ -742,8 +742,8 @@
       "group": "Movies",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zY3JlZW0vKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDZ9fX1dfQ",
-        "edge-signature": "UYy0s8v1hmOzHATACr0O0704w44q5qb17CDSAhBidvc"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zY3JlZW0vKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDZ9fX1dfQ",
+        "edge-signature": "0vMsgC-uGzqlDvsRWepEFHhhydsQXzfrbZkJ9eyvIec"
       },
       "attrs": {
         "tvg-id": "192"
@@ -756,8 +756,8 @@
       "group": "Movies",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zdXBlcnJpeC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwMjA0Nn19fV19",
-        "edge-signature": "OQwy2nhkMJ~dYVTtJR7AbYYTTA297H-V0Kp6zbg6hhk"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zdXBlcnJpeC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwNTY0Nn19fV19",
+        "edge-signature": "A2f9ga4cA54f9nHduk2PiihoWO5Y8QYyV6I896K3XtY"
       },
       "attrs": {
         "tvg-id": "198"
@@ -770,8 +770,8 @@
       "group": "Movies",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC91bmlxdWVzLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzAyMDQ2fX19XX0",
-        "edge-signature": "5tvmAjh986CaTMPCOvOi4R9hS~~eVDelj~fpm5u8aV8"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC91bmlxdWVzLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVkZ2VUaW1lIjoxNzg2MzA1NjQ2fX19XX0",
+        "edge-signature": "1FldHV1repfSl-6376-uJK8Qmsq19iDUEEaQHZ3KFe0"
       },
       "attrs": {
         "tvg-id": "196"
@@ -784,8 +784,8 @@
       "group": "Kids",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9idWRkeXN0YXIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDZ9fX1dfQ",
-        "edge-signature": "v0Z7V4O8u2hpPPkFDy8LILdgeHXcn9RSlEus5Yafjb4"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9idWRkeXN0YXIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDZ9fX1dfQ",
+        "edge-signature": "lU84KYA87Y8yYw9Ii~c2lgEIBNGiUF-gBP6T834jv8c"
       },
       "attrs": {
         "tvg-id": "212"
@@ -798,8 +798,8 @@
       "group": "Kids",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9sdWNreWZhbWlseS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwMjA0Nn19fV19",
-        "edge-signature": "q5znuBylAf-nzSIRmtw5xjeCYPm4SM8frSb8nwGLT-I"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9sdWNreWZhbWlseS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwNTY0N319fV19",
+        "edge-signature": "FWY4rsXSPtoSdfYWSmg53xlwTIDEpVBH9nvS9srV-qI"
       },
       "attrs": {
         "tvg-id": "221"
@@ -812,8 +812,8 @@
       "group": "Kids",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zbWFydHkvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDZ9fX1dfQ",
-        "edge-signature": "1nQEnQhgsI8grVcilBklwhSRYS5sMboquSYkcXEBX5k"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9zbWFydHkvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDd9fX1dfQ",
+        "edge-signature": "iK14K~ldlUxbpppOmw-MaF4r-RZBZH9xXMjCtSaXi7Q"
       },
       "attrs": {
         "tvg-id": "220"
@@ -826,8 +826,8 @@
       "group": "News",
       "url_raw": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDZ9fX1dfQ",
-        "edge-signature": "PjVyweUUEwWaQKGaJ9W8xRlZoLYQFBLHqjMuGwvaMKw"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9vd3Jjb3ZjcnB5LmdwY2RuLm5ldC9icGstdHYvMTcyNC9vdXRwdXQvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDd9fX1dfQ",
+        "edge-signature": "cdIMn7CeLZ6oefGpDyeDhYKUpfGjroBNNLy~8SxcEhc"
       },
       "attrs": {
         "tvg-id": "303"
@@ -840,8 +840,8 @@
       "group": "Movies",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9pbnRlbGxpZ2VuY2UvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDZ9fX1dfQ",
-        "edge-signature": "v1ihGt282OpRVr1BlnH8i2R6EwFMiczGDXDazOvv424"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9pbnRlbGxpZ2VuY2UvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDd9fX1dfQ",
+        "edge-signature": "jM9w3Hsys699ZPJoIhfJBPFlWcyMwe18VN0IhA9ik0Y"
       },
       "attrs": {
         "tvg-id": "216"
@@ -854,8 +854,8 @@
       "group": "Movies",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC90cnVlc3Rvcmllcy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwMjA0Nn19fV19",
-        "edge-signature": "9ceWvwKFhV7wXr6BXKrCqaAbVnt1IAtZyJq4H3~lsF0"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC90cnVlc3Rvcmllcy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFZGdlVGltZSI6MTc4NjMwNTY0N319fV19",
+        "edge-signature": "DaqrS3uJYQUlWhcLFMrCKQyi60NEeDHgjZoapY-~dSc"
       },
       "attrs": {
         "tvg-id": "215"
@@ -868,8 +868,8 @@
       "group": "Infotainment",
       "url_raw": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8",
       "headers": {
-        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9sdXhlbGwvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDIwNDZ9fX1dfQ",
-        "edge-signature": "D7g~LVEanvaIG~6PNjyjzHoctKrfW3pzK1me2W2zb5c"
+        "edge-policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ub21hd25vaWpsLmdwY2RuLm5ldC9ha2FzaC9sdXhlbGwvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRWRnZVRpbWUiOjE3ODYzMDU2NDd9fX1dfQ",
+        "edge-signature": "LIYFhq~DWZcVnefkXxdI6Vrjp4nhiA21BEAaimpZ2lk"
       },
       "attrs": {
         "tvg-id": "209"
