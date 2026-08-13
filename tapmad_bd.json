@@ -6,20 +6,28 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 10,
-  "Last_update": "2026-08-13 09:11:24 AM",
+  "channels_amount": 11,
+  "Last_update": "2026-08-13 10:35:46 AM",
   "channels": [
     {
       "name": "Game Changer Lions vs Hubtown Panorama Panthers",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786519292540x302.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "Khan Tigers vs Vedanta Leopards",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786519428540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
       "status": "Upcoming"
     },
     {
-      "name": "Khan Tigers vs Vedanta Leopards",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786519428540x302.jpg",
+      "name": "Abha vs Al-Hazem",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786615341540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
