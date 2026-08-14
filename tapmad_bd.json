@@ -7,8 +7,16 @@
   "version": "1.0",
   "name": "tapmad_bd",
   "channels_amount": 10,
-  "Last_update": "2026-08-13 11:39:49 PM",
+  "Last_update": "2026-08-14 01:53:17 AM",
   "channels": [
+    {
+      "name": "Australia vs Bangladesh",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786429467540x302.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
+      "status": "Live"
+    },
     {
       "name": "Jamaica Kingsmen vs Guyana Amazon Warriors",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786608776540x302.jpg",
@@ -16,14 +24,6 @@
       "group": "General",
       "url_raw": "https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8",
       "status": "Live"
-    },
-    {
-      "name": "Australia vs Bangladesh",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786429467540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
-      "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
     },
     {
       "name": "Khan Tigers vs Aussie Mavericks Jaguars",
