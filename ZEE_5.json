@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "ZEE_5",
-  "channels_amount": 43,
-  "Last_update": "2026-08-14 07:47:35 PM",
+  "channels_amount": 30,
+  "Last_update": "2026-08-14 08:29:58 PM",
   "channels": [
     {
       "name": "Channel 1",
@@ -44,16 +44,6 @@
       "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/manifest.mpd",
       "attrs": {
         "tvg-id": "zee-anmol"
-      }
-    },
-    {
-      "name": "9xm",
-      "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/36HEDUo4.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9XM/default/9XM.m3u8",
-      "group": "Dish TV Music",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9XM/default/9XM.m3u8",
-      "attrs": {
-        "tvg-id": "9xm"
       }
     },
     {
@@ -111,13 +101,6 @@
       "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd"
     },
     {
-      "name": "DD National",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ftklpj.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ddnational/default/Ddbharti.m3u8",
-      "group": "Entertainment",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ddnational/default/Ddbharti.m3u8"
-    },
-    {
       "name": "NDTV India",
       "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/iqfloc.png",
       "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ndtvindia2/default/manifest.mpd",
@@ -128,13 +111,6 @@
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_key=d78c01625c3f4ed98912609799298544:b91bb882f9624872ada6125006fe5c73"
       ]
-    },
-    {
-      "name": "News Nation",
-      "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/LKNgfzia.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Newsnation/default/newsnation.m3u8",
-      "group": "News",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Newsnation/default/newsnation.m3u8"
     },
     {
       "name": "Zee Hindustan",
@@ -299,51 +275,6 @@
       }
     },
     {
-      "name": "9xm Jalwa",
-      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9X_Jalwa.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9Xjalwa/default/9Xjalwa.m3u8",
-      "group": "Music",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9Xjalwa/default/9Xjalwa.m3u8",
-      "attrs": {
-        "tvg-id": "9xm-jalwa"
-      }
-    },
-    {
-      "name": "9X Tashan",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/xiseyx.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9Xtashan/default/9Xtashan.m3u8",
-      "group": "Music",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9Xtashan/default/9Xtashan.m3u8"
-    },
-    {
-      "name": "9x Jhakaas",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/rpxdkm.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9Xjhakaas/default/9Xjhakaas.m3u8",
-      "group": "Music",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9Xjhakaas/default/9Xjhakaas.m3u8"
-    },
-    {
-      "name": "Music India",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/fjeoiu.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Musicindia/default/Musicindia.m3u8",
-      "group": "Music",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Musicindia/default/Musicindia.m3u8"
-    },
-    {
-      "name": "Sangeet Bangla",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/hjdift.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sangeetbangla/default/Sangeetbangla.m3u8",
-      "group": "Music",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sangeetbangla/default/Sangeetbangla.m3u8"
-    },
-    {
-      "name": "Sangeet Bhojpuri",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/bpgfhq.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sangeetbhojpuri/default/Sangeetbhojpuri.m3u8",
-      "group": "Music",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sangeetbhojpuri/default/Sangeetbhojpuri.m3u8"
-    },
-    {
       "name": "Zoom",
       "logo": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/jLvKrs62.png",
       "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/manifest.mpd",
@@ -352,13 +283,6 @@
       "attrs": {
         "tvg-id": "zoom2"
       }
-    },
-    {
-      "name": "Fakt Marathi",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/zwombd.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Faktmarathi/default/Faktmarathi.m3u8",
-      "group": "Regional",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Faktmarathi/default/Faktmarathi.m3u8"
     },
     {
       "name": "Korean Drama Active",
@@ -379,27 +303,6 @@
       "attrs": {
         "tvg-id": "shorts-tv-active"
       }
-    },
-    {
-      "name": "DD Bharati",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/drciav.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ddbharti/default/Ddbharti.m3u8",
-      "group": "Dish TV Education",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ddbharti/default/Ddbharti.m3u8"
-    },
-    {
-      "name": "Sansad TV HD",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ptcgyh.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sansadtvhd/default/Sansadtvhd.m3u8",
-      "group": "News",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sansadtvhd/default/Sansadtvhd.m3u8"
-    },
-    {
-      "name": "Sansad TV SD",
-      "logo": "https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/oshzts.png",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sansadtvsd/default/Sansadtvsd.m3u8",
-      "group": "News",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sansadtvsd/default/Sansadtvsd.m3u8"
     }
   ]
 }
