@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "ZEE_5",
-  "channels_amount": 45,
-  "Last_update": "2026-08-15 02:32:19 AM",
+  "channels_amount": 46,
+  "Last_update": "2026-08-15 03:37:58 AM",
   "channels": [
     {
       "name": "Channel 1",
@@ -364,6 +364,20 @@
       "kodiprops": [
         "inputstream.adaptive.license_type=clearkey",
         "inputstream.adaptive.license_key=df81f15150f74c799fdde64ef49dfb75:05794a012ae74d77953f2b9fae6804c7"
+      ]
+    },
+    {
+      "name": "Nat Geo Sharks",
+      "logo": "https://dtil.tmsimg.com/assets/s159107_ld_h15_aa.png?lock=720x540",
+      "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/c9sshqw4lf/out/v1/6173f88d0c4e440bb3071a1e89d3a541/cenc.mpd",
+      "group": "Infotainment",
+      "url_raw": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/c9sshqw4lf/out/v1/6173f88d0c4e440bb3071a1e89d3a541/cenc.mpd",
+      "attrs": {
+        "tvg-chno": "812"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=7800bfe7a7b4f5c983c9dc3c500b0357:2be6d286bb03f70e43e4019f9d7c1d34"
       ]
     },
     {
