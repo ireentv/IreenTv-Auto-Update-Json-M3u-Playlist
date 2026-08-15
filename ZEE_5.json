@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "ZEE_5",
-  "channels_amount": 46,
-  "Last_update": "2026-08-15 03:37:58 AM",
+  "channels_amount": 47,
+  "Last_update": "2026-08-15 04:29:41 AM",
   "channels": [
     {
       "name": "Channel 1",
@@ -229,9 +229,9 @@
     {
       "name": "Zee Cinema",
       "logo": "https://dtil.tmsimg.com/assets/s159104_ld_h15_aa.png?lock=720x540",
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema/default/manifest.mpd",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemah/default/manifest.mpd",
       "group": "Movies",
-      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema/default/manifest.mpd",
+      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemah/default/manifest.mpd",
       "attrs": {
         "tvg-chno": "340"
       },
@@ -504,6 +504,20 @@
       "kodiprops": [
         "inputstream.adaptive.license_type=clearkey",
         "inputstream.adaptive.license_key=ecad0b097b574078a4a1bde24bfdb2e5:568bb13d04db4b738864f6c849474cd5"
+      ]
+    },
+    {
+      "name": "Zee Bangla HD",
+      "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022T6CT.png?lock=720x540",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglahd/default/manifest.mpd",
+      "group": "Bengali",
+      "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglahd/default/manifest.mpd",
+      "attrs": {
+        "tvg-chno": "1409"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=1df83e058b864da896c9288eef63b113:fc32f26239054b56aab48225305598fe"
       ]
     },
     {
