@@ -1,0 +1,69 @@
+name: Automated Willow JSON Updater
+on:
+  schedule:
+    - cron: '*/7 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git User
+        run: |
+          git config --global user.name "sportlive18"
+          git config --global user.email "271363488+sportlive18@users.noreply.github.com"
+
+      - name: Sync and Update Log
+        run: |
+          export TZ="Asia/Kolkata"
+          git pull origin main --rebase
+
+          # ১. JSON ফাইল ডাউনলোড
+          curl -sS -o willow.json "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json"
+
+          # ২. M3U ফাইলটি প্রথমে একটি অস্থায়ী (temp) ফাইলে ডাউনলোড
+          curl -sS -L -o temp_willow.m3u "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"
+
+          # ৩. মোট চ্যানেল সংখ্যা ও বর্তমান সময় বের করা
+          TOTAL_CHANNELS=$(grep -c "^#EXTINF" temp_willow.m3u || echo "0")
+          LAST_UPDATE=$(date +'%d-%m-%Y %I:%M %p')
+
+          # ৪. মূল ফাইল থেকে আগের #EXTM3U লাইনটি বাদ দেওয়া (ডুপ্লিকেট এড়াতে)
+          sed -i '/^#EXTM3U/d' temp_willow.m3u
+
+          # ৫. নতুন হেডার সহ willow.m3u ফাইল তৈরি
+          cat <<EOF > willow.m3u
+#EXTM3U
+# Playlist Name: Willow Sports Live
+# Owner: MD ANAMUL HOQUE
+# Telegram: https://t.me/ireentv
+# Website: https://anamul.pages.dev
+# Developer: IreenTechnology
+# Version: 1.0
+# Channels Amount: $TOTAL_CHANNELS
+# Last Update: $LAST_UPDATE
+
+EOF
+
+          # ৬. চ্যানেলের বাকি লিংকগুলো ফাইলে যুক্ত করা এবং অস্থায়ী ফাইল মুছে ফেলা
+          cat temp_willow.m3u >> willow.m3u
+          rm -f temp_willow.m3u
+
+          # ৭. লগ ফাইলে রেকর্ড যোগ করা
+          echo "🚀 Willow Synced | IST: $(date +'%Y-%m-%d %H:%M:%S') | ID: $RANDOM" >> willow.txt
+
+      - name: Commit and Push
+        run: |
+          export TZ="Asia/Kolkata"
+          git add willow.json willow.m3u willow.txt
+          git diff --cached --quiet && echo "No changes to commit" || (git commit -m "Willow Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]" && git push origin main)
