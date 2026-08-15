@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "ZEE_5",
-  "channels_amount": 48,
-  "Last_update": "2026-08-15 06:27:41 PM",
+  "channels_amount": 52,
+  "Last_update": "2026-08-15 06:58:07 PM",
   "channels": [
     {
       "name": "Channel 1",
@@ -654,14 +654,59 @@
       ]
     },
     {
-      "name": "Movies Now HD",
-      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/63c6e6919e9ed0aa7a6fc1a3cffd5243.png",
-      "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
-      "group": "Premium Movies",
-      "url_raw": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
+      "name": "Movies Now",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV3suWaQrCK8hU-TD0_Oj9DcBQ8oZmiVXY5xDhzSZ4YkrBmnv5Ah-JmMPL&s=10",
+      "url": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
+      "group": "Movie Channels",
+      "url_raw": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=dash",
+        "inputstream.adaptive.license_type=org.w3.clearkey",
+        "inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e"
+      ]
+    },
+    {
+      "name": "Romedy Now",
+      "logo": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/nchght.jpeg",
+      "url": "https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd",
+      "group": "Movie Channels",
+      "url_raw": "https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd",
       "kodiprops": [
         "inputstream.adaptive.license_type=clearkey",
-        "inputstream.adaptive.license_key=433ffba670963e70857859a9dff4be04:51ede3a821229fe81e71282c8eff80e3"
+        "inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e"
+      ]
+    },
+    {
+      "name": "MNX HD",
+      "logo": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/vunjev.jpeg",
+      "url": "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd",
+      "group": "Movie Channels",
+      "url_raw": "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd",
+      "kodiprops": [
+        "inputstream.adaptive.license_type=org.w3.clearkey",
+        "inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e"
+      ]
+    },
+    {
+      "name": "Pogo",
+      "logo": "https://dtil.tmsimg.com/assets/s143663_ld_h15_aa.png",
+      "url": "https://login.bheem.tv/bpk-tv/22603/output/index.mpd",
+      "group": "watcho",
+      "url_raw": "https://login.bheem.tv/bpk-tv/22603/output/index.mpd",
+      "kodiprops": [
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=747bbd76538e54aba7b84da4d5dc5aba:bd594239af2c1befc5d117cc72c83f33"
+      ]
+    },
+    {
+      "name": "CN HD+",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK_HDSYMPLUS/images/LOGO_HD/image.png",
+      "url": "https://login.bheem.tv/bpk-tv/22096/output/index.mpd",
+      "group": "watcho",
+      "url_raw": "https://login.bheem.tv/bpk-tv/22096/output/index.mpd",
+      "kodiprops": [
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=9452bb588219504397cc7dfc407356b5:1b3fc29b2616b147ebe119f2c6f9a02a"
       ]
     }
   ]
