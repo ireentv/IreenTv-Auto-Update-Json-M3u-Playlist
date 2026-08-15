@@ -7,16 +7,8 @@
   "version": "1.0",
   "name": "tapmad_bd",
   "channels_amount": 7,
-  "Last_update": "2026-08-15 08:27:30 AM",
+  "Last_update": "2026-08-15 08:56:32 AM",
   "channels": [
-    {
-      "name": "Australia vs Bangladesh",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786429467540x302.jpg",
-      "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
-      "group": "General",
-      "url_raw": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "Sri Lanka vs India",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786522344540x302.jpg",
@@ -28,6 +20,14 @@
     {
       "name": "Khan Tigers vs VB Realty Cheetahs",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786759183540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Australia vs Bangladesh",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786429467540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
