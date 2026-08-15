@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "ZEE_5",
-  "channels_amount": 47,
-  "Last_update": "2026-08-15 03:45:11 PM",
+  "channels_amount": 48,
+  "Last_update": "2026-08-15 04:22:43 PM",
   "channels": [
     {
       "name": "Channel 1",
@@ -354,7 +354,7 @@
     },
     {
       "name": "Animal Planet HD",
-      "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00260YG8.png?lock=720x540",
+      "logo": "https://i.imgur.com/9wgDUTR.png",
       "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd",
       "group": "Infotainment",
       "url_raw": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd",
@@ -651,6 +651,17 @@
       "kodiprops": [
         "inputstream.adaptive.license_type=clearkey",
         "inputstream.adaptive.license_key=0538cf4c5ed546a9956aadab2fdf3366:b0af534e1a5f459f9c751a0cb9d12d4c"
+      ]
+    },
+    {
+      "name": "Movies Now HD",
+      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/63c6e6919e9ed0aa7a6fc1a3cffd5243.png",
+      "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xrs2ntety1/out/v1/31355dd2ffc64c9dae72ac6fc37dde5a/cenc.mpd",
+      "group": "Premium Movies",
+      "url_raw": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xrs2ntety1/out/v1/31355dd2ffc64c9dae72ac6fc37dde5a/cenc.mpd",
+      "kodiprops": [
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=3fafc24484004893326a8354fe889767:01a4a713abdc5803f4816831ee27906f"
       ]
     }
   ]
