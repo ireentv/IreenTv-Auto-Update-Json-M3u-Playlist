@@ -7,16 +7,8 @@
   "version": "1.0",
   "name": "tapmad_bd",
   "channels_amount": 8,
-  "Last_update": "2026-08-15 12:35:30 PM",
+  "Last_update": "2026-08-15 01:29:40 PM",
   "channels": [
-    {
-      "name": "Sri Lanka vs India",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786522344540x302.jpg",
-      "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BKd2-TesT/master.m3u8",
-      "group": "General",
-      "url_raw": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BKd2-TesT/master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "Khan Tigers vs VB Realty Cheetahs",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786759183540x302.jpg",
@@ -44,6 +36,14 @@
     {
       "name": "Makhachev vs Machado Garry",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786532816540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Sri Lanka vs India",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786522344540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
