@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 6,
-  "Last_update": "2026-08-16 09:26:02 AM",
+  "channels_amount": 8,
+  "Last_update": "2026-08-16 09:51:35 AM",
   "channels": [
     {
       "name": "Sri Lanka vs India",
@@ -15,6 +15,14 @@
       "url": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
       "group": "General",
       "url_raw": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "Game Changer Lions vs Vedanta Leopards",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786870441540x302.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8",
       "status": "Live"
     },
     {
@@ -44,6 +52,14 @@
     {
       "name": "Trent Rockets vs Manchester Super Giants",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786759991540x302men.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "St Lucia Kings vs Barbados Tridents",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786871399540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
