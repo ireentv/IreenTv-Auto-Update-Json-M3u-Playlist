@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "ZEE_5",
-  "channels_amount": 52,
-  "Last_update": "2026-08-16 08:48:00 PM",
+  "channels_amount": 73,
+  "Last_update": "2026-08-16 09:18:57 PM",
   "channels": [
     {
       "name": "Channel 1",
@@ -707,6 +707,321 @@
       "kodiprops": [
         "inputstream.adaptive.license_type=clearkey",
         "inputstream.adaptive.license_key=9452bb588219504397cc7dfc407356b5:1b3fc29b2616b147ebe119f2c6f9a02a"
+      ]
+    },
+    {
+      "name": "HBO",
+      "logo": "https://freem3u.xyz/static/images/global/hbo.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/hbo.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/hbo.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "hbo"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=09ddfe3d63863cafaeb79d0546b098ab:3de0f38dcf014827dfd5bec38743c6a2"
+      ]
+    },
+    {
+      "name": "CinemaWorld",
+      "logo": "https://freem3u.xyz/static/images/global/cinemaworld.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "cinemaworld"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=ee7915564d7439d09bd3556ffccc87a4:b35e12a75a42a6f9184723a90ff42d9c"
+      ]
+    },
+    {
+      "name": "AXN",
+      "logo": "https://freem3u.xyz/static/images/global/axn.png",
+      "url": "https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/axn.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/axn.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "axn"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=9d29f87efdec3c9fab368f724a62ad0e:6f1c09c035eab36323d60d1454db3d20"
+      ]
+    },
+    {
+      "name": "Cinemax",
+      "logo": "https://freem3u.xyz/static/images/global/cinemax.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/max.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/max.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "cinemax"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=acb4c23471063327adc732e283c0847f:e9868f5f473d0fd8699ede48d531c2b0"
+      ]
+    },
+    {
+      "name": "Cartoon Network",
+      "logo": "https://freem3u.xyz/static/images/global/cartoon-network.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cn.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cn.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "cartoonnetwork"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=3c20166660a93a75ac77db81567389f7:3cc1add43aecce3fe31c9c6a2a5b8c21"
+      ]
+    },
+    {
+      "name": "Cartoonito",
+      "logo": "https://freem3u.xyz/static/images/global/cartoonito.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/boomerang.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/boomerang.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "cartoonito"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=b1f0d759e914369db388b3b0dc815971:5678d317e17007a88a9b9539e4526512"
+      ]
+    },
+    {
+      "name": "BBC Cbeebies",
+      "logo": "https://freem3u.xyz/static/images/global/bbc-cbeebies.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cbb.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cbb.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "bbc-cbeebies"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=cca73a006b4b39a595207ceb5ed9ca0a:b833d1f40c261ef78896f97e06f80cdc"
+      ]
+    },
+    {
+      "name": "Dmax",
+      "logo": "https://freem3u.xyz/static/images/global/dmax.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dmax.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dmax.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "dmax"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=53b26f904ae03a20b56477cfb9c5dca2:0c64ccfb978e7390bd33344075492aec"
+      ]
+    },
+    {
+      "name": "Dreamworks",
+      "logo": "https://freem3u.xyz/static/images/global/dreamworks.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dreamwork.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dreamwork.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "dreamworks"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=67dae20527c63dadaaae609aa91577cb:59328f621d56767bc5ff9404a8940683"
+      ]
+    },
+    {
+      "name": "Animal-planet",
+      "logo": "https://freem3u.xyz/static/images/global/animal-planet.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ap.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ap.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "animal-planet"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=ec6f072c7125377a9bc0ae61598095f4:1d5388e0781415ebcec9914f5ad75875"
+      ]
+    },
+    {
+      "name": "Outdoor HD",
+      "logo": "https://freem3u.xyz/static/images/global/outdoor.png",
+      "url": "https://livevlisctcdnw.seenow.vn/mean/OUTDOORCHANNEL/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://livevlisctcdnw.seenow.vn/mean/OUTDOORCHANNEL/manifest.mpd",
+      "attrs": {
+        "tvg-id": "outdoorhd"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b"
+      ]
+    },
+    {
+      "name": "Discovery",
+      "logo": "https://freem3u.xyz/static/images/global/discovery-channel.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dsc.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dsc.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "discovery"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=eb4160ea553a321d899553e4e796fec2:bea5a07157e0c4d17b11ab399517f952"
+      ]
+    },
+    {
+      "name": "Travel Living Channel",
+      "logo": "https://freem3u.xyz/static/images/global/tlc.png",
+      "url": "https://s129135.cdn.mytvnet.vn/pkg20/live_dzones/tlc.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s129135.cdn.mytvnet.vn/pkg20/live_dzones/tlc.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "tlc"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=b6908629732639ada4814a6208296d9c:7ca9bf03623f77b5e2f16df0b53f274d"
+      ]
+    },
+    {
+      "name": "Discovery Asia",
+      "logo": "https://freem3u.xyz/static/images/global/discovery-asia.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dscasia.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dscasia.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "discoveryasia"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=934907b134be3963a6263a453846924c:788e2835fb98568aed2f47bbdc091515"
+      ]
+    },
+    {
+      "name": "Fashion TV",
+      "logo": "https://freem3u.xyz/static/images/global/fashiontv.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ftv.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ftv.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "fashiontv"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=c1d9f25701023508bfa6737e3a8c7001:30c3613e9b06e0f7cc201014f31bf5d8"
+      ]
+    },
+    {
+      "name": "CNN",
+      "logo": "https://freem3u.xyz/static/images/global/cnn.png",
+      "url": "https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/cnn.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/cnn.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "cnn"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=714cc8ed05a03abb9ac61bd4bbd1d8a0:1acf58ff8d4cd87c2d3c12d22248efb1"
+      ]
+    },
+    {
+      "name": "Bloomberg",
+      "logo": "https://freem3u.xyz/static/images/global/bloomberg.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bloomberg.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bloomberg.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "bloomberg"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=1071393f8fc237f3a9a28028142110f7:7a0f8c3c72e0ffff811d534c929c57c2"
+      ]
+    },
+    {
+      "name": "BBC Lifestyle",
+      "logo": "https://freem3u.xyz/static/images/global/bbc-lifestyle.png",
+      "url": "https://s7770.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s7770.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "bbclifestyle"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=58b949986ed13294bc01b0f330abc527:23e8c5f2fe202906ac2d6554d9527299"
+      ]
+    },
+    {
+      "name": "BBC World News",
+      "logo": "https://freem3u.xyz/static/images/global/bbc-news.png",
+      "url": "https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/bbcworldnews.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "bbcnews"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=c7ba46086dda345a929e29bf155e459c:d374b8f39904bf572689ea347ae86591"
+      ]
+    },
+    {
+      "name": "BBC Earth",
+      "logo": "https://freem3u.xyz/static/images/global/bbc-earth.png",
+      "url": "https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/bbcearth.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/bbcearth.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "bbcearth"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=5014941a2c42379880b5edf72304c165:f3fa0fe3cd39a52f4eefd36ff7161e89"
+      ]
+    },
+    {
+      "name": "ABC Australia",
+      "logo": "https://freem3u.xyz/static/images/global/abc-australia.png",
+      "url": "https://s935.cdn.mytvnet.vn/pkg20/live_dzones/aplus.smil/manifest.mpd",
+      "group": "Quốc Tế",
+      "url_raw": "https://s935.cdn.mytvnet.vn/pkg20/live_dzones/aplus.smil/manifest.mpd",
+      "attrs": {
+        "tvg-id": "abcaustralia"
+      },
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=9a09a73ec1dc348584e2f130e27da667:06f8d1a6feaffbdab92adf347e7b469c"
       ]
     }
   ]
