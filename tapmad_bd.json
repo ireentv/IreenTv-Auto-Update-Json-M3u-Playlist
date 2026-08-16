@@ -7,16 +7,8 @@
   "version": "1.0",
   "name": "tapmad_bd",
   "channels_amount": 7,
-  "Last_update": "2026-08-16 12:37:00 PM",
+  "Last_update": "2026-08-16 01:30:51 PM",
   "channels": [
-    {
-      "name": "Sri Lanka vs India",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786522344540x302.jpg",
-      "url": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
-      "group": "General",
-      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "Aussie Mavericks Jaguars vs VB Realty Cheetahs",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786870733540x302.jpg",
@@ -26,20 +18,20 @@
       "status": "Live"
     },
     {
+      "name": "Trent Rockets vs Sunrisers Leeds - Women",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786759492540x302women.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "status": "Live"
+    },
+    {
       "name": "PUBG Mobile - Day 9",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786838418540x302.jpg",
       "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
       "group": "General",
       "url_raw": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
       "status": "Live"
-    },
-    {
-      "name": "Arsenal vs Manchester City Live",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786838872540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
-      "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
     },
     {
       "name": "Trent Rockets vs Manchester Super Giants",
@@ -52,6 +44,14 @@
     {
       "name": "St Lucia Kings vs Barbados Tridents",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786871399540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Sri Lanka vs India",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786522344540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
