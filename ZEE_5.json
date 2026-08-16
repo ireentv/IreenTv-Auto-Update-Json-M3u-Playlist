@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "ZEE_5",
-  "channels_amount": 73,
-  "Last_update": "2026-08-16 09:18:57 PM",
+  "channels_amount": 74,
+  "Last_update": "2026-08-16 09:44:12 PM",
   "channels": [
     {
       "name": "Channel 1",
@@ -1022,6 +1022,18 @@
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=clearkey",
         "inputstream.adaptive.license_key=9a09a73ec1dc348584e2f130e27da667:06f8d1a6feaffbdab92adf347e7b469c"
+      ]
+    },
+    {
+      "name": "HBO 2",
+      "logo": "https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/HBO2._SL170_FMpng_.png",
+      "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zilmviiwo5/out/v1/fe78320a319045d99299fb05208d90af/cenc.mpd",
+      "group": "USA Channels",
+      "url_raw": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zilmviiwo5/out/v1/fe78320a319045d99299fb05208d90af/cenc.mpd",
+      "kodiprops": [
+        "inputstream.adaptive.manifest_type=mpd",
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=e8c6a262b77b153530a6caaf2e07944a:81071cf5808c0387adab93d8ff9b1f09"
       ]
     }
   ]
