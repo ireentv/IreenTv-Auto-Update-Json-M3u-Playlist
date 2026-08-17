@@ -7,7 +7,7 @@
   "version": "1.0",
   "name": "ZEE_5",
   "channels_amount": 74,
-  "Last_update": "2026-08-17 04:56:16 PM",
+  "Last_update": "2026-08-17 05:28:33 PM",
   "channels": [
     {
       "name": "Channel 1",
@@ -576,28 +576,6 @@
       ]
     },
     {
-      "name": "Pogo",
-      "logo": "https://dtil.tmsimg.com/assets/s143663_ld_h15_aa.png",
-      "url": "https://login.bheem.tv/bpk-tv/22603/output/index.mpd",
-      "group": "watcho",
-      "url_raw": "https://login.bheem.tv/bpk-tv/22603/output/index.mpd",
-      "kodiprops": [
-        "inputstream.adaptive.license_type=clearkey",
-        "inputstream.adaptive.license_key=747bbd76538e54aba7b84da4d5dc5aba:bd594239af2c1befc5d117cc72c83f33"
-      ]
-    },
-    {
-      "name": "CN HD+",
-      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK_HDSYMPLUS/images/LOGO_HD/image.png",
-      "url": "https://login.bheem.tv/bpk-tv/22096/output/index.mpd",
-      "group": "watcho",
-      "url_raw": "https://login.bheem.tv/bpk-tv/22096/output/index.mpd",
-      "kodiprops": [
-        "inputstream.adaptive.license_type=clearkey",
-        "inputstream.adaptive.license_key=9452bb588219504397cc7dfc407356b5:1b3fc29b2616b147ebe119f2c6f9a02a"
-      ]
-    },
-    {
       "name": "HBO",
       "logo": "https://freem3u.xyz/static/images/global/hbo.png",
       "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/hbo.smil/manifest.mpd",
@@ -929,6 +907,28 @@
         "inputstream.adaptive.manifest_type=mpd",
         "inputstream.adaptive.license_type=clearkey",
         "inputstream.adaptive.license_key=9a09a73ec1dc348584e2f130e27da667:06f8d1a6feaffbdab92adf347e7b469c"
+      ]
+    },
+    {
+      "name": "Pogo",
+      "logo": "https://dtil.tmsimg.com/assets/s143663_ld_h15_aa.png",
+      "url": "https://login.bheem.tv/bpk-tv/22603/output/index.mpd",
+      "group": "watcho",
+      "url_raw": "https://login.bheem.tv/bpk-tv/22603/output/index.mpd",
+      "kodiprops": [
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=747bbd76538e54aba7b84da4d5dc5aba:bd594239af2c1befc5d117cc72c83f33"
+      ]
+    },
+    {
+      "name": "CN HD+",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK_HDSYMPLUS/images/LOGO_HD/image.png",
+      "url": "https://login.bheem.tv/bpk-tv/22096/output/index.mpd",
+      "group": "watcho",
+      "url_raw": "https://login.bheem.tv/bpk-tv/22096/output/index.mpd",
+      "kodiprops": [
+        "inputstream.adaptive.license_type=clearkey",
+        "inputstream.adaptive.license_key=9452bb588219504397cc7dfc407356b5:1b3fc29b2616b147ebe119f2c6f9a02a"
       ]
     },
     {
