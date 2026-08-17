@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 4,
-  "Last_update": "2026-08-17 11:24:47 AM",
+  "channels_amount": 5,
+  "Last_update": "2026-08-17 11:50:22 AM",
   "channels": [
     {
       "name": "Sri Lanka vs India",
@@ -16,6 +16,14 @@
       "group": "General",
       "url_raw": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8",
       "status": "Live"
+    },
+    {
+      "name": "Deportivo vs Elche",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786965447540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
     },
     {
       "name": "Group Stage Draw Live",
