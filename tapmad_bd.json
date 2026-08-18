@@ -6,23 +6,23 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 18,
-  "Last_update": "2026-08-18 12:43:30 PM",
+  "channels_amount": 19,
+  "Last_update": "2026-08-18 01:41:16 PM",
   "channels": [
-    {
-      "name": "Sri Lanka vs India",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786522344540x302.jpg",
-      "url": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
-      "group": "General",
-      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "Spain vs Australia",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787037260540x302MEN.jpg",
       "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
       "group": "General",
       "url_raw": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "India vs South Africa - W",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787056127540x302WOMEN.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8v",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8v",
       "status": "Live"
     },
     {
@@ -36,6 +36,14 @@
     {
       "name": "Argentina vs Netherlands",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787037415540x302MEN.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Spain vs Belgium - W",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787059081540x302WOMEN.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
@@ -66,16 +74,24 @@
       "status": "Upcoming"
     },
     {
-      "name": "NEC vs Bodo/Glimt",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787040756540x302.jpg",
+      "name": "Jamaica Kingsmen vs St Kitts and Nevis Patriots",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787046370540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
       "status": "Upcoming"
     },
     {
-      "name": "Jamaica Kingsmen vs St Kitts and Nevis Patriots",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787046370540x302.jpg",
+      "name": "Sri Lanka vs India",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786522344540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Chile vs Australia - W",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787059148540x302WOMEN.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
@@ -122,6 +138,14 @@
       "status": "Upcoming"
     },
     {
+      "name": "NEC vs Bodo/Glimt",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787040756540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
       "name": "Celtic vs LASK",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787040944540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
@@ -132,22 +156,6 @@
     {
       "name": "H. Beer-Sheva vs Sabah",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787041089540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
-      "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
-    },
-    {
-      "name": "Slovan Bratislava vs Celje",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787041214540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
-      "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
-    },
-    {
-      "name": "Australia vs Bangladesh",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787048102540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
