@@ -6,17 +6,9 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 15,
-  "Last_update": "2026-08-19 06:34:14 PM",
+  "channels_amount": 16,
+  "Last_update": "2026-08-19 07:23:55 PM",
   "channels": [
-    {
-      "name": "England vs Pakistan",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786527399540x302.jpg",
-      "url": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8",
-      "group": "General",
-      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8",
-      "status": "Live"
-    },
     {
       "name": "Belgium vs Malaysia",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787050736540x302MEN.jpg",
@@ -58,6 +50,14 @@
       "status": "Live"
     },
     {
+      "name": "Atletico Madrid vs Malaga",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787134742540x302.jpg",
+      "url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8",
+      "group": "General",
+      "url_raw": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8",
+      "status": "Live"
+    },
+    {
       "name": "St Lucia Kings vs Guyana Amazon Warriors",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787135390540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
@@ -76,6 +76,14 @@
     {
       "name": "Australia vs South Africa",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787136448540x302MEN.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "England vs Pakistan",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1786527399540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
