@@ -5,81 +5,303 @@
 # Website: https://anamul.pages.dev
 # Developer: IreenTechnology
 # Version: 1.0
-# Channels Amount: 25
-# Last Update: 2026-08-19 06:57:00 AM
+# Channels Amount: 99
+# Last Update: 2026-08-19 07:41:52 AM
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/17/30/c99e220e2dad5b9699dd2a42959cd0ed_1787122263541_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://img.media.jio.com/tvpimages/17/30/c99e220e2dad5b9699dd2a42959cd0ed_1787122263541_l_medium.jpg
+#EXTINF:-1 tvg-name="Channel 1",Channel 1
+{
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/17/30/c99e220e2dad5b9699dd2a42959cd0ed_1787122263541_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5 (2)",Sony Sports Ten 5 (2)
-https://sonydaimenew.akamaized.net/hls/live/20000383/cricodi1908/ENG/master.m3u8?hdnea=exp=1787165646~acl=/*~id=16136217402082727282356827634110~hmac=6476da0d7828db8603be6f5ff248ce92796c27b3a58b274cce56e801bb705362
+#EXTINF:-1 tvg-name="Channel 2",Channel 2
+"name": "Sonyliv Live Matches Data in Json",
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/57/29/5af84c1b01b654c4a2d44f17fc44c610_1787122263526_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://img.media.jio.com/tvpimages/57/29/5af84c1b01b654c4a2d44f17fc44c610_1787122263526_l_medium.jpg
+#EXTINF:-1 tvg-name="Channel 3",Channel 3
+"telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/57/29/5af84c1b01b654c4a2d44f17fc44c610_1787122263526_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5 (2)",Sony Sports Ten 5 (2)
-https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1908/TEL/master.m3u8?hdnea=exp=1787165646~acl=/*~id=16136217402082727282356827634110~hmac=6476da0d7828db8603be6f5ff248ce92796c27b3a58b274cce56e801bb705362
+#EXTINF:-1 tvg-name="Channel 4",Channel 4
+"last update time": "13:04:49 19-08-2026",
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/54/5/0667249aeb315c3ca189f5a4bbada909_1787122263444_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://img.media.jio.com/tvpimages/54/5/0667249aeb315c3ca189f5a4bbada909_1787122263444_l_medium.jpg
+#EXTINF:-1 tvg-name="Channel 5",Channel 5
+"matches": [
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/54/5/0667249aeb315c3ca189f5a4bbada909_1787122263444_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5 (2)",Sony Sports Ten 5 (2)
-https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1908/TAM/master.m3u8?hdnea=exp=1787165646~acl=/*~id=16136217402082727282356827634110~hmac=6476da0d7828db8603be6f5ff248ce92796c27b3a58b274cce56e801bb705362
+#EXTINF:-1 tvg-name="Channel 6",Channel 6
+{
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/37/77/05f60773a033594593a350ad4d4ed5bf_1787122263556_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://img.media.jio.com/tvpimages/37/77/05f60773a033594593a350ad4d4ed5bf_1787122263556_l_medium.jpg
+#EXTINF:-1 tvg-name="Channel 7",Channel 7
+"event_category": "Cricket",
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/37/77/05f60773a033594593a350ad4d4ed5bf_1787122263556_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5 (2)",Sony Sports Ten 5 (2)
-https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1908/HIN/master.m3u8?hdnea=exp=1787165646~acl=/*~id=16136217402082727282356827634110~hmac=6476da0d7828db8603be6f5ff248ce92796c27b3a58b274cce56e801bb705362
+#EXTINF:-1 tvg-name="Channel 8",Channel 8
+"isLive": true,
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/88/4/0c82a1f8a9f0574fab8af0495c14040f_1787122263475_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://img.media.jio.com/tvpimages/88/4/0c82a1f8a9f0574fab8af0495c14040f_1787122263475_l_medium.jpg
+#EXTINF:-1 tvg-name="Channel 9",Channel 9
+"contentId": "1090539706_English",
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/88/4/0c82a1f8a9f0574fab8af0495c14040f_1787122263475_l_medium.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5 (2)",Sony Sports Ten 5 (2)
-https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1908/KAN/master.m3u8?hdnea=exp=1787165646~acl=/*~id=16136217402082727282356827634110~hmac=6476da0d7828db8603be6f5ff248ce92796c27b3a58b274cce56e801bb705362
+#EXTINF:-1 tvg-name="Channel 10",Channel 10
+"src": "https://img.media.jio.com/tvpimages/17/30/c99e220e2dad5b9699dd2a42959cd0ed_1787124633572_l_medium.jpg",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022482/1787115404929403_eng_vs_pak_1st_test_today_rev_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022482/1787115404929403_eng_vs_pak_1st_test_today_rev_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 11",Channel 11
+"broadcast_channel": "Sony Sports Ten 5",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022113/1786548147790338_cricket_Grover_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022113/1786548147790338_cricket_Grover_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 12",Channel 12
+"audioLanguageName": "English",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022435/1787049136098526_Durand_cup_S-F_Mohun-Bagan-Super-Giants-vs-Northeast-United-FC_DDT_Promo_landscape_thumb.jpg" group-title="Football" tvg-name="Sony Sports Ten 2",Sony Sports Ten 2
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022435/1787049136098526_Durand_cup_S-F_Mohun-Bagan-Super-Giants-vs-Northeast-United-FC_DDT_Promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 13",Channel 13
+"event_name": "India Tour of Sri Lanka 2026",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022418/178704318120860_asia_cup_w26_dated_rev_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022418/178704318120860_asia_cup_w26_dated_rev_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 14",Channel 14
+"match_name": "Day 5 - 1st Test - 19 Aug 2026 [English]",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022435/1787049136098526_Durand_cup_S-F_Mohun-Bagan-Super-Giants-vs-Northeast-United-FC_DDT_Promo_landscape_thumb.jpg" group-title="Football" tvg-name="Sony Sports Ten 2",Sony Sports Ten 2
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022435/1787049136098526_Durand_cup_S-F_Mohun-Bagan-Super-Giants-vs-Northeast-United-FC_DDT_Promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 15",Channel 15
+"dai_url": "https://sonydaimenew.akamaized.net/hls/live/20000383/cricodi1908/ENG/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022398/1787028203163457_SL_vs_IND_2nd_Test_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022398/1787028203163457_SL_vs_IND_2nd_Test_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 16",Channel 16
+"pub_url": "https://sonydaimenew.akamaized.net/hls/live/20000383/cricodi1908/ENG/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022033/1786433246787561_NZ_vs_IND_DDT_Promo_landscape.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022033/1786433246787561_NZ_vs_IND_DDT_Promo_landscape.jpg
+#EXTINF:-1 tvg-name="Channel 17",Channel 17
+"video_url": "https://sonydaimenew.akamaized.net/hls/live/20000383/cricodi1908/ENG/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3"
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022185/1786698001324453_nz_Vs_ind_promo_landscape.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022185/1786698001324453_nz_Vs_ind_promo_landscape.jpg
+#EXTINF:-1 tvg-name="Channel 18",Channel 18
+},
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022077/1786464482593563_AG26_promo_landscape_thumb.jpg" group-title="Sports" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022077/1786464482593563_AG26_promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 19",Channel 19
+{
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022076/1786463539104303_India_Tour_of_Sri_Lanka_2026_GOB_Landscape_Thumb_1.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022076/1786463539104303_India_Tour_of_Sri_Lanka_2026_GOB_Landscape_Thumb_1.jpg
+#EXTINF:-1 tvg-name="Channel 20",Channel 20
+"event_category": "Cricket",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022376/1786976877644557_Womens_Asia_Cup_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022376/1786976877644557_Womens_Asia_Cup_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 21",Channel 21
+"isLive": true,
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022170/1786640578574944_slvsind_rahane_promo_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022170/1786640578574944_slvsind_rahane_promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 22",Channel 22
+"contentId": "1090539706_Telugu",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022376/1786976925699557_IND_PAK_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022376/1786976925699557_IND_PAK_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 23",Channel 23
+"src": "https://img.media.jio.com/tvpimages/57/29/5af84c1b01b654c4a2d44f17fc44c610_1787124633424_l_medium.jpg",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020779/1784718981413823_DC26_landscape_thumb.jpg" group-title="Football" tvg-name="Sony Sports Ten 2",Sony Sports Ten 2
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020779/1784718981413823_DC26_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 24",Channel 24
+"broadcast_channel": "Sony Sports Ten 5",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020726/1784552018456957_Durand_Cup_26_Promo-Thumbs_landscape.jpg" group-title="Football" tvg-name="Sony Sports Ten 2",Sony Sports Ten 2
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020726/1784552018456957_Durand_Cup_26_Promo-Thumbs_landscape.jpg
+#EXTINF:-1 tvg-name="Channel 25",Channel 25
+"audioLanguageName": "Telugu",
+
+#EXTINF:-1 tvg-name="Channel 26",Channel 26
+"event_name": "India Tour of Sri Lanka 2026",
+
+#EXTINF:-1 tvg-name="Channel 27",Channel 27
+"match_name": "Day 5 - 1st Test - 19 Aug 2026 [Telugu]",
+
+#EXTINF:-1 tvg-name="Channel 28",Channel 28
+"dai_url": "https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1908/TEL/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
+
+#EXTINF:-1 tvg-name="Channel 29",Channel 29
+"pub_url": "https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1908/TEL/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
+
+#EXTINF:-1 tvg-name="Channel 30",Channel 30
+"video_url": "https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1908/TEL/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3"
+
+#EXTINF:-1 tvg-name="Channel 31",Channel 31
+},
+
+#EXTINF:-1 tvg-name="Channel 32",Channel 32
+{
+
+#EXTINF:-1 tvg-name="Channel 33",Channel 33
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 34",Channel 34
+"isLive": true,
+
+#EXTINF:-1 tvg-name="Channel 35",Channel 35
+"contentId": "1090539706_Hindi",
+
+#EXTINF:-1 tvg-name="Channel 36",Channel 36
+"src": "https://img.media.jio.com/tvpimages/37/77/05f60773a033594593a350ad4d4ed5bf_1787124633452_l_medium.jpg",
+
+#EXTINF:-1 tvg-name="Channel 37",Channel 37
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 38",Channel 38
+"audioLanguageName": "Hindi",
+
+#EXTINF:-1 tvg-name="Channel 39",Channel 39
+"event_name": "India Tour of Sri Lanka 2026",
+
+#EXTINF:-1 tvg-name="Channel 40",Channel 40
+"match_name": "Day 5 - 1st Test - 19 Aug 2026 [Hindi]",
+
+#EXTINF:-1 tvg-name="Channel 41",Channel 41
+"dai_url": "https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1908/HIN/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
+
+#EXTINF:-1 tvg-name="Channel 42",Channel 42
+"pub_url": "https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1908/HIN/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
+
+#EXTINF:-1 tvg-name="Channel 43",Channel 43
+"video_url": "https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1908/HIN/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3"
+
+#EXTINF:-1 tvg-name="Channel 44",Channel 44
+},
+
+#EXTINF:-1 tvg-name="Channel 45",Channel 45
+{
+
+#EXTINF:-1 tvg-name="Channel 46",Channel 46
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 47",Channel 47
+"isLive": true,
+
+#EXTINF:-1 tvg-name="Channel 48",Channel 48
+"contentId": "1090539706_Tamil",
+
+#EXTINF:-1 tvg-name="Channel 49",Channel 49
+"src": "https://img.media.jio.com/tvpimages/54/5/0667249aeb315c3ca189f5a4bbada909_1787124633440_l_medium.jpg",
+
+#EXTINF:-1 tvg-name="Channel 50",Channel 50
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 51",Channel 51
+"audioLanguageName": "Tamil",
+
+#EXTINF:-1 tvg-name="Channel 52",Channel 52
+"event_name": "India Tour of Sri Lanka 2026",
+
+#EXTINF:-1 tvg-name="Channel 53",Channel 53
+"match_name": "Day 5 - 1st Test - 19 Aug 2026 [Tamil]",
+
+#EXTINF:-1 tvg-name="Channel 54",Channel 54
+"dai_url": "https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1908/TAM/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
+
+#EXTINF:-1 tvg-name="Channel 55",Channel 55
+"pub_url": "https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1908/TAM/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
+
+#EXTINF:-1 tvg-name="Channel 56",Channel 56
+"video_url": "https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1908/TAM/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3"
+
+#EXTINF:-1 tvg-name="Channel 57",Channel 57
+},
+
+#EXTINF:-1 tvg-name="Channel 58",Channel 58
+{
+
+#EXTINF:-1 tvg-name="Channel 59",Channel 59
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 60",Channel 60
+"isLive": true,
+
+#EXTINF:-1 tvg-name="Channel 61",Channel 61
+"contentId": "1090539706_Kannada",
+
+#EXTINF:-1 tvg-name="Channel 62",Channel 62
+"src": "https://img.media.jio.com/tvpimages/88/4/0c82a1f8a9f0574fab8af0495c14040f_1787124633397_l_medium.jpg",
+
+#EXTINF:-1 tvg-name="Channel 63",Channel 63
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 64",Channel 64
+"audioLanguageName": "Kannada",
+
+#EXTINF:-1 tvg-name="Channel 65",Channel 65
+"event_name": "India Tour of Sri Lanka 2026",
+
+#EXTINF:-1 tvg-name="Channel 66",Channel 66
+"match_name": "Day 5 - 1st Test - 19 Aug 2026 [Kannada]",
+
+#EXTINF:-1 tvg-name="Channel 67",Channel 67
+"dai_url": "https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1908/KAN/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
+
+#EXTINF:-1 tvg-name="Channel 68",Channel 68
+"pub_url": "https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1908/KAN/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3",
+
+#EXTINF:-1 tvg-name="Channel 69",Channel 69
+"video_url": "https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1908/KAN/master.m3u8?hdnea=exp=1787168089~acl=/*~id=91880003467295890636865837904140~hmac=99a091a4d9d8262f2435376f26c067f0e32a88001ce4acaab6f905a9843b7aa3"
+
+#EXTINF:-1 tvg-name="Channel 70",Channel 70
+},
+
+#EXTINF:-1 tvg-name="Channel 71",Channel 71
+{
+
+#EXTINF:-1 tvg-name="Channel 72",Channel 72
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 73",Channel 73
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 74",Channel 74
+"contentId": 1090539554,
+
+#EXTINF:-1 tvg-name="Channel 75",Channel 75
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022482/1787115404929403_eng_vs_pak_1st_test_today_rev_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 76",Channel 76
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 77",Channel 77
+"audioLanguageName": "ENG",
+
+#EXTINF:-1 tvg-name="Channel 78",Channel 78
+"event_name": "Upcoming - Pakistan Tour of England 2026"
+
+#EXTINF:-1 tvg-name="Channel 79",Channel 79
+},
+
+#EXTINF:-1 tvg-name="Channel 80",Channel 80
+{
+
+#EXTINF:-1 tvg-name="Channel 81",Channel 81
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 82",Channel 82
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 83",Channel 83
+"contentId": 1090539152,
+
+#EXTINF:-1 tvg-name="Channel 84",Channel 84
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022113/1786548147790338_cricket_Grover_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 85",Channel 85
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 86",Channel 86
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 87",Channel 87
+"event_name": "Upcoming - Har Screen Par Cricket - Sony Ke Saath - Bad Boss"
+
+#EXTINF:-1 tvg-name="Channel 88",Channel 88
+},
+
+#EXTINF:-1 tvg-name="Channel 89",Channel 89
+{
+
+#EXTINF:-1 tvg-name="Channel 90",Channel 90
+"event_category": "Football",
+
+#EXTINF:-1 tvg-name="Channel 91",Channel 91
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 92",Channel 92
+"contentId": 1090539707,
+
+#EXTINF:-1 tvg-name="Channel 93",Channel 93
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022435/1787049136098526_Durand_cup_S-F_Mohun-Bagan-Super-Giants-vs-Northeast-United-FC_DDT_Promo_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 94",Channel 94
+"broadcast_channel": "Sony Sports Ten 2",
+
+#EXTINF:-1 tvg-name="Channel 95",Channel 95
+"audioLanguageName": "ENG",
+
+#EXTINF:-1 tvg-name="Channel 96",Channel 96
+"event_name": "Upcoming - Durand Cup 2026 - Semi-Finals"
+
+#EXTINF:-1 tvg-name="Channel 97",Channel 97
+},
+
+#EXTINF:-1 tvg-name="Channel 98",Channel 98
+{
+
+#EXTINF:-1 tvg-name="Channel 99",Channel 99
+"event_category": "Cricke
 
