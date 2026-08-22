@@ -5,60 +5,435 @@
 # Website: https://anamul.pages.dev
 # Developer: IreenTechnology
 # Version: 1.0
-# Channels Amount: 18
-# Last Update: 2026-08-22 04:22:31 PM
+# Channels Amount: 143
+# Last Update: 2026-08-22 04:49:36 PM
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021743/1785703750315390_DP_World_Tour_Nexo_Championship_day3_landscape_thumb.jpg" group-title="Golf" tvg-name="LIV",LIV
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021743/1785703750315390_DP_World_Tour_Nexo_Championship_day3_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 1",Channel 1
+{
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021743/1785703750315390_DP_World_Tour_Nexo_Championship_day3_landscape_thumb.jpg" group-title="Golf" tvg-name="LIV (2)",LIV (2)
-https://sonydaimenew.akamaized.net/hls/live/2005444/Golf_Nex2208/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787458448~acl=/*~id=09828966819768333238066729528233~hmac=74265396c7510e85051bbb2e890a7b30049b9e450a512318da48d476fd91d88d
+#EXTINF:-1 tvg-name="Channel 2",Channel 2
+"name": "Sonyliv Live Matches Data in Json",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021741/1785702505513697_LIV_Golf_Indianapolis_day3_landscape_thumb.jpg" group-title="Golf" tvg-name="LIV",LIV
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021741/1785702505513697_LIV_Golf_Indianapolis_day3_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 3",Channel 3
+"telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021741/1785702505513697_LIV_Golf_Indianapolis_day3_landscape_thumb.jpg" group-title="Golf" tvg-name="LIV (2)",LIV (2)
-https://sonydaimenew.akamaized.net/hls/live/2094588/LIVGolf_2208/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787458448~acl=/*~id=09828966819768333238066729528233~hmac=74265396c7510e85051bbb2e890a7b30049b9e450a512318da48d476fd91d88d
+#EXTINF:-1 tvg-name="Channel 4",Channel 4
+"last update time": "22:14:39 22-08-2026",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022642/1787294349221332_Durand_Cup_26_Final_East-Bengal-vs-Mohun-Bagan-Super-Giant_Promo_DDT_landscape_thumb.jpg" group-title="Football" tvg-name="Sony Sports Ten 2",Sony Sports Ten 2
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022642/1787294349221332_Durand_Cup_26_Final_East-Bengal-vs-Mohun-Bagan-Super-Giant_Promo_DDT_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 5",Channel 5
+"matches": [
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022564/178715365712926_SL_vs_IND_2nd_Test_landscape_thumb_Dated.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022564/178715365712926_SL_vs_IND_2nd_Test_landscape_thumb_Dated.jpg
+#EXTINF:-1 tvg-name="Channel 6",Channel 6
+{
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022418/178704318120860_asia_cup_w26_dated_rev_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022418/178704318120860_asia_cup_w26_dated_rev_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 7",Channel 7
+"event_category": "Golf",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022658/1787312709559403_AsiaCup26_Harmanpreet_Promo_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022658/1787312709559403_AsiaCup26_Harmanpreet_Promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 8",Channel 8
+"isLive": true,
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022603/1787230188057421_womens_AC26_IND_vs_PAK_dated_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022603/1787230188057421_womens_AC26_IND_vs_PAK_dated_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 9",Channel 9
+"contentId": "1090539974_ENG",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022376/1786976983219557_PAK_ENG_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022376/1786976983219557_PAK_ENG_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 10",Channel 10
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021741/1785702505513697_LIV_Golf_Indianapolis_day3_landscape_thumb.jpg",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022689/1787385247438643_AsianGame26_IND_vs_PAK_QF_Promo_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022689/1787385247438643_AsianGame26_IND_vs_PAK_QF_Promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 11",Channel 11
+"broadcast_channel": "LIV",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022077/1786464482593563_AG26_promo_landscape_thumb.jpg" group-title="Sports" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022077/1786464482593563_AG26_promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 12",Channel 12
+"audioLanguageName": "ENG",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022113/1786548147790338_cricket_Grover_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022113/1786548147790338_cricket_Grover_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 13",Channel 13
+"event_name": "LIV Golf",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022659/1787315010873577_AsianGames26_Promo_landscape_thumb.jpg" group-title="Sports" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022659/1787315010873577_AsianGames26_Promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 14",Channel 14
+"match_name": "Indianapolis - Day 3 - 22 Aug 2026 [ENG]",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022650/178730215594955_WAC26_INDvsPAK_promo_landscape_thumb.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022650/178730215594955_WAC26_INDvsPAK_promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 15",Channel 15
+"dai_url": "https://sonydaimenew.akamaized.net/hls/live/2094588/LIVGolf_2208/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787460279~acl=/*~id=87985361085228334512843680359827~hmac=93b2eee2f7ca1875681dda85ad065470bdc0b87aac6b72ab3fe7cd772ebc9d9c",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022033/1786433246787561_NZ_vs_IND_DDT_Promo_landscape.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022033/1786433246787561_NZ_vs_IND_DDT_Promo_landscape.jpg
+#EXTINF:-1 tvg-name="Channel 16",Channel 16
+"pub_url": "https://sonydaimenew.akamaized.net/hls/live/2094588/LIVGolf_2208/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787460279~acl=/*~id=87985361085228334512843680359827~hmac=93b2eee2f7ca1875681dda85ad065470bdc0b87aac6b72ab3fe7cd772ebc9d9c",
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022686/178737536763234_Durand_Cup_Promo_landscape_thumb.jpg" group-title="Football" tvg-name="Sony Sports Ten 2",Sony Sports Ten 2
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022686/178737536763234_Durand_Cup_Promo_landscape_thumb.jpg
+#EXTINF:-1 tvg-name="Channel 17",Channel 17
+"video_url": "https://sonydaimenew.akamaized.net/hls/live/2094588/LIVGolf_2208/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787460279~acl=/*~id=87985361085228334512843680359827~hmac=93b2eee2f7ca1875681dda85ad065470bdc0b87aac6b72ab3fe7cd772ebc9d9c"
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022185/1786698001324453_nz_Vs_ind_promo_landscape.jpg" group-title="Cricket" tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
-https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022185/1786698001324453_nz_Vs_ind_promo_landscape.jpg
+#EXTINF:-1 tvg-name="Channel 18",Channel 18
+},
+
+#EXTINF:-1 tvg-name="Channel 19",Channel 19
+{
+
+#EXTINF:-1 tvg-name="Channel 20",Channel 20
+"event_category": "Football",
+
+#EXTINF:-1 tvg-name="Channel 21",Channel 21
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 22",Channel 22
+"contentId": 1090536986,
+
+#EXTINF:-1 tvg-name="Channel 23",Channel 23
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022642/1787294349221332_Durand_Cup_26_Final_East-Bengal-vs-Mohun-Bagan-Super-Giant_Promo_DDT_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 24",Channel 24
+"broadcast_channel": "Sony Sports Ten 2",
+
+#EXTINF:-1 tvg-name="Channel 25",Channel 25
+"audioLanguageName": "ENG",
+
+#EXTINF:-1 tvg-name="Channel 26",Channel 26
+"event_name": "Upcoming - Durand Cup 2026"
+
+#EXTINF:-1 tvg-name="Channel 27",Channel 27
+},
+
+#EXTINF:-1 tvg-name="Channel 28",Channel 28
+{
+
+#EXTINF:-1 tvg-name="Channel 29",Channel 29
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 30",Channel 30
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 31",Channel 31
+"contentId": 1090539595,
+
+#EXTINF:-1 tvg-name="Channel 32",Channel 32
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022564/178715365712926_SL_vs_IND_2nd_Test_landscape_thumb_Dated.jpg",
+
+#EXTINF:-1 tvg-name="Channel 33",Channel 33
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 34",Channel 34
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 35",Channel 35
+"event_name": "Upcoming - India Tour of Sri Lanka 2nd Test"
+
+#EXTINF:-1 tvg-name="Channel 36",Channel 36
+},
+
+#EXTINF:-1 tvg-name="Channel 37",Channel 37
+{
+
+#EXTINF:-1 tvg-name="Channel 38",Channel 38
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 39",Channel 39
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 40",Channel 40
+"contentId": 1090538884,
+
+#EXTINF:-1 tvg-name="Channel 41",Channel 41
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022418/178704318120860_asia_cup_w26_dated_rev_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 42",Channel 42
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 43",Channel 43
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 44",Channel 44
+"event_name": "Upcoming - ACC Women's Asia Cup 2026"
+
+#EXTINF:-1 tvg-name="Channel 45",Channel 45
+},
+
+#EXTINF:-1 tvg-name="Channel 46",Channel 46
+{
+
+#EXTINF:-1 tvg-name="Channel 47",Channel 47
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 48",Channel 48
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 49",Channel 49
+"contentId": 1090540021,
+
+#EXTINF:-1 tvg-name="Channel 50",Channel 50
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022658/1787312709559403_AsiaCup26_Harmanpreet_Promo_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 51",Channel 51
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 52",Channel 52
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 53",Channel 53
+"event_name": "Upcoming - ACC Women's Asia Cup 2026"
+
+#EXTINF:-1 tvg-name="Channel 54",Channel 54
+},
+
+#EXTINF:-1 tvg-name="Channel 55",Channel 55
+{
+
+#EXTINF:-1 tvg-name="Channel 56",Channel 56
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 57",Channel 57
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 58",Channel 58
+"contentId": 1090540064,
+
+#EXTINF:-1 tvg-name="Channel 59",Channel 59
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022603/1787230188057421_womens_AC26_IND_vs_PAK_dated_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 60",Channel 60
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 61",Channel 61
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 62",Channel 62
+"event_name": "Upcoming - ACC Women's Asia Cup 2026"
+
+#EXTINF:-1 tvg-name="Channel 63",Channel 63
+},
+
+#EXTINF:-1 tvg-name="Channel 64",Channel 64
+{
+
+#EXTINF:-1 tvg-name="Channel 65",Channel 65
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 66",Channel 66
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 67",Channel 67
+"contentId": 1090539554,
+
+#EXTINF:-1 tvg-name="Channel 68",Channel 68
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022376/1786976983219557_PAK_ENG_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 69",Channel 69
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 70",Channel 70
+"audioLanguageName": "ENG",
+
+#EXTINF:-1 tvg-name="Channel 71",Channel 71
+"event_name": "Upcoming - Pakistan Tour of England 2026"
+
+#EXTINF:-1 tvg-name="Channel 72",Channel 72
+},
+
+#EXTINF:-1 tvg-name="Channel 73",Channel 73
+{
+
+#EXTINF:-1 tvg-name="Channel 74",Channel 74
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 75",Channel 75
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 76",Channel 76
+"contentId": 1090539555,
+
+#EXTINF:-1 tvg-name="Channel 77",Channel 77
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022689/1787385247438643_AsianGame26_IND_vs_PAK_QF_Promo_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 78",Channel 78
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 79",Channel 79
+"audioLanguageName": "ENG",
+
+#EXTINF:-1 tvg-name="Channel 80",Channel 80
+"event_name": "Upcoming - 20th Asian Games Aichi-Nagoya 2026"
+
+#EXTINF:-1 tvg-name="Channel 81",Channel 81
+},
+
+#EXTINF:-1 tvg-name="Channel 82",Channel 82
+{
+
+#EXTINF:-1 tvg-name="Channel 83",Channel 83
+"event_category": "Sports",
+
+#EXTINF:-1 tvg-name="Channel 84",Channel 84
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 85",Channel 85
+"contentId": 1090539080,
+
+#EXTINF:-1 tvg-name="Channel 86",Channel 86
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022077/1786464482593563_AG26_promo_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 87",Channel 87
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 88",Channel 88
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 89",Channel 89
+"event_name": "Upcoming - 20th Asian Games Aichi-Nagoya 2026"
+
+#EXTINF:-1 tvg-name="Channel 90",Channel 90
+},
+
+#EXTINF:-1 tvg-name="Channel 91",Channel 91
+{
+
+#EXTINF:-1 tvg-name="Channel 92",Channel 92
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 93",Channel 93
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 94",Channel 94
+"contentId": 1090539152,
+
+#EXTINF:-1 tvg-name="Channel 95",Channel 95
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022113/1786548147790338_cricket_Grover_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 96",Channel 96
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 97",Channel 97
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 98",Channel 98
+"event_name": "Upcoming - Har Screen Par Cricket - Sony Ke Saath - Bad Boss"
+
+#EXTINF:-1 tvg-name="Channel 99",Channel 99
+},
+
+#EXTINF:-1 tvg-name="Channel 100",Channel 100
+{
+
+#EXTINF:-1 tvg-name="Channel 101",Channel 101
+"event_category": "Sports",
+
+#EXTINF:-1 tvg-name="Channel 102",Channel 102
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 103",Channel 103
+"contentId": 1090540014,
+
+#EXTINF:-1 tvg-name="Channel 104",Channel 104
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022659/1787315010873577_AsianGames26_Promo_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 105",Channel 105
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 106",Channel 106
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 107",Channel 107
+"event_name": "Upcoming - 20th Asian Games Aichi-Nagoya 2026"
+
+#EXTINF:-1 tvg-name="Channel 108",Channel 108
+},
+
+#EXTINF:-1 tvg-name="Channel 109",Channel 109
+{
+
+#EXTINF:-1 tvg-name="Channel 110",Channel 110
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 111",Channel 111
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 112",Channel 112
+"contentId": 1090539970,
+
+#EXTINF:-1 tvg-name="Channel 113",Channel 113
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022650/178730215594955_WAC26_INDvsPAK_promo_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 114",Channel 114
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 115",Channel 115
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 116",Channel 116
+"event_name": "Upcoming - Har Screen Par Cricket - Sony Ke Saath - Bad Boss"
+
+#EXTINF:-1 tvg-name="Channel 117",Channel 117
+},
+
+#EXTINF:-1 tvg-name="Channel 118",Channel 118
+{
+
+#EXTINF:-1 tvg-name="Channel 119",Channel 119
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 120",Channel 120
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 121",Channel 121
+"contentId": 1090538916,
+
+#EXTINF:-1 tvg-name="Channel 122",Channel 122
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022033/1786433246787561_NZ_vs_IND_DDT_Promo_landscape.jpg",
+
+#EXTINF:-1 tvg-name="Channel 123",Channel 123
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 124",Channel 124
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 125",Channel 125
+"event_name": "Upcoming - India Tour of New Zealand "
+
+#EXTINF:-1 tvg-name="Channel 126",Channel 126
+},
+
+#EXTINF:-1 tvg-name="Channel 127",Channel 127
+{
+
+#EXTINF:-1 tvg-name="Channel 128",Channel 128
+"event_category": "Football",
+
+#EXTINF:-1 tvg-name="Channel 129",Channel 129
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 130",Channel 130
+"contentId": 1090540095,
+
+#EXTINF:-1 tvg-name="Channel 131",Channel 131
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022686/178737536763234_Durand_Cup_Promo_landscape_thumb.jpg",
+
+#EXTINF:-1 tvg-name="Channel 132",Channel 132
+"broadcast_channel": "Sony Sports Ten 2",
+
+#EXTINF:-1 tvg-name="Channel 133",Channel 133
+"audioLanguageName": "BEN",
+
+#EXTINF:-1 tvg-name="Channel 134",Channel 134
+"event_name": "Upcoming - Durand Cup 2026"
+
+#EXTINF:-1 tvg-name="Channel 135",Channel 135
+},
+
+#EXTINF:-1 tvg-name="Channel 136",Channel 136
+{
+
+#EXTINF:-1 tvg-name="Channel 137",Channel 137
+"event_category": "Cricket",
+
+#EXTINF:-1 tvg-name="Channel 138",Channel 138
+"isLive": false,
+
+#EXTINF:-1 tvg-name="Channel 139",Channel 139
+"contentId": 1090539234,
+
+#EXTINF:-1 tvg-name="Channel 140",Channel 140
+"src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022185/1786698001324453_nz_Vs_ind_promo_landscape.jpg",
+
+#EXTINF:-1 tvg-name="Channel 141",Channel 141
+"broadcast_channel": "Sony Sports Ten 5",
+
+#EXTINF:-1 tvg-name="Channel 142",Channel 142
+"audioLanguageName": "HIN",
+
+#EXTINF:-1 tvg-name="Channel 143",Channel 143
+"event_name": "Upcoming - Team
 
