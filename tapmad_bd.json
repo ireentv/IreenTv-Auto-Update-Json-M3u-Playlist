@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 8,
-  "Last_update": "2026-08-23 03:21:27 PM",
+  "channels_amount": 10,
+  "Last_update": "2026-08-23 03:47:13 PM",
   "channels": [
     {
       "name": "Netherlands vs China - W",
@@ -23,6 +23,14 @@
       "url": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
       "group": "General",
       "url_raw": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
+      "status": "Live"
+    },
+    {
+      "name": "Germany vs Australia",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787453174540x302MEN.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
       "status": "Live"
     },
     {
@@ -52,6 +60,14 @@
     {
       "name": "Elche vs Barcelona",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787453964540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Antigua and Barbuda Falcons vs Guyana Amazon Warriors",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787499280540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
