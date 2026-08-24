@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 19,
-  "Last_update": "2026-08-24 03:38:16 PM",
+  "channels_amount": 21,
+  "Last_update": "2026-08-24 04:36:19 PM",
   "channels": [
     {
       "name": "Spain vs Germany - W",
@@ -26,12 +26,20 @@
       "status": "Live"
     },
     {
+      "name": "Netherlands vs England",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787554339540x302MEN.jpg",
+      "url": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
+      "group": "General",
+      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
+      "status": "Live"
+    },
+    {
       "name": "Neom vs Al Qadsiah",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787558185540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://tencent-cdn.tapmad.com/v1/019ea6d121dd15e8f4122afee4cf8f/019ea6d2f96e15e8f0602c5e1b7bc3/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://tencent-cdn.tapmad.com/v1/019ea6d121dd15e8f4122afee4cf8f/019ea6d2f96e15e8f0602c5e1b7bc3/master.m3u8",
+      "status": "Live"
     },
     {
       "name": "Osasuna vs Levante",
@@ -156,6 +164,14 @@
     {
       "name": "England vs Pakistan",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Nurmagomedov vs Song",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787572921540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
