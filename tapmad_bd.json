@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 2,
-  "Last_update": "2026-08-24 05:37:24 AM",
+  "channels_amount": 3,
+  "Last_update": "2026-08-24 06:56:35 AM",
   "channels": [
     {
       "name": "Sri Lanka vs India",
@@ -16,6 +16,14 @@
       "group": "General",
       "url_raw": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8",
       "status": "Live"
+    },
+    {
+      "name": "New Zealand vs Pakistan",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787553546540x302MEN.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
     },
     {
       "name": "Men's & Women's Singles Qualifying",
