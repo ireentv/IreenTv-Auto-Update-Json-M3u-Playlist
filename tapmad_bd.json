@@ -6,23 +6,15 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 20,
-  "Last_update": "2026-08-25 05:30:52 PM",
+  "channels_amount": 23,
+  "Last_update": "2026-08-25 06:38:02 PM",
   "channels": [
     {
       "name": "Men's & Women's Singles Qualifying",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787573172540x302.jpg",
-      "url": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
+      "url": "https://multiregion-asia-cdn.tapmad.com/v1/019f067c253015e8f412028003fe/019f067d5e3615e8f060213b29a21b/main.m3u8",
       "group": "General",
-      "url_raw": "https://saseries.akamaized.net/hls/live/2110097/301@295Tapmad/master.m3u8",
-      "status": "Live"
-    },
-    {
-      "name": "Abha vs Al Khaleej",
-      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787559051540x302.jpg",
-      "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8",
-      "group": "General",
-      "url_raw": "https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8",
+      "url_raw": "https://multiregion-asia-cdn.tapmad.com/v1/019f067c253015e8f412028003fe/019f067d5e3615e8f060213b29a21b/main.m3u8",
       "status": "Live"
     },
     {
@@ -34,28 +26,36 @@
       "status": "Live"
     },
     {
+      "name": "Al-Ettifaq vs Al-Nassr",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787639406540x302.jpg",
+      "url": "https://tapmad-live.cdn.vustreams.com/live/6efd72d6-21db-4cf1-aa76-5b1252422d05/live.isml/.m3u8",
+      "group": "General",
+      "url_raw": "https://tapmad-live.cdn.vustreams.com/live/6efd72d6-21db-4cf1-aa76-5b1252422d05/live.isml/.m3u8",
+      "status": "Live"
+    },
+    {
       "name": "NEC vs Bodo/glimt",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787567480540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://tapmad-live.cdn.vustreams.com/live/f77a7dc4-4ce4-41ff-bfe6-34928cc6e108/live.isml/.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://tapmad-live.cdn.vustreams.com/live/f77a7dc4-4ce4-41ff-bfe6-34928cc6e108/live.isml/.m3u8",
+      "status": "Live"
     },
     {
       "name": "LASK vs Celtic",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787567635540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://tapmad-live.cdn.vustreams.com/live/4fd42f58-615d-4df3-bf89-c76079b1150e/live.isml/.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://tapmad-live.cdn.vustreams.com/live/4fd42f58-615d-4df3-bf89-c76079b1150e/live.isml/.m3u8",
+      "status": "Live"
     },
     {
       "name": "Valencia vs Betis",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787639634540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+      "status": "Live"
     },
     {
       "name": "Antigua and Barbuda Falcons vs Barbados Tridents",
@@ -164,6 +164,30 @@
     {
       "name": "England vs Pakistan",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Men's & Women's Singles Qualifying",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787641980540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Stars of the Open",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787642514540x302.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Men's Semi Final A Session - Guiyang, China Live",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787654627540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
