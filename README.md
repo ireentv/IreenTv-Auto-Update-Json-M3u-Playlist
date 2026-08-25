@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-  <a href="https://ireentv.pages.dev/"><img src="https://img.shields.io/badge/Website-ireentv.pages.dev-00ffcc?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Website"/></a>
+  <a href="https://ireentvhd.pages.dev/"><img src="https://img.shields.io/badge/Website-ireentv.pages.dev-00ffcc?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Website"/></a>
   <a href="https://t.me/ireentv"><img src="https://img.shields.io/badge/Telegram-Join%20Channel-26A69A?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
   <a href="https://github.com/ireentv/IreenTv-Auto-Update-Json-M3U-Playlist/releases"><img src="https://img.shields.io/badge/Release-v1.0-FF5722?style=for-the-badge&logo=github&logoColor=white" alt="Version"/></a>
 </p>
@@ -34,9 +34,9 @@ Get the complete premium entertainment experience across all your screens with o
 
 | Platform | Download Link | Description | Screenshot |
 | :--- | :--- | :--- | :--- |
-| 🌐 **Web Player Portal** | [**Live Web App**](https://ireentv.pages.dev/) | Watch from any browser with a stunning dark theme and live server switching. | [View UI](./assets/screenshot_web.png) |
-| 📱 **Android Mobile** | [**IreenTV Mobile.apk**](https://github.com/ireentv/Ireen-TV-Mobile/raw/refs/heads/main/IreenTV%20Mobile.apk) | Visually optimized, touch-friendly player with quick category search for your mobile device. | [View App](./assets/screenshot_sidebar.png) |
-| 📺 **Smart TV / Firestick** | [**Smart TV HD.apk**](https://github.com/ireentv/Smart-TV/raw/refs/heads/main/Smart%20TV%20HD.apk) | A remote-control friendly, widescreen 1080p full-screen player optimized for Android TVs. | [View Player](./assets/screenshot_player.png) |
+| 🌐 **Web Player Portal** | [**Live Web App**](https://ireentvhd.pages.dev/) | Watch from any browser with a stunning dark theme and live server switching. | [View UI](./assets/screenshot_web.png) |
+| 📱 **Android Mobile** | [**IreenTV Mobile.apk**](https://github.com/ireentv/IreenTV-Mobile-Apps/releases/download/mobile%26tv/IreenTV.apk) | Visually optimized, touch-friendly player with quick category search for your mobile device. | [View App](./assets/screenshot_sidebar.png) |
+| 📺 **Smart TV / Firestick** | [**Smart TV HD.apk**](https://github.com/ireentv/IreenTV-Mobile-Apps/releases/download/mobile%26tv/IreenTV.apk) | A remote-control friendly, widescreen 1080p full-screen player optimized for Android TVs. | [View Player](./assets/screenshot_player.png) |
 
 ---
 
