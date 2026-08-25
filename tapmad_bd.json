@@ -6,8 +6,8 @@
   "developer": "IreenTechnology",
   "version": "1.0",
   "name": "tapmad_bd",
-  "channels_amount": 18,
-  "Last_update": "2026-08-25 03:41:05 PM",
+  "channels_amount": 20,
+  "Last_update": "2026-08-25 04:36:27 PM",
   "channels": [
     {
       "name": "Men's & Women's Singles Qualifying",
@@ -18,12 +18,20 @@
       "status": "Live"
     },
     {
+      "name": "Abha vs Al Khaleej",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787559051540x302.jpg",
+      "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8",
+      "group": "General",
+      "url_raw": "https://serieAleague.akamaized.net/hls/live/2107107/A1@257-tapmad/master.m3u8",
+      "status": "Live"
+    },
+    {
       "name": "Sabah vs H. Beer-Sheva",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787567268540x302.jpg",
-      "url": "https://upcoming-match-no-stream.m3u8",
+      "url": "https://t-prod-pk.tapmad.com/v1/019eff56c91d15e8f412028003f9/019eff5a7a6f15e8f060057b6796/main.m3u8",
       "group": "General",
-      "url_raw": "https://upcoming-match-no-stream.m3u8",
-      "status": "Upcoming"
+      "url_raw": "https://t-prod-pk.tapmad.com/v1/019eff56c91d15e8f412028003f9/019eff5a7a6f15e8f060057b6796/main.m3u8",
+      "status": "Live"
     },
     {
       "name": "Al-Ettifaq vs Al-Nassr",
@@ -148,6 +156,14 @@
     {
       "name": "South Africa vs Ireland - W",
       "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787651024540x302WOMEN.jpg",
+      "url": "https://upcoming-match-no-stream.m3u8",
+      "group": "General",
+      "url_raw": "https://upcoming-match-no-stream.m3u8",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Belfast Wolves vs Dublin Guardians",
+      "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787665206540x302.jpg",
       "url": "https://upcoming-match-no-stream.m3u8",
       "group": "General",
       "url_raw": "https://upcoming-match-no-stream.m3u8",
