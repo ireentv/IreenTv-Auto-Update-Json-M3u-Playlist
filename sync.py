@@ -7,10 +7,9 @@ from datetime import datetime
 # Custom Branding Configurations
 BRANDING = {
     "status": "success",
-    "owner": "MD ANAMUL HOQUE",
     "telegram": "https://t.me/ireentv",
     "website": "https://anamul.pages.dev",
-    "developer": "IreenTechnology",
+    "developer": "MD ANAMUL HOQUE",
     "version": "1.0"
 }
 
