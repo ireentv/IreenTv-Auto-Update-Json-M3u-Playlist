@@ -6,8 +6,8 @@
   "developer": "MD ANAMUL HOQUE",
   "version": "1.0",
   "name": "Premium Sports",
-  "channels_amount": 83,
-  "Last_update": "2026-08-26 09:34:02 PM",
+  "channels_amount": 161,
+  "Last_update": "2026-08-26 09:51:41 PM",
   "channels": [
     {
       "name": "ABC",
@@ -30,6 +30,16 @@
       }
     },
     {
+      "name": "Abu Dhabi Sports 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Abu_Dhabi_Sports_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Abu_Dhabi_Sports_1.m3u8",
+      "group": "Live TV - AE",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Abu_Dhabi_Sports_1.m3u8",
+      "attrs": {
+        "tvg-id": "Abu_Dhabi_Sports_1"
+      }
+    },
+    {
       "name": "Altitude",
       "logo": "https://ireentvsportspremium.pages.dev/logos/Altitude.png",
       "url": "https://ireentvsportspremium.pages.dev/Altitude.m3u8",
@@ -40,6 +50,16 @@
       }
     },
     {
+      "name": "Arizona Diamondbacks",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Arizona_Diamondbacks.png",
+      "url": "https://ireentvsportspremium.pages.dev/Arizona_Diamondbacks.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Arizona_Diamondbacks.m3u8",
+      "attrs": {
+        "tvg-id": "Arizona_Diamondbacks"
+      }
+    },
+    {
       "name": "Astro Cricket",
       "logo": "https://ireentvsportspremium.pages.dev/logos/Astro_Cricket.png",
       "url": "https://ireentvsportspremium.pages.dev/Astro_Cricket.m3u8",
@@ -47,6 +67,16 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/Astro_Cricket.m3u8",
       "attrs": {
         "tvg-id": "Astro_Cricket"
+      }
+    },
+    {
+      "name": "Atlanta Braves",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Atlanta_Braves.png",
+      "url": "https://ireentvsportspremium.pages.dev/Atlanta_Braves.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Atlanta_Braves.m3u8",
+      "attrs": {
+        "tvg-id": "Atlanta_Braves"
       }
     },
     {
@@ -90,6 +120,16 @@
       }
     },
     {
+      "name": "BBC Two",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/BBC_Two.png",
+      "url": "https://ireentvsportspremium.pages.dev/BBC_Two.m3u8",
+      "group": "Live TV - GB",
+      "url_raw": "https://ireentvsportspremium.pages.dev/BBC_Two.m3u8",
+      "attrs": {
+        "tvg-id": "BBC_Two"
+      }
+    },
+    {
       "name": "BET",
       "logo": "https://ireentvsportspremium.pages.dev/logos/BET.png",
       "url": "https://ireentvsportspremium.pages.dev/BET.m3u8",
@@ -97,6 +137,16 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/BET.m3u8",
       "attrs": {
         "tvg-id": "BET"
+      }
+    },
+    {
+      "name": "Baltimore Orioles",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Baltimore_Orioles.png",
+      "url": "https://ireentvsportspremium.pages.dev/Baltimore_Orioles.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Baltimore_Orioles.m3u8",
+      "attrs": {
+        "tvg-id": "Baltimore_Orioles"
       }
     },
     {
@@ -117,6 +167,16 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/Boston_Red_Sox.m3u8",
       "attrs": {
         "tvg-id": "Boston_Red_Sox"
+      }
+    },
+    {
+      "name": "CBS",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/CBS.png",
+      "url": "https://ireentvsportspremium.pages.dev/CBS.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/CBS.m3u8",
+      "attrs": {
+        "tvg-id": "CBS"
       }
     },
     {
@@ -200,6 +260,76 @@
       }
     },
     {
+      "name": "Canal Live 11",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Canal_Live_11.png",
+      "url": "https://ireentvsportspremium.pages.dev/Canal_Live_11.m3u8",
+      "group": "Live TV - FR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Canal_Live_11.m3u8",
+      "attrs": {
+        "tvg-id": "Canal_Live_11"
+      }
+    },
+    {
+      "name": "Canal Live 6",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Canal_Live_6.png",
+      "url": "https://ireentvsportspremium.pages.dev/Canal_Live_6.m3u8",
+      "group": "Live TV - FR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Canal_Live_6.m3u8",
+      "attrs": {
+        "tvg-id": "Canal_Live_6"
+      }
+    },
+    {
+      "name": "Canal Premier League",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Canal_Premier_League.png",
+      "url": "https://ireentvsportspremium.pages.dev/Canal_Premier_League.m3u8",
+      "group": "Live TV - FR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Canal_Premier_League.m3u8",
+      "attrs": {
+        "tvg-id": "Canal_Premier_League"
+      }
+    },
+    {
+      "name": "Canal Sport",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Canal_Sport.png",
+      "url": "https://ireentvsportspremium.pages.dev/Canal_Sport.m3u8",
+      "group": "Live TV - FR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Canal_Sport.m3u8",
+      "attrs": {
+        "tvg-id": "Canal_Sport"
+      }
+    },
+    {
+      "name": "Canal Sport 2",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Canal_Sport_2.png",
+      "url": "https://ireentvsportspremium.pages.dev/Canal_Sport_2.m3u8",
+      "group": "Live TV - PL",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Canal_Sport_2.m3u8",
+      "attrs": {
+        "tvg-id": "Canal_Sport_2"
+      }
+    },
+    {
+      "name": "Canal Sport360",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Canal_Sport360.png",
+      "url": "https://ireentvsportspremium.pages.dev/Canal_Sport360.m3u8",
+      "group": "Live TV - FR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Canal_Sport360.m3u8",
+      "attrs": {
+        "tvg-id": "Canal_Sport360"
+      }
+    },
+    {
+      "name": "Channel 4",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Channel_4.png",
+      "url": "https://ireentvsportspremium.pages.dev/Channel_4.m3u8",
+      "group": "Live TV - GB",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Channel_4.m3u8",
+      "attrs": {
+        "tvg-id": "Channel_4"
+      }
+    },
+    {
       "name": "Channel 5",
       "logo": "https://ireentvsportspremium.pages.dev/logos/Channel_5.png",
       "url": "https://ireentvsportspremium.pages.dev/Channel_5.m3u8",
@@ -207,6 +337,136 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/Channel_5.m3u8",
       "attrs": {
         "tvg-id": "Channel_5"
+      }
+    },
+    {
+      "name": "Chicago Cubs",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Chicago_Cubs.png",
+      "url": "https://ireentvsportspremium.pages.dev/Chicago_Cubs.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Chicago_Cubs.m3u8",
+      "attrs": {
+        "tvg-id": "Chicago_Cubs"
+      }
+    },
+    {
+      "name": "Chicago Sports Network",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Chicago_Sports_Network.png",
+      "url": "https://ireentvsportspremium.pages.dev/Chicago_Sports_Network.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Chicago_Sports_Network.m3u8",
+      "attrs": {
+        "tvg-id": "Chicago_Sports_Network"
+      }
+    },
+    {
+      "name": "Cincinnati Reds",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cincinnati_Reds.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cincinnati_Reds.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cincinnati_Reds.m3u8",
+      "attrs": {
+        "tvg-id": "Cincinnati_Reds"
+      }
+    },
+    {
+      "name": "Cinemax",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cinemax.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cinemax.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cinemax.m3u8",
+      "attrs": {
+        "tvg-id": "Cinemax"
+      }
+    },
+    {
+      "name": "Cleveland Guardians",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cleveland_Guardians.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cleveland_Guardians.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cleveland_Guardians.m3u8",
+      "attrs": {
+        "tvg-id": "Cleveland_Guardians"
+      }
+    },
+    {
+      "name": "Cosmote Sport 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cosmote_Sport_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_1.m3u8",
+      "group": "Live TV - GR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_1.m3u8",
+      "attrs": {
+        "tvg-id": "Cosmote_Sport_1"
+      }
+    },
+    {
+      "name": "Cosmote Sport 4",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cosmote_Sport_4.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_4.m3u8",
+      "group": "Live TV - GR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_4.m3u8",
+      "attrs": {
+        "tvg-id": "Cosmote_Sport_4"
+      }
+    },
+    {
+      "name": "Cosmote Sport 5",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cosmote_Sport_5.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_5.m3u8",
+      "group": "Live TV - GR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_5.m3u8",
+      "attrs": {
+        "tvg-id": "Cosmote_Sport_5"
+      }
+    },
+    {
+      "name": "Cosmote Sport 6",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cosmote_Sport_6.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_6.m3u8",
+      "group": "Live TV - GR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_6.m3u8",
+      "attrs": {
+        "tvg-id": "Cosmote_Sport_6"
+      }
+    },
+    {
+      "name": "Cosmote Sport 7",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cosmote_Sport_7.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_7.m3u8",
+      "group": "Live TV - GR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_7.m3u8",
+      "attrs": {
+        "tvg-id": "Cosmote_Sport_7"
+      }
+    },
+    {
+      "name": "Cosmote Sport 8",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Cosmote_Sport_8.png",
+      "url": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_8.m3u8",
+      "group": "Live TV - GR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Cosmote_Sport_8.m3u8",
+      "attrs": {
+        "tvg-id": "Cosmote_Sport_8"
+      }
+    },
+    {
+      "name": "DAZN 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/DAZN_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/DAZN_1.m3u8",
+      "group": "Live TV - DE",
+      "url_raw": "https://ireentvsportspremium.pages.dev/DAZN_1.m3u8",
+      "attrs": {
+        "tvg-id": "DAZN_1"
+      }
+    },
+    {
+      "name": "DAZN 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/DAZN_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/DAZN_1.m3u8",
+      "group": "Live TV - GB",
+      "url_raw": "https://ireentvsportspremium.pages.dev/DAZN_1.m3u8",
+      "attrs": {
+        "tvg-id": "DAZN_1"
       }
     },
     {
@@ -220,13 +480,33 @@
       }
     },
     {
-      "name": "DAZN F1",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/DAZN_F1.png",
-      "url": "https://ireentvsportspremium.pages.dev/DAZN_F1.m3u8",
-      "group": "Live TV - ES",
-      "url_raw": "https://ireentvsportspremium.pages.dev/DAZN_F1.m3u8",
+      "name": "DAZN 2",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/DAZN_2.png",
+      "url": "https://ireentvsportspremium.pages.dev/DAZN_2.m3u8",
+      "group": "Live TV - PT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/DAZN_2.m3u8",
       "attrs": {
-        "tvg-id": "DAZN_F1"
+        "tvg-id": "DAZN_2"
+      }
+    },
+    {
+      "name": "DAZN 4",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/DAZN_4.png",
+      "url": "https://ireentvsportspremium.pages.dev/DAZN_4.m3u8",
+      "group": "Live TV - PT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/DAZN_4.m3u8",
+      "attrs": {
+        "tvg-id": "DAZN_4"
+      }
+    },
+    {
+      "name": "DAZN LaLiga",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/DAZN_LaLiga.png",
+      "url": "https://ireentvsportspremium.pages.dev/DAZN_LaLiga.m3u8",
+      "group": "Live TV - ES",
+      "url_raw": "https://ireentvsportspremium.pages.dev/DAZN_LaLiga.m3u8",
+      "attrs": {
+        "tvg-id": "DAZN_LaLiga"
       }
     },
     {
@@ -237,16 +517,6 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/Detroit_Tigers.m3u8",
       "attrs": {
         "tvg-id": "Detroit_Tigers"
-      }
-    },
-    {
-      "name": "Diema Sport 3",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Diema_Sport_3.png",
-      "url": "https://ireentvsportspremium.pages.dev/Diema_Sport_3.m3u8",
-      "group": "Live TV - BG",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Diema_Sport_3.m3u8",
-      "attrs": {
-        "tvg-id": "Diema_Sport_3"
       }
     },
     {
@@ -267,6 +537,36 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/Disney_Channel.m3u8",
       "attrs": {
         "tvg-id": "Disney_Channel"
+      }
+    },
+    {
+      "name": "ESPN",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN.png",
+      "url": "https://ireentvsportspremium.pages.dev/ESPN.m3u8",
+      "group": "Live TV - NL",
+      "url_raw": "https://ireentvsportspremium.pages.dev/ESPN.m3u8",
+      "attrs": {
+        "tvg-id": "ESPN"
+      }
+    },
+    {
+      "name": "ESPN",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN.png",
+      "url": "https://ireentvsportspremium.pages.dev/ESPN.m3u8",
+      "group": "Live TV - BR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/ESPN.m3u8",
+      "attrs": {
+        "tvg-id": "ESPN"
+      }
+    },
+    {
+      "name": "ESPN",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN.png",
+      "url": "https://ireentvsportspremium.pages.dev/ESPN.m3u8",
+      "group": "Live TV - AR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/ESPN.m3u8",
+      "attrs": {
+        "tvg-id": "ESPN"
       }
     },
     {
@@ -310,6 +610,36 @@
       }
     },
     {
+      "name": "ESPN 3",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN_3.png",
+      "url": "https://ireentvsportspremium.pages.dev/ESPN_3.m3u8",
+      "group": "Live TV - NL",
+      "url_raw": "https://ireentvsportspremium.pages.dev/ESPN_3.m3u8",
+      "attrs": {
+        "tvg-id": "ESPN_3"
+      }
+    },
+    {
+      "name": "ESPN 3",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN_3.png",
+      "url": "https://ireentvsportspremium.pages.dev/ESPN_3.m3u8",
+      "group": "Live TV - MX",
+      "url_raw": "https://ireentvsportspremium.pages.dev/ESPN_3.m3u8",
+      "attrs": {
+        "tvg-id": "ESPN_3"
+      }
+    },
+    {
+      "name": "ESPN 4",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN_4.png",
+      "url": "https://ireentvsportspremium.pages.dev/ESPN_4.m3u8",
+      "group": "Live TV - MX",
+      "url_raw": "https://ireentvsportspremium.pages.dev/ESPN_4.m3u8",
+      "attrs": {
+        "tvg-id": "ESPN_4"
+      }
+    },
+    {
       "name": "ESPN Deportes",
       "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN_Deportes.png",
       "url": "https://ireentvsportspremium.pages.dev/ESPN_Deportes.m3u8",
@@ -340,6 +670,16 @@
       }
     },
     {
+      "name": "ESPN U",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN_U.png",
+      "url": "https://ireentvsportspremium.pages.dev/ESPN_U.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/ESPN_U.m3u8",
+      "attrs": {
+        "tvg-id": "ESPN_U"
+      }
+    },
+    {
       "name": "ESPN+ USA",
       "logo": "https://ireentvsportspremium.pages.dev/logos/ESPN_USA.png",
       "url": "https://ireentvsportspremium.pages.dev/ESPN_USA.m3u8",
@@ -354,6 +694,16 @@
       "logo": "https://ireentvsportspremium.pages.dev/logos/Euro_Sport_1.png",
       "url": "https://ireentvsportspremium.pages.dev/Euro_Sport_1.m3u8",
       "group": "Live TV - GB",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Euro_Sport_1.m3u8",
+      "attrs": {
+        "tvg-id": "Euro_Sport_1"
+      }
+    },
+    {
+      "name": "Euro Sport 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Euro_Sport_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Euro_Sport_1.m3u8",
+      "group": "Live TV - BG",
       "url_raw": "https://ireentvsportspremium.pages.dev/Euro_Sport_1.m3u8",
       "attrs": {
         "tvg-id": "Euro_Sport_1"
@@ -390,16 +740,6 @@
       }
     },
     {
-      "name": "FOX Soccer Plus",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/FOX_Soccer_Plus.png",
-      "url": "https://ireentvsportspremium.pages.dev/FOX_Soccer_Plus.m3u8",
-      "group": "Live TV - US",
-      "url_raw": "https://ireentvsportspremium.pages.dev/FOX_Soccer_Plus.m3u8",
-      "attrs": {
-        "tvg-id": "FOX_Soccer_Plus"
-      }
-    },
-    {
       "name": "FOX Sports 1",
       "logo": "https://ireentvsportspremium.pages.dev/logos/FOX_Sports_1.png",
       "url": "https://ireentvsportspremium.pages.dev/FOX_Sports_1.m3u8",
@@ -420,13 +760,73 @@
       }
     },
     {
-      "name": "FOX Sports 2",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/FOX_Sports_2.png",
-      "url": "https://ireentvsportspremium.pages.dev/FOX_Sports_2.m3u8",
-      "group": "Live TV - AR",
-      "url_raw": "https://ireentvsportspremium.pages.dev/FOX_Sports_2.m3u8",
+      "name": "Fox Sports 501",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Fox_Sports_501.png",
+      "url": "https://ireentvsportspremium.pages.dev/Fox_Sports_501.m3u8",
+      "group": "Live TV - AU",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Fox_Sports_501.m3u8",
       "attrs": {
-        "tvg-id": "FOX_Sports_2"
+        "tvg-id": "Fox_Sports_501"
+      }
+    },
+    {
+      "name": "Fox Sports 501 Cricket",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Fox_Sports_501_Cricket.png",
+      "url": "https://ireentvsportspremium.pages.dev/Fox_Sports_501_Cricket.m3u8",
+      "group": "Live TV - AU",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Fox_Sports_501_Cricket.m3u8",
+      "attrs": {
+        "tvg-id": "Fox_Sports_501_Cricket"
+      }
+    },
+    {
+      "name": "Fox Sports 502",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Fox_Sports_502.png",
+      "url": "https://ireentvsportspremium.pages.dev/Fox_Sports_502.m3u8",
+      "group": "Live TV - AU",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Fox_Sports_502.m3u8",
+      "attrs": {
+        "tvg-id": "Fox_Sports_502"
+      }
+    },
+    {
+      "name": "Fox Sports 503",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Fox_Sports_503.png",
+      "url": "https://ireentvsportspremium.pages.dev/Fox_Sports_503.m3u8",
+      "group": "Live TV - AU",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Fox_Sports_503.m3u8",
+      "attrs": {
+        "tvg-id": "Fox_Sports_503"
+      }
+    },
+    {
+      "name": "Fox Sports 505",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Fox_Sports_505.png",
+      "url": "https://ireentvsportspremium.pages.dev/Fox_Sports_505.m3u8",
+      "group": "Live TV - AU",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Fox_Sports_505.m3u8",
+      "attrs": {
+        "tvg-id": "Fox_Sports_505"
+      }
+    },
+    {
+      "name": "Fox Sports 506",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Fox_Sports_506.png",
+      "url": "https://ireentvsportspremium.pages.dev/Fox_Sports_506.m3u8",
+      "group": "Live TV - AU",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Fox_Sports_506.m3u8",
+      "attrs": {
+        "tvg-id": "Fox_Sports_506"
+      }
+    },
+    {
+      "name": "Fox Sports News",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Fox_Sports_News.png",
+      "url": "https://ireentvsportspremium.pages.dev/Fox_Sports_News.m3u8",
+      "group": "Live TV - AU",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Fox_Sports_News.m3u8",
+      "attrs": {
+        "tvg-id": "Fox_Sports_News"
       }
     },
     {
@@ -470,6 +870,16 @@
       }
     },
     {
+      "name": "Houston Astros",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Houston_Astros.png",
+      "url": "https://ireentvsportspremium.pages.dev/Houston_Astros.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Houston_Astros.m3u8",
+      "attrs": {
+        "tvg-id": "Houston_Astros"
+      }
+    },
+    {
       "name": "ITV 1",
       "logo": "https://ireentvsportspremium.pages.dev/logos/ITV_1.png",
       "url": "https://ireentvsportspremium.pages.dev/ITV_1.m3u8",
@@ -500,13 +910,13 @@
       }
     },
     {
-      "name": "ITV 4",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/ITV_4.png",
-      "url": "https://ireentvsportspremium.pages.dev/ITV_4.m3u8",
-      "group": "Live TV - GB",
-      "url_raw": "https://ireentvsportspremium.pages.dev/ITV_4.m3u8",
+      "name": "Italia 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Italia_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Italia_1.m3u8",
+      "group": "Live TV - IT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Italia_1.m3u8",
       "attrs": {
-        "tvg-id": "ITV_4"
+        "tvg-id": "Italia_1"
       }
     },
     {
@@ -530,6 +940,36 @@
       }
     },
     {
+      "name": "Los Angeles Angels",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Los_Angeles_Angels.png",
+      "url": "https://ireentvsportspremium.pages.dev/Los_Angeles_Angels.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Los_Angeles_Angels.m3u8",
+      "attrs": {
+        "tvg-id": "Los_Angeles_Angels"
+      }
+    },
+    {
+      "name": "MASN",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/MASN.png",
+      "url": "https://ireentvsportspremium.pages.dev/MASN.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/MASN.m3u8",
+      "attrs": {
+        "tvg-id": "MASN"
+      }
+    },
+    {
+      "name": "MAX",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/MAX.png",
+      "url": "https://ireentvsportspremium.pages.dev/MAX.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/MAX.m3u8",
+      "attrs": {
+        "tvg-id": "MAX"
+      }
+    },
+    {
       "name": "MLB Network",
       "logo": "https://ireentvsportspremium.pages.dev/logos/MLB_Network.png",
       "url": "https://ireentvsportspremium.pages.dev/MLB_Network.m3u8",
@@ -550,6 +990,86 @@
       }
     },
     {
+      "name": "Marquee Sports Network",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Marquee_Sports_Network.png",
+      "url": "https://ireentvsportspremium.pages.dev/Marquee_Sports_Network.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Marquee_Sports_Network.m3u8",
+      "attrs": {
+        "tvg-id": "Marquee_Sports_Network"
+      }
+    },
+    {
+      "name": "Match Premier",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Match_Premier.png",
+      "url": "https://ireentvsportspremium.pages.dev/Match_Premier.m3u8",
+      "group": "Live TV - RU",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Match_Premier.m3u8",
+      "attrs": {
+        "tvg-id": "Match_Premier"
+      }
+    },
+    {
+      "name": "Max Sport 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Max_Sport_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Max_Sport_1.m3u8",
+      "group": "Live TV - BG",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Max_Sport_1.m3u8",
+      "attrs": {
+        "tvg-id": "Max_Sport_1"
+      }
+    },
+    {
+      "name": "Milwaukee Brewers",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Milwaukee_Brewers.png",
+      "url": "https://ireentvsportspremium.pages.dev/Milwaukee_Brewers.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Milwaukee_Brewers.m3u8",
+      "attrs": {
+        "tvg-id": "Milwaukee_Brewers"
+      }
+    },
+    {
+      "name": "Monumental Sports Network",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Monumental_Sports_Network.png",
+      "url": "https://ireentvsportspremium.pages.dev/Monumental_Sports_Network.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Monumental_Sports_Network.m3u8",
+      "attrs": {
+        "tvg-id": "Monumental_Sports_Network"
+      }
+    },
+    {
+      "name": "Movistar Deportes 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Movistar_Deportes_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Movistar_Deportes_1.m3u8",
+      "group": "Live TV - ES",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Movistar_Deportes_1.m3u8",
+      "attrs": {
+        "tvg-id": "Movistar_Deportes_1"
+      }
+    },
+    {
+      "name": "Movistar Deportes 2",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Movistar_Deportes_2.png",
+      "url": "https://ireentvsportspremium.pages.dev/Movistar_Deportes_2.m3u8",
+      "group": "Live TV - ES",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Movistar_Deportes_2.m3u8",
+      "attrs": {
+        "tvg-id": "Movistar_Deportes_2"
+      }
+    },
+    {
+      "name": "NBA TV",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/NBA_TV.png",
+      "url": "https://ireentvsportspremium.pages.dev/NBA_TV.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/NBA_TV.m3u8",
+      "attrs": {
+        "tvg-id": "NBA_TV"
+      }
+    },
+    {
       "name": "NBC",
       "logo": "https://ireentvsportspremium.pages.dev/logos/NBC.png",
       "url": "https://ireentvsportspremium.pages.dev/NBC.m3u8",
@@ -557,16 +1077,6 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/NBC.m3u8",
       "attrs": {
         "tvg-id": "NBC"
-      }
-    },
-    {
-      "name": "NESN",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/NESN.png",
-      "url": "https://ireentvsportspremium.pages.dev/NESN.m3u8",
-      "group": "Live TV - US",
-      "url_raw": "https://ireentvsportspremium.pages.dev/NESN.m3u8",
-      "attrs": {
-        "tvg-id": "NESN"
       }
     },
     {
@@ -590,6 +1100,26 @@
       }
     },
     {
+      "name": "National Geographic",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/National_Geographic.png",
+      "url": "https://ireentvsportspremium.pages.dev/National_Geographic.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/National_Geographic.m3u8",
+      "attrs": {
+        "tvg-id": "National_Geographic"
+      }
+    },
+    {
+      "name": "New York Yankees",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/New_York_Yankees.png",
+      "url": "https://ireentvsportspremium.pages.dev/New_York_Yankees.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/New_York_Yankees.m3u8",
+      "attrs": {
+        "tvg-id": "New_York_Yankees"
+      }
+    },
+    {
       "name": "Nickelodeon TV",
       "logo": "https://ireentvsportspremium.pages.dev/logos/Nickelodeon_TV.png",
       "url": "https://ireentvsportspremium.pages.dev/Nickelodeon_TV.m3u8",
@@ -600,6 +1130,16 @@
       }
     },
     {
+      "name": "Nova Sport",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Nova_Sport.png",
+      "url": "https://ireentvsportspremium.pages.dev/Nova_Sport.m3u8",
+      "group": "Live TV - BG",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Nova_Sport.m3u8",
+      "attrs": {
+        "tvg-id": "Nova_Sport"
+      }
+    },
+    {
       "name": "Nova Sport 3",
       "logo": "https://ireentvsportspremium.pages.dev/logos/Nova_Sport_3.png",
       "url": "https://ireentvsportspremium.pages.dev/Nova_Sport_3.m3u8",
@@ -607,6 +1147,126 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/Nova_Sport_3.m3u8",
       "attrs": {
         "tvg-id": "Nova_Sport_3"
+      }
+    },
+    {
+      "name": "Nova Sport 5",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Nova_Sport_5.png",
+      "url": "https://ireentvsportspremium.pages.dev/Nova_Sport_5.m3u8",
+      "group": "Live TV - CZ",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Nova_Sport_5.m3u8",
+      "attrs": {
+        "tvg-id": "Nova_Sport_5"
+      }
+    },
+    {
+      "name": "Nova Sports Prime",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Nova_Sports_Prime.png",
+      "url": "https://ireentvsportspremium.pages.dev/Nova_Sports_Prime.m3u8",
+      "group": "Live TV - GR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Nova_Sports_Prime.m3u8",
+      "attrs": {
+        "tvg-id": "Nova_Sports_Prime"
+      }
+    },
+    {
+      "name": "ONE 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/ONE_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/ONE_1.m3u8",
+      "group": "Live TV - IL",
+      "url_raw": "https://ireentvsportspremium.pages.dev/ONE_1.m3u8",
+      "attrs": {
+        "tvg-id": "ONE_1"
+      }
+    },
+    {
+      "name": "Philadelphia Phillies",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Philadelphia_Phillies.png",
+      "url": "https://ireentvsportspremium.pages.dev/Philadelphia_Phillies.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Philadelphia_Phillies.m3u8",
+      "attrs": {
+        "tvg-id": "Philadelphia_Phillies"
+      }
+    },
+    {
+      "name": "Pittsburgh Pirates",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Pittsburgh_Pirates.png",
+      "url": "https://ireentvsportspremium.pages.dev/Pittsburgh_Pirates.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Pittsburgh_Pirates.m3u8",
+      "attrs": {
+        "tvg-id": "Pittsburgh_Pirates"
+      }
+    },
+    {
+      "name": "Premier Sports 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Premier_Sports_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Premier_Sports_1.m3u8",
+      "group": "Live TV - GB",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Premier_Sports_1.m3u8",
+      "attrs": {
+        "tvg-id": "Premier_Sports_1"
+      }
+    },
+    {
+      "name": "Premier Sports 2",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Premier_Sports_2.png",
+      "url": "https://ireentvsportspremium.pages.dev/Premier_Sports_2.m3u8",
+      "group": "Live TV - GB",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Premier_Sports_2.m3u8",
+      "attrs": {
+        "tvg-id": "Premier_Sports_2"
+      }
+    },
+    {
+      "name": "Premiere 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Premiere_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Premiere_1.m3u8",
+      "group": "Live TV - BR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Premiere_1.m3u8",
+      "attrs": {
+        "tvg-id": "Premiere_1"
+      }
+    },
+    {
+      "name": "Premiere 5",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Premiere_5.png",
+      "url": "https://ireentvsportspremium.pages.dev/Premiere_5.m3u8",
+      "group": "Live TV - BR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Premiere_5.m3u8",
+      "attrs": {
+        "tvg-id": "Premiere_5"
+      }
+    },
+    {
+      "name": "Prima Sport 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Prima_Sport_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/Prima_Sport_1.m3u8",
+      "group": "Live TV - RO",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Prima_Sport_1.m3u8",
+      "attrs": {
+        "tvg-id": "Prima_Sport_1"
+      }
+    },
+    {
+      "name": "RMC Sport 1",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/RMC_Sport_1.png",
+      "url": "https://ireentvsportspremium.pages.dev/RMC_Sport_1.m3u8",
+      "group": "Live TV - FR",
+      "url_raw": "https://ireentvsportspremium.pages.dev/RMC_Sport_1.m3u8",
+      "attrs": {
+        "tvg-id": "RMC_Sport_1"
+      }
+    },
+    {
+      "name": "RTL",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/RTL.png",
+      "url": "https://ireentvsportspremium.pages.dev/RTL.m3u8",
+      "group": "Live TV - DE",
+      "url_raw": "https://ireentvsportspremium.pages.dev/RTL.m3u8",
+      "attrs": {
+        "tvg-id": "RTL"
       }
     },
     {
@@ -630,6 +1290,16 @@
       }
     },
     {
+      "name": "SEC Network",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/SEC_Network.png",
+      "url": "https://ireentvsportspremium.pages.dev/SEC_Network.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/SEC_Network.m3u8",
+      "attrs": {
+        "tvg-id": "SEC_Network"
+      }
+    },
+    {
       "name": "SIC",
       "logo": "https://ireentvsportspremium.pages.dev/logos/SIC.png",
       "url": "https://ireentvsportspremium.pages.dev/SIC.m3u8",
@@ -637,6 +1307,46 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/SIC.m3u8",
       "attrs": {
         "tvg-id": "SIC"
+      }
+    },
+    {
+      "name": "San Diego Padres",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/San_Diego_Padres.png",
+      "url": "https://ireentvsportspremium.pages.dev/San_Diego_Padres.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/San_Diego_Padres.m3u8",
+      "attrs": {
+        "tvg-id": "San_Diego_Padres"
+      }
+    },
+    {
+      "name": "San Francisco Giants",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/San_Francisco_Giants.png",
+      "url": "https://ireentvsportspremium.pages.dev/San_Francisco_Giants.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/San_Francisco_Giants.m3u8",
+      "attrs": {
+        "tvg-id": "San_Francisco_Giants"
+      }
+    },
+    {
+      "name": "Seattle Mariners",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Seattle_Mariners.png",
+      "url": "https://ireentvsportspremium.pages.dev/Seattle_Mariners.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Seattle_Mariners.m3u8",
+      "attrs": {
+        "tvg-id": "Seattle_Mariners"
+      }
+    },
+    {
+      "name": "Showtime",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Showtime.png",
+      "url": "https://ireentvsportspremium.pages.dev/Showtime.m3u8",
+      "group": "Live TV - US",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Showtime.m3u8",
+      "attrs": {
+        "tvg-id": "Showtime"
       }
     },
     {
@@ -670,6 +1380,46 @@
       }
     },
     {
+      "name": "Sky Sport 10",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_10.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_10.m3u8",
+      "group": "Live TV - AT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_10.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_10"
+      }
+    },
+    {
+      "name": "Sky Sport 2",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_2.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_2.m3u8",
+      "group": "Live TV - DE",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_2.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_2"
+      }
+    },
+    {
+      "name": "Sky Sport 2",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_2.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_2.m3u8",
+      "group": "Live TV - AT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_2.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_2"
+      }
+    },
+    {
+      "name": "Sky Sport 2",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_2.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_2.m3u8",
+      "group": "Live TV - NZ",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_2.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_2"
+      }
+    },
+    {
       "name": "Sky Sport 3",
       "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_3.png",
       "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_3.m3u8",
@@ -677,6 +1427,146 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_3.m3u8",
       "attrs": {
         "tvg-id": "Sky_Sport_3"
+      }
+    },
+    {
+      "name": "Sky Sport 4",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_4.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_4.m3u8",
+      "group": "Live TV - AT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_4.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_4"
+      }
+    },
+    {
+      "name": "Sky Sport 4",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_4.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_4.m3u8",
+      "group": "Live TV - NZ",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_4.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_4"
+      }
+    },
+    {
+      "name": "Sky Sport 5",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_5.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_5.m3u8",
+      "group": "Live TV - AT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_5.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_5"
+      }
+    },
+    {
+      "name": "Sky Sport 6",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_6.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_6.m3u8",
+      "group": "Live TV - NZ",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_6.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_6"
+      }
+    },
+    {
+      "name": "Sky Sport 8",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_8.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_8.m3u8",
+      "group": "Live TV - AT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_8.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_8"
+      }
+    },
+    {
+      "name": "Sky Sport 8",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_8.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_8.m3u8",
+      "group": "Live TV - NZ",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_8.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_8"
+      }
+    },
+    {
+      "name": "Sky Sport 9",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_9.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_9.m3u8",
+      "group": "Live TV - AT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_9.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_9"
+      }
+    },
+    {
+      "name": "Sky Sport 9",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_9.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_9.m3u8",
+      "group": "Live TV - NZ",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_9.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_9"
+      }
+    },
+    {
+      "name": "Sky Sport Bundesliga 4",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Bundesliga_4.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_4.m3u8",
+      "group": "Live TV - DE",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_4.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_Bundesliga_4"
+      }
+    },
+    {
+      "name": "Sky Sport Bundesliga 6",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Bundesliga_6.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_6.m3u8",
+      "group": "Live TV - DE",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_6.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_Bundesliga_6"
+      }
+    },
+    {
+      "name": "Sky Sport Bundesliga 8",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Bundesliga_8.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_8.m3u8",
+      "group": "Live TV - DE",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_8.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_Bundesliga_8"
+      }
+    },
+    {
+      "name": "Sky Sport Golf",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Golf.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_Golf.m3u8",
+      "group": "Live TV - IT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_Golf.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_Golf"
+      }
+    },
+    {
+      "name": "Sky Sport Max",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Max.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_Max.m3u8",
+      "group": "Live TV - IT",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_Max.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_Max"
+      }
+    },
+    {
+      "name": "Sky Sport Mix",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Mix.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sport_Mix.m3u8",
+      "group": "Live TV - DE",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sport_Mix.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sport_Mix"
       }
     },
     {
@@ -700,6 +1590,16 @@
       }
     },
     {
+      "name": "Sky Sports Arena",
+      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Arena.png",
+      "url": "https://ireentvsportspremium.pages.dev/Sky_Sports_Arena.m3u8",
+      "group": "Live TV - GB",
+      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sports_Arena.m3u8",
+      "attrs": {
+        "tvg-id": "Sky_Sports_Arena"
+      }
+    },
+    {
       "name": "Sky Sports Cricket",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-cricket-uk.png",
       "url": "https://ireentvsportspremium.pages.dev/Sky_Sports_Cricket.m3u8",
@@ -717,126 +1617,6 @@
       "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sports_F1.m3u8",
       "attrs": {
         "tvg-id": "Sky_Sports_F1"
-      }
-    },
-    {
-      "name": "Sky Sports Football",
-      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-football-uk.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sky_Sports_Football.m3u8",
-      "group": "Live TV - GB",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sports_Football.m3u8",
-      "attrs": {
-        "tvg-id": "Sky_Sports_Football"
-      }
-    },
-    {
-      "name": "Sky Sports Golf",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Golf.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sky_Sports_Golf.m3u8",
-      "group": "Live TV - GB",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sports_Golf.m3u8",
-      "attrs": {
-        "tvg-id": "Sky_Sports_Golf"
-      }
-    },
-    {
-      "name": "Sky Sports Mix",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Mix.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sky_Sports_Mix.m3u8",
-      "group": "Live TV - GB",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sports_Mix.m3u8",
-      "attrs": {
-        "tvg-id": "Sky_Sports_Mix"
-      }
-    },
-    {
-      "name": "Sky Sports Premier League",
-      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-premier-league-uk.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sky_Sports_Premier_League.m3u8",
-      "group": "Live TV - GB",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sports_Premier_League.m3u8",
-      "attrs": {
-        "tvg-id": "Sky_Sports_Premier_League"
-      }
-    },
-    {
-      "name": "Sky Sports Racing",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Racing.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sky_Sports_Racing.m3u8",
-      "group": "Live TV - GB",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sports_Racing.m3u8",
-      "attrs": {
-        "tvg-id": "Sky_Sports_Racing"
-      }
-    },
-    {
-      "name": "Sky Sports Tennis",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Tennis.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sky_Sports_Tennis.m3u8",
-      "group": "Live TV - GB",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sky_Sports_Tennis.m3u8",
-      "attrs": {
-        "tvg-id": "Sky_Sports_Tennis"
-      }
-    },
-    {
-      "name": "Space City Home Network",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Space_City_Home_Network.png",
-      "url": "https://ireentvsportspremium.pages.dev/Space_City_Home_Network.m3u8",
-      "group": "Live TV - US",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Space_City_Home_Network.m3u8",
-      "attrs": {
-        "tvg-id": "Space_City_Home_Network"
-      }
-    },
-    {
-      "name": "Sport TV 2",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Sport_TV_2.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sport_TV_2.m3u8",
-      "group": "Live TV - PT",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sport_TV_2.m3u8",
-      "attrs": {
-        "tvg-id": "Sport_TV_2"
-      }
-    },
-    {
-      "name": "SportsNet New York",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/SportsNet_New_York.png",
-      "url": "https://ireentvsportspremium.pages.dev/SportsNet_New_York.m3u8",
-      "group": "Live TV - US",
-      "url_raw": "https://ireentvsportspremium.pages.dev/SportsNet_New_York.m3u8",
-      "attrs": {
-        "tvg-id": "SportsNet_New_York"
-      }
-    },
-    {
-      "name": "Sportsnet 360",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Sportsnet_360.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sportsnet_360.m3u8",
-      "group": "Live TV - CA",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sportsnet_360.m3u8",
-      "attrs": {
-        "tvg-id": "Sportsnet_360"
-      }
-    },
-    {
-      "name": "Sportsnet East",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Sportsnet_East.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sportsnet_East.m3u8",
-      "group": "Live TV - CA",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sportsnet_East.m3u8",
-      "attrs": {
-        "tvg-id": "Sportsnet_East"
-      }
-    },
-    {
-      "name": "Sportsnet West",
-      "logo": "https://ireentvsportspremium.pages.dev/logos/Sportsnet_West.png",
-      "url": "https://ireentvsportspremium.pages.dev/Sportsnet_West.m3u8",
-      "group": "Live TV - CA",
-      "url_raw": "https://ireentvsportspremium.pages.dev/Sportsnet_West.m3u8",
-      "attrs": {
-        "tvg-id": "Sportsnet_West"
       }
     }
   ]
