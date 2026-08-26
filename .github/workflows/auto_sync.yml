@@ -3,8 +3,8 @@ name: Auto update playlist & json
 
 on:
   schedule:
-    # Runs every 30 minutes!
-    - cron: '*/30 * * * *'
+    # Runs every 2 hours!
+    - cron: '0 */2 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 permissions:
