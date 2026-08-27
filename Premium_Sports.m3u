@@ -5,474 +5,948 @@
 # Website: https://anamul.pages.dev
 # Developer: MD ANAMUL HOQUE
 # Version: 1.0
-# Channels Amount: 156
-# Last Update: 2026-08-27 02:12:53 PM
+# Channels Amount: 157
+# Last Update: 2026-08-27 03:23:38 PM
 
-#EXTINF:-1 tvg-id="ABC" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ABC.png" group-title="Live TV - US" tvg-name="ABC",ABC
+#EXTINF:-1 tvg-id="ABC.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/abc.webp" group-title="Live TV - US" tvg-name="ABC",ABC
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ABC&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ABC&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ABC.m3u8
 
-#EXTINF:-1 tvg-id="ACC_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ACC_Network.png" group-title="Live TV - US" tvg-name="ACC Network",ACC Network
+#EXTINF:-1 tvg-id="ACCNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/acc-network.webp" group-title="Live TV - US" tvg-name="ACC Network",ACC Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ACC%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ACC%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ACC_Network.m3u8
 
-#EXTINF:-1 tvg-id="Arizona_Diamondbacks" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Arizona_Diamondbacks.png" group-title="Live TV - US" tvg-name="Arizona Diamondbacks",Arizona Diamondbacks
-https://ireentvsportspremium.pages.dev/Arizona_Diamondbacks.m3u8
+#EXTINF:-1 tvg-id="Altitude.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/altitude.webp" group-title="Live TV - US" tvg-name="Altitude",Altitude
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Altitude&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Altitude&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Altitude.m3u8
 
-#EXTINF:-1 tvg-id="Astro_Cricket" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Astro_Cricket.png" group-title="Live TV - US" tvg-name="Astro Cricket",Astro Cricket
+#EXTINF:-1 tvg-id="AstroCricket.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/astro-cricket.webp" group-title="Live TV - US" tvg-name="Astro Cricket",Astro Cricket
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Astro%20Cricket&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Astro%20Cricket&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Astro_Cricket.m3u8
 
-#EXTINF:-1 tvg-id="Atlanta_Braves" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Atlanta_Braves.png" group-title="Live TV - US" tvg-name="Atlanta Braves",Atlanta Braves
-https://ireentvsportspremium.pages.dev/Atlanta_Braves.m3u8
-
-#EXTINF:-1 tvg-id="BBC" tvg-logo="https://ireentvsportspremium.pages.dev/logos/BBC.png" group-title="Live TV - US" tvg-name="BBC",BBC
+#EXTINF:-1 tvg-id="BBC.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/bbc.webp" group-title="Live TV - US" tvg-name="BBC",BBC
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=BBC&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=BBC&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/BBC.m3u8
 
-#EXTINF:-1 tvg-id="BBC_Four" tvg-logo="https://ireentvsportspremium.pages.dev/logos/BBC_Four.png" group-title="Live TV - GB" tvg-name="BBC Four",BBC Four
-https://ireentvsportspremium.pages.dev/BBC_Four.m3u8
-
-#EXTINF:-1 tvg-id="BBC_One" tvg-logo="https://ireentvsportspremium.pages.dev/logos/BBC_One.png" group-title="Live TV - GB" tvg-name="BBC One",BBC One
+#EXTINF:-1 tvg-id="BBCOne.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/bbc-one.webp" group-title="Live TV - GB" tvg-name="BBC One",BBC One
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20One&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20One&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/BBC_One.m3u8
 
-#EXTINF:-1 tvg-id="BBC_Three" tvg-logo="https://ireentvsportspremium.pages.dev/logos/BBC_Three.png" group-title="Live TV - GB" tvg-name="BBC Three",BBC Three
+#EXTINF:-1 tvg-id="BBCThree.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/bbc-three.webp" group-title="Live TV - GB" tvg-name="BBC Three",BBC Three
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20Three&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20Three&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/BBC_Three.m3u8
 
-#EXTINF:-1 tvg-id="BBC_Two" tvg-logo="https://ireentvsportspremium.pages.dev/logos/BBC_Two.png" group-title="Live TV - GB" tvg-name="BBC Two",BBC Two
+#EXTINF:-1 tvg-id="BBCTwo.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/bbc-two.webp" group-title="Live TV - GB" tvg-name="BBC Two",BBC Two
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20Two&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=BBC%20Two&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/BBC_Two.m3u8
 
-#EXTINF:-1 tvg-id="BET" tvg-logo="https://ireentvsportspremium.pages.dev/logos/BET.png" group-title="Live TV - US" tvg-name="BET",BET
+#EXTINF:-1 tvg-id="BET.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/bet.webp" group-title="Live TV - US" tvg-name="BET",BET
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=BET&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=BET&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/BET.m3u8
 
-#EXTINF:-1 tvg-id="Baltimore_Orioles" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Baltimore_Orioles.png" group-title="Live TV - US" tvg-name="Baltimore Orioles",Baltimore Orioles
-https://ireentvsportspremium.pages.dev/Baltimore_Orioles.m3u8
+#EXTINF:-1 tvg-id="BenficaTV.PT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/portugal/benfica-tv.webp" group-title="Live TV - PT" tvg-name="Benfica TV",Benfica TV
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Benfica%20TV&code=pt&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Benfica%20TV&code=pt&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Benfica_TV.m3u8
 
-#EXTINF:-1 tvg-id="Boston_Red_Sox" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Boston_Red_Sox.png" group-title="Live TV - US" tvg-name="Boston Red Sox",Boston Red Sox
+#EXTINF:-1 tvg-id="BostonRedSox.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/boston-red-sox.webp" group-title="Live TV - US" tvg-name="Boston Red Sox",Boston Red Sox
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Boston%20Red%20Sox&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Boston%20Red%20Sox&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Boston_Red_Sox.m3u8
 
-#EXTINF:-1 tvg-id="CBS" tvg-logo="https://ireentvsportspremium.pages.dev/logos/CBS.png" group-title="Live TV - US" tvg-name="CBS",CBS
+#EXTINF:-1 tvg-id="CBS.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs.webp" group-title="Live TV - US" tvg-name="CBS",CBS
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=CBS&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/CBS.m3u8
 
-#EXTINF:-1 tvg-id="CBS_Sports_Golazo" tvg-logo="https://ireentvsportspremium.pages.dev/logos/CBS_Sports_Golazo.png" group-title="Live TV - US" tvg-name="CBS Sports Golazo",CBS Sports Golazo
+#EXTINF:-1 tvg-id="CBSSportsGolazo.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cbs-sports-golazo.webp" group-title="Live TV - US" tvg-name="CBS Sports Golazo",CBS Sports Golazo
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%20Sports%20Golazo&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=CBS%20Sports%20Golazo&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/CBS_Sports_Golazo.m3u8
 
-#EXTINF:-1 tvg-id="CNBC" tvg-logo="https://ireentvsportspremium.pages.dev/logos/CNBC.png" group-title="Live TV - US" tvg-name="CNBC",CNBC
+#EXTINF:-1 tvg-id="CNBC.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cnbc.webp" group-title="Live TV - US" tvg-name="CNBC",CNBC
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=CNBC&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=CNBC&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/CNBC.m3u8
 
-#EXTINF:-1 tvg-id="CNN" tvg-logo="https://ireentvsportspremium.pages.dev/logos/CNN.png" group-title="Live TV - US" tvg-name="CNN",CNN
+#EXTINF:-1 tvg-id="CNN.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cnn.webp" group-title="Live TV - US" tvg-name="CNN",CNN
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=CNN&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=CNN&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/CNN.m3u8
 
-#EXTINF:-1 tvg-id="CP24" tvg-logo="https://ireentvsportspremium.pages.dev/logos/CP24.png" group-title="Live TV - CA" tvg-name="CP24",CP24
+#EXTINF:-1 tvg-id="CP24.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/cp24.webp" group-title="Live TV - CA" tvg-name="CP24",CP24
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=CP24&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=CP24&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/CP24.m3u8
 
-#EXTINF:-1 tvg-id="Canal_Foot" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Canal_Foot.png" group-title="Live TV - FR" tvg-name="Canal Foot",Canal Foot
+#EXTINF:-1 tvg-id="Canal.FR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/france/canal.webp" group-title="Live TV - FR" tvg-name="Canal",Canal
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Canal&code=fr&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal&code=fr&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Canal.m3u8
+
+#EXTINF:-1 tvg-id="CanalFoot.FR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/france/canal-foot.webp" group-title="Live TV - FR" tvg-name="Canal Foot",Canal Foot
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%20Foot&code=fr&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%20Foot&code=fr&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Canal_Foot.m3u8
 
-#EXTINF:-1 tvg-id="Canvas" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Canvas.png" group-title="Live TV - BE" tvg-name="Canvas",Canvas
-https://ireentvsportspremium.pages.dev/Canvas.m3u8
+#EXTINF:-1 tvg-id="CanalLive3.FR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/france/canal-live-3.webp" group-title="Live TV - FR" tvg-name="Canal Live 3",Canal Live 3
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%20Live%203&code=fr&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%20Live%203&code=fr&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Canal_Live_3.m3u8
 
-#EXTINF:-1 tvg-id="Channel_4" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Channel_4.png" group-title="Live TV - GB" tvg-name="Channel 4",Channel 4
+#EXTINF:-1 tvg-id="Channel4.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/channel-4.webp" group-title="Live TV - GB" tvg-name="Channel 4",Channel 4
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Channel%204&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Channel%204&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Channel_4.m3u8
 
-#EXTINF:-1 tvg-id="Channel_5" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Channel_5.png" group-title="Live TV - GB" tvg-name="Channel 5",Channel 5
+#EXTINF:-1 tvg-id="Channel5.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/channel-5.webp" group-title="Live TV - GB" tvg-name="Channel 5",Channel 5
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Channel%205&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Channel%205&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Channel_5.m3u8
 
-#EXTINF:-1 tvg-id="Chicago_Sports_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Chicago_Sports_Network.png" group-title="Live TV - US" tvg-name="Chicago Sports Network",Chicago Sports Network
+#EXTINF:-1 tvg-id="ChicagoSportsNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/chicago-sports-network.webp" group-title="Live TV - US" tvg-name="Chicago Sports Network",Chicago Sports Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Chicago%20Sports%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Chicago%20Sports%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Chicago_Sports_Network.m3u8
 
-#EXTINF:-1 tvg-id="Chicago_White_Sox" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Chicago_White_Sox.png" group-title="Live TV - US" tvg-name="Chicago White Sox",Chicago White Sox
-https://ireentvsportspremium.pages.dev/Chicago_White_Sox.m3u8
+#EXTINF:-1 tvg-id="CincinnatiReds.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cincinnati-reds.webp" group-title="Live TV - US" tvg-name="Cincinnati Reds",Cincinnati Reds
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Cincinnati%20Reds&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cincinnati%20Reds&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Cincinnati_Reds.m3u8
 
-#EXTINF:-1 tvg-id="Cinemax" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Cinemax.png" group-title="Live TV - US" tvg-name="Cinemax",Cinemax
+#EXTINF:-1 tvg-id="Cinemax.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/cinemax.webp" group-title="Live TV - US" tvg-name="Cinemax",Cinemax
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Cinemax&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cinemax&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Cinemax.m3u8
 
-#EXTINF:-1 tvg-id="Colorado_Rockies" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Colorado_Rockies.png" group-title="Live TV - US" tvg-name="Colorado Rockies",Colorado Rockies
+#EXTINF:-1 tvg-id="ColoradoRockies.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/colorado-rockies.webp" group-title="Live TV - US" tvg-name="Colorado Rockies",Colorado Rockies
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Colorado%20Rockies&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Colorado%20Rockies&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Colorado_Rockies.m3u8
 
-#EXTINF:-1 tvg-id="Combate" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Combate.png" group-title="Live TV - BR" tvg-name="Combate",Combate
-https://ireentvsportspremium.pages.dev/Combate.m3u8
+#EXTINF:-1 tvg-id="CytavisionSports3.CY" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/cy/cytavision-sports-3.webp" group-title="Live TV - CY" tvg-name="Cytavision Sports 3",Cytavision Sports 3
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%203&code=cy&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Cytavision%20Sports%203&code=cy&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Cytavision_Sports_3.m3u8
 
-#EXTINF:-1 tvg-id="DAZN_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/DAZN_1.png" group-title="Live TV - DE" tvg-name="DAZN 1",DAZN 1
+#EXTINF:-1 tvg-id="DAZN1.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/dazn-1.webp" group-title="Live TV - DE" tvg-name="DAZN 1",DAZN 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%201&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%201&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/DAZN_1.m3u8
 
-#EXTINF:-1 tvg-id="DAZN_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/DAZN_2.png" group-title="Live TV - PT" tvg-name="DAZN 2",DAZN 2
+#EXTINF:-1 tvg-id="DAZN1.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/dazn-1.webp" group-title="Live TV - GB" tvg-name="DAZN 1",DAZN 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%201&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%201&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/DAZN_1.m3u8
+
+#EXTINF:-1 tvg-id="DAZN2.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/dazn-2.webp" group-title="Live TV - DE" tvg-name="DAZN 2",DAZN 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%202&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%202&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/DAZN_2.m3u8
 
-#EXTINF:-1 tvg-id="DAZN_5" tvg-logo="https://ireentvsportspremium.pages.dev/logos/DAZN_5.png" group-title="Live TV - PT" tvg-name="DAZN 5",DAZN 5
-https://ireentvsportspremium.pages.dev/DAZN_5.m3u8
+#EXTINF:-1 tvg-id="DAZN2.PT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/portugal/dazn-2.webp" group-title="Live TV - PT" tvg-name="DAZN 2",DAZN 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%202&code=pt&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%202&code=pt&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/DAZN_2.m3u8
 
-#EXTINF:-1 tvg-id="DAZN_F1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/DAZN_F1.png" group-title="Live TV - ES" tvg-name="DAZN F1",DAZN F1
+#EXTINF:-1 tvg-id="DAZNF1.ES" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/spain/dazn-f1.webp" group-title="Live TV - ES" tvg-name="DAZN F1",DAZN F1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=es&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20F1&code=es&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/DAZN_F1.m3u8
 
-#EXTINF:-1 tvg-id="DAZN_LaLiga" tvg-logo="https://ireentvsportspremium.pages.dev/logos/DAZN_LaLiga.png" group-title="Live TV - ES" tvg-name="DAZN LaLiga",DAZN LaLiga
+#EXTINF:-1 tvg-id="DAZNLaLiga.ES" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/spain/dazn-laliga.webp" group-title="Live TV - ES" tvg-name="DAZN LaLiga",DAZN LaLiga
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20LaLiga&code=es&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20LaLiga&code=es&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/DAZN_LaLiga.m3u8
 
-#EXTINF:-1 tvg-id="DAZN_LaLiga_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/DAZN_LaLiga_2.png" group-title="Live TV - ES" tvg-name="DAZN LaLiga 2",DAZN LaLiga 2
+#EXTINF:-1 tvg-id="DAZNLaLiga2.ES" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/spain/dazn-laliga-2.webp" group-title="Live TV - ES" tvg-name="DAZN LaLiga 2",DAZN LaLiga 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20LaLiga%202&code=es&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=DAZN%20LaLiga%202&code=es&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/DAZN_LaLiga_2.m3u8
 
-#EXTINF:-1 tvg-id="Discovery_Channel" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Discovery_Channel.png" group-title="Live TV - US" tvg-name="Discovery Channel",Discovery Channel
+#EXTINF:-1 tvg-id="DR1.DK" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/denmark/dr1.webp" group-title="Live TV - DK" tvg-name="DR1",DR1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=DR1&code=dk&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=DR1&code=dk&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/DR1.m3u8
+
+#EXTINF:-1 tvg-id="DiscoveryChannel.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/discovery-channel.webp" group-title="Live TV - US" tvg-name="Discovery Channel",Discovery Channel
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Discovery%20Channel&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Discovery%20Channel&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Discovery_Channel.m3u8
 
-#EXTINF:-1 tvg-id="Disney_Channel" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Disney_Channel.png" group-title="Live TV - US" tvg-name="Disney Channel",Disney Channel
+#EXTINF:-1 tvg-id="DisneyChannel.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/disney-channel.webp" group-title="Live TV - US" tvg-name="Disney Channel",Disney Channel
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Disney%20Channel&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Disney%20Channel&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Disney_Channel.m3u8
 
-#EXTINF:-1 tvg-id="ESPN" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN.png" group-title="Live TV - NL" tvg-name="ESPN",ESPN
+#EXTINF:-1 tvg-id="ESPN.NL" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/espn.webp" group-title="Live TV - NL" tvg-name="ESPN",ESPN
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN&code=nl&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN&code=nl&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN.m3u8
 
-#EXTINF:-1 tvg-id="ESPN" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN.png" group-title="Live TV - BR" tvg-name="ESPN",ESPN
+#EXTINF:-1 tvg-id="ESPN.BR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/brazil/espn.webp" group-title="Live TV - BR" tvg-name="ESPN",ESPN
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN&code=br&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN&code=br&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN.m3u8
 
-#EXTINF:-1 tvg-id="ESPN" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN.png" group-title="Live TV - AR" tvg-name="ESPN",ESPN
+#EXTINF:-1 tvg-id="ESPN.AR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/ar/espn.webp" group-title="Live TV - AR" tvg-name="ESPN",ESPN
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN&code=ar&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN&code=ar&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_2.png" group-title="Live TV - US" tvg-name="ESPN 2",ESPN 2
+#EXTINF:-1 tvg-id="ESPN2.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-2.webp" group-title="Live TV - US" tvg-name="ESPN 2",ESPN 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_2.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_2.png" group-title="Live TV - NL" tvg-name="ESPN 2",ESPN 2
+#EXTINF:-1 tvg-id="ESPN2.MX" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/mexico/espn-2.webp" group-title="Live TV - MX" tvg-name="ESPN 2",ESPN 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202&code=mx&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%202&code=mx&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_2.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_2.png" group-title="Live TV - BR" tvg-name="ESPN 2",ESPN 2
-https://ireentvsportspremium.pages.dev/ESPN_2.m3u8
-
-#EXTINF:-1 tvg-id="ESPN_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_2.png" group-title="Live TV - MX" tvg-name="ESPN 2",ESPN 2
-https://ireentvsportspremium.pages.dev/ESPN_2.m3u8
-
-#EXTINF:-1 tvg-id="ESPN_3" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_3.png" group-title="Live TV - NL" tvg-name="ESPN 3",ESPN 3
+#EXTINF:-1 tvg-id="ESPN3.NL" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/netherlands/espn-3.webp" group-title="Live TV - NL" tvg-name="ESPN 3",ESPN 3
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%203&code=nl&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%203&code=nl&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_3.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_3" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_3.png" group-title="Live TV - MX" tvg-name="ESPN 3",ESPN 3
-https://ireentvsportspremium.pages.dev/ESPN_3.m3u8
-
-#EXTINF:-1 tvg-id="ESPN_4" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_4.png" group-title="Live TV - BR" tvg-name="ESPN 4",ESPN 4
+#EXTINF:-1 tvg-id="ESPN4.MX" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/mexico/espn-4.webp" group-title="Live TV - MX" tvg-name="ESPN 4",ESPN 4
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%204&code=mx&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%204&code=mx&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_4.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_Deportes" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_Deportes.png" group-title="Live TV - US" tvg-name="ESPN Deportes",ESPN Deportes
+#EXTINF:-1 tvg-id="ESPNDeportes.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-deportes.webp" group-title="Live TV - US" tvg-name="ESPN Deportes",ESPN Deportes
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Deportes&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Deportes&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_Deportes.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_News" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_News.png" group-title="Live TV - US" tvg-name="ESPN News",ESPN News
+#EXTINF:-1 tvg-id="ESPNNews.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-news.webp" group-title="Live TV - US" tvg-name="ESPN News",ESPN News
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20News&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20News&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_News.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_Premium" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_Premium.png" group-title="Live TV - AR" tvg-name="ESPN Premium",ESPN Premium
+#EXTINF:-1 tvg-id="ESPNPremium.AR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/ar/espn-premium.webp" group-title="Live TV - AR" tvg-name="ESPN Premium",ESPN Premium
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Premium&code=ar&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Premium&code=ar&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_Premium.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_U" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_U.png" group-title="Live TV - US" tvg-name="ESPN U",ESPN U
+#EXTINF:-1 tvg-id="ESPNU.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-u.webp" group-title="Live TV - US" tvg-name="ESPN U",ESPN U
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20U&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20U&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_U.m3u8
 
-#EXTINF:-1 tvg-id="ESPN_USA" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ESPN_USA.png" group-title="Live TV - US" tvg-name="ESPN+ USA",ESPN+ USA
+#EXTINF:-1 tvg-id="ESPN+USA.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/espn-usa.webp" group-title="Live TV - US" tvg-name="ESPN+ USA",ESPN+ USA
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%2B%20USA&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%2B%20USA&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ESPN_USA.m3u8
 
-#EXTINF:-1 tvg-id="Euro_Sport_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Euro_Sport_1.png" group-title="Live TV - GB" tvg-name="Euro Sport 1",Euro Sport 1
+#EXTINF:-1 tvg-id="EuroSport1.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/euro-sport-1.webp" group-title="Live TV - GB" tvg-name="Euro Sport 1",Euro Sport 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Euro%20Sport%201&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Euro%20Sport%201&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Euro_Sport_1.m3u8
 
-#EXTINF:-1 tvg-id="FOX" tvg-logo="https://ireentvsportspremium.pages.dev/logos/FOX.png" group-title="Live TV - US" tvg-name="FOX",FOX
+#EXTINF:-1 tvg-id="EuroSport1.IT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/italy/euro-sport-1.webp" group-title="Live TV - IT" tvg-name="Euro Sport 1",Euro Sport 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Euro%20Sport%201&code=it&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Euro%20Sport%201&code=it&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Euro_Sport_1.m3u8
+
+#EXTINF:-1 tvg-id="EuroSport1.BG" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/bulgaria/euro-sport-1.webp" group-title="Live TV - BG" tvg-name="Euro Sport 1",Euro Sport 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Euro%20Sport%201&code=bg&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Euro%20Sport%201&code=bg&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Euro_Sport_1.m3u8
+
+#EXTINF:-1 tvg-id="FOX.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/fox.webp" group-title="Live TV - US" tvg-name="FOX",FOX
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=FOX&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/FOX.m3u8
 
-#EXTINF:-1 tvg-id="FOX_Deportes" tvg-logo="https://ireentvsportspremium.pages.dev/logos/FOX_Deportes.png" group-title="Live TV - US" tvg-name="FOX Deportes",FOX Deportes
-https://ireentvsportspremium.pages.dev/FOX_Deportes.m3u8
-
-#EXTINF:-1 tvg-id="FOX_News" tvg-logo="https://ireentvsportspremium.pages.dev/logos/FOX_News.png" group-title="Live TV - US" tvg-name="FOX News",FOX News
+#EXTINF:-1 tvg-id="FOXNews.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/fox-news.webp" group-title="Live TV - US" tvg-name="FOX News",FOX News
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20News&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20News&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/FOX_News.m3u8
 
-#EXTINF:-1 tvg-id="FOX_Soccer_Plus" tvg-logo="https://ireentvsportspremium.pages.dev/logos/FOX_Soccer_Plus.png" group-title="Live TV - US" tvg-name="FOX Soccer Plus",FOX Soccer Plus
+#EXTINF:-1 tvg-id="FOXSoccerPlus.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/fox-soccer-plus.webp" group-title="Live TV - US" tvg-name="FOX Soccer Plus",FOX Soccer Plus
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Soccer%20Plus&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Soccer%20Plus&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/FOX_Soccer_Plus.m3u8
 
-#EXTINF:-1 tvg-id="FOX_Sports_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/FOX_Sports_1.png" group-title="Live TV - US" tvg-name="FOX Sports 1",FOX Sports 1
+#EXTINF:-1 tvg-id="FOXSports1.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/fox-sports-1.webp" group-title="Live TV - US" tvg-name="FOX Sports 1",FOX Sports 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%201&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%201&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/FOX_Sports_1.m3u8
 
-#EXTINF:-1 tvg-id="FOX_Sports_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/FOX_Sports_2.png" group-title="Live TV - MX" tvg-name="FOX Sports 2",FOX Sports 2
+#EXTINF:-1 tvg-id="FOXSports2.MX" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/mexico/fox-sports-2.webp" group-title="Live TV - MX" tvg-name="FOX Sports 2",FOX Sports 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%202&code=mx&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20Sports%202&code=mx&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/FOX_Sports_2.m3u8
 
-#EXTINF:-1 tvg-id="FOX_Sports_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/FOX_Sports_2.png" group-title="Live TV - AR" tvg-name="FOX Sports 2",FOX Sports 2
-https://ireentvsportspremium.pages.dev/FOX_Sports_2.m3u8
-
-#EXTINF:-1 tvg-id="Fox_Sports_501" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Fox_Sports_501.png" group-title="Live TV - AU" tvg-name="Fox Sports 501",Fox Sports 501
+#EXTINF:-1 tvg-id="FoxSports501.AU" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/australia/fox-sports-501.webp" group-title="Live TV - AU" tvg-name="Fox Sports 501",Fox Sports 501
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%20501&code=au&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%20501&code=au&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Fox_Sports_501.m3u8
 
-#EXTINF:-1 tvg-id="Fox_Sports_501_Cricket" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Fox_Sports_501_Cricket.png" group-title="Live TV - AU" tvg-name="Fox Sports 501 Cricket",Fox Sports 501 Cricket
-https://ireentvsportspremium.pages.dev/Fox_Sports_501_Cricket.m3u8
-
-#EXTINF:-1 tvg-id="Fox_Sports_502" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Fox_Sports_502.png" group-title="Live TV - AU" tvg-name="Fox Sports 502",Fox Sports 502
-https://ireentvsportspremium.pages.dev/Fox_Sports_502.m3u8
-
-#EXTINF:-1 tvg-id="Fox_Sports_503" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Fox_Sports_503.png" group-title="Live TV - AU" tvg-name="Fox Sports 503",Fox Sports 503
+#EXTINF:-1 tvg-id="FoxSports503.AU" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/australia/fox-sports-503.webp" group-title="Live TV - AU" tvg-name="Fox Sports 503",Fox Sports 503
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%20503&code=au&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Sports%20503&code=au&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Fox_Sports_503.m3u8
 
-#EXTINF:-1 tvg-id="Fox_Sports_505" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Fox_Sports_505.png" group-title="Live TV - AU" tvg-name="Fox Sports 505",Fox Sports 505
-https://ireentvsportspremium.pages.dev/Fox_Sports_505.m3u8
-
-#EXTINF:-1 tvg-id="Fox_Sports_506" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Fox_Sports_506.png" group-title="Live TV - AU" tvg-name="Fox Sports 506",Fox Sports 506
-https://ireentvsportspremium.pages.dev/Fox_Sports_506.m3u8
-
-#EXTINF:-1 tvg-id="Fox_Sports_507" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Fox_Sports_507.png" group-title="Live TV - AU" tvg-name="Fox Sports 507",Fox Sports 507
-https://ireentvsportspremium.pages.dev/Fox_Sports_507.m3u8
-
-#EXTINF:-1 tvg-id="Fox_Sports_News" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Fox_Sports_News.png" group-title="Live TV - AU" tvg-name="Fox Sports News",Fox Sports News
-https://ireentvsportspremium.pages.dev/Fox_Sports_News.m3u8
-
-#EXTINF:-1 tvg-id="GOLF_TV" tvg-logo="https://ireentvsportspremium.pages.dev/logos/GOLF_TV.png" group-title="Live TV - US" tvg-name="GOLF TV",GOLF TV
+#EXTINF:-1 tvg-id="GOLFTV.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/golf-tv.webp" group-title="Live TV - US" tvg-name="GOLF TV",GOLF TV
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=GOLF%20TV&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=GOLF%20TV&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/GOLF_TV.m3u8
 
-#EXTINF:-1 tvg-id="HBO" tvg-logo="https://ireentvsportspremium.pages.dev/logos/HBO.png" group-title="Live TV - US" tvg-name="HBO",HBO
+#EXTINF:-1 tvg-id="HBO.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/hbo.webp" group-title="Live TV - US" tvg-name="HBO",HBO
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=HBO&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=HBO&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/HBO.m3u8
 
-#EXTINF:-1 tvg-id="Hallmark" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Hallmark.png" group-title="Live TV - US" tvg-name="Hallmark",Hallmark
+#EXTINF:-1 tvg-id="Hallmark.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/hallmark.webp" group-title="Live TV - US" tvg-name="Hallmark",Hallmark
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Hallmark&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Hallmark&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Hallmark.m3u8
 
-#EXTINF:-1 tvg-id="History" tvg-logo="https://ireentvsportspremium.pages.dev/logos/History.png" group-title="Live TV - US" tvg-name="History",History
+#EXTINF:-1 tvg-id="History.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/history.webp" group-title="Live TV - US" tvg-name="History",History
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=History&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=History&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/History.m3u8
 
-#EXTINF:-1 tvg-id="Houston_Astros" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Houston_Astros.png" group-title="Live TV - US" tvg-name="Houston Astros",Houston Astros
-https://ireentvsportspremium.pages.dev/Houston_Astros.m3u8
-
-#EXTINF:-1 tvg-id="ITV_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ITV_1.png" group-title="Live TV - GB" tvg-name="ITV 1",ITV 1
+#EXTINF:-1 tvg-id="ITV1.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/itv-1.webp" group-title="Live TV - GB" tvg-name="ITV 1",ITV 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ITV%201&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ITV%201&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ITV_1.m3u8
 
-#EXTINF:-1 tvg-id="ITV_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ITV_2.png" group-title="Live TV - GB" tvg-name="ITV 2",ITV 2
+#EXTINF:-1 tvg-id="ITV2.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/itv-2.webp" group-title="Live TV - GB" tvg-name="ITV 2",ITV 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ITV%202&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ITV%202&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ITV_2.m3u8
 
-#EXTINF:-1 tvg-id="ITV_3" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ITV_3.png" group-title="Live TV - GB" tvg-name="ITV 3",ITV 3
+#EXTINF:-1 tvg-id="ITV3.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/itv-3.webp" group-title="Live TV - GB" tvg-name="ITV 3",ITV 3
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=ITV%203&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=ITV%203&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/ITV_3.m3u8
 
-#EXTINF:-1 tvg-id="ITV_4" tvg-logo="https://ireentvsportspremium.pages.dev/logos/ITV_4.png" group-title="Live TV - GB" tvg-name="ITV 4",ITV 4
-https://ireentvsportspremium.pages.dev/ITV_4.m3u8
+#EXTINF:-1 tvg-id="Italia1.IT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/italy/italia-1.webp" group-title="Live TV - IT" tvg-name="Italia 1",Italia 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Italia%201&code=it&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Italia%201&code=it&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Italia_1.m3u8
 
-#EXTINF:-1 tvg-id="Kansas_City_Royals" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Kansas_City_Royals.png" group-title="Live TV - US" tvg-name="Kansas City Royals",Kansas City Royals
-https://ireentvsportspremium.pages.dev/Kansas_City_Royals.m3u8
-
-#EXTINF:-1 tvg-id="Lifetime" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Lifetime.png" group-title="Live TV - US" tvg-name="Lifetime",Lifetime
+#EXTINF:-1 tvg-id="Lifetime.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/lifetime.webp" group-title="Live TV - US" tvg-name="Lifetime",Lifetime
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Lifetime&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Lifetime&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Lifetime.m3u8
 
-#EXTINF:-1 tvg-id="Los_Angeles_Angels" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Los_Angeles_Angels.png" group-title="Live TV - US" tvg-name="Los Angeles Angels",Los Angeles Angels
-https://ireentvsportspremium.pages.dev/Los_Angeles_Angels.m3u8
-
-#EXTINF:-1 tvg-id="Los_Angeles_Dodgers" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Los_Angeles_Dodgers.png" group-title="Live TV - US" tvg-name="Los Angeles Dodgers",Los Angeles Dodgers
-https://ireentvsportspremium.pages.dev/Los_Angeles_Dodgers.m3u8
-
-#EXTINF:-1 tvg-id="MASN" tvg-logo="https://ireentvsportspremium.pages.dev/logos/MASN.png" group-title="Live TV - US" tvg-name="MASN",MASN
+#EXTINF:-1 tvg-id="MASN.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/masn.webp" group-title="Live TV - US" tvg-name="MASN",MASN
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=MASN&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=MASN&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/MASN.m3u8
 
-#EXTINF:-1 tvg-id="MAX" tvg-logo="https://ireentvsportspremium.pages.dev/logos/MAX.png" group-title="Live TV - US" tvg-name="MAX",MAX
-https://ireentvsportspremium.pages.dev/MAX.m3u8
-
-#EXTINF:-1 tvg-id="MLB_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/MLB_Network.png" group-title="Live TV - US" tvg-name="MLB Network",MLB Network
+#EXTINF:-1 tvg-id="MLBNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/mlb-network.webp" group-title="Live TV - US" tvg-name="MLB Network",MLB Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=MLB%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=MLB%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/MLB_Network.m3u8
 
-#EXTINF:-1 tvg-id="MSG" tvg-logo="https://ireentvsportspremium.pages.dev/logos/MSG.png" group-title="Live TV - US" tvg-name="MSG",MSG
+#EXTINF:-1 tvg-id="MSG.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/msg.webp" group-title="Live TV - US" tvg-name="MSG",MSG
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=MSG&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=MSG&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/MSG.m3u8
 
-#EXTINF:-1 tvg-id="Marquee_Sports_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Marquee_Sports_Network.png" group-title="Live TV - US" tvg-name="Marquee Sports Network",Marquee Sports Network
+#EXTINF:-1 tvg-id="MarqueeSportsNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/marquee-sports-network.webp" group-title="Live TV - US" tvg-name="Marquee Sports Network",Marquee Sports Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Marquee%20Sports%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Marquee%20Sports%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Marquee_Sports_Network.m3u8
 
-#EXTINF:-1 tvg-id="Max_Sport_4" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Max_Sport_4.png" group-title="Live TV - BG" tvg-name="Max Sport 4",Max Sport 4
-https://ireentvsportspremium.pages.dev/Max_Sport_4.m3u8
+#EXTINF:-1 tvg-id="MaxSport1.BG" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/bulgaria/max-sport-1.webp" group-title="Live TV - BG" tvg-name="Max Sport 1",Max Sport 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%201&code=bg&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%201&code=bg&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Max_Sport_1.m3u8
 
-#EXTINF:-1 tvg-id="Miami_Marlins" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Miami_Marlins.png" group-title="Live TV - US" tvg-name="Miami Marlins",Miami Marlins
-https://ireentvsportspremium.pages.dev/Miami_Marlins.m3u8
+#EXTINF:-1 tvg-id="MaxSport2.BG" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/bulgaria/max-sport-2.webp" group-title="Live TV - BG" tvg-name="Max Sport 2",Max Sport 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%202&code=bg&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%202&code=bg&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Max_Sport_2.m3u8
 
-#EXTINF:-1 tvg-id="Monumental_Sports_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Monumental_Sports_Network.png" group-title="Live TV - US" tvg-name="Monumental Sports Network",Monumental Sports Network
+#EXTINF:-1 tvg-id="MonumentalSportsNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/monumental-sports-network.webp" group-title="Live TV - US" tvg-name="Monumental Sports Network",Monumental Sports Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Monumental%20Sports%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Monumental%20Sports%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Monumental_Sports_Network.m3u8
 
-#EXTINF:-1 tvg-id="NBA_TV" tvg-logo="https://ireentvsportspremium.pages.dev/logos/NBA_TV.png" group-title="Live TV - US" tvg-name="NBA TV",NBA TV
+#EXTINF:-1 tvg-id="MovistarDeportes1.ES" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/spain/movistar-deportes-1.webp" group-title="Live TV - ES" tvg-name="Movistar Deportes 1",Movistar Deportes 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Movistar%20Deportes%201&code=es&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Movistar%20Deportes%201&code=es&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Movistar_Deportes_1.m3u8
+
+#EXTINF:-1 tvg-id="NBATV.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nba-tv.webp" group-title="Live TV - US" tvg-name="NBA TV",NBA TV
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NBA%20TV&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBA%20TV&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/NBA_TV.m3u8
 
-#EXTINF:-1 tvg-id="NBC" tvg-logo="https://ireentvsportspremium.pages.dev/logos/NBC.png" group-title="Live TV - US" tvg-name="NBC",NBC
+#EXTINF:-1 tvg-id="NBC.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nbc.webp" group-title="Live TV - US" tvg-name="NBC",NBC
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NBC&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/NBC.m3u8
 
-#EXTINF:-1 tvg-id="NESN" tvg-logo="https://ireentvsportspremium.pages.dev/logos/NESN.png" group-title="Live TV - US" tvg-name="NESN",NESN
+#EXTINF:-1 tvg-id="NBCUniverso.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nbc-universo.webp" group-title="Live TV - US" tvg-name="NBC Universo",NBC Universo
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%20Universo&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=NBC%20Universo&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/NBC_Universo.m3u8
+
+#EXTINF:-1 tvg-id="NESN.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nesn.webp" group-title="Live TV - US" tvg-name="NESN",NESN
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NESN&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=NESN&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/NESN.m3u8
 
-#EXTINF:-1 tvg-id="NFL_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/NFL_Network.png" group-title="Live TV - US" tvg-name="NFL Network",NFL Network
+#EXTINF:-1 tvg-id="NFLNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nfl-network.webp" group-title="Live TV - US" tvg-name="NFL Network",NFL Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NFL%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=NFL%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/NFL_Network.m3u8
 
-#EXTINF:-1 tvg-id="NHL_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/NHL_Network.png" group-title="Live TV - US" tvg-name="NHL Network",NHL Network
+#EXTINF:-1 tvg-id="NHLNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nhl-network.webp" group-title="Live TV - US" tvg-name="NHL Network",NHL Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=NHL%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=NHL%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/NHL_Network.m3u8
 
-#EXTINF:-1 tvg-id="National_Geographic" tvg-logo="https://ireentvsportspremium.pages.dev/logos/National_Geographic.png" group-title="Live TV - US" tvg-name="National Geographic",National Geographic
+#EXTINF:-1 tvg-id="NationalGeographic.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/national-geographic.webp" group-title="Live TV - US" tvg-name="National Geographic",National Geographic
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=National%20Geographic&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=National%20Geographic&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/National_Geographic.m3u8
 
-#EXTINF:-1 tvg-id="New_York_Mets" tvg-logo="https://ireentvsportspremium.pages.dev/logos/New_York_Mets.png" group-title="Live TV - US" tvg-name="New York Mets",New York Mets
+#EXTINF:-1 tvg-id="NewYorkMets.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/new-york-mets.webp" group-title="Live TV - US" tvg-name="New York Mets",New York Mets
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=New%20York%20Mets&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=New%20York%20Mets&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/New_York_Mets.m3u8
 
-#EXTINF:-1 tvg-id="New_York_Yankees" tvg-logo="https://ireentvsportspremium.pages.dev/logos/New_York_Yankees.png" group-title="Live TV - US" tvg-name="New York Yankees",New York Yankees
-https://ireentvsportspremium.pages.dev/New_York_Yankees.m3u8
-
-#EXTINF:-1 tvg-id="Nickelodeon_TV" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Nickelodeon_TV.png" group-title="Live TV - US" tvg-name="Nickelodeon TV",Nickelodeon TV
+#EXTINF:-1 tvg-id="NickelodeonTV.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/nickelodeon-tv.webp" group-title="Live TV - US" tvg-name="Nickelodeon TV",Nickelodeon TV
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Nickelodeon%20TV&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Nickelodeon%20TV&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Nickelodeon_TV.m3u8
 
-#EXTINF:-1 tvg-id="Nova_Sport" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Nova_Sport.png" group-title="Live TV - BG" tvg-name="Nova Sport",Nova Sport
-https://ireentvsportspremium.pages.dev/Nova_Sport.m3u8
+#EXTINF:-1 tvg-id="Polsat.PL" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/poland/polsat.webp" group-title="Live TV - PL" tvg-name="Polsat",Polsat
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Polsat&code=pl&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Polsat&code=pl&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Polsat.m3u8
 
-#EXTINF:-1 tvg-id="Nova_Sports_Prime" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Nova_Sports_Prime.png" group-title="Live TV - GR" tvg-name="Nova Sports Prime",Nova Sports Prime
-https://ireentvsportspremium.pages.dev/Nova_Sports_Prime.m3u8
-
-#EXTINF:-1 tvg-id="Oakland_Athletics" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Oakland_Athletics.png" group-title="Live TV - US" tvg-name="Oakland Athletics",Oakland Athletics
-https://ireentvsportspremium.pages.dev/Oakland_Athletics.m3u8
-
-#EXTINF:-1 tvg-id="Philadelphia_Phillies" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Philadelphia_Phillies.png" group-title="Live TV - US" tvg-name="Philadelphia Phillies",Philadelphia Phillies
-https://ireentvsportspremium.pages.dev/Philadelphia_Phillies.m3u8
-
-#EXTINF:-1 tvg-id="Premier_Sports_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Premier_Sports_1.png" group-title="Live TV - GB" tvg-name="Premier Sports 1",Premier Sports 1
+#EXTINF:-1 tvg-id="PremierSports1.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/premier-sports-1.webp" group-title="Live TV - GB" tvg-name="Premier Sports 1",Premier Sports 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Premier%20Sports%201&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premier%20Sports%201&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Premier_Sports_1.m3u8
 
-#EXTINF:-1 tvg-id="Premier_Sports_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Premier_Sports_2.png" group-title="Live TV - GB" tvg-name="Premier Sports 2",Premier Sports 2
+#EXTINF:-1 tvg-id="PremierSports2.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/premier-sports-2.webp" group-title="Live TV - GB" tvg-name="Premier Sports 2",Premier Sports 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Premier%20Sports%202&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Premier%20Sports%202&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Premier_Sports_2.m3u8
 
-#EXTINF:-1 tvg-id="Premiere_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Premiere_1.png" group-title="Live TV - BR" tvg-name="Premiere 1",Premiere 1
-https://ireentvsportspremium.pages.dev/Premiere_1.m3u8
+#EXTINF:-1 tvg-id="RMCSport2.FR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/france/rmc-sport-2.webp" group-title="Live TV - FR" tvg-name="RMC Sport 2",RMC Sport 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=RMC%20Sport%202&code=fr&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=RMC%20Sport%202&code=fr&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/RMC_Sport_2.m3u8
 
-#EXTINF:-1 tvg-id="Premiere_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Premiere_2.png" group-title="Live TV - BR" tvg-name="Premiere 2",Premiere 2
-https://ireentvsportspremium.pages.dev/Premiere_2.m3u8
+#EXTINF:-1 tvg-id="RTP1.PT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/portugal/rtp-1.webp" group-title="Live TV - PT" tvg-name="RTP 1",RTP 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=RTP%201&code=pt&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=RTP%201&code=pt&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/RTP_1.m3u8
 
-#EXTINF:-1 tvg-id="RDS" tvg-logo="https://ireentvsportspremium.pages.dev/logos/RDS.png" group-title="Live TV - CA" tvg-name="RDS",RDS
-https://ireentvsportspremium.pages.dev/RDS.m3u8
-
-#EXTINF:-1 tvg-id="RMC_Sport_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/RMC_Sport_1.png" group-title="Live TV - FR" tvg-name="RMC Sport 1",RMC Sport 1
-https://ireentvsportspremium.pages.dev/RMC_Sport_1.m3u8
-
-#EXTINF:-1 tvg-id="RTL" tvg-logo="https://ireentvsportspremium.pages.dev/logos/RTL.png" group-title="Live TV - DE" tvg-name="RTL",RTL
-https://ireentvsportspremium.pages.dev/RTL.m3u8
-
-#EXTINF:-1 tvg-id="SEC_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/SEC_Network.png" group-title="Live TV - US" tvg-name="SEC Network",SEC Network
+#EXTINF:-1 tvg-id="SECNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/sec-network.webp" group-title="Live TV - US" tvg-name="SEC Network",SEC Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=SEC%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=SEC%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/SEC_Network.m3u8
 
-#EXTINF:-1 tvg-id="SIC" tvg-logo="https://ireentvsportspremium.pages.dev/logos/SIC.png" group-title="Live TV - PT" tvg-name="SIC",SIC
+#EXTINF:-1 tvg-id="SIC.PT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/portugal/sic.webp" group-title="Live TV - PT" tvg-name="SIC",SIC
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=SIC&code=pt&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=SIC&code=pt&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/SIC.m3u8
 
-#EXTINF:-1 tvg-id="San_Diego_Padres" tvg-logo="https://ireentvsportspremium.pages.dev/logos/San_Diego_Padres.png" group-title="Live TV - US" tvg-name="San Diego Padres",San Diego Padres
-https://ireentvsportspremium.pages.dev/San_Diego_Padres.m3u8
-
-#EXTINF:-1 tvg-id="San_Francisco_Giants" tvg-logo="https://ireentvsportspremium.pages.dev/logos/San_Francisco_Giants.png" group-title="Live TV - US" tvg-name="San Francisco Giants",San Francisco Giants
-https://ireentvsportspremium.pages.dev/San_Francisco_Giants.m3u8
-
-#EXTINF:-1 tvg-id="Showtime" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Showtime.png" group-title="Live TV - US" tvg-name="Showtime",Showtime
+#EXTINF:-1 tvg-id="Showtime.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/showtime.webp" group-title="Live TV - US" tvg-name="Showtime",Showtime
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Showtime&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Showtime&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Showtime.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_1.png" group-title="Live TV - DE" tvg-name="Sky Sport 1",Sky Sport 1
+#EXTINF:-1 tvg-id="SkySport1.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-1.webp" group-title="Live TV - DE" tvg-name="Sky Sport 1",Sky Sport 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%201&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%201&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_1.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_2.png" group-title="Live TV - AT" tvg-name="Sky Sport 2",Sky Sport 2
+#EXTINF:-1 tvg-id="SkySport1.AT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/austria/sky-sport-1.webp" group-title="Live TV - AT" tvg-name="Sky Sport 1",Sky Sport 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%201&code=at&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%201&code=at&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_1.m3u8
+
+#EXTINF:-1 tvg-id="SkySport1.NZ" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/new-zealand/sky-sport-1.webp" group-title="Live TV - NZ" tvg-name="Sky Sport 1",Sky Sport 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%201&code=nz&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%201&code=nz&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_1.m3u8
+
+#EXTINF:-1 tvg-id="SkySport10.AT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/austria/sky-sport-10.webp" group-title="Live TV - AT" tvg-name="Sky Sport 10",Sky Sport 10
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%2010&code=at&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%2010&code=at&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_10.m3u8
+
+#EXTINF:-1 tvg-id="SkySport2.NZ" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/new-zealand/sky-sport-2.webp" group-title="Live TV - NZ" tvg-name="Sky Sport 2",Sky Sport 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%202&code=nz&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%202&code=nz&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_2.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_2.png" group-title="Live TV - NZ" tvg-name="Sky Sport 2",Sky Sport 2
-https://ireentvsportspremium.pages.dev/Sky_Sport_2.m3u8
-
-#EXTINF:-1 tvg-id="Sky_Sport_3" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_3.png" group-title="Live TV - AT" tvg-name="Sky Sport 3",Sky Sport 3
+#EXTINF:-1 tvg-id="SkySport3.AT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/austria/sky-sport-3.webp" group-title="Live TV - AT" tvg-name="Sky Sport 3",Sky Sport 3
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%203&code=at&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%203&code=at&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_3.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_4" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_4.png" group-title="Live TV - AT" tvg-name="Sky Sport 4",Sky Sport 4
+#EXTINF:-1 tvg-id="SkySport4.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-4.webp" group-title="Live TV - DE" tvg-name="Sky Sport 4",Sky Sport 4
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%204&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%204&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_4.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_5" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_5.png" group-title="Live TV - AT" tvg-name="Sky Sport 5",Sky Sport 5
+#EXTINF:-1 tvg-id="SkySport4.NZ" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/new-zealand/sky-sport-4.webp" group-title="Live TV - NZ" tvg-name="Sky Sport 4",Sky Sport 4
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%204&code=nz&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%204&code=nz&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_4.m3u8
+
+#EXTINF:-1 tvg-id="SkySport5.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-5.webp" group-title="Live TV - DE" tvg-name="Sky Sport 5",Sky Sport 5
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%205&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%205&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_5.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_6" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_6.png" group-title="Live TV - AT" tvg-name="Sky Sport 6",Sky Sport 6
+#EXTINF:-1 tvg-id="SkySport5.AT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/austria/sky-sport-5.webp" group-title="Live TV - AT" tvg-name="Sky Sport 5",Sky Sport 5
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%205&code=at&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%205&code=at&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_5.m3u8
+
+#EXTINF:-1 tvg-id="SkySport6.AT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/austria/sky-sport-6.webp" group-title="Live TV - AT" tvg-name="Sky Sport 6",Sky Sport 6
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%206&code=at&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%206&code=at&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_6.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_6" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_6.png" group-title="Live TV - NZ" tvg-name="Sky Sport 6",Sky Sport 6
+#EXTINF:-1 tvg-id="SkySport6.NZ" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/new-zealand/sky-sport-6.webp" group-title="Live TV - NZ" tvg-name="Sky Sport 6",Sky Sport 6
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%206&code=nz&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%206&code=nz&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_6.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_9" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_9.png" group-title="Live TV - AT" tvg-name="Sky Sport 9",Sky Sport 9
+#EXTINF:-1 tvg-id="SkySport7.AT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/austria/sky-sport-7.webp" group-title="Live TV - AT" tvg-name="Sky Sport 7",Sky Sport 7
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%207&code=at&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%207&code=at&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_7.m3u8
+
+#EXTINF:-1 tvg-id="SkySport7.NZ" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/new-zealand/sky-sport-7.webp" group-title="Live TV - NZ" tvg-name="Sky Sport 7",Sky Sport 7
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%207&code=nz&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%207&code=nz&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_7.m3u8
+
+#EXTINF:-1 tvg-id="SkySport8.AT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/austria/sky-sport-8.webp" group-title="Live TV - AT" tvg-name="Sky Sport 8",Sky Sport 8
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%208&code=at&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%208&code=at&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_8.m3u8
+
+#EXTINF:-1 tvg-id="SkySport8.NZ" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/new-zealand/sky-sport-8.webp" group-title="Live TV - NZ" tvg-name="Sky Sport 8",Sky Sport 8
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%208&code=nz&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%208&code=nz&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_8.m3u8
+
+#EXTINF:-1 tvg-id="SkySport9.AT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/austria/sky-sport-9.webp" group-title="Live TV - AT" tvg-name="Sky Sport 9",Sky Sport 9
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%209&code=at&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%209&code=at&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_9.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_Bundesliga_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Bundesliga_1.png" group-title="Live TV - DE" tvg-name="Sky Sport Bundesliga 1",Sky Sport Bundesliga 1
+#EXTINF:-1 tvg-id="SkySport9.NZ" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/new-zealand/sky-sport-9.webp" group-title="Live TV - NZ" tvg-name="Sky Sport 9",Sky Sport 9
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%209&code=nz&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%209&code=nz&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_9.m3u8
+
+#EXTINF:-1 tvg-id="SkySportBundesliga1.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-bundesliga-1.webp" group-title="Live TV - DE" tvg-name="Sky Sport Bundesliga 1",Sky Sport Bundesliga 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%201&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%201&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_1.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_Bundesliga_10" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Bundesliga_10.png" group-title="Live TV - DE" tvg-name="Sky Sport Bundesliga 10",Sky Sport Bundesliga 10
-https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_10.m3u8
+#EXTINF:-1 tvg-id="SkySportBundesliga2.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-bundesliga-2.webp" group-title="Live TV - DE" tvg-name="Sky Sport Bundesliga 2",Sky Sport Bundesliga 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%202&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%202&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_2.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_Bundesliga_9" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Bundesliga_9.png" group-title="Live TV - DE" tvg-name="Sky Sport Bundesliga 9",Sky Sport Bundesliga 9
+#EXTINF:-1 tvg-id="SkySportBundesliga3.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-bundesliga-3.webp" group-title="Live TV - DE" tvg-name="Sky Sport Bundesliga 3",Sky Sport Bundesliga 3
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%203&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%203&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_3.m3u8
+
+#EXTINF:-1 tvg-id="SkySportBundesliga9.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-bundesliga-9.webp" group-title="Live TV - DE" tvg-name="Sky Sport Bundesliga 9",Sky Sport Bundesliga 9
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%209&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Bundesliga%209&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_Bundesliga_9.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_Premier_League" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Premier_League.png" group-title="Live TV - DE" tvg-name="Sky Sport Premier League",Sky Sport Premier League
-https://ireentvsportspremium.pages.dev/Sky_Sport_Premier_League.m3u8
+#EXTINF:-1 tvg-id="SkySportGolf.IT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/italy/sky-sport-golf.webp" group-title="Live TV - IT" tvg-name="Sky Sport Golf",Sky Sport Golf
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Golf&code=it&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Golf&code=it&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_Golf.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_Tennis" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Tennis.png" group-title="Live TV - DE" tvg-name="Sky Sport Tennis",Sky Sport Tennis
+#EXTINF:-1 tvg-id="SkySportMax.IT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/italy/sky-sport-max.webp" group-title="Live TV - IT" tvg-name="Sky Sport Max",Sky Sport Max
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Max&code=it&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Max&code=it&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_Max.m3u8
+
+#EXTINF:-1 tvg-id="SkySportMix.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-mix.webp" group-title="Live TV - DE" tvg-name="Sky Sport Mix",Sky Sport Mix
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Mix&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Mix&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sky_Sport_Mix.m3u8
+
+#EXTINF:-1 tvg-id="SkySportTennis.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-tennis.webp" group-title="Live TV - DE" tvg-name="Sky Sport Tennis",Sky Sport Tennis
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Tennis&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Tennis&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_Tennis.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sport_Top_Event" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sport_Top_Event.png" group-title="Live TV - DE" tvg-name="Sky Sport Top Event",Sky Sport Top Event
+#EXTINF:-1 tvg-id="SkySportTopEvent.DE" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/germany/sky-sport-top-event.webp" group-title="Live TV - DE" tvg-name="Sky Sport Top Event",Sky Sport Top Event
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event&code=de&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event&code=de&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sport_Top_Event.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Action" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Action.png" group-title="Live TV - GB" tvg-name="Sky Sports Action",Sky Sports Action
+#EXTINF:-1 tvg-id="SkySportsAction.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-action.webp" group-title="Live TV - GB" tvg-name="Sky Sports Action",Sky Sports Action
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Action&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Action&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Action.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Arena" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Arena.png" group-title="Live TV - GB" tvg-name="Sky Sports Arena",Sky Sports Arena
+#EXTINF:-1 tvg-id="SkySportsArena.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-arena.webp" group-title="Live TV - GB" tvg-name="Sky Sports Arena",Sky Sports Arena
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Arena&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Arena&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Arena.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Cricket" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-cricket-uk.png" group-title="Live TV - GB" tvg-name="Sky Sports Cricket",Sky Sports Cricket
+#EXTINF:-1 tvg-id="SkySportsCricket.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-cricket.webp" group-title="Live TV - GB" tvg-name="Sky Sports Cricket",Sky Sports Cricket
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Cricket&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Cricket&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Cricket.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-f1-uk.png" group-title="Live TV - GB" tvg-name="Sky Sports F1",Sky Sports F1
+#EXTINF:-1 tvg-id="SkySportsF1.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1.webp" group-title="Live TV - GB" tvg-name="Sky Sports F1",Sky Sports F1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_F1.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Football" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-football-uk.png" group-title="Live TV - GB" tvg-name="Sky Sports Football",Sky Sports Football
+#EXTINF:-1 tvg-id="SkySportsFootball.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-football.webp" group-title="Live TV - GB" tvg-name="Sky Sports Football",Sky Sports Football
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Football&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Football&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Football.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Golf" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Golf.png" group-title="Live TV - GB" tvg-name="Sky Sports Golf",Sky Sports Golf
+#EXTINF:-1 tvg-id="SkySportsGolf.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-golf.webp" group-title="Live TV - GB" tvg-name="Sky Sports Golf",Sky Sports Golf
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Golf&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Golf.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Main_Event" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-main-event-uk.png" group-title="Live TV - GB" tvg-name="Sky Sports Main Event",Sky Sports Main Event
+#EXTINF:-1 tvg-id="SkySportsMainEvent.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-main-event.webp" group-title="Live TV - GB" tvg-name="Sky Sports Main Event",Sky Sports Main Event
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Main%20Event&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Main_Event.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Mix" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Mix.png" group-title="Live TV - GB" tvg-name="Sky Sports Mix",Sky Sports Mix
+#EXTINF:-1 tvg-id="SkySportsMix.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-mix.webp" group-title="Live TV - GB" tvg-name="Sky Sports Mix",Sky Sports Mix
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Mix&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Mix&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Mix.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Premier_League" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-premier-league-uk.png" group-title="Live TV - GB" tvg-name="Sky Sports Premier League",Sky Sports Premier League
+#EXTINF:-1 tvg-id="SkySportsPremierLeague.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-premier-league.webp" group-title="Live TV - GB" tvg-name="Sky Sports Premier League",Sky Sports Premier League
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Premier%20League&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Premier%20League&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Premier_League.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Racing" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Racing.png" group-title="Live TV - GB" tvg-name="Sky Sports Racing",Sky Sports Racing
+#EXTINF:-1 tvg-id="SkySportsRacing.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-racing.webp" group-title="Live TV - GB" tvg-name="Sky Sports Racing",Sky Sports Racing
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Racing&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Racing&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Racing.m3u8
 
-#EXTINF:-1 tvg-id="Sky_Sports_Tennis" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sky_Sports_Tennis.png" group-title="Live TV - GB" tvg-name="Sky Sports Tennis",Sky Sports Tennis
+#EXTINF:-1 tvg-id="SkySportsTennis.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-tennis.webp" group-title="Live TV - GB" tvg-name="Sky Sports Tennis",Sky Sports Tennis
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Tennis&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Tennis&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sky_Sports_Tennis.m3u8
 
-#EXTINF:-1 tvg-id="Space_City_Home_Network" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Space_City_Home_Network.png" group-title="Live TV - US" tvg-name="Space City Home Network",Space City Home Network
+#EXTINF:-1 tvg-id="SpaceCityHomeNetwork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/space-city-home-network.webp" group-title="Live TV - US" tvg-name="Space City Home Network",Space City Home Network
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Space%20City%20Home%20Network&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Space%20City%20Home%20Network&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Space_City_Home_Network.m3u8
 
-#EXTINF:-1 tvg-id="Sport_TV_1" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sport_TV_1.png" group-title="Live TV - PT" tvg-name="Sport TV 1",Sport TV 1
+#EXTINF:-1 tvg-id="SportTV.PT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/portugal/sport-tv.webp" group-title="Live TV - PT" tvg-name="Sport TV",Sport TV
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV&code=pt&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV&code=pt&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sport_TV.m3u8
+
+#EXTINF:-1 tvg-id="SportTV1.PT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/portugal/sport-tv-1.webp" group-title="Live TV - PT" tvg-name="Sport TV 1",Sport TV 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%201&code=pt&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%201&code=pt&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sport_TV_1.m3u8
 
-#EXTINF:-1 tvg-id="Sport_TV_5" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sport_TV_5.png" group-title="Live TV - PT" tvg-name="Sport TV 5",Sport TV 5
-https://ireentvsportspremium.pages.dev/Sport_TV_5.m3u8
+#EXTINF:-1 tvg-id="SportTV4.PT" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/portugal/sport-tv-4.webp" group-title="Live TV - PT" tvg-name="Sport TV 4",Sport TV 4
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%204&code=pt&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sport%20TV%204&code=pt&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sport_TV_4.m3u8
 
-#EXTINF:-1 tvg-id="SportsNet_New_York" tvg-logo="https://ireentvsportspremium.pages.dev/logos/SportsNet_New_York.png" group-title="Live TV - US" tvg-name="SportsNet New York",SportsNet New York
+#EXTINF:-1 tvg-id="SportsNetNewYork.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/sportsnet-new-york.webp" group-title="Live TV - US" tvg-name="SportsNet New York",SportsNet New York
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=SportsNet%20New%20York&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=SportsNet%20New%20York&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/SportsNet_New_York.m3u8
 
-#EXTINF:-1 tvg-id="Sportsnet_360" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sportsnet_360.png" group-title="Live TV - CA" tvg-name="Sportsnet 360",Sportsnet 360
+#EXTINF:-1 tvg-id="Sportsnet360.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/sportsnet-360.webp" group-title="Live TV - CA" tvg-name="Sportsnet 360",Sportsnet 360
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20360&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20360&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sportsnet_360.m3u8
 
-#EXTINF:-1 tvg-id="Sportsnet_East" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sportsnet_East.png" group-title="Live TV - CA" tvg-name="Sportsnet East",Sportsnet East
+#EXTINF:-1 tvg-id="SportsnetEast.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/sportsnet-east.webp" group-title="Live TV - CA" tvg-name="Sportsnet East",Sportsnet East
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20East&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20East&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sportsnet_East.m3u8
 
-#EXTINF:-1 tvg-id="Sportsnet_One" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sportsnet_One.png" group-title="Live TV - CA" tvg-name="Sportsnet One",Sportsnet One
+#EXTINF:-1 tvg-id="SportsnetOne.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/sportsnet-one.webp" group-title="Live TV - CA" tvg-name="Sportsnet One",Sportsnet One
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20One&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20One&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sportsnet_One.m3u8
 
-#EXTINF:-1 tvg-id="Sportsnet_Ontario" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sportsnet_Ontario.png" group-title="Live TV - CA" tvg-name="Sportsnet Ontario",Sportsnet Ontario
+#EXTINF:-1 tvg-id="SportsnetOntario.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/sportsnet-ontario.webp" group-title="Live TV - CA" tvg-name="Sportsnet Ontario",Sportsnet Ontario
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20Ontario&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20Ontario&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sportsnet_Ontario.m3u8
 
-#EXTINF:-1 tvg-id="Sportsnet_West" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Sportsnet_West.png" group-title="Live TV - CA" tvg-name="Sportsnet West",Sportsnet West
+#EXTINF:-1 tvg-id="SportsnetWest.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/sportsnet-west.webp" group-title="Live TV - CA" tvg-name="Sportsnet West",Sportsnet West
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20West&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20West&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 https://ireentvsportspremium.pages.dev/Sportsnet_West.m3u8
 
-#EXTINF:-1 tvg-id="St_Louis_Cardinals" tvg-logo="https://ireentvsportspremium.pages.dev/logos/St_Louis_Cardinals.png" group-title="Live TV - US" tvg-name="St. Louis Cardinals",St. Louis Cardinals
-https://ireentvsportspremium.pages.dev/St_Louis_Cardinals.m3u8
+#EXTINF:-1 tvg-id="SportsnetWorld.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/sportsnet-world.webp" group-title="Live TV - CA" tvg-name="Sportsnet World",Sportsnet World
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20World&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=Sportsnet%20World&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/Sportsnet_World.m3u8
 
-#EXTINF:-1 tvg-id="Stan_Sport_10" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Stan_Sport_10.png" group-title="Live TV - AU" tvg-name="Stan Sport 10",Stan Sport 10
-https://ireentvsportspremium.pages.dev/Stan_Sport_10.m3u8
+#EXTINF:-1 tvg-id="TBS.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/tbs.webp" group-title="Live TV - US" tvg-name="TBS",TBS
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TBS&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TBS&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TBS.m3u8
 
-#EXTINF:-1 tvg-id="Stan_Sport_11" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Stan_Sport_11.png" group-title="Live TV - AU" tvg-name="Stan Sport 11",Stan Sport 11
-https://ireentvsportspremium.pages.dev/Stan_Sport_11.m3u8
+#EXTINF:-1 tvg-id="TLC.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/tlc.webp" group-title="Live TV - US" tvg-name="TLC",TLC
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TLC&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TLC&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TLC.m3u8
 
-#EXTINF:-1 tvg-id="Stan_Sport_12" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Stan_Sport_12.png" group-title="Live TV - AU" tvg-name="Stan Sport 12",Stan Sport 12
-https://ireentvsportspremium.pages.dev/Stan_Sport_12.m3u8
+#EXTINF:-1 tvg-id="TNT.US" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-states/tnt.webp" group-title="Live TV - US" tvg-name="TNT",TNT
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT&code=us&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT&code=us&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT.m3u8
 
-#EXTINF:-1 tvg-id="Stan_Sport_13" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Stan_Sport_13.png" group-title="Live TV - AU" tvg-name="Stan Sport 13",Stan Sport 13
-https://ireentvsportspremium.pages.dev/Stan_Sport_13.m3u8
+#EXTINF:-1 tvg-id="TNT.BR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/brazil/tnt.webp" group-title="Live TV - BR" tvg-name="TNT",TNT
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT&code=br&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT&code=br&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT.m3u8
 
-#EXTINF:-1 tvg-id="Stan_Sport_14" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Stan_Sport_14.png" group-title="Live TV - AU" tvg-name="Stan Sport 14",Stan Sport 14
-https://ireentvsportspremium.pages.dev/Stan_Sport_14.m3u8
+#EXTINF:-1 tvg-id="TNTSports.CL" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/cl/tnt-sports.webp" group-title="Live TV - CL" tvg-name="TNT Sports",TNT Sports
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports&code=cl&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports&code=cl&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT_Sports.m3u8
 
-#EXTINF:-1 tvg-id="Stan_Sport_16" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Stan_Sport_16.png" group-title="Live TV - AU" tvg-name="Stan Sport 16",Stan Sport 16
-https://ireentvsportspremium.pages.dev/Stan_Sport_16.m3u8
+#EXTINF:-1 tvg-id="TNTSports1.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-1.webp" group-title="Live TV - GB" tvg-name="TNT Sports 1",TNT Sports 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%201&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%201&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT_Sports_1.m3u8
 
-#EXTINF:-1 tvg-id="Stan_Sport_19" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Stan_Sport_19.png" group-title="Live TV - AU" tvg-name="Stan Sport 19",Stan Sport 19
-https://ireentvsportspremium.pages.dev/Stan_Sport_19.m3u8
+#EXTINF:-1 tvg-id="TNTSports2.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-2.webp" group-title="Live TV - GB" tvg-name="TNT Sports 2",TNT Sports 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%202&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT_Sports_2.m3u8
 
-#EXTINF:-1 tvg-id="Stan_Sport_2" tvg-logo="https://ireentvsportspremium.pages.dev/logos/Stan_Sport_2.png" group-title="Live TV - AU" tvg-name="Stan Sport 2",Stan Sport 2
-https://ireentvsportspremium.pages.dev/Stan_Sport_2.m3u8
+#EXTINF:-1 tvg-id="TNTSports3.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-3.webp" group-title="Live TV - GB" tvg-name="TNT Sports 3",TNT Sports 3
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%203&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%203&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT_Sports_3.m3u8
+
+#EXTINF:-1 tvg-id="TNTSports4.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-4.webp" group-title="Live TV - GB" tvg-name="TNT Sports 4",TNT Sports 4
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%204&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%204&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT_Sports_4.m3u8
+
+#EXTINF:-1 tvg-id="TNTSports5.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-5.webp" group-title="Live TV - GB" tvg-name="TNT Sports 5",TNT Sports 5
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%205&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%205&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT_Sports_5.m3u8
+
+#EXTINF:-1 tvg-id="TNTSports8.GB" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/tnt-sports-8.webp" group-title="Live TV - GB" tvg-name="TNT Sports 8",TNT Sports 8
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%208&code=gb&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TNT%20Sports%208&code=gb&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TNT_Sports_8.m3u8
+
+#EXTINF:-1 tvg-id="TRT1.TR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/turkey/trt-1.webp" group-title="Live TV - TR" tvg-name="TRT 1",TRT 1
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TRT%201&code=tr&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TRT%201&code=tr&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TRT_1.m3u8
+
+#EXTINF:-1 tvg-id="TRTSpor.TR" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/turkey/trt-spor.webp" group-title="Live TV - TR" tvg-name="TRT Spor",TRT Spor
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TRT%20Spor&code=tr&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TRT%20Spor&code=tr&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TRT_Spor.m3u8
+
+#EXTINF:-1 tvg-id="TSN2.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/tsn-2.webp" group-title="Live TV - CA" tvg-name="TSN 2",TSN 2
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%202&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%202&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TSN_2.m3u8
+
+#EXTINF:-1 tvg-id="TSN4.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/tsn-4.webp" group-title="Live TV - CA" tvg-name="TSN 4",TSN 4
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%204&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%204&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TSN_4.m3u8
+
+#EXTINF:-1 tvg-id="TSN5.CA" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/canada/tsn-5.webp" group-title="Live TV - CA" tvg-name="TSN 5",TSN 5
+#EXTVLCOPT:http-referrer=https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%205&code=ca&user=cdnlivetv&plan=free
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer": "https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%205&code=ca&user=cdnlivetv&plan=free", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+https://ireentvsportspremium.pages.dev/TSN_5.m3u8
 
